@@ -1,0 +1,14 @@
+{
+  "name": "music-algorithm",
+  "version": "1.0.0",
+  "description": "A semi-automated pipeline for classifying, organizing, and mood-tagging a personal music library of ~1,080 tracks (980 singles + ~100 album tracks) across three orthogonal taxonomies: **Artist**, **Genre**, and **Mood**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

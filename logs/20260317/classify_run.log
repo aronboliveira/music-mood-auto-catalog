@@ -1,0 +1,196 @@
+nohup: ignoring input
+======================================================================
+  MUSIC CLASSIFICATION & FILE RENAMING SCRIPT
+  Using Naive Bayes + k-NN + Random Forest ensemble
+======================================================================
+
+[PHASE 1] Reviewing and reorganizing classified tree...
+
+============================================================
+Reorganizing singles: 692 unique files
+============================================================
+  Progress: 50/172 folders processed, 18 copies so far
+  Progress: 100/172 folders processed, 22 copies so far
+  Progress: 150/172 folders processed, 24 copies so far
+  Progress: 172/172 folders processed, 24 copies so far
+Total copies made: 24
+
+============================================================
+Reorganizing albums: 90 unique files
+============================================================
+  Progress: 50/73 folders processed, 104 copies so far
+  Progress: 73/73 folders processed, 113 copies so far
+
+New directories created:
+  + albums/Genre/Funk
+  + albums/Genre/Orchestral
+  + albums/Mood/Cinematic
+Total copies made: 113
+
+============================================================
+[PHASE 2] Cleaning up Artist/Various (removing correctly classified files)...
+============================================================
+  Removed 13 correctly-classified files from singles/Artist/Various
+  Removed 13 correctly-classified files from albums/Artist/Various
+  Removed 154 collision duplicates (-1, -2 suffixes)
+
+============================================================
+[PHASE 3] Renaming files (transliterate CJK, remove diacriticals, clean spacing)...
+============================================================
+  Renamed 4121 files in classified/
+FictionalBand - rock-song-24776b.mp3
+FictionalBand - rock-song-32ebb0.mp3
+FictionalBand - rock-song-b057b3.mp3
+FictionalBand - rock-song-83fe13.mp3
+FictionalBand - rock-song-354e55.mp3
+FictionalBand - rock-song-a9739a.mp3
+FictionalBand - rock-song-351391.mp3
+FictionalBand - rock-song-61dba0.mp3
+FictionalBand - rock-song-68baae.mp3
+FictionalBand - rock-song-c2d05b.mp3
+FictionalBand - rock-song-96f7bd.mp3
+FictionalBand - rock-song-e02359.mp3
+FictionalBand - rock-song-5bcc94.mp3
+FictionalBand - rock-song-385edd.mp3
+FictionalBand - rock-song-cfeba3.mp3
+FictionalBand - rock-song-391f78.mp3
+FictionalBand - rock-song-4cf872.mp3
+FictionalBand - rock-song-f751e9.mp3
+FictionalBand - rock-song-051f91.mp3
+FictionalBand - rock-song-09ab9d.mp3
+FictionalBand - rock-song-851336.mp3
+FictionalBand - rock-song-3e4072.mp3
+FictionalBand - rock-song-72f523.mp3
+FictionalBand - rock-song-d055e8.mp3
+FictionalBand - rock-song-a9d409.mp3
+FictionalBand - rock-song-3498ce.mp3
+FictionalBand - rock-song-8b4a36.mp3
+FictionalBand - rock-song-f57d0d.mp3
+FictionalBand - rock-song-b643d7.mp3
+FictionalBand - rock-song-e2d1be.mp3
+FictionalBand - rock-song-ba09fc.mp3
+FictionalBand - rock-song-82e403.mp3
+FictionalBand - rock-song-fd6fd9.mp3
+FictionalBand - rock-song-7fa2f5.mp3
+FictionalBand - rock-song-7c1119.mp3
+FictionalBand - rock-song-cd975c.mp3
+FictionalBand - rock-song-928357.mp3
+FictionalBand - rock-song-fcc2c8.mp3
+FictionalBand - rock-song-bcd8cf.mp3
+FictionalBand - rock-song-32d04e.mp3
+    ... and 4101 more
+
+============================================================
+[PHASE 4] Classifying singles/new/ into appropriate subfolders...
+============================================================
+
+============================================================
+Classifying 19 new singles
+============================================================
+
+FictionalBand - rock-song-931832.mp3
+    Artists: ['FictionalBand_7aeb94', 'FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Epic']
+
+FictionalBand - rock-song-f732d1.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['Emo', 'FilmOST', 'Orchestral']
+    Moods:   ['Ethereal', 'Serene', 'Cinematic']
+
+FictionalBand - rock-song-c6987b.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Ethereal', 'Serene']
+
+FictionalBand - rock-song-d68f2f.mp3
+    Artists: ['FictionalBand_43498d']
+    Genres:  ['TraditionalChinese']
+    Moods:   ['Emotional', 'Romantic', 'Serene']
+
+FictionalBand - rock-song-3b4c80.mp3
+    Artists: ['FictionalBand_504297']
+    Genres:  ['TraditionalChinese']
+    Moods:   ['Serene']
+
+FictionalBand - rock-song-cd220d.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Chill']
+
+FictionalBand - rock-song-456b89.mp3
+    Artists: ['FictionalBand_7aeb94', 'FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Funk', 'Pop', 'Soul', 'Orchestral']
+    Moods:   ['Epic', 'Cinematic']
+
+FictionalBand - rock-song-20eef4.mp3
+    Artists: ['FictionalBand_2af787', 'FictionalBand_43498d']
+    Genres:  ['AnimeOST', 'TraditionalChinese']
+    Moods:   ['Melancholic', 'Serene']
+
+FictionalBand - rock-song-f0ce7a.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Chill']
+
+FictionalBand - rock-song-5c1014.mp3
+    Artists: ['FictionalBand_6146d0']
+    Genres:  ['GameOST', 'TraditionalJapanese']
+    Moods:   ['Gaming', 'Nostalgic']
+
+FictionalBand - rock-song-ee9511.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Ethereal', 'Cinematic']
+
+FictionalBand - rock-song-2c09e0.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Ethereal']
+
+FictionalBand - rock-song-665a92.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Serene']
+
+FictionalBand - rock-song-800f40.mp3
+    Artists: ['FictionalBand_6146d0']
+    Genres:  ['GameOST']
+    Moods:   ['Gaming', 'Nostalgic', 'Serene']
+
+FictionalBand - rock-song-dc98f6.mp3
+    Artists: ['FictionalBand_54d4ab']
+    Genres:  ['TraditionalKorean']
+    Moods:   ['Serene']
+
+FictionalBand - rock-song-ae5d01.mp3
+    Artists: ['FictionalBand_54d4ab']
+    Genres:  ['TraditionalKorean']
+    Moods:   ['Serene']
+
+FictionalBand - rock-song-9074f8.mp3
+    Artists: ['FictionalBand_42d5d5']
+    Genres:  ['FilmOST', 'Orchestral']
+    Moods:   ['Chill']
+
+FictionalBand - rock-song-5d6f98.mp3
+    Artists: ['FictionalBand_54d4ab']
+    Genres:  ['TraditionalKorean']
+    Moods:   ['Melancholic', 'Serene']
+
+FictionalBand - rock-song-3d409e.mp3
+    Artists: ['FictionalBand_b06461']
+    Genres:  ['TraditionalJapanese']
+    Moods:   ['Serene']
+
+New singles classified. Files remain in new/ as originals.
+
+============================================================
+[PHASE 5] Verifying no orphan files at category roots...
+============================================================
+  OK: singles/ has no orphan files
+  OK: albums/ has no orphan files
+
+======================================================================
+  DONE! All files classified and renamed.
+======================================================================

@@ -1,0 +1,141 @@
+# data-schemas.yml — Canonical data format reference
+# Generated: 2026-03-24
+
+schemas:
+
+  # ─── Track Moods Export ────────────────────────────────────────────
+  track-moods-json:
+    file: docs/maps/YYYYMMDD/track-moods.json
+    format: JSON
+    description: >
+      Exported track-to-mood assignments, one entry per track.
+      Filename (with .mp3 extension) maps to an array of mood labels.
+    structure:
+      type: object
+      patternProperties:
+        "^.+\\.mp3$":
+          type: array
+          items:
+            type: string
+            enum: "$ref:ALL_MOODS"
+    example:
+      "FictionalTrack_0e332c.mp3":
+        - Epic
+        - Energetic
+        - Determined
+    constraints:
+      - Every mood label must exist in ALL_MOODS (66 canonical moods)
+      - Filenames use hyphen-separated words, no spaces
+      - A track may have 1–8 moods
+
+  # ─── Mood Vectors ──────────────────────────────────────────────────
+  mood-vectors-json:
+    file: docs/specifications/mood-vectors.json
+    format: JSON
+    description: >
+      6-dimensional emotional vectors for each of the 66 canonical moods.
+      Used by the ordering algorithm and for similarity queries.
+    structure:
+      dimensions:
+        V: { name: Valence, range: [-1, 1], poles: [Negative, Positive] }
+        A: { name: Arousal, range: [-1, 1], poles: [Calm, Energetic] }
+        D: { name: Dominance, range: [-1, 1], poles: [Submissive, Powerful] }
+        K: { name: Darkness, range: [-1, 1], poles: [Light, Dark] }
+        L: { name: Longing, range: [-1, 1], poles: [Content, Yearning] }
+        I: { name: Inwardness, range: [-1, 1], poles: [External, Internal] }
+      vectors:
+        type: object
+        patternProperties:
+          "^[A-Z][a-z-]+$":
+            type: object
+            properties: { V: number, A: number, D: number, K: number, L: number, I: number }
+    constraints:
+      - All values in [-1.0, 1.0]
+      - Exactly 66 entries matching ALL_MOODS
+
+  # ─── Review App State (localStorage) ──────────────────────────────
+  review-app-localstorage:
+    key: moodCheckerState
+    format: JSON (stringified)
+    description: >
+      Vue review app persists per-track state to localStorage.
+      Debounced at 300ms. Merged with TRACK_MOODS on load.
+    structure:
+      type: object
+      patternProperties:
+        "^.+\\.mp3$":
+          type: object
+          properties:
+            reviewed: { type: boolean }
+            open: { type: boolean }
+            moods:
+              type: array
+              items: { type: string }
+    notes:
+      - localStorage takes precedence over data.js defaults
+      - REVIEWED_TRACKS preloads reviewed=true for batch-approved tracks
+
+  # ─── Moods List ────────────────────────────────────────────────────
+  moods-txt:
+    file: docs/guidelines/moods.txt
+    format: plain text
+    description: >
+      One mood per line, in semantic-cluster order (same as ALL_MOODS).
+      Authoritative source for the canonical mood set.
+    constraints:
+      - 66 lines, no blank lines
+      - Names are PascalCase or hyphenated PascalCase
+      - Order matches _sort_moods.py output
+
+  # ─── Classifier Tuning ────────────────────────────────────────────
+  classifier-tuning-toml:
+    file: docs/guidelines/classifier-tuning.toml
+    format: TOML
+    description: Parameters for classify_and_clean.py
+    sections:
+      paths: Root directories for classified tree
+      defaults: Fallback labels (mood only; artist/genre banned from defaults)
+      thresholds:
+        genre_min_score: { type: float, default: 0.7, range: [0.0, 1.0] }
+        mood_min_score: { type: float, default: 0.8, range: [0.0, 1.0] }
+      renaming: Filename sanitization toggles
+      operations: Copy/dedup behavior (idempotent, skip-same-size, suffix-on-collision)
+
+  # ─── Storage Conventions ───────────────────────────────────────────
+  storage-conventions-yml:
+    file: docs/guidelines/storage-conventions.yml
+    format: YAML
+    description: >
+      Project directory structure conventions, taxonomy rules,
+      banned classifications, backup SOP, logging format.
+    key_rules:
+      - Every basename must appear in all three taxonomy dimensions (Artist, Genre, Mood)
+      - "Various" and "Unclassified" are banned classifications
+      - rsync backup before AND after large operations
+      - Logs use YYYYMMDD date folders
+
+  # ─── Moods Guide ──────────────────────────────────────────────────
+  moods-guide-json:
+    file: docs/guidelines/moods-guide.json
+    format: JSON
+    description: >
+      Human-readable guide with definitions and examples for each mood.
+      Used by the review UI for tooltip help text.
+    structure:
+      type: object
+      patternProperties:
+        "^[A-Z]":
+          type: object
+          properties:
+            definition: { type: string }
+            examples: { type: array, items: string }
+            similar: { type: array, items: string }
+
+  # ─── Filename Sanitisation Rules ───────────────────────────────────
+  filename-sanitisation-md:
+    file: docs/guidelines/filename-sanitisation.md
+    format: Markdown
+    description: >
+      Human-readable rules for filename normalization. Covers transliteration,
+      emoji removal, separator collapse, bracket handling, marketing tag stripping.
+    implemented_by: [apply_filename_sanitisation.py, rename_singles.py]

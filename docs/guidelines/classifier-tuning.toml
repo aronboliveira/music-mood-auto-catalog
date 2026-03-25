@@ -1,0 +1,29 @@
+[paths]
+classified_root = "classified"
+singles_root = "classified/singles"
+albums_root = "classified/albums"
+new_singles_root = "classified/singles/new"
+
+[defaults]
+# BANNED - these must never be used; flag for manual review instead
+# artist = "Various"       # BANNED
+# genre = "Unclassified"   # BANNED
+mood = "Chill"
+
+[thresholds]
+# Minimum score to include a genre label.
+genre_min_score = 0.7
+# Minimum score to include a mood label.
+mood_min_score = 0.8
+
+[renaming]
+transliterate_to_ascii = true
+remove_diacritics = true
+remove_non_ascii_symbols = true
+replace_whitespace_with_hyphen = true
+collapse_repeated_hyphens = true
+
+[operations]
+idempotent_copy = true
+skip_same_size_duplicate = true
+suffix_on_collision = true

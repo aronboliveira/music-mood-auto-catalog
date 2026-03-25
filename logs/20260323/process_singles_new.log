@@ -1,0 +1,131 @@
+nohup: ignoring input
+Found 82 root-level mp3 files in classified/singles/new
+  WARN:FictionalBand - rock-song-b4c0d7.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-fdbc1b.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-02e88e.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-f88ea9.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-d19113.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-0ed695.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-3c7e76.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-61beee.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-7ef59f.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-0e152e.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['MPB'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-6e877b.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-3ca09c.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['HardRock'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-f7f1c1.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-949ede.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-8b2bb2.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-658d51.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-d037ce.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Melancholic', 'Mysterious']}
+  WARN:FictionalBand - rock-song-3973ce.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-e699f7.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-8aa455.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Pop'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-7f0cde.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-bbb778.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-5f3853.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-a74631.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-cccbb0.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Emo'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-b01ab7.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-a79217.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-6c9a02.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}
+  WARN:FictionalBand - rock-song-04bca4.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-182743.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-395572.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  progress: 10/82 files
+  WARN:FictionalBand - rock-song-972d96.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['ProgressiveRock', 'PsychedelicRock'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-d8bca0.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['ProgressiveRock', 'PsychedelicRock'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-eb4c6b.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+  WARN:FictionalBand - rock-song-b05344.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-d79458.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-810a86.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-23f206.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-bd77b8.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-5bf9c9.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['ClassicRock'], 'moods': ['Emotional', 'Romantic', 'Upbeat']}
+  WARN:FictionalBand - rock-song-7d8602.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['ClassicRock'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-98a10e.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-5e7e6f.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Melancholic', 'Romantic']}
+  WARN:FictionalBand - rock-song-64f214.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-bb0938.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-a4a215.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-df6009.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-d6a733.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-217e25.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-fa9571.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-7d0c31.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-7226a2.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-a8b409.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Melancholic']}
+  WARN:FictionalBand - rock-song-450f57.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-efa2cf.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-7186bf.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-53bf66.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-41d6c9.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}
+  WARN:FictionalBand - rock-song-9ce760.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-f0fa02.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['ClassicRock', 'ProgressiveRock'], 'moods': ['Chill']}
+  WARN:FictionalBand - rock-song-c51c04.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+  progress: 20/82 files
+  WARN:FictionalBand - rock-song-221f29.mp3 -> unresolved classification: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}
+
+Processed: 20 | Errors/Unresolved: 62
+Unresolved files (still in new/):
+FictionalBand - rock-song-161a21.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-94ecfe.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-91968c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-2b52ec.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-2dcd39.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-444dcd.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-5268dc.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-eadfdf.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-eab303.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-54c3c6.mp3: {'artists': ['Various'], 'genres': ['MPB'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-de553a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-167afe.mp3: {'artists': ['Various'], 'genres': ['HardRock'], 'moods': ['Chill']}
+FictionalBand - rock-song-0014f7.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-3f45a3.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-231a4b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-e0c5fd.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-78d095.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Melancholic', 'Mysterious']}
+FictionalBand - rock-song-141ac0.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-540366.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-34a6fb.mp3: {'artists': ['Various'], 'genres': ['Pop'], 'moods': ['Chill']}
+FictionalBand - rock-song-b7fbf9.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-bd12c8.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-82f55d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-b86540.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-eca69e.mp3: {'artists': ['Various'], 'genres': ['Emo'], 'moods': ['Chill']}
+FictionalBand - rock-song-8a1547.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-845539.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-586fab.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}
+FictionalBand - rock-song-374fb0.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-f17a4f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-8e88ab.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-c6d3fe.mp3: {'artists': ['Various'], 'genres': ['ProgressiveRock', 'PsychedelicRock'], 'moods': ['Chill']}
+FictionalBand - rock-song-facfc9.mp3: {'artists': ['Various'], 'genres': ['ProgressiveRock', 'PsychedelicRock'], 'moods': ['Chill']}
+FictionalBand - rock-song-a9767d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Romantic']}
+FictionalBand - rock-song-431beb.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-829cdd.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-84d04b.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-af684f.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-0de0fb.mp3: {'artists': ['Various'], 'genres': ['Funk', 'Pop', 'Soul'], 'moods': ['Chill']}
+FictionalBand - rock-song-a1ab60.mp3: {'artists': ['Various'], 'genres': ['ClassicRock'], 'moods': ['Emotional', 'Romantic', 'Upbeat']}
+FictionalBand - rock-song-de6d97.mp3: {'artists': ['Various'], 'genres': ['ClassicRock'], 'moods': ['Chill']}
+FictionalBand - rock-song-e63b82.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-3e663b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Melancholic', 'Romantic']}
+FictionalBand - rock-song-dccb5d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-ac119a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-c1cece.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-5ed463.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-7ecf38.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-5371ff.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-c1eec6.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-bca398.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-5f6547.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-db86f4.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Emotional', 'Melancholic']}
+FictionalBand - rock-song-82d942.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-e99c6c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-df76c6.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-50ba16.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-1a59de.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}
+FictionalBand - rock-song-d0ace0.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-e99adc.mp3: {'artists': ['Various'], 'genres': ['ClassicRock', 'ProgressiveRock'], 'moods': ['Chill']}
+FictionalBand - rock-song-bbb703.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill']}
+FictionalBand - rock-song-c86faf.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Party']}

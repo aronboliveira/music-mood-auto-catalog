@@ -1,0 +1,42 @@
+nohup: ignoring input
+Found 846 mp3 files in classified/singles/new/sliced-3
+  progress: 25/846 source files
+  progress: 50/846 source files
+  progress: 75/846 source files
+  progress: 100/846 source files
+  progress: 125/846 source files
+  progress: 150/846 source files
+  progress: 175/846 source files
+  progress: 200/846 source files
+  progress: 225/846 source files
+  progress: 250/846 source files
+  progress: 275/846 source files
+  progress: 300/846 source files
+  progress: 325/846 source files
+  progress: 350/846 source files
+  progress: 375/846 source files
+  progress: 400/846 source files
+  progress: 425/846 source files
+  progress: 450/846 source files
+  progress: 475/846 source files
+  progress: 500/846 source files
+  progress: 525/846 source files
+  progress: 550/846 source files
+  progress: 575/846 source files
+  progress: 600/846 source files
+  progress: 625/846 source files
+  progress: 650/846 source files
+  progress: 675/846 source files
+  progress: 700/846 source files
+  progress: 725/846 source files
+  progress: 750/846 source files
+  progress: 775/846 source files
+  progress: 800/846 source files
+  progress: 825/846 source files
+
+Processed: 846 | Skipped dups: 0 | Errors: 0
+
+--- Verification ---
+Artist: 846 total files, 846 unique basenames
+Genre: 1353 total files, 846 unique basenames
+Mood: 2652 total files, 846 unique basenames

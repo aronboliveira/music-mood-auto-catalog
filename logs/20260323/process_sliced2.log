@@ -1,0 +1,531 @@
+nohup: ignoring input
+Found 334 mp3 files in classified/singles/new/sliced-2
+  REJECT:FictionalBand - rock-song-64cc2f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-4fd419.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-3134e4.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-85bbee.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-4fdbca.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-dd190b.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-66d489.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-7cbc04.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-3f1341.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-b81c68.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-63bea1.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-36b6e3.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-990eef.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-230da8.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-6620e9.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-2bed85.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-e1ec3f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-2a3061.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-a2c815.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-aeaa88.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-5529c3.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0a8a1e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-b7a0a4.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-3fccfe.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-179fef.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-f1d3e3.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-ad6ae9.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0a2c16.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-a29007.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-58ef4a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-474c16.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-55e2e7.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-d763b2.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-1387e2.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-d7d511.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-b2892b.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-8e6afb.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-094974.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-9d8748.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-b41842.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-9964c4.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-6cdb1d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-923802.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-fcbf0f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-091a8a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-7871ac.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-77490f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-77e152.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-41c238.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-534aa1.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-fce62d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-a9c6d2.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-f337ef.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-465bdb.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-29021f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-4b8905.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-9253db.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-41d09e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0742b4.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-8b6d9b.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-dd5586.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0492bf.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-2c001b.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-f5665c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-c7ae98.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-e3f7bc.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-d77922.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-9155c9.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0164f3.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-26ff48.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-b3f18b.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-48458e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-3f15c6.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-e4bc54.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-c38ae9.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-9b6214.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-ad7a1a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-516cda.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-0fcb36.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-82afd0.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-841e28.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-91fb05.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-87fcb2.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT:FictionalBand - rock-song-8a2e0e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  progress: 25/334 source files
+  REJECT:FictionalBand - rock-song-f6da5c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e21a5a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-1b196e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-c92ec9.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-600cb9.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-9944e1.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-7e0207.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f417a7.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f0288b.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-089ecc.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ca678a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-57ec6a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-7f714e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d3b469.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-94403c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-19ccab.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-1c2f5b.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-eab76f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-4edddc.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d3da17.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-9e8734.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e6d61c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-6b55ad.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-166a37.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-55d99b.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-a00558.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-612737.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-8a4681.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-18ba02.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d51e55.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-65a54e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ea0ffc.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-89942e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-3ffd12.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-45f709.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-7648b4.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-a94a6e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-0dc901.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-28f6e3.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-83d341.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-4ef3e4.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ce00eb.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-7a384b.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-cdcb79.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-146d71.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e3e37a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d0042c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-2a9cfb.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-bd0798.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-421a7b.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d347ad.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-285b2a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-eb0e2e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-dab9d1.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-9243f5.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-1fad6f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-321d77.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-6b9bc2.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f37d02.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ab5c60.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d291d6.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f1fe1d.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-c9743e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-586332.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  progress: 50/334 source files
+  progress: 75/334 source files
+  REJECT:FictionalBand - rock-song-c5bfc6.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-3cb92f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-7626f2.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-e3b2f8.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-f33d5e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-66e265.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-4908f4.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-84466e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-4b23e3.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-f5ac62.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-52a14f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-d947df.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-d66a51.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-ce28e9.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-fb3dc2.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-b8ab93.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-ec0d31.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-403c22.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-a17aa3.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-17b6d0.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-6d1ec0.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-cb3ab1.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9f49d1.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-e20852.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-0f81b5.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-734a7a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-b9a642.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-a160ca.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-fcd1c3.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-f35320.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-2baa6c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-4ed3e6.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-67941e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-adb88a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-5b1882.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-695d46.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-7969e9.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9c34cb.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-8eb442.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-8b5da1.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9dabdf.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-3b0905.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-c51025.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-2271a5.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-0b03f2.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-eb3c08.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-559d6e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-19805c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-c16cd4.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-1c88f7.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-072809.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-b4104a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-392152.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-209f60.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-eba5bf.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9e15f0.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-ccce4f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-521bc9.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-f5d78d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9eecc3.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-665f70.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-93278c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-126adb.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-f3a26d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-c198b6.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-696cda.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-195780.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-9824c3.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT:FictionalBand - rock-song-e1aac4.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-52c1ea.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-13b9dc.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-a82bf0.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-bc48f8.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-08d200.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-15f7d3.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-8e609f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-b5d8ce.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e4e85b.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-b83265.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-83cd91.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ea108c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-07ab6e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-0792de.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-36dce1.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-15cb57.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-65b17a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e97768.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e6a6a9.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-7bff63.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-c01ceb.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f94e9b.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-c58b19.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-ee6f06.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-dbb51a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-a98e9a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-4c303e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-1c997a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-e85bd7.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-b29af4.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-52d25a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-23d702.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-19ee6f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-c8524f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-33697b.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-cd08b3.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-75219c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-1ca0d6.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-d11bdd.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-538e99.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-f49aee.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT:FictionalBand - rock-song-50ad18.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+
+Processed: 75 | Skipped dups: 0 | Errors: 259
+Rejected/errored files:
+FictionalBand - rock-song-b6c8de.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-9cbb4c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d85e99.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-58b105.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-0c1956.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d5f7cd.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-805400.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c1cdf9.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-6f9a2c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-b1c91d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-82f6f2.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-bbc40d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-cb4f5c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c69c94.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d4a696.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c6141e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-cadf3a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c1744c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-0ae365.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-93142c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-cdd77b.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e35114.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e411b2.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-ecc495.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-f7cbfc.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-ef6242.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-955acc.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-36e9e9.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-fdd684.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-14a67f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-7cfbde.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-3f0b22.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-334847.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-97e5a7.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-a46914.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-7460f3.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-353335.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-f3072c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-7f9ea9.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c9e7e6.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-64b87c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-07068d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-09bcbd.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-1b80c9.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-52d976.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-3c9cc4.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-72e080.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-5782fc.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-8a1d1f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-4a3dd1.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d15e83.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-0e0722.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-8c4ce8.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-325ab2.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-6e69a5.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-093d4b.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-3a8d09.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-6508c1.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-b8edfb.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-23d517.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e82977.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-747135.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-f98fa7.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-bc9e71.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-76d277.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-c48617.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-33d031.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-0fc13c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d85f19.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-68764d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-24e10f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-5b4a7e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-b35e9b.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e3200c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-124874.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-b6ca5f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-320588.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-1cf3cf.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e70acc.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-3ac586.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-a6813a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-b5cf82.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-e7c24e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d56ccb.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+FictionalBand - rock-song-d2da2e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-4f0404.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ab78ff.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-39a131.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-46305b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-cbd3b5.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-4ca43a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-fa9b3b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-64650b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-1f6acc.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0a39e1.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2bb10e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-137505.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-84887d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2aefd2.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-62d12d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-105fec.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c4db51.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-cde5b2.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-3bff48.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0d6f53.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-b7f9a0.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-bfbdfc.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-e75a1c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-6b7deb.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-338eb7.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-a38186.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ee60dc.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ef0de7.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0f8f5a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c2ee35.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-a104e3.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-e2f5be.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-bedcd1.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ce5b67.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-de6f65.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-6eccce.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-f81cfe.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-879cb4.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-f64d85.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-3c81cd.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-10f32f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0c4287.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c2d0a1.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c006c3.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-af5c6f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-02d05f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2667c0.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0be40b.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-46cb67.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-514123.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-4007e7.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-103c79.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-85ad6d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-60e927.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-f81211.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-97a220.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-68ca89.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-38913f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2f21f6.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-1ad018.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-43e67a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-86010f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2cc716.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-950309.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8ca1c6.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-7f632c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-4cb203.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-9d6f75.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-4dc40d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-681c53.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-c2a23d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-34041c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-ca1bad.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8d578f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-58ef3a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-dfb09f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-c5ff5e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-acc5f6.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-6fef81.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-61c38f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-ae90c5.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-03bb8e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8baf29.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-d75db3.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-6be435.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-b1f614.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-dd2918.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-e55bf2.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-0acbc3.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-016388.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-ce8614.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-98603f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-db0432.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-d3df32.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-64c89a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-d07c39.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-af409b.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-015172.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-d2f545.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-b9a324.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-fb67a4.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-bef30f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-b8f2b2.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-313774.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-83414e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-c47fdb.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-6b7400.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8ccbb9.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8e0a74.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-8fa426.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-4aa543.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-d99775.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-25bca2.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-e24d1d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-fe754e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-e6eac8.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-b6b6de.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-601c48.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-0c8c84.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-ea055f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-dfe0d6.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-3d48d1.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-ef1f07.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-c5dfa1.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-e17d9f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-cfd8db.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-baa47a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-41e3a0.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-7bde6a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-5d71d4.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-983f8f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+FictionalBand - rock-song-be54cb.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-25b700.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2d825c.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-e377ba.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-e2c945.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-8b297a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-15ccbc.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-bd5eac.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-b46e0b.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-1d541b.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-250785.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-944887.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-7d1a29.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-1486b3.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-3e08c8.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-dd8252.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-300472.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-0ffeff.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-8c2a22.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-af4a29.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-a9fa5d.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ffa1ee.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-452964.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-51f04b.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-ce3cdb.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-e4c6ba.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-bd13cf.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-1fd476.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-23bd3f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-829cb2.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c8d4ad.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c36867.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-2bb4a0.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-c445aa.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-5f7273.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-874593.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-f32e8a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-9438c1.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-65d24e.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-b24d52.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-3e80bb.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-f6a2a2.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+FictionalBand - rock-song-b9ab30.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+
+--- Verification ---
+Artist: 921 total files, 921 unique basenames
+Genre: 1503 total files, 921 unique basenames
+Mood: 2828 total files, 921 unique basenames

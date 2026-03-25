@@ -1,0 +1,17 @@
+[START] 2026-03-19T20:04:09-03:00
+User-approved follow-up fixes applied:
+- Move from FictionalBand_6146d0 to FictionalBand_a25df8:FictionalBand - rock-song-f2a89d.mp3
+- Move from FictionalBand_6146d0 to FictionalBand_a25df8:FictionalBand - rock-song-e76e80.mp3
+- Move from FictionalBand_6146d0 to FictionalBand_a415ff:FictionalBand - rock-song-e07a93.mp3
+- Move from FictionalBand_6146d0 to FictionalBand_a415ff:FictionalBand - rock-song-142b43.mp3
+- Remove from Various:FictionalBand - rock-song-2acebe.mp3
+[VERIFY]
+FictionalBand_6146d0 folder should have no Blink/Linkin leftovers:
+FictionalBand_a25df8 destination:
+classified/singles/Artist/FictionalBand_a25df8/FictionalBand - rock-song-87cd31.mp3
+classified/singles/Artist/FictionalBand_a25df8/FictionalBand - rock-song-a805cf.mp3
+FictionalBand_a415ff destination:
+classified/singles/Artist/FictionalBand_a415ff/FictionalBand - rock-song-8b8d0b.mp3
+classified/singles/Artist/FictionalBand_a415ff/FictionalBand - rock-song-1ce0d4.mp3
+Various should not contain Older-Girl:
+[END] 2026-03-19T20:04:09-03:00

@@ -1,0 +1,22 @@
+nohup: ignoring input
+Found 334 mp3 files in classified/singles/new/sliced-2
+  progress: 25/334 source files
+  progress: 50/334 source files
+  progress: 75/334 source files
+  progress: 100/334 source files
+  progress: 125/334 source files
+  progress: 150/334 source files
+  progress: 175/334 source files
+  progress: 200/334 source files
+  progress: 225/334 source files
+  progress: 250/334 source files
+  progress: 275/334 source files
+  progress: 300/334 source files
+  progress: 325/334 source files
+
+Processed: 334 | Skipped dups: 401 | Errors: 0
+
+--- Verification ---
+Artist: 1180 total files, 1180 unique basenames
+Genre: 1914 total files, 1180 unique basenames
+Mood: 3813 total files, 1180 unique basenames

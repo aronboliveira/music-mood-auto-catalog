@@ -1,0 +1,208 @@
+# scripts-inventory.yml — Manifest of all automation scripts
+# Generated: 2026-03-24
+# Source: scripts/
+
+scripts:
+  # ─── Mood & Taxonomy ───────────────────────────────────────────────
+  - name: _sort_moods.py
+    language: python
+    purpose: Sort 66 moods by emotional similarity using 6D semantic vectors (valence, arousal, dominance, darkness, longing, inwardness)
+    inputs: Mood vectors defined in MOOD_VECTORS dict; uses clustering algorithm internally
+    outputs: Sorted mood list; groups similar moods as semantic clusters
+    dependencies: [math, json]
+
+  - name: gen_moods_checks.py
+    language: python
+    purpose: Generate interactive HTML mood-checking interface from track moods and mood keywords
+    inputs: /tmp/track_moods.json (track→mood list); docs/guidelines/moods.txt (all moods)
+    outputs: docs/guidelines/moods-checks.html (HTML form for mood verification)
+    dependencies: [json, re, html, os]
+    notes: Includes mood migration map for 23→66 mood expansion
+
+  # ─── Classification & Renaming ─────────────────────────────────────
+  - name: classify_and_clean.py
+    language: python
+    purpose: Multi-feature music classification & file renaming using keyword ensemble classifier
+    inputs: Music filenames; organizes Artist/Genre/Mood taxonomy
+    outputs: Classifies files into three categories; renames with transliteration/emoji removal
+    dependencies: [os, re, sys, shutil, pathlib, collections, unidecode]
+    notes: Core module imported by process_new_batch.py, process_singles_new.py, process_sliced.py, run_sliced.py
+
+  - name: rename_singles.py
+    language: python
+    purpose: Comprehensive rename of all singles (strip tags, transliterate, normalize separators, preserve OST/quality info)
+    inputs: All MP3s in classified/singles/{Artist, Genre, Mood}/
+    outputs: Renamed files in-place across all three subdirectories
+    dependencies: [os, re, sys, pathlib, unidecode]
+    flags: ["--apply", "--dry-run"]
+
+  - name: apply_filename_sanitisation.py
+    language: python
+    purpose: Apply filename sanitization guidelines to all audio files in classified/ (excludes singles/new/)
+    inputs: All audio files FictionalTrack_04f092.mp3, .flac, .wav, .ogg, .m4a, .aac, .opus, .wma) in classified/
+    outputs: Renamed files in-place; logs to logs/{YYYYMMDD}/rename-apply_filename_sanitisation.log
+    dependencies:
+      [os, re, sys, unicodedata, datetime, pathlib, emoji, unidecode]
+    flags: ["--dry-run"]
+
+  # ─── Batch Processing ──────────────────────────────────────────────
+  - name: process_new_batch.py
+    language: python
+    purpose: Process new MP3s from singles/new/ into Artist/Genre/Mood subfolders with deduplication
+    inputs: MP3 files from classified/singles/new/
+    outputs: Copies to Artist/Genre/Mood folders; removes originals after success
+    dependencies: [sys, os, shutil, pathlib, classify_and_clean]
+
+  - name: process_singles_new.py
+    language: python
+    purpose: Copy all new singles from singles/new/ into correct Artist/Genre/Mood taxonomy folders
+    inputs: MP3 files in classified/singles/new/
+    outputs: Three copies per file (Artist+Genre+Mood); removes originals
+    dependencies: [os, sys, shutil, time, pathlib, classify_and_clean]
+
+  - name: process_sliced.py
+    language: python
+    purpose: Process sliced tracks from singles/new/sliced-3/ into isolated classification taxonomy
+    inputs: MP3 files (recursively) from classified/singles/new/sliced-3/ (or custom SRC_DIR arg)
+    outputs: classified/singles/sliced/{Artist,Genre,Mood}/
+    dependencies: [os, sys, shutil, time, pathlib, classify_and_clean]
+    notes: Rejects files classified as Various or Unclassified
+
+  - name: run_sliced.py
+    language: python
+    purpose: Single-pass process of sliced-3 with full logging to /tmp/sliced_final.log
+    inputs: MP3 files (recursive) from classified/singles/new/sliced-3/
+    outputs: classified/singles/sliced/{Artist,Genre,Mood}/; log to /tmp/sliced_final.log
+    dependencies: [os, sys, shutil, pathlib, classify_and_clean]
+
+  # ─── Audio Slicing ─────────────────────────────────────────────────
+  - name: ambient-slicers.sh
+    language: bash
+    purpose: Re-slice audio files from album folders into 180-second segments using ffmpeg
+    inputs: MP3s from classified/albums/Artist/{MedievalAmbience, PirateMetal, CyberpunkBeats, etc.}
+    outputs: classified/singles/sliced-2/<artist>/<file>_part_###.mp3
+    dependencies: [ffmpeg]
+
+  - name: slice_random.py
+    language: python
+    purpose: Re-slice audio from albums with randomized segment lengths (SEG_MIN to SEG_MAX seconds)
+    inputs: MP3 files from classified/albums/Artist/ folders
+    outputs: classified/singles/new/sliced-3/<album_name>/ with sanitized filenames
+    dependencies:
+      [
+        random,
+        re,
+        subprocess,
+        sys,
+        unicodedata,
+        datetime,
+        pathlib,
+        emoji,
+        unidecode,
+        ffmpeg,
+      ]
+
+  - name: slice_tracks.py
+    language: python
+    purpose: Slice audio from albums into max 5-minute segments
+    inputs: MP3s from classified/albums/Artist/ (special handling for single-letter folders D, I, K, N)
+    outputs: classified/albums/Artist/sliced/<album_name>/
+    dependencies: [subprocess, sys, pathlib, ffmpeg]
+
+  # ─── Recovery & Forensics ──────────────────────────────────────────
+  - name: find_destroyed.py
+    language: python
+    purpose: Identify files from xbel_mp3s.txt completely missing from current classified/ tree
+    inputs: xbel_mp3s.txt (file:// URLs); current MP3s in classified/
+    outputs: Prints list of destroyed/missing files with counts
+    dependencies: [urllib.parse, os]
+
+  - name: find_missing.py
+    language: python
+    purpose: Find xbel_mp3s.txt file paths that no longer exist in their original locations
+    inputs: xbel_mp3s.txt (file:// URLs)
+    outputs: writes missing_from_xbel.txt; prints count
+    dependencies: [urllib.parse, os]
+
+  - name: list_all_casualties.py
+    language: python
+    purpose: List all xbel_mp3s.txt files matching digits-at-end pattern (e.g., "FictionalTrack_06bff4.mp3")
+    inputs: xbel_mp3s.txt (file:// URLs)
+    outputs: Sorted list of casualties printed to stdout
+    dependencies: [urllib.parse, re]
+
+  - name: list_casualties.py
+    language: python
+    purpose: Identify and list casualties (files with numbered suffixes) from historical xbel data
+    inputs: xbel_mp3s.txt (file:// URLs)
+    outputs: Sorted unique casualties ending in dash-digit pattern
+    dependencies: [urllib.parse, re]
+
+  - name: recover_various.py
+    language: python
+    purpose: Recover orphaned MP3s from Genre/ that lack counterpart in Artist/ by copying to Artist/Various
+    inputs: All MP3s in classified/singles/Genre/
+    outputs: Copies missing files to classified/singles/Artist/Various
+    dependencies: [os, shutil, pathlib]
+
+  # ─── Fixups & Migrations ───────────────────────────────────────────
+  - name: final_fix.py
+    language: python
+    purpose: Move misclassified files to correct Artist/Genre locations based on hardcoded mappings
+    inputs: Files from classified/singles/Artist/{Various}, Genre/{Unclassified}
+    outputs: Moves files to correct Artist/Genre folders; deletes empty source dirs
+    dependencies: [os, shutil, pathlib]
+
+  - name: fix_obvious_anomalies.sh
+    language: bash
+    purpose: Fix obvious misclassifications by moving files to correct artist folders
+    inputs: Hardcoded file paths and pattern mappings
+    outputs: Moves singles and albums to correct Artist folders
+    dependencies: []
+    examples: FictionalBand_7d720b→FictionalBand_82f6ba, FictionalBand_37003c→FictionalBand_4c8735/FictionalBand_ffd489
+
+  - name: fix_various_unclassified.py
+    language: python
+    purpose: Move files from Unclassified/Various to correct Artist/Genre based on filename patterns
+    inputs: Pattern→(artist, genre) mappings; files in Artist/{Various}, Genre/{Unclassified}
+    outputs: Moved files; empty dirs deleted
+    dependencies: [os, shutil, fnmatch, pathlib]
+
+  # ─── Specialty ─────────────────────────────────────────────────────
+  - name: apply_jojo_refs.py
+    language: python
+    purpose: Scan taxonomy for FictionalBand_96a033 references and copy matching tracks to Artist/FictionalBand_9f8827/
+    inputs: Taxonomy root (default singles/sliced); jojo-refs.yml from docs/guidelines/data/
+    outputs: Copies matching files to FictionalBand_9f8827 folder
+    dependencies:
+      [os, re, sys, shutil, time, argparse, pathlib, yaml, unidecode]
+    flags: ["--apply"]
+    notes: Dry-run by default
+
+  - name: copy_sims.py
+    language: python
+    purpose: One-shot copy of FictionalBand_0a4f78 soundtrack files to Genre/GameOST and Mood folders
+    inputs: Hardcoded file set from classified/singles/Artist/FictionalBand_0a4f78
+    outputs: Copies to Genre/GameOST and Mood/{StudyFocus, Upbeat, Nostalgic}
+    dependencies: [shutil, pathlib]
+
+  - name: analyze_various.py
+    language: python
+    purpose: List all MP3 files in Artist/Various as JSON for analysis
+    inputs: classified/singles/Artist/Various directory
+    outputs: JSON array of sorted filenames to stdout
+    dependencies: [os, json]
+
+  - name: move_mixes_to_genres.sh
+    language: bash
+    purpose: Move album mixes from Artist/Various to Genre folders based on pattern matching
+    inputs: Album files in classified/albums/Artist/Various
+    outputs: Moved to classified/albums/Genre/{CityPop, DnB, GameOST}
+    dependencies: []
+
+  - name: sync_smash_bros.sh
+    language: bash
+    purpose: Consolidate FictionalGame tracks and distribute to franchise-specific folders via regex matching
+    inputs: MP3s containing "Smash" in singles/Artist/ tree; FictionalBand_d733b8 folder
+    outputs: All Smash files in FictionalBand_d733b8; franchise subfolders (FictionalBand_6146d0, FictionalBand_1cc477, FictionalBand_672d59, etc.)
+    dependencies: [find, grep, cp]

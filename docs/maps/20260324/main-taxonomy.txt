@@ -1,0 +1,215 @@
+classified/
+    albums/
+        Artist/
+            Acoustic Mirage/
+                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
+            Quantum Beats/
+                Quantum Beats - FictionalTrack_07dbdf.mp3
+                Quantum Beats - FictionalTrack_ff8a1b.mp3
+            Cybernetic Dreams/
+                Cybernetic Dreams - FictionalTrack_649ec8.mp3
+                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
+            Neon Whispers/
+                Neon Whispers - FictionalTrack_a6a8b9.mp3
+                Neon Whispers - FictionalTrack_d109d2.mp3
+                Neon Whispers - FictionalTrack_884f80.mp3
+        Genre/
+            pagode/
+                Cybernetic Dreams - FictionalTrack_649ec8.mp3
+                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
+            calm/
+                Neon Whispers - FictionalTrack_a6a8b9.mp3
+                Quantum Beats - FictionalTrack_07dbdf.mp3
+                Neon Whispers - FictionalTrack_884f80.mp3
+                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
+                Quantum Beats - FictionalTrack_ff8a1b.mp3
+            ambient/
+                Neon Whispers - FictionalTrack_d109d2.mp3
+        Mood/
+            Upbeat/
+                Cybernetic Dreams - FictionalTrack_649ec8.mp3
+                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
+            Peaceful/
+                Neon Whispers - FictionalTrack_a6a8b9.mp3
+                Quantum Beats - FictionalTrack_07dbdf.mp3
+                Neon Whispers - FictionalTrack_884f80.mp3
+                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
+                Quantum Beats - FictionalTrack_ff8a1b.mp3
+            Relaxed/
+                Neon Whispers - FictionalTrack_a6a8b9.mp3
+                Quantum Beats - FictionalTrack_07dbdf.mp3
+                Neon Whispers - FictionalTrack_884f80.mp3
+                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
+                Quantum Beats - FictionalTrack_ff8a1b.mp3
+            Ethereal/
+                Neon Whispers - FictionalTrack_d109d2.mp3
+            Hypnotic/
+                Neon Whispers - FictionalTrack_d109d2.mp3
+            Joyful/
+                Cybernetic Dreams - FictionalTrack_649ec8.mp3
+                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
+            Playful/
+                Cybernetic Dreams - FictionalTrack_649ec8.mp3
+                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
+            Meditative/
+                Neon Whispers - FictionalTrack_d109d2.mp3
+            Serene/
+                Neon Whispers - FictionalTrack_a6a8b9.mp3
+                Quantum Beats - FictionalTrack_07dbdf.mp3
+                Neon Whispers - FictionalTrack_884f80.mp3
+                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
+                Quantum Beats - FictionalTrack_ff8a1b.mp3
+    singles/
+        Artist/
+            The Pixel Chords/
+                The Pixel Chords - FictionalTrack_a3ac2b.mp3
+                The Pixel Chords - FictionalTrack_723cab.mp3
+                The Pixel Chords - FictionalTrack_47a7f2.mp3
+                The Pixel Chords - FictionalTrack_107c76.mp3
+                The Pixel Chords - FictionalTrack_be5477.mp3
+            Acoustic Mirage/
+                Acoustic Mirage - FictionalTrack_84226a.mp3
+                Acoustic Mirage - FictionalTrack_d4d605.mp3
+                Acoustic Mirage - FictionalTrack_fa267e.mp3
+                Acoustic Mirage - FictionalTrack_867cfd.mp3
+            Quantum Beats/
+                Quantum Beats - FictionalTrack_c6e849.mp3
+                Quantum Beats - FictionalTrack_e65d5e.mp3
+                Quantum Beats - FictionalTrack_08c0d7.mp3
+                Quantum Beats - FictionalTrack_fd89f6.mp3
+                Quantum Beats - FictionalTrack_0de57e.mp3
+                Quantum Beats - FictionalTrack_1b2994.mp3
+            Cybernetic Dreams/
+                Cybernetic Dreams - FictionalTrack_c646da.mp3
+                Cybernetic Dreams - FictionalTrack_dfa886.mp3
+                Cybernetic Dreams - FictionalTrack_c9d310.mp3
+                Cybernetic Dreams - FictionalTrack_774056.mp3
+                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
+            Neon Whispers/
+                Neon Whispers - FictionalTrack_05a5a5.mp3
+                Neon Whispers - FictionalTrack_0b78cb.mp3
+                Neon Whispers - FictionalTrack_5b9867.mp3
+                Neon Whispers - FictionalTrack_2589b2.mp3
+                Neon Whispers - FictionalTrack_677aa2.mp3
+        Genre/
+            pagode/
+                Quantum Beats - FictionalTrack_c6e849.mp3
+                Neon Whispers - FictionalTrack_05a5a5.mp3
+                Cybernetic Dreams - FictionalTrack_774056.mp3
+                Neon Whispers - FictionalTrack_2589b2.mp3
+            synthwave/
+                Acoustic Mirage - FictionalTrack_84226a.mp3
+                Cybernetic Dreams - FictionalTrack_c646da.mp3
+                The Pixel Chords - FictionalTrack_a3ac2b.mp3
+                Acoustic Mirage - FictionalTrack_d4d605.mp3
+                Quantum Beats - FictionalTrack_fd89f6.mp3
+                The Pixel Chords - FictionalTrack_47a7f2.mp3
+                Neon Whispers - FictionalTrack_0b78cb.mp3
+                The Pixel Chords - FictionalTrack_be5477.mp3
+            calm/
+                Cybernetic Dreams - FictionalTrack_c9d310.mp3
+                The Pixel Chords - FictionalTrack_723cab.mp3
+                Quantum Beats - FictionalTrack_0de57e.mp3
+                Neon Whispers - FictionalTrack_5b9867.mp3
+                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
+                Neon Whispers - FictionalTrack_677aa2.mp3
+            ambient/
+                Cybernetic Dreams - FictionalTrack_dfa886.mp3
+                Acoustic Mirage - FictionalTrack_867cfd.mp3
+                Quantum Beats - FictionalTrack_1b2994.mp3
+            rock/
+                Quantum Beats - FictionalTrack_e65d5e.mp3
+                Quantum Beats - FictionalTrack_08c0d7.mp3
+                Acoustic Mirage - FictionalTrack_fa267e.mp3
+                The Pixel Chords - FictionalTrack_107c76.mp3
+        Mood/
+            Upbeat/
+                Quantum Beats - FictionalTrack_c6e849.mp3
+                Neon Whispers - FictionalTrack_05a5a5.mp3
+                Cybernetic Dreams - FictionalTrack_774056.mp3
+                Neon Whispers - FictionalTrack_2589b2.mp3
+            Peaceful/
+                Cybernetic Dreams - FictionalTrack_c9d310.mp3
+                The Pixel Chords - FictionalTrack_723cab.mp3
+                Quantum Beats - FictionalTrack_0de57e.mp3
+                Neon Whispers - FictionalTrack_5b9867.mp3
+                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
+                Neon Whispers - FictionalTrack_677aa2.mp3
+            Relaxed/
+                Cybernetic Dreams - FictionalTrack_c9d310.mp3
+                The Pixel Chords - FictionalTrack_723cab.mp3
+                Quantum Beats - FictionalTrack_0de57e.mp3
+                Neon Whispers - FictionalTrack_5b9867.mp3
+                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
+                Neon Whispers - FictionalTrack_677aa2.mp3
+            Rebellious/
+                Quantum Beats - FictionalTrack_e65d5e.mp3
+                Quantum Beats - FictionalTrack_08c0d7.mp3
+                Acoustic Mirage - FictionalTrack_fa267e.mp3
+                The Pixel Chords - FictionalTrack_107c76.mp3
+            Ethereal/
+                Cybernetic Dreams - FictionalTrack_dfa886.mp3
+                Acoustic Mirage - FictionalTrack_867cfd.mp3
+                Quantum Beats - FictionalTrack_1b2994.mp3
+            Nostalgic/
+                Acoustic Mirage - FictionalTrack_84226a.mp3
+                Cybernetic Dreams - FictionalTrack_c646da.mp3
+                The Pixel Chords - FictionalTrack_a3ac2b.mp3
+                Acoustic Mirage - FictionalTrack_d4d605.mp3
+                Quantum Beats - FictionalTrack_fd89f6.mp3
+                The Pixel Chords - FictionalTrack_47a7f2.mp3
+                Neon Whispers - FictionalTrack_0b78cb.mp3
+                The Pixel Chords - FictionalTrack_be5477.mp3
+            Hypnotic/
+                Cybernetic Dreams - FictionalTrack_dfa886.mp3
+                Acoustic Mirage - FictionalTrack_867cfd.mp3
+                Quantum Beats - FictionalTrack_1b2994.mp3
+            Joyful/
+                Quantum Beats - FictionalTrack_c6e849.mp3
+                Neon Whispers - FictionalTrack_05a5a5.mp3
+                Cybernetic Dreams - FictionalTrack_774056.mp3
+                Neon Whispers - FictionalTrack_2589b2.mp3
+            Playful/
+                Quantum Beats - FictionalTrack_c6e849.mp3
+                Neon Whispers - FictionalTrack_05a5a5.mp3
+                Cybernetic Dreams - FictionalTrack_774056.mp3
+                Neon Whispers - FictionalTrack_2589b2.mp3
+            Groovy/
+                Acoustic Mirage - FictionalTrack_84226a.mp3
+                Cybernetic Dreams - FictionalTrack_c646da.mp3
+                The Pixel Chords - FictionalTrack_a3ac2b.mp3
+                Acoustic Mirage - FictionalTrack_d4d605.mp3
+                Quantum Beats - FictionalTrack_fd89f6.mp3
+                The Pixel Chords - FictionalTrack_47a7f2.mp3
+                Neon Whispers - FictionalTrack_0b78cb.mp3
+                The Pixel Chords - FictionalTrack_be5477.mp3
+            Energetic/
+                Acoustic Mirage - FictionalTrack_84226a.mp3
+                Cybernetic Dreams - FictionalTrack_c646da.mp3
+                The Pixel Chords - FictionalTrack_a3ac2b.mp3
+                Acoustic Mirage - FictionalTrack_d4d605.mp3
+                Quantum Beats - FictionalTrack_fd89f6.mp3
+                The Pixel Chords - FictionalTrack_47a7f2.mp3
+                Neon Whispers - FictionalTrack_0b78cb.mp3
+                The Pixel Chords - FictionalTrack_be5477.mp3
+            Aggressive/
+                Quantum Beats - FictionalTrack_e65d5e.mp3
+                Quantum Beats - FictionalTrack_08c0d7.mp3
+                Acoustic Mirage - FictionalTrack_fa267e.mp3
+                The Pixel Chords - FictionalTrack_107c76.mp3
+            Meditative/
+                Cybernetic Dreams - FictionalTrack_dfa886.mp3
+                Acoustic Mirage - FictionalTrack_867cfd.mp3
+                Quantum Beats - FictionalTrack_1b2994.mp3
+            Serene/
+                Cybernetic Dreams - FictionalTrack_c9d310.mp3
+                The Pixel Chords - FictionalTrack_723cab.mp3
+                Quantum Beats - FictionalTrack_0de57e.mp3
+                Neon Whispers - FictionalTrack_5b9867.mp3
+                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
+                Neon Whispers - FictionalTrack_677aa2.mp3
+            Gritty/
+                Quantum Beats - FictionalTrack_e65d5e.mp3
+                Quantum Beats - FictionalTrack_08c0d7.mp3
+                Acoustic Mirage - FictionalTrack_fa267e.mp3
+                The Pixel Chords - FictionalTrack_107c76.mp3

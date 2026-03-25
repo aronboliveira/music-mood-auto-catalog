@@ -1,0 +1,53 @@
+version: 2
+project: music-downloaded
+
+conventions:
+  scripts_dir: scripts/
+  docs_dir: docs/
+  logs_dir: logs/
+  backup_dir: .backup/
+
+taxonomy:
+  singles:
+    dimensions: [Artist, Genre, Mood]
+    notes:
+      - Every unique basename must appear in all three dimensions
+      - Use process_singles_new.py for ingestion
+      - Use rename_singles.py for filename cleanup
+  albums:
+    dimensions: [Artist]
+    notes:
+      - Albums use Artist-only taxonomy (no Genre/Mood subfolders)
+
+banned_classifications:
+  - Various
+  - Unclassified
+
+backup:
+  method: rsync
+  command: "rsync -aHX classified/ .backup/classified/"
+  sop:
+    - Always backup BEFORE large operations
+    - Always backup AFTER large operations
+    - Always regenerate maps after structural changes
+
+logs:
+  date_folder_format: YYYYMMDD
+  path_pattern: logs/<YYYYMMDD>/
+  examples:
+    - logs/20260317/
+  notes:
+    - Store run logs and execution summaries here.
+    - Keep one date folder per day.
+
+scripts:
+  path_pattern: scripts/<name>.py
+  notes:
+    - All automation scripts must live under scripts/.
+    - Avoid placing runnable scripts at workspace root.
+
+documentation:
+  path_pattern: docs/<topic>/
+  notes:
+    - Guidelines and design notes should live under docs/.
+    - Classification algorithm docs should live under docs/guidelines/.

@@ -1,0 +1,265 @@
+{
+  "albums/": {
+    "Artist/": {
+      "Acoustic Mirage/": {
+        "Acoustic Mirage - FictionalTrack_f4fdc7.mp3": 4586756
+      },
+      "Quantum Beats/": {
+        "Quantum Beats - FictionalTrack_07dbdf.mp3": 3718876,
+        "Quantum Beats - FictionalTrack_ff8a1b.mp3": 5032708
+      },
+      "Cybernetic Dreams/": {
+        "Cybernetic Dreams - FictionalTrack_649ec8.mp3": 4570844,
+        "Cybernetic Dreams - FictionalTrack_b0df0a.mp3": 4562940
+      },
+      "Neon Whispers/": {
+        "Neon Whispers - FictionalTrack_a6a8b9.mp3": 2647988,
+        "Neon Whispers - FictionalTrack_d109d2.mp3": 3782628,
+        "Neon Whispers - FictionalTrack_884f80.mp3": 7011412
+      }
+    },
+    "Genre/": {
+      "pagode/": {
+        "Cybernetic Dreams - FictionalTrack_649ec8.mp3": 4570844,
+        "Acoustic Mirage - FictionalTrack_f4fdc7.mp3": 4586756
+      },
+      "calm/": {
+        "Neon Whispers - FictionalTrack_a6a8b9.mp3": 2647988,
+        "Quantum Beats - FictionalTrack_07dbdf.mp3": 3718876,
+        "Neon Whispers - FictionalTrack_884f80.mp3": 7011412,
+        "Cybernetic Dreams - FictionalTrack_b0df0a.mp3": 4562940,
+        "Quantum Beats - FictionalTrack_ff8a1b.mp3": 5032708
+      },
+      "ambient/": {
+        "Neon Whispers - FictionalTrack_d109d2.mp3": 3782628
+      }
+    },
+    "Mood/": {
+      "Upbeat/": {
+        "Cybernetic Dreams - FictionalTrack_649ec8.mp3": 4570844,
+        "Acoustic Mirage - FictionalTrack_f4fdc7.mp3": 4586756
+      },
+      "Peaceful/": {
+        "Neon Whispers - FictionalTrack_a6a8b9.mp3": 2647988,
+        "Quantum Beats - FictionalTrack_07dbdf.mp3": 3718876,
+        "Neon Whispers - FictionalTrack_884f80.mp3": 7011412,
+        "Cybernetic Dreams - FictionalTrack_b0df0a.mp3": 4562940,
+        "Quantum Beats - FictionalTrack_ff8a1b.mp3": 5032708
+      },
+      "Relaxed/": {
+        "Neon Whispers - FictionalTrack_a6a8b9.mp3": 2647988,
+        "Quantum Beats - FictionalTrack_07dbdf.mp3": 3718876,
+        "Neon Whispers - FictionalTrack_884f80.mp3": 7011412,
+        "Cybernetic Dreams - FictionalTrack_b0df0a.mp3": 4562940,
+        "Quantum Beats - FictionalTrack_ff8a1b.mp3": 5032708
+      },
+      "Ethereal/": {
+        "Neon Whispers - FictionalTrack_d109d2.mp3": 3782628
+      },
+      "Hypnotic/": {
+        "Neon Whispers - FictionalTrack_d109d2.mp3": 3782628
+      },
+      "Joyful/": {
+        "Cybernetic Dreams - FictionalTrack_649ec8.mp3": 4570844,
+        "Acoustic Mirage - FictionalTrack_f4fdc7.mp3": 4586756
+      },
+      "Playful/": {
+        "Cybernetic Dreams - FictionalTrack_649ec8.mp3": 4570844,
+        "Acoustic Mirage - FictionalTrack_f4fdc7.mp3": 4586756
+      },
+      "Meditative/": {
+        "Neon Whispers - FictionalTrack_d109d2.mp3": 3782628
+      },
+      "Serene/": {
+        "Neon Whispers - FictionalTrack_a6a8b9.mp3": 2647988,
+        "Quantum Beats - FictionalTrack_07dbdf.mp3": 3718876,
+        "Neon Whispers - FictionalTrack_884f80.mp3": 7011412,
+        "Cybernetic Dreams - FictionalTrack_b0df0a.mp3": 4562940,
+        "Quantum Beats - FictionalTrack_ff8a1b.mp3": 5032708
+      }
+    }
+  },
+  "singles/": {
+    "Artist/": {
+      "The Pixel Chords/": {
+        "The Pixel Chords - FictionalTrack_a3ac2b.mp3": 581716,
+        "The Pixel Chords - FictionalTrack_723cab.mp3": 625500,
+        "The Pixel Chords - FictionalTrack_47a7f2.mp3": 430396,
+        "The Pixel Chords - FictionalTrack_107c76.mp3": 279076,
+        "The Pixel Chords - FictionalTrack_be5477.mp3": 259212
+      },
+      "Acoustic Mirage/": {
+        "Acoustic Mirage - FictionalTrack_84226a.mp3": 251204,
+        "Acoustic Mirage - FictionalTrack_d4d605.mp3": 418436,
+        "Acoustic Mirage - FictionalTrack_fa267e.mp3": 378604,
+        "Acoustic Mirage - FictionalTrack_867cfd.mp3": 378604
+      },
+      "Quantum Beats/": {
+        "Quantum Beats - FictionalTrack_c6e849.mp3": 350732,
+        "Quantum Beats - FictionalTrack_e65d5e.mp3": 529924,
+        "Quantum Beats - FictionalTrack_08c0d7.mp3": 661276,
+        "Quantum Beats - FictionalTrack_fd89f6.mp3": 537828,
+        "Quantum Beats - FictionalTrack_0de57e.mp3": 601580,
+        "Quantum Beats - FictionalTrack_1b2994.mp3": 251204
+      },
+      "Cybernetic Dreams/": {
+        "Cybernetic Dreams - FictionalTrack_c646da.mp3": 283028,
+        "Cybernetic Dreams - FictionalTrack_dfa886.mp3": 370700,
+        "Cybernetic Dreams - FictionalTrack_c9d310.mp3": 426444,
+        "Cybernetic Dreams - FictionalTrack_774056.mp3": 561748,
+        "Cybernetic Dreams - FictionalTrack_0cdf07.mp3": 350732
+      },
+      "Neon Whispers/": {
+        "Neon Whispers - FictionalTrack_05a5a5.mp3": 279076,
+        "Neon Whispers - FictionalTrack_0b78cb.mp3": 613540,
+        "Neon Whispers - FictionalTrack_5b9867.mp3": 354788,
+        "Neon Whispers - FictionalTrack_2589b2.mp3": 509956,
+        "Neon Whispers - FictionalTrack_677aa2.mp3": 593572
+      }
+    },
+    "Genre/": {
+      "pagode/": {
+        "Quantum Beats - FictionalTrack_c6e849.mp3": 350732,
+        "Neon Whispers - FictionalTrack_05a5a5.mp3": 279076,
+        "Cybernetic Dreams - FictionalTrack_774056.mp3": 561748,
+        "Neon Whispers - FictionalTrack_2589b2.mp3": 509956
+      },
+      "synthwave/": {
+        "Acoustic Mirage - FictionalTrack_84226a.mp3": 251204,
+        "Cybernetic Dreams - FictionalTrack_c646da.mp3": 283028,
+        "The Pixel Chords - FictionalTrack_a3ac2b.mp3": 581716,
+        "Acoustic Mirage - FictionalTrack_d4d605.mp3": 418436,
+        "Quantum Beats - FictionalTrack_fd89f6.mp3": 537828,
+        "The Pixel Chords - FictionalTrack_47a7f2.mp3": 430396,
+        "Neon Whispers - FictionalTrack_0b78cb.mp3": 613540,
+        "The Pixel Chords - FictionalTrack_be5477.mp3": 259212
+      },
+      "calm/": {
+        "Cybernetic Dreams - FictionalTrack_c9d310.mp3": 426444,
+        "The Pixel Chords - FictionalTrack_723cab.mp3": 625500,
+        "Quantum Beats - FictionalTrack_0de57e.mp3": 601580,
+        "Neon Whispers - FictionalTrack_5b9867.mp3": 354788,
+        "Cybernetic Dreams - FictionalTrack_0cdf07.mp3": 350732,
+        "Neon Whispers - FictionalTrack_677aa2.mp3": 593572
+      },
+      "ambient/": {
+        "Cybernetic Dreams - FictionalTrack_dfa886.mp3": 370700,
+        "Acoustic Mirage - FictionalTrack_867cfd.mp3": 378604,
+        "Quantum Beats - FictionalTrack_1b2994.mp3": 251204
+      },
+      "rock/": {
+        "Quantum Beats - FictionalTrack_e65d5e.mp3": 529924,
+        "Quantum Beats - FictionalTrack_08c0d7.mp3": 661276,
+        "Acoustic Mirage - FictionalTrack_fa267e.mp3": 378604,
+        "The Pixel Chords - FictionalTrack_107c76.mp3": 279076
+      }
+    },
+    "Mood/": {
+      "Upbeat/": {
+        "Quantum Beats - FictionalTrack_c6e849.mp3": 350732,
+        "Neon Whispers - FictionalTrack_05a5a5.mp3": 279076,
+        "Cybernetic Dreams - FictionalTrack_774056.mp3": 561748,
+        "Neon Whispers - FictionalTrack_2589b2.mp3": 509956
+      },
+      "Peaceful/": {
+        "Cybernetic Dreams - FictionalTrack_c9d310.mp3": 426444,
+        "The Pixel Chords - FictionalTrack_723cab.mp3": 625500,
+        "Quantum Beats - FictionalTrack_0de57e.mp3": 601580,
+        "Neon Whispers - FictionalTrack_5b9867.mp3": 354788,
+        "Cybernetic Dreams - FictionalTrack_0cdf07.mp3": 350732,
+        "Neon Whispers - FictionalTrack_677aa2.mp3": 593572
+      },
+      "Relaxed/": {
+        "Cybernetic Dreams - FictionalTrack_c9d310.mp3": 426444,
+        "The Pixel Chords - FictionalTrack_723cab.mp3": 625500,
+        "Quantum Beats - FictionalTrack_0de57e.mp3": 601580,
+        "Neon Whispers - FictionalTrack_5b9867.mp3": 354788,
+        "Cybernetic Dreams - FictionalTrack_0cdf07.mp3": 350732,
+        "Neon Whispers - FictionalTrack_677aa2.mp3": 593572
+      },
+      "Rebellious/": {
+        "Quantum Beats - FictionalTrack_e65d5e.mp3": 529924,
+        "Quantum Beats - FictionalTrack_08c0d7.mp3": 661276,
+        "Acoustic Mirage - FictionalTrack_fa267e.mp3": 378604,
+        "The Pixel Chords - FictionalTrack_107c76.mp3": 279076
+      },
+      "Ethereal/": {
+        "Cybernetic Dreams - FictionalTrack_dfa886.mp3": 370700,
+        "Acoustic Mirage - FictionalTrack_867cfd.mp3": 378604,
+        "Quantum Beats - FictionalTrack_1b2994.mp3": 251204
+      },
+      "Nostalgic/": {
+        "Acoustic Mirage - FictionalTrack_84226a.mp3": 251204,
+        "Cybernetic Dreams - FictionalTrack_c646da.mp3": 283028,
+        "The Pixel Chords - FictionalTrack_a3ac2b.mp3": 581716,
+        "Acoustic Mirage - FictionalTrack_d4d605.mp3": 418436,
+        "Quantum Beats - FictionalTrack_fd89f6.mp3": 537828,
+        "The Pixel Chords - FictionalTrack_47a7f2.mp3": 430396,
+        "Neon Whispers - FictionalTrack_0b78cb.mp3": 613540,
+        "The Pixel Chords - FictionalTrack_be5477.mp3": 259212
+      },
+      "Hypnotic/": {
+        "Cybernetic Dreams - FictionalTrack_dfa886.mp3": 370700,
+        "Acoustic Mirage - FictionalTrack_867cfd.mp3": 378604,
+        "Quantum Beats - FictionalTrack_1b2994.mp3": 251204
+      },
+      "Joyful/": {
+        "Quantum Beats - FictionalTrack_c6e849.mp3": 350732,
+        "Neon Whispers - FictionalTrack_05a5a5.mp3": 279076,
+        "Cybernetic Dreams - FictionalTrack_774056.mp3": 561748,
+        "Neon Whispers - FictionalTrack_2589b2.mp3": 509956
+      },
+      "Playful/": {
+        "Quantum Beats - FictionalTrack_c6e849.mp3": 350732,
+        "Neon Whispers - FictionalTrack_05a5a5.mp3": 279076,
+        "Cybernetic Dreams - FictionalTrack_774056.mp3": 561748,
+        "Neon Whispers - FictionalTrack_2589b2.mp3": 509956
+      },
+      "Groovy/": {
+        "Acoustic Mirage - FictionalTrack_84226a.mp3": 251204,
+        "Cybernetic Dreams - FictionalTrack_c646da.mp3": 283028,
+        "The Pixel Chords - FictionalTrack_a3ac2b.mp3": 581716,
+        "Acoustic Mirage - FictionalTrack_d4d605.mp3": 418436,
+        "Quantum Beats - FictionalTrack_fd89f6.mp3": 537828,
+        "The Pixel Chords - FictionalTrack_47a7f2.mp3": 430396,
+        "Neon Whispers - FictionalTrack_0b78cb.mp3": 613540,
+        "The Pixel Chords - FictionalTrack_be5477.mp3": 259212
+      },
+      "Energetic/": {
+        "Acoustic Mirage - FictionalTrack_84226a.mp3": 251204,
+        "Cybernetic Dreams - FictionalTrack_c646da.mp3": 283028,
+        "The Pixel Chords - FictionalTrack_a3ac2b.mp3": 581716,
+        "Acoustic Mirage - FictionalTrack_d4d605.mp3": 418436,
+        "Quantum Beats - FictionalTrack_fd89f6.mp3": 537828,
+        "The Pixel Chords - FictionalTrack_47a7f2.mp3": 430396,
+        "Neon Whispers - FictionalTrack_0b78cb.mp3": 613540,
+        "The Pixel Chords - FictionalTrack_be5477.mp3": 259212
+      },
+      "Aggressive/": {
+        "Quantum Beats - FictionalTrack_e65d5e.mp3": 529924,
+        "Quantum Beats - FictionalTrack_08c0d7.mp3": 661276,
+        "Acoustic Mirage - FictionalTrack_fa267e.mp3": 378604,
+        "The Pixel Chords - FictionalTrack_107c76.mp3": 279076
+      },
+      "Meditative/": {
+        "Cybernetic Dreams - FictionalTrack_dfa886.mp3": 370700,
+        "Acoustic Mirage - FictionalTrack_867cfd.mp3": 378604,
+        "Quantum Beats - FictionalTrack_1b2994.mp3": 251204
+      },
+      "Serene/": {
+        "Cybernetic Dreams - FictionalTrack_c9d310.mp3": 426444,
+        "The Pixel Chords - FictionalTrack_723cab.mp3": 625500,
+        "Quantum Beats - FictionalTrack_0de57e.mp3": 601580,
+        "Neon Whispers - FictionalTrack_5b9867.mp3": 354788,
+        "Cybernetic Dreams - FictionalTrack_0cdf07.mp3": 350732,
+        "Neon Whispers - FictionalTrack_677aa2.mp3": 593572
+      },
+      "Gritty/": {
+        "Quantum Beats - FictionalTrack_e65d5e.mp3": 529924,
+        "Quantum Beats - FictionalTrack_08c0d7.mp3": 661276,
+        "Acoustic Mirage - FictionalTrack_fa267e.mp3": 378604,
+        "The Pixel Chords - FictionalTrack_107c76.mp3": 279076
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+/* moods-checks.css — Dark theme for Mood Assignments Checker */
+
+body {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+/* ── Track details (collapsible) ─────────────────────────────────────────── */
+details.track-details {
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  background: #1a1a1a;
+}
+details.track-details[open] {
+  border-color: #555;
+}
+details.track-details summary {
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  user-select: none;
+  border-radius: 8px;
+  list-style: none;
+}
+details.track-details summary::-webkit-details-marker {
+  display: none;
+}
+details.track-details summary::marker {
+  display: none;
+  content: "";
+}
+details.track-details summary::before {
+  content: "▶";
+  font-size: 0.65rem;
+  color: #888;
+  transition: transform 0.15s ease;
+  flex-shrink: 0;
+}
+details.track-details[open] > summary::before {
+  transform: rotate(90deg);
+}
+details.track-details summary:hover {
+  background: #242424;
+}
+
+/* ── Track name inside summary ───────────────────────────────────────────── */
+.track-label {
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: #90caf9;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Reviewed checkbox (large) ───────────────────────────────────────────── */
+.reviewed-cb {
+  width: 1.5rem;
+  height: 1.5rem;
+  accent-color: #4caf50;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+/* Reviewed state highlight */
+details.track-details.is-reviewed {
+  border-color: #4caf50;
+}
+details.track-details.is-reviewed .track-label {
+  color: #81c784;
+}
+/* ── Mood checkbox grid ──────────────────────────────────────────────────── */
+.mood-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  gap: 3px 14px;
+  padding: 0.5rem 1rem 1rem;
+}
+.mood-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+.mood-label span {
+  font-size: 0.82rem;
+  transition: color 0.12s;
+}
+.mood-label input {
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.mood-label input:checked + span {
+  font-weight: 600;
+}
+
+/* ── CTA bar (sticky bottom) ────────────────────────────────────────────── */
+.cta-bar {
+  position: sticky;
+  top: 0;
+  background: #1e1e1e;
+  border-bottom: 2px solid #333;
+  padding: 0.6rem 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ── Search bar ──────────────────────────────────────────────────────────── */
+.search-bar input {
+  background: #222;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+.search-bar input::placeholder {
+  color: #888;
+}
+
+/* ── Misc ────────────────────────────────────────────────────────────────── */
+.autosave-indicator {
+  pointer-events: none;
+  font-size: 0.75rem;
+  color: #888;
+  transition: opacity 0.6s;
+}

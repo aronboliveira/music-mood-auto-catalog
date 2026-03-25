@@ -1,0 +1,128 @@
+{
+  "$schema": "mood-clusters-schema",
+  "version": "2.0",
+  "date": "2026-03-24",
+  "description": "15 semantic clusters defining the emotional arc for mood ordering. Clusters are traversed sequentially; within each cluster, nearest-neighbor (NN-TSP) determines local order. Adjacent clusters are oriented so the tail of one is nearest the head of the next.",
+  "algorithm": {
+    "inter_cluster": "Sequential arc from calm→dark→aggressive→joyful",
+    "intra_cluster": "Exhaustive NN-TSP (try every start node, pick shortest Hamiltonian path)",
+    "orientation": "Reverse cluster if tail-to-prev-tail distance < head-to-prev-tail distance",
+    "distance_metric": "Euclidean in 6D (V, A, D, K, L, I)",
+    "source": "scripts/_sort_moods.py"
+  },
+  "clusters": [
+    {
+      "id": 1,
+      "label": "Calm / Peaceful",
+      "theme": "Low arousal, positive valence, minimal darkness",
+      "moods": ["Peaceful", "Serene", "Relaxed", "Chill", "Sleepy"]
+    },
+    {
+      "id": 2,
+      "label": "Warm / Tender",
+      "theme": "Positive valence, low-to-moderate arousal, intimacy",
+      "moods": ["Cozy", "Tender", "Romantic", "Sensual"]
+    },
+    {
+      "id": 3,
+      "label": "Nostalgic / Longing",
+      "theme": "High longing dimension, mixed valence",
+      "moods": ["Nostalgic", "Wistful", "Yearning", "Bittersweet", "Emotional"]
+    },
+    {
+      "id": 4,
+      "label": "Reflective / Spiritual",
+      "theme": "Moderate inwardness, low arousal, reverence",
+      "moods": [
+        "Awe-inspired",
+        "Reverent",
+        "Spiritual",
+        "Contemplative",
+        "Meditative"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Introspective",
+      "theme": "Bridge into darker territory — high inwardness, muted arousal",
+      "moods": ["Introspective", "Jaded"]
+    },
+    {
+      "id": 6,
+      "label": "Tense / Suspenseful",
+      "theme": "Rising arousal, moderate darkness",
+      "moods": ["Tense", "Suspenseful", "Gritty"]
+    },
+    {
+      "id": 7,
+      "label": "Sad / Lonely",
+      "theme": "Negative valence, low dominance, moderate longing",
+      "moods": ["Melancholic", "Sad", "Lonely", "Resigned", "Heartbreak"]
+    },
+    {
+      "id": 8,
+      "label": "Depressive",
+      "theme": "Extreme negative valence, helplessness",
+      "moods": ["Depressive", "Anguished", "Desperate"]
+    },
+    {
+      "id": 9,
+      "label": "Dark / Brooding",
+      "theme": "High darkness, low valence, moderate inwardness",
+      "moods": ["Brooding", "Dark", "Macabre", "Ominous"]
+    },
+    {
+      "id": 10,
+      "label": "Mysterious / Surreal",
+      "theme": "Moderate darkness, low arousal, ethereal quality",
+      "moods": ["Mysterious", "Hypnotic", "Surreal", "Ethereal"]
+    },
+    {
+      "id": 11,
+      "label": "Aggressive / Rebellious",
+      "theme": "Very high arousal, high dominance, negative-to-mixed valence",
+      "moods": [
+        "Aggressive",
+        "Furious",
+        "Vengeful",
+        "Explosive",
+        "Chaotic",
+        "Frenzy",
+        "Rebellious",
+        "Defiant"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Energetic / Groovy",
+      "theme": "High arousal, positive valence, moderate dominance",
+      "moods": ["Energetic", "Danceful", "Groovy"]
+    },
+    {
+      "id": 13,
+      "label": "Heroic / Epic",
+      "theme": "High dominance, high arousal, positive valence",
+      "moods": ["Epic", "Heroic", "Triumphant", "Adventurous", "Soaring"]
+    },
+    {
+      "id": 14,
+      "label": "Determined / Focused",
+      "theme": "High dominance, moderate arousal, functional orientation",
+      "moods": ["Determined", "Hardworking", "Focused", "StudyFocus"]
+    },
+    {
+      "id": 15,
+      "label": "Joyful / Upbeat",
+      "theme": "High valence, high arousal, minimal darkness",
+      "moods": [
+        "Ecstatic",
+        "Joyful",
+        "Playful",
+        "Whimsical",
+        "Upbeat",
+        "Optimistic"
+      ]
+    }
+  ],
+  "emotional_arc": "Peaceful → Warm → Nostalgic → Reflective → Introspective → Tense → Sad → Depressive → Dark → Mysterious → Aggressive → Energetic → Epic → Determined → Joyful"
+}

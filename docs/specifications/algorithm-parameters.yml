@@ -1,0 +1,119 @@
+# algorithm-parameters.yml — All tuneable parameters for the classification pipeline
+# Generated: 2026-03-24
+
+# ─── Classification Engine (classify_and_clean.py) ───────────────────
+classification:
+  method: keyword-score ensemble
+  description: >
+    Rule-based classifier that scores filenames against keyword dictionaries
+    for Artist, Genre, and Mood. Not ML despite docstring references to
+    Naive Bayes / k-NN / Random Forest (those describe the conceptual
+    inspiration, not the actual implementation).
+
+  thresholds:
+    genre_min_score: 0.7 # Minimum confidence to assign a genre label
+    mood_min_score: 0.8 # Minimum confidence to assign a mood label
+    source: docs/guidelines/classifier-tuning.toml
+
+  banned_outputs:
+    artist: ["Various"]
+    genre: ["Unclassified"]
+    mood: []
+
+  defaults:
+    artist: null # No default — must match or flag for review
+    genre: null # No default — must match or flag for review
+    mood: "Chill" # Fallback when no mood scores above threshold
+
+# ─── Filename Sanitisation ───────────────────────────────────────────
+sanitisation:
+  transliterate_to_ascii: true
+  remove_diacritics: true
+  remove_non_ascii_symbols: true
+  remove_emoji: true
+  replace_whitespace_with_hyphen: true
+  collapse_repeated_hyphens: true
+  strip_marketing_tags: true
+  strip_youtube_ids: true
+  preserve_ost_labels: true
+  preserve_quality_brackets: true # e.g., [HQ], [Remastered]
+  max_filename_length: 255 # NTFS/exFAT limit
+
+# ─── Mood Ordering Algorithm (_sort_moods.py) ────────────────────────
+mood_ordering:
+  vector_dimensions: 6
+  dimensions: [Valence, Arousal, Dominance, Darkness, Longing, Inwardness]
+  range: [-1.0, 1.0]
+  distance_metric: euclidean
+
+  clustering:
+    method: manual semantic clusters
+    num_clusters: 15
+    cluster_traversal: sequential emotional arc
+    reference: docs/specifications/mood-clusters.json
+
+  intra_cluster_ordering:
+    method: exhaustive nearest-neighbor TSP
+    description: >
+      Try every node as start, compute greedy NN path, keep shortest.
+      O(n²·n!) theoretically but n≤8 per cluster so tractable.
+
+  inter_cluster_orientation:
+    method: tail-to-head proximity
+    description: >
+      For each adjacent cluster pair, orient the new cluster so that
+      the element closest to the previous cluster's tail appears first.
+      Reverse if tail distance < head distance.
+
+  iterations:
+    v1: { dimensions: 3, note: "VAD only — failed: Dark near Energetic" }
+    v2: { dimensions: 4, note: "+Darkness — failed: Nostalgic near Aggressive" }
+    v3:
+      { dimensions: 5, note: "+Longing — failed: Introspective near Ecstatic" }
+    v4:
+      {
+        dimensions: 6,
+        note: "+Inwardness + 15 clusters — current production version",
+      }
+
+# ─── Audio Slicing ───────────────────────────────────────────────────
+slicing:
+  ambient_slicers:
+    segment_length_seconds: 180
+    tool: ffmpeg
+    codec: copy # Stream copy, no re-encoding
+    format: mp3
+
+  slice_tracks:
+    max_segment_seconds: 300 # 5 minutes
+    tool: ffmpeg
+    codec: copy
+    format: mp3
+
+  slice_random:
+    seg_min_seconds: 120 # Minimum random segment
+    seg_max_seconds: 300 # Maximum random segment
+    tool: ffmpeg
+    codec: copy
+    format: mp3
+    filename_sanitise: true
+
+# ─── File Operations ─────────────────────────────────────────────────
+operations:
+  idempotent_copy: true # Skip if dest exists with same size
+  skip_same_size_duplicate: true
+  suffix_on_collision: true # Add -2, -3 etc. on name clash
+  copy_method: shutil.copy2 # Preserves metadata timestamps
+  multi_label_strategy: >
+    Tracks are COPIED (not hardlinked) to each applicable folder.
+    A single .mp3 may exist in Artist/X, Genre/Y, and Mood/Z1..Zn.
+    Verified by inode check: all copies have distinct inodes (nlink=1).
+
+# ─── Backup ──────────────────────────────────────────────────────────
+backup:
+  method: rsync
+  command: "rsync -aHX classified/ .backup/classified/"
+  policy:
+    - Before large operations
+    - After large operations
+    - After maps regeneration
