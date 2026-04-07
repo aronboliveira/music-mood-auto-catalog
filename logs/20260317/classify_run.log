@@ -1,7 +1,7 @@
 nohup: ignoring input
 ======================================================================
   MUSIC CLASSIFICATION & FILE RENAMING SCRIPT
-  Using Naive Bayes + k-NN + Random Forest ensemble
+  Using Naive BaFictional-IronHarbor+ k-NN + Random Forest ensemble
 ======================================================================
 
 [PHASE 1] Reviewing and reorganizing classified tree...
@@ -38,46 +38,46 @@ Total copies made: 113
 [PHASE 3] Renaming files (transliterate CJK, remove diacriticals, clean spacing)...
 ============================================================
   Renamed 4121 files in classified/
-FictionalBand - rock-song-24776b.mp3
-FictionalBand - rock-song-32ebb0.mp3
-FictionalBand - rock-song-b057b3.mp3
-FictionalBand - rock-song-83fe13.mp3
-FictionalBand - rock-song-354e55.mp3
-FictionalBand - rock-song-a9739a.mp3
-FictionalBand - rock-song-351391.mp3
-FictionalBand - rock-song-61dba0.mp3
-FictionalBand - rock-song-68baae.mp3
-FictionalBand - rock-song-c2d05b.mp3
-FictionalBand - rock-song-96f7bd.mp3
-FictionalBand - rock-song-e02359.mp3
-FictionalBand - rock-song-5bcc94.mp3
-FictionalBand - rock-song-385edd.mp3
-FictionalBand - rock-song-cfeba3.mp3
-FictionalBand - rock-song-391f78.mp3
-FictionalBand - rock-song-4cf872.mp3
-FictionalBand - rock-song-f751e9.mp3
-FictionalBand - rock-song-051f91.mp3
-FictionalBand - rock-song-09ab9d.mp3
-FictionalBand - rock-song-851336.mp3
-FictionalBand - rock-song-3e4072.mp3
-FictionalBand - rock-song-72f523.mp3
-FictionalBand - rock-song-d055e8.mp3
-FictionalBand - rock-song-a9d409.mp3
-FictionalBand - rock-song-3498ce.mp3
-FictionalBand - rock-song-8b4a36.mp3
-FictionalBand - rock-song-f57d0d.mp3
-FictionalBand - rock-song-b643d7.mp3
-FictionalBand - rock-song-e2d1be.mp3
-FictionalBand - rock-song-ba09fc.mp3
-FictionalBand - rock-song-82e403.mp3
-FictionalBand - rock-song-fd6fd9.mp3
-FictionalBand - rock-song-7fa2f5.mp3
-FictionalBand - rock-song-7c1119.mp3
-FictionalBand - rock-song-cd975c.mp3
-FictionalBand - rock-song-928357.mp3
-FictionalBand - rock-song-fcc2c8.mp3
-FictionalBand - rock-song-bcd8cf.mp3
-FictionalBand - rock-song-32d04e.mp3
+    Fictional-Track-dcd59b83.mp3
+    → Fictional-Track-c54dc2b4.mp3
+    Fictional-Track-cb7e9ce0.mp3
+    → Fictional-Track-97297f99.mp3
+    Fictional-Track-cb14fa9e.mp3
+    → Fictional-Track-95e64192.mp3
+    Fictional-Track-0f601946.mp3
+    → Fictional-Track-794ff407.mp3
+    Fictional-Track-bb3f554f.mp3
+    → Fictional-Track-11dbdb9c.mp3
+    B.R.U.N.O.M.AR.S_-_Doo_Wops_&Fictional-Track-41ba564d.mp3
+    → B.R.U.N.O.M.AR.S-Doo-Wops-&Fictional-Track-3e78bd66.mp3
+    Fictional-Track-ece273b6.mp3
+    → Fictional-Track-4c18509e.mp3
+    Fictional-Track-e01e23de.mp3
+    → Fictional-Track-23836747.mp3
+    Fictional-Track-530635c5.mp3
+    → Fictional-Track-ec290c6c.mp3
+    C.h.u.c.k_B.e.r.r.y_Greatest_Hits_~Fictional-Track-6b9ed35d.mp3
+    → Fictional-Track-e55a7e24.mp3
+    C.h.u.c.k_B.e.r.r.y_Greatest_Hits_~Fictional-Track-a3f61899.mp3
+    → Fictional-Track-851d7056.mp3
+    Fictional-Track-30628212.mp3
+    → Fictional-Track-45682795.mp3
+    [1_Hour]_CYBERPUNK_BEATS⚡🔥__Intense_Music_for_Gaming,_Streaming_&_Workouts_💪Fictional-Track-999f2fd1.mp3
+    → [1-Hour]-CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-84b8dc27.mp3
+    [1_Hour]_CYBERPUNK_METAL_V1_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-9884795a.mp3
+    → Fictional-Track-9c915f73.mp3
+    [1_Hour]_CYBERPUNK_METAL_V2_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-30741a2d.mp3
+    → Fictional-Track-ea6c85c7.mp3
+    [1_Hour]_CYBERPUNK_METAL_V3_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-b400f74c.mp3
+    → Fictional-Track-ce0f3435.mp3
+    [1_Hour]_Dark_Angel_Metal🔥__Epic_Orchestral_Instrumental_BGM🕯️⛓️Fictional-Track-ec518bfe.mp3
+    → Fictional-Track-66ad7974.mp3
+    Fictional-Track-0050fe69.mp3
+    → Fictional-Track-dbb56782.mp3
+    Fictional-Track-8898d4f1.mp3
+    → Fictional-Track-c0b1558b.mp3
+    Fictional-Kw-a1efc5cd (1994) — FORRÓ TRIBUTE Fictional-Track-733ccdc8.mp3
+    → Fictional-Track-0e0414bd.mp3
     ... and 4101 more
 
 ============================================================
@@ -88,98 +88,98 @@ FictionalBand - rock-song-32d04e.mp3
 Classifying 19 new singles
 ============================================================
 
-FictionalBand - rock-song-931832.mp3
-    Artists: ['FictionalBand_7aeb94', 'FictionalBand_42d5d5']
+  Fictional-Track-a0a76cf6.mp3
+    Artists: ['Fictional-AmberSpark', 'Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Epic']
 
-FictionalBand - rock-song-f732d1.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-19f5adcc.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['Emo', 'FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Serene', 'Cinematic']
 
-FictionalBand - rock-song-c6987b.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-1b217137.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Serene']
 
-FictionalBand - rock-song-d68f2f.mp3
-    Artists: ['FictionalBand_43498d']
+  Fictional-Track-dd7c9daa.mp3
+    Artists: ['Guzheng']
     Genres:  ['TraditionalChinese']
     Moods:   ['Emotional', 'Romantic', 'Serene']
 
-FictionalBand - rock-song-3b4c80.mp3
-    Artists: ['FictionalBand_504297']
+  Fictional-Track-6c4a2964.mp3
+    Artists: ['Guqin']
     Genres:  ['TraditionalChinese']
     Moods:   ['Serene']
 
-FictionalBand - rock-song-cd220d.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-e6c22890.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 
-FictionalBand - rock-song-456b89.mp3
-    Artists: ['FictionalBand_7aeb94', 'FictionalBand_42d5d5']
+  Fictional-Track-79eec960.mp3
+    Artists: ['Fictional-AmberSpark', 'Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Funk', 'Pop', 'Soul', 'Orchestral']
     Moods:   ['Epic', 'Cinematic']
 
-FictionalBand - rock-song-20eef4.mp3
-    Artists: ['FictionalBand_2af787', 'FictionalBand_43498d']
+  Fictional-Track-60fb3e1c.mp3
+    Artists: ['Fictional-SterlingGate', 'Guzheng']
     Genres:  ['AnimeOST', 'TraditionalChinese']
     Moods:   ['Melancholic', 'Serene']
 
-FictionalBand - rock-song-f0ce7a.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-d977f20f.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 
-FictionalBand - rock-song-5c1014.mp3
-    Artists: ['FictionalBand_6146d0']
+  Fictional-Track-21568faf.mp3
+    Artists: ['Fictional-CrystalBell']
     Genres:  ['GameOST', 'TraditionalJapanese']
     Moods:   ['Gaming', 'Nostalgic']
 
-FictionalBand - rock-song-ee9511.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-7c205c09.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Cinematic']
 
-FictionalBand - rock-song-2c09e0.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-4a883a3e.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal']
 
-FictionalBand - rock-song-665a92.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-b403a1a4.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Serene']
 
-FictionalBand - rock-song-800f40.mp3
-    Artists: ['FictionalBand_6146d0']
+  Fictional-Track-80f5290d.mp3
+    Artists: ['Fictional-CrystalBell']
     Genres:  ['GameOST']
     Moods:   ['Gaming', 'Nostalgic', 'Serene']
 
-FictionalBand - rock-song-dc98f6.mp3
-    Artists: ['FictionalBand_54d4ab']
+  Fictional-Track-f45f10e8.mp3
+    Artists: ['Gayageum']
     Genres:  ['TraditionalKorean']
     Moods:   ['Serene']
 
-FictionalBand - rock-song-ae5d01.mp3
-    Artists: ['FictionalBand_54d4ab']
+  Fictional-Track-296506b2.mp3
+    Artists: ['Gayageum']
     Genres:  ['TraditionalKorean']
     Moods:   ['Serene']
 
-FictionalBand - rock-song-9074f8.mp3
-    Artists: ['FictionalBand_42d5d5']
+  Fictional-Track-9c022ada.mp3
+    Artists: ['Fictional-CrimsonFountain']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 
-FictionalBand - rock-song-5d6f98.mp3
-    Artists: ['FictionalBand_54d4ab']
+  Fictional-Track-3103f56e.mp3
+    Artists: ['Gayageum']
     Genres:  ['TraditionalKorean']
     Moods:   ['Melancholic', 'Serene']
 
-FictionalBand - rock-song-3d409e.mp3
-    Artists: ['FictionalBand_b06461']
+  Fictional-Track-c496dc8b.mp3
+    Artists: ['Koto']
     Genres:  ['TraditionalJapanese']
     Moods:   ['Serene']
 
