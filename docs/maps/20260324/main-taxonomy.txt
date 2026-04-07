@@ -1,215 +1,285 @@
-classified/
-    albums/
-        Artist/
-            Acoustic Mirage/
-                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
-            Quantum Beats/
-                Quantum Beats - FictionalTrack_07dbdf.mp3
-                Quantum Beats - FictionalTrack_ff8a1b.mp3
-            Cybernetic Dreams/
-                Cybernetic Dreams - FictionalTrack_649ec8.mp3
-                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
-            Neon Whispers/
-                Neon Whispers - FictionalTrack_a6a8b9.mp3
-                Neon Whispers - FictionalTrack_d109d2.mp3
-                Neon Whispers - FictionalTrack_884f80.mp3
-        Genre/
-            pagode/
-                Cybernetic Dreams - FictionalTrack_649ec8.mp3
-                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
-            calm/
-                Neon Whispers - FictionalTrack_a6a8b9.mp3
-                Quantum Beats - FictionalTrack_07dbdf.mp3
-                Neon Whispers - FictionalTrack_884f80.mp3
-                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
-                Quantum Beats - FictionalTrack_ff8a1b.mp3
-            ambient/
-                Neon Whispers - FictionalTrack_d109d2.mp3
-        Mood/
-            Upbeat/
-                Cybernetic Dreams - FictionalTrack_649ec8.mp3
-                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
-            Peaceful/
-                Neon Whispers - FictionalTrack_a6a8b9.mp3
-                Quantum Beats - FictionalTrack_07dbdf.mp3
-                Neon Whispers - FictionalTrack_884f80.mp3
-                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
-                Quantum Beats - FictionalTrack_ff8a1b.mp3
-            Relaxed/
-                Neon Whispers - FictionalTrack_a6a8b9.mp3
-                Quantum Beats - FictionalTrack_07dbdf.mp3
-                Neon Whispers - FictionalTrack_884f80.mp3
-                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
-                Quantum Beats - FictionalTrack_ff8a1b.mp3
-            Ethereal/
-                Neon Whispers - FictionalTrack_d109d2.mp3
-            Hypnotic/
-                Neon Whispers - FictionalTrack_d109d2.mp3
-            Joyful/
-                Cybernetic Dreams - FictionalTrack_649ec8.mp3
-                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
-            Playful/
-                Cybernetic Dreams - FictionalTrack_649ec8.mp3
-                Acoustic Mirage - FictionalTrack_f4fdc7.mp3
-            Meditative/
-                Neon Whispers - FictionalTrack_d109d2.mp3
-            Serene/
-                Neon Whispers - FictionalTrack_a6a8b9.mp3
-                Quantum Beats - FictionalTrack_07dbdf.mp3
-                Neon Whispers - FictionalTrack_884f80.mp3
-                Cybernetic Dreams - FictionalTrack_b0df0a.mp3
-                Quantum Beats - FictionalTrack_ff8a1b.mp3
-    singles/
-        Artist/
-            The Pixel Chords/
-                The Pixel Chords - FictionalTrack_a3ac2b.mp3
-                The Pixel Chords - FictionalTrack_723cab.mp3
-                The Pixel Chords - FictionalTrack_47a7f2.mp3
-                The Pixel Chords - FictionalTrack_107c76.mp3
-                The Pixel Chords - FictionalTrack_be5477.mp3
-            Acoustic Mirage/
-                Acoustic Mirage - FictionalTrack_84226a.mp3
-                Acoustic Mirage - FictionalTrack_d4d605.mp3
-                Acoustic Mirage - FictionalTrack_fa267e.mp3
-                Acoustic Mirage - FictionalTrack_867cfd.mp3
-            Quantum Beats/
-                Quantum Beats - FictionalTrack_c6e849.mp3
-                Quantum Beats - FictionalTrack_e65d5e.mp3
-                Quantum Beats - FictionalTrack_08c0d7.mp3
-                Quantum Beats - FictionalTrack_fd89f6.mp3
-                Quantum Beats - FictionalTrack_0de57e.mp3
-                Quantum Beats - FictionalTrack_1b2994.mp3
-            Cybernetic Dreams/
-                Cybernetic Dreams - FictionalTrack_c646da.mp3
-                Cybernetic Dreams - FictionalTrack_dfa886.mp3
-                Cybernetic Dreams - FictionalTrack_c9d310.mp3
-                Cybernetic Dreams - FictionalTrack_774056.mp3
-                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
-            Neon Whispers/
-                Neon Whispers - FictionalTrack_05a5a5.mp3
-                Neon Whispers - FictionalTrack_0b78cb.mp3
-                Neon Whispers - FictionalTrack_5b9867.mp3
-                Neon Whispers - FictionalTrack_2589b2.mp3
-                Neon Whispers - FictionalTrack_677aa2.mp3
-        Genre/
-            pagode/
-                Quantum Beats - FictionalTrack_c6e849.mp3
-                Neon Whispers - FictionalTrack_05a5a5.mp3
-                Cybernetic Dreams - FictionalTrack_774056.mp3
-                Neon Whispers - FictionalTrack_2589b2.mp3
-            synthwave/
-                Acoustic Mirage - FictionalTrack_84226a.mp3
-                Cybernetic Dreams - FictionalTrack_c646da.mp3
-                The Pixel Chords - FictionalTrack_a3ac2b.mp3
-                Acoustic Mirage - FictionalTrack_d4d605.mp3
-                Quantum Beats - FictionalTrack_fd89f6.mp3
-                The Pixel Chords - FictionalTrack_47a7f2.mp3
-                Neon Whispers - FictionalTrack_0b78cb.mp3
-                The Pixel Chords - FictionalTrack_be5477.mp3
-            calm/
-                Cybernetic Dreams - FictionalTrack_c9d310.mp3
-                The Pixel Chords - FictionalTrack_723cab.mp3
-                Quantum Beats - FictionalTrack_0de57e.mp3
-                Neon Whispers - FictionalTrack_5b9867.mp3
-                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
-                Neon Whispers - FictionalTrack_677aa2.mp3
-            ambient/
-                Cybernetic Dreams - FictionalTrack_dfa886.mp3
-                Acoustic Mirage - FictionalTrack_867cfd.mp3
-                Quantum Beats - FictionalTrack_1b2994.mp3
-            rock/
-                Quantum Beats - FictionalTrack_e65d5e.mp3
-                Quantum Beats - FictionalTrack_08c0d7.mp3
-                Acoustic Mirage - FictionalTrack_fa267e.mp3
-                The Pixel Chords - FictionalTrack_107c76.mp3
-        Mood/
-            Upbeat/
-                Quantum Beats - FictionalTrack_c6e849.mp3
-                Neon Whispers - FictionalTrack_05a5a5.mp3
-                Cybernetic Dreams - FictionalTrack_774056.mp3
-                Neon Whispers - FictionalTrack_2589b2.mp3
-            Peaceful/
-                Cybernetic Dreams - FictionalTrack_c9d310.mp3
-                The Pixel Chords - FictionalTrack_723cab.mp3
-                Quantum Beats - FictionalTrack_0de57e.mp3
-                Neon Whispers - FictionalTrack_5b9867.mp3
-                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
-                Neon Whispers - FictionalTrack_677aa2.mp3
-            Relaxed/
-                Cybernetic Dreams - FictionalTrack_c9d310.mp3
-                The Pixel Chords - FictionalTrack_723cab.mp3
-                Quantum Beats - FictionalTrack_0de57e.mp3
-                Neon Whispers - FictionalTrack_5b9867.mp3
-                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
-                Neon Whispers - FictionalTrack_677aa2.mp3
-            Rebellious/
-                Quantum Beats - FictionalTrack_e65d5e.mp3
-                Quantum Beats - FictionalTrack_08c0d7.mp3
-                Acoustic Mirage - FictionalTrack_fa267e.mp3
-                The Pixel Chords - FictionalTrack_107c76.mp3
-            Ethereal/
-                Cybernetic Dreams - FictionalTrack_dfa886.mp3
-                Acoustic Mirage - FictionalTrack_867cfd.mp3
-                Quantum Beats - FictionalTrack_1b2994.mp3
-            Nostalgic/
-                Acoustic Mirage - FictionalTrack_84226a.mp3
-                Cybernetic Dreams - FictionalTrack_c646da.mp3
-                The Pixel Chords - FictionalTrack_a3ac2b.mp3
-                Acoustic Mirage - FictionalTrack_d4d605.mp3
-                Quantum Beats - FictionalTrack_fd89f6.mp3
-                The Pixel Chords - FictionalTrack_47a7f2.mp3
-                Neon Whispers - FictionalTrack_0b78cb.mp3
-                The Pixel Chords - FictionalTrack_be5477.mp3
-            Hypnotic/
-                Cybernetic Dreams - FictionalTrack_dfa886.mp3
-                Acoustic Mirage - FictionalTrack_867cfd.mp3
-                Quantum Beats - FictionalTrack_1b2994.mp3
-            Joyful/
-                Quantum Beats - FictionalTrack_c6e849.mp3
-                Neon Whispers - FictionalTrack_05a5a5.mp3
-                Cybernetic Dreams - FictionalTrack_774056.mp3
-                Neon Whispers - FictionalTrack_2589b2.mp3
-            Playful/
-                Quantum Beats - FictionalTrack_c6e849.mp3
-                Neon Whispers - FictionalTrack_05a5a5.mp3
-                Cybernetic Dreams - FictionalTrack_774056.mp3
-                Neon Whispers - FictionalTrack_2589b2.mp3
-            Groovy/
-                Acoustic Mirage - FictionalTrack_84226a.mp3
-                Cybernetic Dreams - FictionalTrack_c646da.mp3
-                The Pixel Chords - FictionalTrack_a3ac2b.mp3
-                Acoustic Mirage - FictionalTrack_d4d605.mp3
-                Quantum Beats - FictionalTrack_fd89f6.mp3
-                The Pixel Chords - FictionalTrack_47a7f2.mp3
-                Neon Whispers - FictionalTrack_0b78cb.mp3
-                The Pixel Chords - FictionalTrack_be5477.mp3
-            Energetic/
-                Acoustic Mirage - FictionalTrack_84226a.mp3
-                Cybernetic Dreams - FictionalTrack_c646da.mp3
-                The Pixel Chords - FictionalTrack_a3ac2b.mp3
-                Acoustic Mirage - FictionalTrack_d4d605.mp3
-                Quantum Beats - FictionalTrack_fd89f6.mp3
-                The Pixel Chords - FictionalTrack_47a7f2.mp3
-                Neon Whispers - FictionalTrack_0b78cb.mp3
-                The Pixel Chords - FictionalTrack_be5477.mp3
-            Aggressive/
-                Quantum Beats - FictionalTrack_e65d5e.mp3
-                Quantum Beats - FictionalTrack_08c0d7.mp3
-                Acoustic Mirage - FictionalTrack_fa267e.mp3
-                The Pixel Chords - FictionalTrack_107c76.mp3
-            Meditative/
-                Cybernetic Dreams - FictionalTrack_dfa886.mp3
-                Acoustic Mirage - FictionalTrack_867cfd.mp3
-                Quantum Beats - FictionalTrack_1b2994.mp3
-            Serene/
-                Cybernetic Dreams - FictionalTrack_c9d310.mp3
-                The Pixel Chords - FictionalTrack_723cab.mp3
-                Quantum Beats - FictionalTrack_0de57e.mp3
-                Neon Whispers - FictionalTrack_5b9867.mp3
-                Cybernetic Dreams - FictionalTrack_0cdf07.mp3
-                Neon Whispers - FictionalTrack_677aa2.mp3
-            Gritty/
-                Quantum Beats - FictionalTrack_e65d5e.mp3
-                Quantum Beats - FictionalTrack_08c0d7.mp3
-                Acoustic Mirage - FictionalTrack_fa267e.mp3
-                The Pixel Chords - FictionalTrack_107c76.mp3
+=== Main Taxonomy Map ===
+
+--- Artist ---
+  Fictional-DuskPeak: 4
+  Fictional-BrassTide: 2
+  Fictional-AzureSpire: 1
+  Fictional-BrassHorizon: 1
+  Fictional-VelvetSpire: 1
+  Fictional-LunarDrifter: 1
+  Fictional-ZincWing: 31
+  Fictional-IronCanyon: 1
+  Fictional-FrozenMask: 4
+  Fictional-FadingHelix: 2
+  Fictional-MistySpark: 1
+  Fictional-EmeraldTrail: 1
+  Fictional-ObsidianCastle: 13
+  Fictional-EbonySpark: 1
+  Fictional-MistyStrand: 1
+  Fictional-IronSail: 9
+  Fictional-EmeraldFlame: 2
+  Fictional-SpectralTower: 1
+  Fictional-VelvetLantern: 1
+  Fictional-IronSignal: 5
+  Fictional-SolarWarden: 1
+  Fictional-FrozenSignal: 1
+  Fictional-JasperWarden: 23
+  Fictional-CobaltSignal: 2
+  Fictional-SmokyPrism: 1
+  Fictional-GildedFalcon: 1
+  Fictional-QuartzRidge: 17
+  Fictional-SterlingLotus: 2
+  Fictional-PhantomRaven: 1
+  Fictional-TwilightDrifter: 12
+  Fictional-ScarletCanyon: 21
+  Fictional-GraniteMirror: 1
+  Fictional-EmeraldBloom: 9
+  Fictional-ThunderPrism: 1
+  Fictional-EmeraldWarden: 14
+  Fictional-GraniteRiver: 1
+  Fictional-IronLantern: 1
+  Fictional-FrozenNeedle: 4
+  Fictional-StormMoon: 1
+  Fictional-TimberStone: 1
+  Fictional-CrimsonWhisper: 1
+  Fictional-StormQuarry: 1
+  Fictional-IndigoHarbor: 1
+  Fictional-IvorySignal: 1
+  Fictional-NeonDawn: 5
+  Fictional-JasperBloom: 2
+  Fictional-JasperHorizon: 1
+  Fictional-TimberDawn: 1
+  Fictional-FadingGarden: 1
+  Fictional-TimberNeedle: 5
+  Fictional-TwilightPhoenix: 11
+  Fictional-ScarletPrism: 12
+  Fictional-GlassStone: 7
+  Fictional-SapphireOracle: 13
+  Fictional-VioletGarden: 1
+  Fictional-NeonPillar: 1
+  Fictional-MidnightFrost: 3
+  Fictional-LunarChain: 4
+  Fictional-SolarWarden: 2
+  Fictional-AmberVeil: 1
+  Fictional-ShadowThorn: 2
+  Fictional-TimberRidge: 1
+  Fictional-IronMesa: 6
+  Fictional-QuartzPeak: 25
+  Fictional-LunarCanyon: 3
+  Fictional-SolarIsle: 1
+  Fictional-MidnightBell: 1
+  Fictional-ScarletPrism: 22
+  Fictional-ThistleOrchid: 9
+  Gayageum: 3
+  Fictional-RustyRiver: 2
+  Fictional-SterlingThorn: 1
+  Fictional-ShadowHorizon: 1
+  Fictional-ScarletGlacier: 1
+  Fictional-ShadowPeak: 9
+  Fictional-BrassWhisper: 3
+  Fictional-GraniteCastle: 4
+  Guqin: 1
+  Guzheng: 2
+  Fictional-FadingIsle: 1
+  Fictional-CobaltRiver: 8
+  Fictional-PhantomRaven: 1
+  Fictional-JadeOracle: 1
+  Fictional-RustyMask: 1
+  Fictional-CoralLighthouse: 1
+  Fictional-EmeraldRaven: 16
+  Fictional-IndigoSummit: 1
+  Fictional-GildedFrost: 1
+  Fictional-ThunderChain: 2
+  Fictional-Jozep: 12
+  Fictional-JozepRef: 195
+  Fictional-PhantomMirror: 2
+  Fictional-GraniteCompass: 1
+  Fictional-PhantomLighthouse: 1
+  Fictional-EbonyBeacon: 1
+  Fictional-BlazingCastle: 1
+  Fictional-JadeLotus: 1
+  Koto: 1
+  Fictional-SpectralTower: 1
+  Fictional-SmokySummit: 1
+  Fictional-ThistleGate: 17
+  Fictional-DuskLantern: 1
+  Fictional-ThistleShield: 1
+  Fictional-VioletStone: 1
+  Fictional-VioletHelix: 6
+  Fictional-LunarHorizon: 1
+  Fictional-EmeraldDawn: 1
+  Fictional-FrozenStrand: 1
+  Fictional-MarbleCrown: 5
+  Fictional-AzureRaven: 1
+  Fictional-SmokySummit: 1
+  Fictional-JadePrism: 10
+  Fictional-EmeraldMesa: 1
+  Fictional-GraniteCrown: 6
+  Fictional-LunarKnight: 1
+  Fictional-BrassCompass: 2
+  Fictional-MidnightSpire: 4
+  Fictional-LunarSpire: 17
+  Fictional-SmokyPeak: 23
+  Fictional-AzurePrism: 1
+  Fictional-SterlingQuarry: 1
+  Fictional-RustyMirror: 5
+  Fictional-EbonyFlame: 1
+  Fictional-SterlingGate: 2
+  Fictional-MarbleBloom: 1
+  Fictional-GoldenLantern: 1
+  Fictional-CoralVoyage: 44
+  Fictional-ShadowPhoenix: 4
+  Fictional-DuskPhoenix: 1
+  Fictional-IronSerpent: 3
+  Fictional-JasperIsle: 2
+  Fictional-AmberBell: 1
+  Fictional-SapphireSpire: 1
+  Fictional-ObsidianFalcon: 2
+  Fictional-TimberCastle: 10
+  Fictional-SapphireHaven: 2
+  Fictional-ShadowHorizon: 2
+  Fictional-BrassSpire: 1
+  Fictional-SapphireNeedle: 1
+  Fictional-AzurePhoenix: 8
+  Fictional-VolcanicLotus: 1
+  Fictional-EbonyBloom: 2
+  Fictional-ZincCipher: 6
+  Fictional-CrimsonCrown: 1
+  Fictional-BrassHorizon: 3
+  Fictional-ZincNeedle: 6
+  Fictional-AmberSpark: 9
+  Fictional-IvoryLighthouse: 4
+  Fictional-PhantomWhisper: 63
+  Fictional-IronMesa: 5
+  Fictional-SilverLighthouse: 38
+  Fictional-MarbleRose: 49
+  Fictional-ObsidianPrism: 1
+  Fictional-ThunderIsle: 3
+  Fictional-JadeFrost: 1
+  Fictional-FrozenCrown: 2
+  Fictional-CrimsonScholar: 1
+  Fictional-AzureMirror: 1
+  Fictional-NeonShore: 5
+  Fictional-VioletFalcon: 4
+  Fictional-TwilightSpark: 1
+  Fictional-QuartzStrand: 1
+  Fictional-AzureShore: 13
+  Fictional-ScarletBell: 1
+  Fictional-EbonyBell: 2
+  Fictional-ScarletHorizon: 4
+  Fictional-EbonyVoyage: 1
+  Fictional-CrimsonFountain: 20
+  Fictional-QuartzChain: 1
+  Fictional-QuartzPhoenix: 1
+  Fictional-ZincGate: 83
+  Fictional-ScarletWhisper: 1
+  Fictional-SterlingBeacon: 20
+  Fictional-GraniteShore: 1
+  Fictional-ThunderGhost: 1
+  Fictional-IronPrism: 1
+  Fictional-SterlingJewel: 1
+  Fictional-SmokySpark: 1
+  Fictional-FrozenWing: 2
+  Fictional-TimberFlame: 2
+  Fictional-VidaSimu: 26
+  Fictional-OpalDrifter: 1
+  Fictional-VolcanicSignal: 1
+  Fictional-Kw-270c1b08: 1
+  Fictional-ObsidianRiver: 1
+  Fictional-VolcanicHorn: 6
+  Fictional-ScarletPrism: 2
+  Fictional-GlassCastle: 3
+  Fictional-IronIsle: 1
+  Fictional-CoralCanyon: 1
+  Fictional-ThunderNest: 1
+  Fictional-ThistleLeaf: 1
+  Fictional-CrimsonFrost: 7
+  Fictional-ScarletSwan: 1
+  Fictional-CoralForge: 21
+  Fictional-ThunderTide: 1
+  Fictional-IronHarbor: 3
+  Fictional-TimberThorn: 1
+  Fictional-CrystalCipher: 1
+  Fictional-CrystalBell: 64
+
+--- Genre ---
+  AlternativeMetal: 27
+  AlternativeRock: 93
+  AnimeOST: 35
+  BrazilianRock: 25
+  Britpop: 3
+  CityPop: 12
+  Classical: 1
+  ClassicRock: 77
+  Disco: 19
+  EDM: 6
+  Electronic: 2
+  Emo: 12
+  Eurodance: 3
+  FilmOST: 20
+  FolkMetal: 7
+  FolkRock: 12
+  Forro: 1
+  Funk: 30
+  FunkRock: 38
+  GameOST: 291
+  GlamRock: 6
+  GothicMetal: 3
+  Grunge: 41
+  HardcorePunk: 7
+  HardRock: 40
+  HeavyMetal: 12
+  HipHop: 3
+  IndustrialMetal: 7
+  JazzFusion: 16
+  JPop: 28
+  JRock: 7
+  KPop: 5
+  MedievalFolk: 5
+  Metalcore: 36
+  MPB: 72
+  NuMetal: 52
+  Orchestral: 24
+  Pagode: 14
+  Pop: 84
+  PopPunk: 34
+  PostGrunge: 82
+  PowerMetal: 9
+  ProgressiveRock: 28
+  PsychedelicRock: 4
+  PunkRock: 19
+  RnB: 34
+  Rock: 5
+  RockAndRoll: 3
+  Soul: 55
+  SouthernRock: 2
+  ThrashMetal: 3
+  TraditionalChinese: 4
+  TraditionalJapanese: 2
+  TraditionalKorean: 3
+  Trance: 5
+
+--- Mood ---
+  Adventurous: 63
+  Aggressive: 79
+  Ambient: 17
+  Chill: 537
+  Cinematic: 29
+  Dark: 53
+  Emotional: 128
+  Energetic: 117
+  Epic: 81
+  Ethereal: 45
+  Gaming: 236
+  Introspective: 61
+  Melancholic: 86
+  Mysterious: 31
+  Nostalgic: 245
+  Party: 44
+  Rebellious: 57
+  Romantic: 72
+  Serene: 14
+  StudyFocus: 51
+  Triumphant: 56
+  Upbeat: 96
+  Workout: 70

@@ -1,5 +1,3 @@
-**NOTE: THIS PROJECT IS CURRENTLY USING A MOCK DATASET FOR PUBLIC DEMONSTRATION.**
-
 # Technical Specifications
 
 ## Music Library Classification Pipeline — Deep Documentation
@@ -47,7 +45,7 @@ The system uses a **multi-label copy model**: each track is physically copied (n
 
 - Artist: 200 folders (singles) + 61 folders (albums)
 - Genre: 55 folders
-- Mood: 68 folders (66 refined + legacy: Gaming, Party, Workout, Ambient, Cinematic)
+- Mood: 63 folders (65 canonical moods — functional context moods removed: Gaming, StudyFocus, Workout, Party, Cinematic)
 - Total unique basenames: 980 singles + ~100 album tracks
 
 ### 1.3 Script Inventory
@@ -135,8 +133,9 @@ See [classifier-tuning.toml](../guidelines/classifier-tuning.toml) for threshold
 | ------- | ---------- | ----- | ----------------------------------------- |
 | v1      | 2026-03-17 | 23    | Broad categories (Chill, Energetic, etc.) |
 | v2      | 2026-03-24 | 66    | Fine-grained, 6D emotional model          |
+| v3      | 2026-03-25 | 65    | Removed functional context moods          |
 
-### 3.2 The 66 Moods
+### 3.2 The 65 Moods
 
 Organized by semantic cluster (see [mood-vectors.json](mood-vectors.json)):
 
@@ -157,7 +156,7 @@ Organized by semantic cluster (see [mood-vectors.json](mood-vectors.json)):
 15. **Energy**: Energetic, Danceful, Groovy
 16. **Soaring**: Soaring, Adventurous
 17. **Heroic**: Triumphant, Heroic, Epic
-18. **Focus**: Determined, Hardworking, Focused, StudyFocus
+18. **Focus**: Determined, Hardworking, Focused
 19. **Joy**: Whimsical, Optimistic, Upbeat, Playful, Joyful, Ecstatic
 
 ### 3.3 6D Emotional Vector Space
@@ -175,7 +174,7 @@ Each mood is represented as a point in 6-dimensional emotional space:
 
 The first three dimensions (VAD) follow the **Russell–Mehrabian** affective space model. Dimensions 4-6 were added to better separate moods that collapse in 3D (e.g., Nostalgic vs. Introspective both have similar VAD but differ in Longing and Inwardness).
 
-See [mood-vectors.json](mood-vectors.json) for the complete 66×6 vector table.
+See [mood-vectors.json](mood-vectors.json) for the complete 65×6 vector table.
 
 ### 3.4 Mood Color Palette
 
@@ -199,7 +198,7 @@ Given 66 moods to display in a 1D grid, order them so that emotionally similar m
 Implemented in `scripts/_sort_moods.py`:
 
 ```
-Input:  66 mood vectors in R^6, 15 semantic clusters
+Input:  65 mood vectors in R^6, 15 semantic clusters
 Output: 1D ordering minimizing emotional discontinuity
 
 for each cluster in CLUSTERS (ordered by emotional arc):
@@ -279,7 +278,7 @@ moods-checks.css            Dark theme stylesheet
 
 ```
 localStorage["moods-checks-state-v1"] = {
-  "<FictionalTrack_197e82.mp3>": {
+  "<Fictional-Track-435ed7e9.mp3>": {
     "reviewed": boolean,
     "open": boolean,
     "moods": ["Mood1", "Mood2", ...]
@@ -349,27 +348,27 @@ Summary pipeline: emoji→words → CJK/Kana/Hangul→ASCII (unidecode) → stri
 
 ```json
 {
-  "<FictionalTrack_197e82.mp3>": ["Mood1", "Mood2", ...],
+  "<Fictional-Track-435ed7e9.mp3>": ["Mood1", "Mood2", ...],
   ...
 }
 ```
 
 - Keys: sanitized filenames with `.mp3` extension
 - Values: sorted arrays of mood label strings
-- Total entries: 980
+- Total entries: 970
 
 ### 8.2 moods-checks-data.js
 
 JavaScript constants:
 
-- `ALL_MOODS: string[]` — ordered list of 66 mood labels
+- `ALL_MOODS: string[]` — ordered list of 65 mood labels
 - `MOOD_COLORS: Record<string, string>` — mood → `rgb()` color map
 - `REVIEWED_TRACKS: string[]` — pre-reviewed track filenames
 - `TRACK_MOODS: Record<string, string[]>` — filename → mood list
 
 ### 8.3 mood-vectors.json
 
-See [mood-vectors.json](mood-vectors.json) for the 66×6 emotional vector definitions.
+See [mood-vectors.json](mood-vectors.json) for the 65×6 emotional vector definitions.
 
 ### 8.4 moods-guide.json
 

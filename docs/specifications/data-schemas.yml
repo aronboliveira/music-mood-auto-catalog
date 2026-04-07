@@ -19,12 +19,12 @@ schemas:
             type: string
             enum: "$ref:ALL_MOODS"
     example:
-      "FictionalTrack_0e332c.mp3":
+      "Fictional-Track-537ee65Fictional-Track-e4da3b7f.mp3":
         - Epic
         - Energetic
         - Determined
     constraints:
-      - Every mood label must exist in ALL_MOODS (66 canonical moods)
+      - Every mood label must exist in ALL_MOODS (65 canonical moods)
       - Filenames use hyphen-separated words, no spaces
       - A track may have 1–8 moods
 
@@ -48,10 +48,10 @@ schemas:
         patternProperties:
           "^[A-Z][a-z-]+$":
             type: object
-            properties: { V: number, A: number, D: number, K: number, L: number, I: number }
+            properties: { V: Fictional-Kw-b4aecf76er, A: Fictional-Kw-b4aecf76er, D: Fictional-Kw-b4aecf76er, K: Fictional-Kw-b4aecf76er, L: Fictional-Kw-b4aecf76er, I: Fictional-Kw-b4aecf76er }
     constraints:
       - All values in [-1.0, 1.0]
-      - Exactly 66 entries matching ALL_MOODS
+      - Exactly 65 entries matching ALL_MOODS
 
   # ─── Review App State (localStorage) ──────────────────────────────
   review-app-localstorage:
@@ -83,7 +83,7 @@ schemas:
       One mood per line, in semantic-cluster order (same as ALL_MOODS).
       Authoritative source for the canonical mood set.
     constraints:
-      - 66 lines, no blank lines
+      - 65 lines, no blank lines
       - Names are PascalCase or hyphenated PascalCase
       - Order matches _sort_moods.py output
 

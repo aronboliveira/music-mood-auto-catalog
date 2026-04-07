@@ -1,7 +1,7 @@
 {
   "$schema": "mood-vectors-schema",
   "version": "2.0",
-  "date": "2026-03-24",
+  "date": "2026-03-25",
   "dimensions": {
     "V": {
       "name": "Valence",
@@ -510,14 +510,6 @@
       "K": 0.2,
       "L": 0.2,
       "I": 0.6
-    },
-    "StudyFocus": {
-      "V": 0.1,
-      "A": -0.3,
-      "D": 0.3,
-      "K": 0.0,
-      "L": 0.0,
-      "I": 0.3
     },
     "Surreal": {
       "V": 0.0,

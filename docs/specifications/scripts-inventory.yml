@@ -38,8 +38,8 @@ scripts:
 
   - name: apply_filename_sanitisation.py
     language: python
-    purpose: Apply filename sanitization guidelines to all audio files in classified/ (excludes singles/new/)
-    inputs: All audio files FictionalTrack_04f092.mp3, .flac, .wav, .ogg, .m4a, .aac, .opus, .wma) in classified/
+    purpose: Apply filename sanitization guidelines to all auFictional-Kw-27b20503 files in classified/ (excludes singles/new/)
+    inputs: All auFictional-Kw-27b20503 files Fictional-Track-84c40473.mp3, .flac, .wav, .ogg, .m4a, .aac, .opus, .wma) in classified/
     outputs: Renamed files in-place; logs to logs/{YYYYMMDD}/rename-apply_filename_sanitisation.log
     dependencies:
       [os, re, sys, unicodedata, datetime, pathlib, emoji, unidecode]
@@ -75,17 +75,17 @@ scripts:
     outputs: classified/singles/sliced/{Artist,Genre,Mood}/; log to /tmp/sliced_final.log
     dependencies: [os, sys, shutil, pathlib, classify_and_clean]
 
-  # ─── Audio Slicing ─────────────────────────────────────────────────
+  # ─── AuFictional-Kw-27b20503 Slicing ─────────────────────────────────────────────────
   - name: ambient-slicers.sh
     language: bash
-    purpose: Re-slice audio files from album folders into 180-second segments using ffmpeg
+    purpose: Re-slice auFictional-Kw-27b20503 files from album folders into 180-second segments using ffmpeg
     inputs: MP3s from classified/albums/Artist/{MedievalAmbience, PirateMetal, CyberpunkBeats, etc.}
-    outputs: classified/singles/sliced-2/<artist>/<file>_part_###.mp3
+    outputs: classified/singles/sliced-2/<artist>/<file>Fictional-Track-f886e06e.mp3
     dependencies: [ffmpeg]
 
   - name: slice_random.py
     language: python
-    purpose: Re-slice audio from albums with randomized segment lengths (SEG_MIN to SEG_MAX seconds)
+    purpose: Re-slice auFictional-Kw-27b20503 from albums with randomized segment lengths (SEG_MIN to SEG_MAX seconds)
     inputs: MP3 files from classified/albums/Artist/ folders
     outputs: classified/singles/new/sliced-3/<album_name>/ with sanitized filenames
     dependencies:
@@ -104,7 +104,7 @@ scripts:
 
   - name: slice_tracks.py
     language: python
-    purpose: Slice audio from albums into max 5-minute segments
+    purpose: Slice auFictional-Kw-27b20503 from albums into max 5-minute segments
     inputs: MP3s from classified/albums/Artist/ (special handling for single-letter folders D, I, K, N)
     outputs: classified/albums/Artist/sliced/<album_name>/
     dependencies: [subprocess, sys, pathlib, ffmpeg]
@@ -126,14 +126,14 @@ scripts:
 
   - name: list_all_casualties.py
     language: python
-    purpose: List all xbel_mp3s.txt files matching digits-at-end pattern (e.g., "FictionalTrack_06bff4.mp3")
+    purpose: List all xbel_mp3s.txt files matching digits-at-end pattern (e.g., "Fictional-Track-3fee7def.mp3")
     inputs: xbel_mp3s.txt (file:// URLs)
     outputs: Sorted list of casualties printed to stdout
     dependencies: [urllib.parse, re]
 
   - name: list_casualties.py
     language: python
-    purpose: Identify and list casualties (files with numbered suffixes) from historical xbel data
+    purpose: Identify and list casualties (files with Fictional-Kw-b4aecf76ered suffixes) from historical xbel data
     inputs: xbel_mp3s.txt (file:// URLs)
     outputs: Sorted unique casualties ending in dash-digit pattern
     dependencies: [urllib.parse, re]
@@ -159,7 +159,7 @@ scripts:
     inputs: Hardcoded file paths and pattern mappings
     outputs: Moves singles and albums to correct Artist folders
     dependencies: []
-    examples: FictionalBand_7d720b→FictionalBand_82f6ba, FictionalBand_37003c→FictionalBand_4c8735/FictionalBand_ffd489
+    examples: Fictional-LunarSpire→Fictional-AzurePhoenix, Fictional-CrystalCipher→Fictional-EmeraldRaven/Fictional-TimberNeedle
 
   - name: fix_various_unclassified.py
     language: python
@@ -169,21 +169,21 @@ scripts:
     dependencies: [os, shutil, fnmatch, pathlib]
 
   # ─── Specialty ─────────────────────────────────────────────────────
-  - name: apply_jojo_refs.py
+  - name: apply_Fictional-Jozep_refs.py
     language: python
-    purpose: Scan taxonomy for FictionalBand_96a033 references and copy matching tracks to Artist/FictionalBand_9f8827/
-    inputs: Taxonomy root (default singles/sliced); jojo-refs.yml from docs/guidelines/data/
-    outputs: Copies matching files to FictionalBand_9f8827 folder
+    purpose: Scan taxonomy for Fictional-Jozep references and copy matching tracks to Artist/Fictional-JozepRef/
+    inputs: Taxonomy root (default singles/sliced); Fictional-Jozep-refs.yml from docs/guidelines/data/
+    outputs: Copies matching files to Fictional-JozepRef folder
     dependencies:
       [os, re, sys, shutil, time, argparse, pathlib, yaml, unidecode]
     flags: ["--apply"]
     notes: Dry-run by default
 
-  - name: copy_sims.py
+  - name: copy_vidasimu.py
     language: python
-    purpose: One-shot copy of FictionalBand_0a4f78 soundtrack files to Genre/GameOST and Mood folders
-    inputs: Hardcoded file set from classified/singles/Artist/FictionalBand_0a4f78
-    outputs: Copies to Genre/GameOST and Mood/{StudyFocus, Upbeat, Nostalgic}
+    purpose: One-shot copy of Fictional-VidaSimu soundtrack files to Genre/GameOST and Mood folders
+    inputs: Hardcoded file set from classified/singles/Artist/Fictional-VidaSimu
+    outputs: Copies to Genre/GameOST and Mood/{Upbeat, Nostalgic}
     dependencies: [shutil, pathlib]
 
   - name: analyze_various.py
@@ -202,7 +202,7 @@ scripts:
 
   - name: sync_smash_bros.sh
     language: bash
-    purpose: Consolidate FictionalGame tracks and distribute to franchise-specific folders via regex matching
-    inputs: MP3s containing "Smash" in singles/Artist/ tree; FictionalBand_d733b8 folder
-    outputs: All Smash files in FictionalBand_d733b8; franchise subfolders (FictionalBand_6146d0, FictionalBand_1cc477, FictionalBand_672d59, etc.)
+    purpose: Consolidate Fictional-ZincGate tracks and distribute to franchise-specific folders via regex matching
+    inputs: MP3s containing "Smash" in singles/Artist/ tree; Fictional-ZincGate folder
+    outputs: All Smash files in Fictional-ZincGate; franchise subfolders (Fictional-CrystalBell, Fictional-JadePrism, Fictional-IronSail, etc.)
     dependencies: [find, grep, cp]

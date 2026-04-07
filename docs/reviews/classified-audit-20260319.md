@@ -16,171 +16,171 @@
 
 ### Flagged Folders (count)
 
-- FictionalBand_7d720b: 11
-- CosmicHarmonies: 5
-- FictionalBand_94bfb7: 5
-- FictionalBand_6bbb72: 4
-- FictionalBand_4fd89f: 4
-- FictionalBand_f8e762: 4
-- FictionalBand_6146d0: 4
-- FictionalBand_96a033: 3
-- FictionalBand_0da3df: 3
-- FictionalBand_37003c: 3
-- FictionalBand_73a521: 2
-- FictionalBand_c7bd66: 2
-- FictionalBand_ade44e: 2
-- FictionalBand_6f9412: 2
-- FictionalBand_ce3bd1: 2
+- Fictional-LunarSpire: 11
+- Fictional-ZincWing: 5
+- Fictional-ScarletCanyon: 5
+- Fictional-IronSignal: 4
+- Fictional-ScarletPrism: 4
+- Fictional-MarbleCrown: 4
+- Fictional-CrystalBell: 4
+- Fictional-Jozep: 3
+- Fictional-VioletHelix: 3
+- Fictional-CrystalCipher: 3
+- Fictional-ObsidianCastle: 2
+- Fictional-EmeraldWarden: 2
+- Fictional-ScarletPrism: 2
+- Fictional-CoralVoyage: 2
+- Fictional-SterlingBeacon: 2
 - Various: 2
-- FictionalBand_088f00: 1
-- FictionalBand_1087a0: 1
-- FictionalBand_a25df8: 1
-- FictionalBand_962289: 1
-- FictionalBand_ffd489: 1
-- FictionalBand_f11f1b: 1
-- FictionalBand_38b13c: 1
-- FictionalBand_4c8735: 1
-- FictionalBand_be7649: 1
-- FictionalBand_d733b8: 1
+- Fictional-IronCanyon: 1
+- Fictional-FrozenMask: 1
+- Fictional-JasperWarden: 1
+- Fictional-GlassStone: 1
+- Fictional-TimberNeedle: 1
+- Fictional-SapphireOracle: 1
+- Fictional-MidnightBell: 1
+- Fictional-EmeraldRaven: 1
+- Fictional-PhantomWhisper: 1
+- Fictional-ZincGate: 1
 
 ### Sample Questionable Entries
 
-- `singles/Artist/CosmicHarmonies/FictionalBand - rock-song-0f1e3c.mp3`
+- `singles/Artist/Fictional-ZincWing/Fictional-Track-e0efbdce.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/CosmicHarmonies/FictionalBand - rock-song-2f953e.mp3`
+- `singles/Artist/Fictional-ZincWing/Fictional-Track-be6fa62b.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/CosmicHarmonies/FictionalBand - rock-song-56484b.mp3`
+- `singles/Artist/Fictional-ZincWing/Fictional-Track-d552d24f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/CosmicHarmonies/FictionalBand - rock-song-1fcf15.mp3`
+- `singles/Artist/Fictional-ZincWing/Fictional-Track-3771335Fictional-Track-1679091c.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/CosmicHarmonies/FictionalBand - rock-song-861b2d.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_f5b7d8]
-- `singles/Artist/FictionalBand_088f00/FictionalBand - rock-song-252319.mp3`
+- `singles/Artist/Fictional-ZincWing/Fictional-Track-2f65ecec.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-MarbleRose]
+- `singles/Artist/Fictional-IronCanyon/Fictional-Track-c03ba0dFictional-Track-e4da3b7f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_1087a0/FictionalBand - rock-song-7aea2e.mp3`
+- `singles/Artist/Fictional-FrozenMask/Fictional-Track-aac4179Fictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_73a521/FictionalBand - rock-song-d16369.mp3`
+- `singles/Artist/Fictional-ObsidianCastle/Fictional-Track-cdc2b07Fictional-Track-1679091c.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_73a521/FictionalBand - rock-song-fa35d1.mp3`
+- `singles/Artist/Fictional-ObsidianCastle/Fictional-Track-62f123bb.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6bbb72/FictionalBand - rock-song-1796d2.mp3`
+- `singles/Artist/Fictional-IronSignal/Fictional-Track-4604863Fictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6bbb72/FictionalBand - rock-song-51ba2b.mp3`
+- `singles/Artist/Fictional-IronSignal/Fictional-Track-d6e303bf.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6bbb72/FictionalBand - rock-song-3c3062.mp3`
+- `singles/Artist/Fictional-IronSignal/Fictional-Track-ac61cc0f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6bbb72/FictionalBand - rock-song-d20255.mp3`
+- `singles/Artist/Fictional-IronSignal/Fictional-Track-410fd09Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_a25df8/FictionalBand - rock-song-1bdc66.mp3`
+- `singles/Artist/Fictional-JasperWarden/Fictional-Track-1c3549ec.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_94bfb7/FictionalBand - rock-song-a4cb37.mp3`
+- `singles/Artist/Fictional-ScarletCanyon/Fictional-Track-a65ebd5e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_94bfb7/FictionalBand - rock-song-9258c4.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a415ff]
-- `singles/Artist/FictionalBand_94bfb7/FictionalBand - rock-song-8f4f3b.mp3`
+- `singles/Artist/Fictional-ScarletCanyon/Fictional-Track-6144145e.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ThistleGate]
+- `singles/Artist/Fictional-ScarletCanyon/Fictional-Track-266fa2fb.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_94bfb7/FictionalBand - rock-song-e24ecc.mp3`
+- `singles/Artist/Fictional-ScarletCanyon/Fictional-Track-6a26f54Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_94bfb7/FictionalBand - rock-song-7efb44.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [CosmicHarmonies]
-- `singles/Artist/FictionalBand_c7bd66/FictionalBand - rock-song-fc136b.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_d733b8]
-- `singles/Artist/FictionalBand_c7bd66/FictionalBand - rock-song-714325.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_f5b7d8, FictionalBand_d733b8]
-- `singles/Artist/FictionalBand_962289/FictionalBand - rock-song-b0b88c.mp3`
+- `singles/Artist/Fictional-ScarletCanyon/Fictional-Track-9c53a73Fictional-Track-eccbc87e.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ZincWing]
+- `singles/Artist/Fictional-EmeraldWarden/Fictional-Track-4eab044d.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ZincGate]
+- `singles/Artist/Fictional-EmeraldWarden/Fictional-Track-a44910eFictional-Track-a87ff679.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-MarbleRose, Fictional-ZincGate]
+- `singles/Artist/Fictional-GlassStone/Fictional-Track-eb965e3Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_ffd489/FictionalBand - rock-song-7d7f4d.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_4c8735]
-- `singles/Artist/FictionalBand_4fd89f/FictionalBand - rock-song-4c4854.mp3`
+- `singles/Artist/Fictional-TimberNeedle/Fictional-Track-5d15a8ca.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-EmeraldRaven]
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-40292f4b.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_4fd89f/FictionalBand - rock-song-c56389.mp3`
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-2c68c71Fictional-Track-e4da3b7f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_4fd89f/FictionalBand - rock-song-ed7184.mp3`
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-43943d6Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_4fd89f/FictionalBand - rock-song-75d8eb.mp3`
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-b4d77239.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_f11f1b/FictionalBand - rock-song-1dfa6e.mp3`
+- `singles/Artist/Fictional-SapphireOracle/Fictional-Track-f6191bca.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_38b13c/FictionalBand - rock-song-2fa6ab.mp3`
+- `singles/Artist/Fictional-MidnightBell/Fictional-Track-d29436bc.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_ade44e/FictionalBand - rock-song-d49598.mp3`
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-d3240659.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_ade44e/FictionalBand - rock-song-b7fc0c.mp3`
+- `singles/Artist/Fictional-ScarletPrism/Fictional-Track-d412727a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_4c8735/FictionalBand - rock-song-8b56a0.mp3`
+- `singles/Artist/Fictional-EmeraldRaven/Fictional-Track-fb7de2eFictional-Track-c81e728d.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_96a033/FictionalBand - rock-song-9311c4.mp3`
+- `singles/Artist/Fictional-Jozep/Fictional-Track-3034a76a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_96a033/FictionalBand - rock-song-0ef874.mp3`
+- `singles/Artist/Fictional-Jozep/Fictional-Track-35205ceb.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_96a033/FictionalBand - rock-song-08285f.mp3`
+- `singles/Artist/Fictional-Jozep/Fictional-Track-032792c0.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_0da3df/FictionalBand - rock-song-97b44e.mp3`
+- `singles/Artist/Fictional-VioletHelix/Fictional-Track-d063fddFictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_0da3df/FictionalBand - rock-song-d2804f.mp3`
+- `singles/Artist/Fictional-VioletHelix/Fictional-Track-104f733d.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_0da3df/FictionalBand - rock-song-06139e.mp3`
+- `singles/Artist/Fictional-VioletHelix/Fictional-Track-e6cc41fFictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_f8e762/FictionalBand - rock-song-a36af5.mp3`
+- `singles/Artist/Fictional-MarbleCrown/Fictional-Track-fe20dd9d.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_f8e762/FictionalBand - rock-song-174b53.mp3`
+- `singles/Artist/Fictional-MarbleCrown/Fictional-Track-6fd50460.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_f8e762/FictionalBand - rock-song-025530.mp3`
+- `singles/Artist/Fictional-MarbleCrown/Fictional-Track-65a9ffeFictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_f8e762/FictionalBand - rock-song-7c1275.mp3`
+- `singles/Artist/Fictional-MarbleCrown/Fictional-Track-88f1031Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-a92b92.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-f44e93.mp3`
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-4a46d43c.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-7ff3e75c.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-4a7a6e.mp3`
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-9155e3ba.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-92009b.mp3`
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-674b955d.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-b3192e.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-cc2b14.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-cd165f.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-9b2866.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-6aa92b.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba, FictionalBand_f5b7d8]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-1680e5.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_82f6ba]
-- `singles/Artist/FictionalBand_7d720b/FictionalBand - rock-song-2e91b0.mp3`
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-d38feeeb.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-ca46f63Fictional-Track-c9f0f895.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-abf04b2Fictional-Track-1679091c.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-f85d54dd.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-683b702Fictional-Track-1679091c.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix, Fictional-MarbleRose]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-fee01490.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-AzurePhoenix]
+- `singles/Artist/Fictional-LunarSpire/Fictional-Track-a8ae3eaFictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6f9412/FictionalBand - rock-song-5bcf00.mp3`
+- `singles/Artist/Fictional-CoralVoyage/Fictional-Track-1ac4410Fictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_6f9412/FictionalBand - rock-song-6b1e17.mp3`
+- `singles/Artist/Fictional-CoralVoyage/Fictional-Track-c4c0e57Fictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_be7649/FictionalBand - rock-song-818fdb.mp3`
+- `singles/Artist/Fictional-PhantomWhisper/Fictional-Track-eb82050b.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_d733b8/FictionalBand - rock-song-b9221b.mp3`
+- `singles/Artist/Fictional-ZincGate/Fictional-Track-86109b0Fictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_ce3bd1/FictionalBand - rock-song-ccb97a.mp3`
+- `singles/Artist/Fictional-SterlingBeacon/Fictional-Track-ac12ee4a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_ce3bd1/FictionalBand - rock-song-5825cd.mp3`
+- `singles/Artist/Fictional-SterlingBeacon/Fictional-Track-1f32d2cFictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/Various/FictionalBand - rock-song-431346.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_7aeb94, FictionalBand_42d5d5]
-- `singles/Artist/Various/FictionalBand - rock-song-5c1a4f.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_24ba5a]
-- `singles/Artist/FictionalBand_37003c/FictionalBand - rock-song-0d4c27.mp3`
+- `singles/Artist/Various/Fictional-Track-a0a76cfFictional-Track-1679091c.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-AmberSpark, Fictional-CrimsonFountain]
+- `singles/Artist/Various/Fictional-Track-40da614e.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-SapphireSpire]
+- `singles/Artist/Fictional-CrystalCipher/Fictional-Track-13db2d9f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `singles/Artist/FictionalBand_37003c/FictionalBand - rock-song-e7d3d1.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_4c8735]
-- `singles/Artist/FictionalBand_37003c/FictionalBand - rock-song-380e26.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_ffd489]
-- `singles/Artist/FictionalBand_6146d0/FictionalBand - rock-song-87cd31.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a25df8]
-- `singles/Artist/FictionalBand_6146d0/FictionalBand - rock-song-a805cf.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a25df8]
-- `singles/Artist/FictionalBand_6146d0/FictionalBand - rock-song-8b8d0b.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a415ff]
-- `singles/Artist/FictionalBand_6146d0/FictionalBand - rock-song-1ce0d4.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a415ff]
+- `singles/Artist/Fictional-CrystalCipher/Fictional-Track-1b51c91Fictional-Track-eccbc87e.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-EmeraldRaven]
+- `singles/Artist/Fictional-CrystalCipher/Fictional-Track-adf1edbe.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-TimberNeedle]
+- `singles/Artist/Fictional-CrystalBell/Fictional-Track-9a805fab.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-JasperWarden]
+- `singles/Artist/Fictional-CrystalBell/Fictional-Track-b9a8843f.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-JasperWarden]
+- `singles/Artist/Fictional-CrystalBell/Fictional-Track-9a60bafFictional-Track-a87ff679.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ThistleGate]
+- `singles/Artist/Fictional-CrystalBell/Fictional-Track-69a0d2eFictional-Track-e4da3b7f.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ThistleGate]
 
 ## Albums Artist Folder Review
 
@@ -189,105 +189,105 @@
 
 ### Flagged Folders (count)
 
-- MockCompany_Nintendo: 7
+- Nintendo: 7
 - CyberpunkBeats: 4
 - Various: 4
 - EgyptianMetal: 3
-- FictionalBand_4cd56b: 3
-- MockDJ_Nujabes: 2
+- Fictional-EbonyBloom: 3
+- Fictional-PhantomHorizon: 2
 - PirateMetal: 2
 - DarkAngelMetal: 1
-- Genesis: 1
-- Journey: 1
-- LsJack: 1
+- Fictional-Kw-289ffeb2: 1
+- Fictional-Kw-98dc0157: 1
+- Fictional-Kw-2e1bb15f: 1
 - MedievalAmbience: 1
-- NeYo: 1
+- Fictional-Kw-29262247: 1
 - NuMetalPlaylist: 1
-- PhilCollins: 1
-- FictionalBand_97c8f6: 1
-- FictionalBand_2c2d2c: 1
-- SamSmith: 1
-- Scorpions: 1
-- SummerEletrohits: 1
-- FictionalBand_93cba0: 1
+- Fictional-Kw-e5ed2409: 1
+- Fictional-ZincNeedle: 1
+- Fictional-IvoryLighthouse: 1
+- Fictional-Kw-e407c5d8: 1
+- Fictional-Kw-0f63b2c0: 1
+- Fictional-Kw-47f3a013: 1
+- Fictional-IronHarbor: 1
 
 ### Sample Questionable Entries
 
-- `albums/Artist/CyberpunkBeats/FictionalBand - rock-song-cbf666.mp3`
+- `albums/Artist/CyberpunkBeats/[1-Hour]-CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-84b8dc2Fictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/CyberpunkBeats/FictionalBand - rock-song-deeb0a.mp3`
+- `albums/Artist/CyberpunkBeats/Fictional-Track-9c915f7Fictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/CyberpunkBeats/FictionalBand - rock-song-a069d4.mp3`
+- `albums/Artist/CyberpunkBeats/Fictional-Track-ea6c85cFictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/CyberpunkBeats/FictionalBand - rock-song-964846.mp3`
+- `albums/Artist/CyberpunkBeats/Fictional-Track-ce0f343Fictional-Track-e4da3b7f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/DarkAngelMetal/FictionalBand - rock-song-2c650e.mp3`
+- `albums/Artist/DarkAngelMetal/Fictional-Track-66ad797Fictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/EgyptianMetal/FictionalBand - rock-song-dcd6dc.mp3`
+- `albums/Artist/EgyptianMetal/Fictional-Track-404355fFictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/EgyptianMetal/FictionalBand - rock-song-20be12.mp3`
+- `albums/Artist/EgyptianMetal/Fictional-Track-744eb16e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/EgyptianMetal/FictionalBand - rock-song-9b2e02.mp3`
+- `albums/Artist/EgyptianMetal/[1-Hour]-EGYPTIAN-ROCK-&Fictional-Track-4ea5592Fictional-Track-8f14e45f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/Genesis/FictionalBand - rock-song-63d114.mp3`
+- `albums/Artist/Fictional-Kw-289ffeb2/Fictional-Track-3d782e9b.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/Journey/FictionalBand - rock-song-880861.mp3`
+- `albums/Artist/Fictional-Kw-98dc0157/Fictional-Track-8f579faFictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/LsJack/FictionalBand - rock-song-14f913.mp3`
+- `albums/Artist/Fictional-Kw-2e1bb15f/Fictional-Track-c54dc2bFictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MedievalAmbience/FictionalBand - rock-song-ab54ea.mp3`
+- `albums/Artist/MedievalAmbience/Fictional-Track-211d18fFictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/NeYo/FictionalBand - rock-song-b5e0c2.mp3`
+- `albums/Artist/Fictional-Kw-29262247/Fictional-Track-8cb8ff79.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-7a413f.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_f5b7d8]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-dd0af0.mp3`
+- `albums/Artist/Nintendo/Fictional-Track-05e4675Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-MarbleRose]
+- `albums/Artist/Nintendo/Fictional-Track-8188d20Fictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-3ccf76.mp3`
+- `albums/Artist/Nintendo/Nintendo-64-jungle-mix-01-Drum-&Fictional-Track-e9731f19.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-ad721f.mp3`
+- `albums/Artist/Nintendo/Fictional-Track-d9da4d3Fictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-7e8254.mp3`
+- `albums/Artist/Nintendo/Fictional-Track-2a38518a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-e634c5.mp3`
+- `albums/Artist/Nintendo/Fictional-Track-53d87d19.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockCompany_Nintendo/FictionalBand - rock-song-f8886c.mp3`
+- `albums/Artist/Nintendo/Fictional-Track-fc157109.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/NuMetalPlaylist/FictionalBand - rock-song-b86f80.mp3`
-  Reason: Folder artist not present in classifier prediction; predicted: [FictionalBand_a415ff, FictionalBand_ce3bd1]
-- `albums/Artist/MockDJ_Nujabes/FictionalBand - rock-song-e07e37.mp3`
+- `albums/Artist/NuMetalPlaylist/Fictional-Track-d703b5c9.mp3`
+  Reason: Folder artist not present in classifier prediction; predicted: [Fictional-ThistleGate, Fictional-SterlingBeacon]
+- `albums/Artist/Fictional-PhantomHorizon/Fictional-Track-4ff5b56a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/MockDJ_Nujabes/FictionalBand - rock-song-9a6bc4.mp3`
+- `albums/Artist/Fictional-PhantomHorizon/Fictional-Track-e94ef67b.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/PhilCollins/FictionalBand - rock-song-f1cfe3.mp3`
+- `albums/Artist/Fictional-Kw-e5ed2409/Fictional-Track-fd7f6c5Fictional-Track-c81e728d.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/FictionalBand_4cd56b/FictionalBand - rock-song-d0f897.mp3`
+- `albums/Artist/Fictional-EbonyBloom/Fictional-Track-85e8f72Fictional-Track-eccbc87e.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/FictionalBand_4cd56b/FictionalBand - rock-song-356e27.mp3`
+- `albums/Artist/Fictional-EbonyBloom/Fictional-Track-c03eceaFictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/FictionalBand_4cd56b/FictionalBand - rock-song-93059f.mp3`
+- `albums/Artist/Fictional-EbonyBloom/Fictional-Track-0902cf79.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/PirateMetal/FictionalBand - rock-song-96c772.mp3`
+- `albums/Artist/PirateMetal/[1-Hour]-PIRATE-ROCK-&Fictional-Track-a57c3eeFictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/PirateMetal/FictionalBand - rock-song-e49913.mp3`
+- `albums/Artist/PirateMetal/[1-Hour]-PIRATE-ROCK-&Fictional-Track-79a3ebb9.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/FictionalBand_97c8f6/FictionalBand - rock-song-b82919.mp3`
+- `albums/Artist/Fictional-ZincNeedle/Fictional-Track-98a9d26Fictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/FictionalBand_2c2d2c/FictionalBand - rock-song-9093fd.mp3`
+- `albums/Artist/Fictional-IvoryLighthouse/Fictional-Track-ca4a5a59.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/SamSmith/FictionalBand - rock-song-9231c4.mp3`
+- `albums/Artist/Fictional-Kw-e407c5d8/Fictional-Track-6f47cecf.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/Scorpions/FictionalBand - rock-song-9c7b0d.mp3`
+- `albums/Artist/Fictional-Kw-0f63b2c0/Fictional-Track-c5ccd08f.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/SummerEletrohits/FictionalBand - rock-song-259dcf.mp3`
+- `albums/Artist/Fictional-Kw-47f3a013/Fictional-Track-7e760d6a.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]
-- `albums/Artist/Various/FictionalBand - rock-song-becf7e.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_c7bd66, FictionalBand_f5b7d8]
-- `albums/Artist/Various/FictionalBand - rock-song-e35a80.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_f5b7d8]
-- `albums/Artist/Various/FictionalBand - rock-song-e6b180.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_ce3bd1]
-- `albums/Artist/Various/FictionalBand - rock-song-1b27e5.mp3`
-  Reason: In Various but classifier suggests specific artist; predicted: [FictionalBand_ce3bd1]
-- `albums/Artist/FictionalBand_93cba0/FictionalBand - rock-song-ee140c.mp3`
+- `albums/Artist/Various/Fictional-Track-d227f249.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-EmeraldWarden, Fictional-MarbleRose]
+- `albums/Artist/Various/Fictional-Track-9da5824Fictional-Track-a87ff679.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-MarbleRose]
+- `albums/Artist/Various/Fictional-Track-0b3f7d6Fictional-Track-8f14e45f.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-SterlingBeacon]
+- `albums/Artist/Various/Fictional-Track-2a04b36Fictional-Track-8f14e45f.mp3`
+  Reason: In Various but classifier suggests specific artist; predicted: [Fictional-SterlingBeacon]
+- `albums/Artist/Fictional-IronHarbor/Fictional-Track-c2fb4dfFictional-Track-a87ff679.mp3`
   Reason: Folder artist not present in classifier prediction; predicted: [Various]

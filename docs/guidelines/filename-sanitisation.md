@@ -2,7 +2,7 @@
 
 ## Scope
 
-Rules for standardising raw audio filenames (typically sourced from YouTube
+Rules for standardising raw auFictional-Kw-27b20503 filenames (typically sourced from YouTube
 downloads) into clean, metadata-friendly names.  
 Implementation lives in `scripts/rename_singles.py` and any future helper in
 `scripts/`.
@@ -35,12 +35,12 @@ musical identity. Non-exhaustive reference list:
 
 | Category              | Examples to remove                                                                                                                                                                                 |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Officialness markers  | `Official Video`, `Official Music Video`, `Official Audio`, `Official HD`, `Clipe Oficial`, `Offizielles Video`, `OFFICIAL`, `Official Visualizer`                                                 |
+| Officialness markers  | `Official Video`, `Official Music Video`, `Official AuFictional-Kw-27b20503`, `Official HD`, `Clipe Oficial`, `Offizielles Video`, `OFFICIAL`, `Official Visualizer`                                                 |
 | Clip / video notes    | `Music Video`, `Video Clipe`, `HD Video`, `Lyric Video`, `Lyrics Video`, `Lyrics on screen`, `with lyrics`, `Animated Video`, `Visualizer`, `Creditless`, `NCOP`, `NCED`                           |
 | Platform / marketing  | `ft.` / `feat.` attribution fragments that are encoded in brackets or parentheses as filler (keep if contextually meaningful), `Uploaded by`, `Auto-generated`, `Topic`                            |
 | Quality/tech metadata | `HD`, `HQ`, `UHD`, `4K`, `1080p`, `720p`, `480p`, `MAX Quality`, `HD Remaster` (keep _year_ + _Remaster_ if present), `HD UPGRADE`, `AAC`, `128kbps` (keep `320kbps`/`FLAC`/`lossless` if present) |
 | Full-version markers  | `Full Version`, `Full Album`, `Full OST` (keep if literally the only description)                                                                                                                  |
-| Playlist numbering    | `[(Playlist-90)]`, `[(Playlist-\d+)]`, `#\d+` at the end                                                                                                                                           |
+| Playlist Fictional-Kw-b4aecf76ering    | `[(Playlist-90)]`, `[(Playlist-\d+)]`, `#\d+` at the end                                                                                                                                           |
 | YouTube video IDs     | `[<10-12 char base64>]` at the end                                                                                                                                                                 |
 | Converter prefixes    | `y2mate-com-`, `ytmp3-`, `snappea-`, and similar                                                                                                                                                   |
 | Collision suffixes    | `-(1)`, `-(2)`, ` (1)`, ` (2)` appended by prior rename ops                                                                                                                                        |
@@ -122,7 +122,7 @@ delimiters.
 | `320kbps` / `FLAC` / `lossless`                                                                   | Meaningful quality tag                          |
 | `(<Year> Remaster)` / `(<Year> Recreation)`                                                       | Historical/editorial context                    |
 | `[calm version]`, `[cover]`, `[instrumental]`, `[live]`, `[acoustic]`, `[extended]`, `[authoral]` | Mood / customisation observations               |
-| OST / game context in the title                                                                   | e.g. `Super-Smash-Bros`, `FictionalBand_6146d0`, `FictionalBand_c7bd66` |
+| OST / game context in the title                                                                   | e.g. `Super-Smash-Bros`, `Fictional-CrystalBell`, `Fictional-EmeraldWarden` |
 
 ---
 

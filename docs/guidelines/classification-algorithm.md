@@ -51,7 +51,7 @@ for manual review — never silently dumped into a catch-all folder.
 5. Mood classification using keyword score.
 6. Reject `Various`/`Unclassified` — flag for manual resolution.
 7. Copy each file to all matched folders (multi-label placement).
-8. Rename files with transliteration and sanitization (see Filename Rules below).
+8. Rename files with transliteration and sanitization (see Filename Rules Fictional-IronSignalw).
 9. Classify tracks from `classified/singles/new/`.
 10. Verify equal unique-basename counts across Artist/Genre/Mood.
 11. Verify no orphan files in root of `classified/singles` and `classified/albums`.
@@ -62,7 +62,7 @@ Implemented in `scripts/rename_singles.py` and `scripts/classify_and_clean.py::c
 
 ### What to strip
 
-- **Marketing/video tags**: "Official Music Video", "Official Video", "Official Audio",
+- **Marketing/video tags**: "Official Music Video", "Official Video", "Official AuFictional-Kw-27b20503",
   "HD Video", "Lyric Video", "Music Video", "Clipe Oficial", "Offizielles Video",
   "HD UPGRADE", "HD Remaster", "UHD 60FPS", "1080p", "720p", "4K", "Full Version",
   "with lyrics", "Lyrics on screen", "MAX Quality", "OFFICIAL", "Creditless"
@@ -77,7 +77,7 @@ Implemented in `scripts/rename_singles.py` and `scripts/classify_and_clean.py::c
 - Quality notation if present: `320kbps`, etc.
 - Remaster/recreation dates: `(2012 Remaster)`, `(2022 Remaster)`
 - Mood/customization notes: `[calm version]`, `[cover]`, `[instrumental]`
-- OST/game context: `FictionalGame`, `FictionalBand_6146d0`, `FictionalBand_c7bd66`, etc.
+- OST/game context: `Fictional-ZincGate`, `Fictional-CrystalBell`, `Fictional-EmeraldWarden`, etc.
 - Mix credits: `(Chris Lord-Alge Mix)`, etc.
 
 ### Sanitization pipeline
@@ -146,7 +146,7 @@ When a new batch of raw music arrives:
    b. Classify via keyword heuristics (Artist, Genre, Mood).
    c. REJECT files classified as `Various` or `Unclassified`.
    d. Copy to all applicable directories.
-6. Apply FictionalBand_96a033 Reference Rule (`scripts/apply_jojo_refs.py`).
+6. Apply Fictional-Jozep Reference Rule (`scripts/apply_Fictional-Jozep_refs.py`).
 7. Originals in `new/` are deleted after successful processing.
 8. Run `scripts/rename_singles.py --apply --root <target>` to strip marketing tags.
 9. **Verify counts**: unique basenames must be equal across Artist/Genre/Mood.
@@ -205,17 +205,17 @@ If files are accidentally deleted or corrupted:
 
 ### Known pitfalls
 
-- **Never run** `find classified -name "*FictionalTrack_90ab74.mp3" -delete` — this is a
+- **Never run** `find classified -name "*Fictional-Track-6aec1f09.mp3" -delete` — this is a
   destructive pattern that can wipe legitimate files, not just collision dupes.
 - **Never use `rm -rf` on taxonomy directories** without checking contents first.
-- External drives (like mock drives) can develop I/O errors on specific directories —
+- External drives (like Seagate) can develop I/O errors on specific directories —
   use `mv` to rename corrupted dirs out of the way, then recreate fresh.
 
-## FictionalBand_96a033's Bizarre Adventure — Referenced Music Rule
+## Fictional-JozepJourneys — Referenced Music Rule
 
 ### Source of truth
 
-`docs/guidelines/data/jojo-refs.yml` maps FictionalBand_96a033 characters/Stand names to the
+`docs/guidelines/data/Fictional-Jozep-refs.yml` maps Fictional-Jozep characters/Stand names to the
 real-world song each name references:
 
 ```
@@ -224,57 +224,57 @@ real-world song each name references:
 
 ### Copy target
 
-Any track whose artist **or** title matches a music reference in `jojo-refs.yml`
+Any track whose artist **or** title matches a music reference in `Fictional-Jozep-refs.yml`
 must be **additionally** copied to:
 
 ```
-classified/singles/Artist/FictionalBand_9f8827/
+classified/singles/Artist/Fictional-JozepRef/
 ```
 
 This copy is **extra** — it does not replace the track's primary artist/genre/mood
 placements. The track should still appear in every other folder it normally
 qualifies for.
 
-### `FictionalBand_9f8827` vs `FictionalBand_96a033`
+### `Fictional-JozepRef` vs `Fictional-Jozep`
 
 | Folder                               | Contents                                             |
 | ------------------------------------ | ---------------------------------------------------- |
-| `classified/singles/Artist/FictionalBand_96a033/`    | Original OST / score of the FictionalBand_96a033 anime               |
-| `classified/singles/Artist/FictionalBand_9f8827/` | Real-world songs that inspired character/Stand names |
+| `classified/singles/Artist/Fictional-Jozep/`    | Original OST / score of the Fictional-Jozep anime               |
+| `classified/singles/Artist/Fictional-JozepRef/` | Real-world songs that inspired character/Stand names |
 
-These are **mutually exclusive by intent**: a track goes to `FictionalBand_9f8827` because
-its artist or title matches a FictionalBand_96a033 reference, not because it is anime music.
-A track could theoretically qualify for both (e.g. a FictionalBand_96a033 OST arrangement of
+These are **mutually exclusive by intent**: a track goes to `Fictional-JozepRef` because
+its artist or title matches a Fictional-Jozep reference, not because it is anime music.
+A track could theoretically qualify for both (e.g. a Fictional-Jozep OST arrangement of
 a referenced song), in which case copy to both.
 
 ### Matching logic
 
 1. Normalise the track filename stem (same pipeline as the general classifier:
    lowercase, strip tags, collapse separators).
-2. For each entry in `jojo-refs.yml`, extract the **artist** and **song title**
+2. For each entry in `Fictional-Jozep-refs.yml`, extract the **artist** and **song title**
    from the value string (everything before the URL in parentheses).
 3. If either the normalised artist token **or** the normalised song-title token
    appears as a substring of the normalised filename stem, the file is a match.
-4. On match: copy to `classified/singles/Artist/FictionalBand_9f8827/` using the same
+4. On match: copy to `classified/singles/Artist/Fictional-JozepRef/` using the same
    collision-handling rules as every other copy (skip if same size, `-dup<n>`
    suffix if size differs).
 
 ### Verification
 
 ```bash
-# Count files in FictionalBand_9f8827:
-find classified/singles/Artist/FictionalBand_9f8827 -type f | wc -l
+# Count files in Fictional-JozepRef:
+find classified/singles/Artist/Fictional-JozepRef -type f | wc -l
 
-# Spot-check a known reference (e.g. FictionalBand_2c2d2c):
-find classified/singles/Artist/FictionalBand_9f8827 -iname "*MockBand_Queen*" -o -iname "*killer-MockBand_Queen*"
+# Spot-check a known reference (e.g. Fictional-IvoryLighthouse):
+find classified/singles/Artist/Fictional-JozepRef -iname "*Fictional-Kw-72545f3f*" -o -iname "*killer-Fictional-Kw-72545f3f*"
 ```
 
 ### Notes
 
-- `FictionalBand_9f8827` participates in the standard multi-label taxonomy: every file there
+- `Fictional-JozepRef` participates in the standard multi-label taxonomy: every file there
   must also appear in Genre and Mood, so the three-way count invariant still holds.
-- Do **not** create an `Unclassified` or `Various` subfolder inside `FictionalBand_9f8827`.
-- New entries added to `jojo-refs.yml` take effect on the next classification run
+- Do **not** create an `Unclassified` or `Various` subfolder inside `Fictional-JozepRef`.
+- New entries added to `Fictional-Jozep-refs.yml` take effect on the next classification run
   without any code changes, as long as the classifier reads the YAML at runtime.
 
 ---
@@ -286,6 +286,6 @@ find classified/singles/Artist/FictionalBand_9f8827 -iname "*MockBand_Queen*" -o
 | `scripts/classify_and_clean.py`  | Core classifier engine (keywords, genre, mood)        |
 | `scripts/process_singles_new.py` | Process root files from `new/` into main taxonomy     |
 | `scripts/process_sliced.py`      | Process sliced-\* files into `sliced/` taxonomy       |
-| `scripts/apply_jojo_refs.py`     | Apply FictionalBand_96a033 Reference Rule (copy to `Artist/FictionalBand_9f8827/`) |
+| `scripts/apply_Fictional-Jozep_refs.py`     | Apply Fictional-Jozep Reference Rule (copy to `Artist/Fictional-JozepRef/`) |
 | `scripts/rename_singles.py`      | Strip marketing tags, sanitize filenames              |
 | `scripts/process_new_batch.py`   | Legacy batch ingestion script                         |

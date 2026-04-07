@@ -2,661 +2,651 @@
   "Adventurous": {
     "description": "A sense of forward momentum, discovery, and excitement at the unknown. The track propels the listener outward — into open worlds, dangerous journeys, or thrilling chases. Energy is high but purposeful, not chaotic. Distinct from Heroic (no nobility required) and from Epic (scale is personal, not grand).",
     "examples": [
-      "Guile Theme – Street Fighter II OST",
-      "Dire Dire Docks – Super FictionalBand_1cc477 64 OST",
-      "Through the Fire and Flames – FictionalBand_7c8b45",
-      "Gangplank Galleon – MockGame_DK Country OST",
-      "Pirates of the Caribbean Main Theme – Klaus Badelt"
+      "Fictional-Kw-c196bf76 – Fictional-Kw-952f44e7 II OST",
+      "Fictional-Kw-a70a6a9b – Super Fictional-JadePrism 64 OST",
+      "Fictional-Kw-6704c32f – Fictional-SolarWarden",
+      "Fictional-Kw-9a6359cf – Fictional-SapphireOracle Country OST",
+      "Pirates of the Fictional-Kw-df95891e – Fictional-Kw-c72d3588"
     ]
   },
   "Aggressive": {
     "description": "Raw, confrontational energy with violent or hostile intent. The track attacks the listener — sharp riffs, harsh vocals, punishing tempo, or abrasive noise. Not the same as Furious (which is emotional) or Chaotic (which is structural) — Aggressive is controlled hostility delivered with force.",
     "examples": [
-      "Chop Suey! – System of a Down",
-      "Killing in the Name – Rage Against the Machine",
-      "Break Stuff – MockBand_LimpBizkit",
-      "Raining Blood – Slayer",
-      "Angel of Death – Slayer"
+      "Fictional-Kw-c64f8a77! – Fictional-SterlingBeacon",
+      "Killing in the Name – Fictional-Kw-896901cc the Machine",
+      "Fictional-Kw-783aeb10 – Fictional-SmokySummit",
+      "Fictional-Kw-ab5a0142 – Fictional-Kw-0925467e",
+      "Angel of Death – Fictional-Kw-0925467e"
     ]
   },
   "Anguished": {
-    "description": "Extreme emotional suffering — deeper than Sad, more visceral than Melancholic. The track communicates agony, torment, or unbearable grief. Often features strained or raw vocal delivery, dissonant harmonics, or an overwhelming emotional weight that is almost physical in its impact.",
+    "description": "Fictional-Kw-287e9593 emotional suffering — deeper than Sad, more visceral than Melancholic. The track communicates agony, torment, or unbearable grief. Often features strained or raw vocal delivery, dissonant harmonics, or an overwhelming emotional weight that is almost physical in its impact.",
     "examples": [
-      "Hurt – Nine Inch Nails (or Johnny Cash cover)",
-      "Black – Pearl Jam",
-      "The Unforgiven – FictionalBand_8b0ee5",
-      "Down in a Hole – MockBand_Alice",
-      "Nutshell – MockBand_Alice"
+      "Hurt – Fictional-Kw-166a8328 (or Fictional-Kw-7167bb89 cover)",
+      "Black – Fictional-AzurePhoenix",
+      "Fictional-Kw-3d445570 – Fictional-BrassCompass",
+      "Fictional-Kw-e9783d09 – Fictional-ZincWing",
+      "Fictional-Kw-625cf4d4 – Fictional-ZincWing"
     ]
   },
   "Awe-inspired": {
     "description": "The emotional state of being overwhelmed by something vast, beautiful, or transcendent. The track opens the listener up — makes them feel small in the best possible way. Distinguished from Epic (which is about power) and Spiritual (which is about the sacred): Awe-inspired is pure aesthetic wonder at scale or beauty.",
     "examples": [
-      "Also Sprach Zarathustra – Richard Strauss",
-      "The Great Gig in the Sky – MockBand_PinkFloyd",
-      "Wish You Were Here – MockBand_PinkFloyd",
-      "Halo Theme – Martin O'Donnell",
-      "Liberi Fatali – Final Fantasy VIII OST"
+      "Fictional-Kw-fa652b03 – Fictional-Kw-1326737f",
+      "Fictional-Kw-28f16ce6 in the Sky – Fictional-EbonyBloom",
+      "Fictional-Kw-72d42264 – Fictional-EbonyBloom",
+      "Fictional-Kw-d0b27625 – Fictional-Kw-130d6cbc",
+      "Fictional-Kw-d01fa6a9 – Fictional-Kw-636e48cb VIII OST"
     ]
   },
   "Bittersweet": {
     "description": "A simultaneous experience of beauty and sadness that cannot be separated. The track does not choose between joy and grief — it holds both at once. Not a progression from one to the other, but a sustained dual tone. Common in game OSTs that score both childhood wonder and painful endings.",
     "examples": [
-      "Stickerbush Symphony – MockGame_DK Country 2 OST",
-      "To Zanarkand – Final Fantasy X OST",
-      "The Theme of Laura – Silent Hill 2 OST",
-      "River – Leon Bridges",
-      "Lua – Bright Eyes"
+      "Fictional-Kw-1005185b – Fictional-SapphireOracle Country 2 OST",
+      "Fictional-Kw-854f82e6 – Fictional-Kw-636e48cb X OST",
+      "Fictional-Kw-7550156c of Laura – Fictional-Kw-af90e0c7 2 OST",
+      "River – Fictional-Kw-0b2960aa",
+      "Lua – Fictional-Kw-a1e498f4"
     ]
   },
   "Brooding": {
     "description": "Dark introspection with suppressed emotional charge. The track simmers rather than explodes — heavy, slow, and saturated with unresolved tension. Distinct from Depressive (which is passive collapse) and Contemplative (which is calm): Brooding carries latent anger or sorrow that has turned inward.",
     "examples": [
-      "The Becoming – Nine Inch Nails",
-      "Black Hole Sun – Soundgarden",
-      "Creep – Radiohead",
-      "Hotel California – Eagles",
-      "Fade to Black – FictionalBand_8b0ee5"
+      "Fictional-Kw-d8f616b1 – Fictional-Kw-166a8328",
+      "Fictional-Kw-b0d966c3 – Fictional-Kw-c6b9e9be",
+      "Fictional-Kw-1f8c1bee – Fictional-Kw-222a5a8b",
+      "Fictional-Kw-80cdc815 – Fictional-Kw-58e50f90",
+      "Fade to Black – Fictional-BrassCompass"
     ]
   },
   "Chaotic": {
     "description": "Structural or emotional disorder expressed musically — clashing elements, sudden shifts, unpredictable rhythms, or overwhelming noise. The track reflects the feeling of losing control or being inside an uncontrollable situation. Distinct from Frenzy (which is about speed) and Aggressive (which is controlled): Chaos is formlessness.",
     "examples": [
-      "Toxicity – System of a Down (breakdown sections)",
-      "Bohemian Rhapsody – FictionalBand_2c2d2c (chaotic mid-section)",
-      "BYOB – System of a Down",
-      "Psycho – System of a Down",
-      "Cat's Foot – Genesis"
+      "Fictional-Kw-5f219c36 – Fictional-SterlingBeacon (breakdown sections)",
+      "Fictional-Kw-9017582e – Fictional-IvoryLighthouse (chaotic mid-section)",
+      "BYOB – Fictional-SterlingBeacon",
+      "Psycho – Fictional-SterlingBeacon",
+      "Cat's Foot – Fictional-Kw-289ffeb2"
     ]
   },
   "Chill": {
     "description": "A relaxed, low-demand state — content, unhurried, not seeking stimulation. The track is pleasant company without requiring attention. Energy is low to medium, tone is warm or neutral, there is no tension to resolve. The canonical 'background music for existing' mood.",
     "examples": [
-      "Feather – MockDJ_Nujabes ft. Cise Starr",
-      "Aruarian Dance – MockDJ_Nujabes",
-      "Horizon – Tycho",
-      "Crystals – Of Monsters and Men",
-      "Orinoco Flow – Enya"
+      "Feather – Fictional-PhantomHorizon ft. Fictional-Kw-dfc71c9e",
+      "Fictional-Kw-3fae5781 – Fictional-PhantomHorizon",
+      "Horizon – Fictional-Kw-fcc1400e",
+      "Crystals – Fictional-Kw-1e6683c7",
+      "Fictional-Kw-884c49ea – Fictional-Kw-77e24e13"
     ]
   },
   "Contemplative": {
     "description": "Quiet, patient thought directed outward — toward ideas, the world, or existence itself. Unlike Introspective (which turns inward to the self) or Meditative (which empties the mind), Contemplative tracks accompany the act of slowly thinking through something. The pace is unhurried; the tone is neutral-to-warm.",
     "examples": [
-      "Breathe – MockBand_PinkFloyd",
-      "Time – MockBand_PinkFloyd",
-      "Roundabout – FictionalBand_93cba0 (quieter passages)",
-      "The Sound of Silence – Simon & Garfunkel",
-      "Vincent (Starry Starry Night) – Don McLean"
+      "Breathe – Fictional-EbonyBloom",
+      "Time – Fictional-EbonyBloom",
+      "Roundabout – Fictional-IronHarbor (quieter passages)",
+      "Fictional-Kw-9d2dd9cc – Fictional-Kw-426ed6bb",
+      "Vincent (Fictional-Kw-ed01277a) – Fictional-Kw-d5a028e8"
     ]
   },
   "Cozy": {
     "description": "Safe, warm, and enclosed — the emotional equivalent of a well-lit room on a cold night. The track evokes domestic comfort, small pleasures, and the absence of threat. Distinct from Chill (which is neutral) and Peaceful (which is open and outdoor): Cozy is intimate and sheltered.",
     "examples": [
-      "Town Theme – Animal Crossing OST",
-      "Lon Lon Ranch – The Legend of FictionalBand_6146d0: Ocarina of Time OST",
-      "Coffee House Jazz – various",
-      "Sunday Morning – Maroon 5",
-      "Here Comes the Sun – The FictionalBand_0503fc"
+      "Fictional-Kw-7324396c – Fictional-Kw-47387e9a OST",
+      "Fictional-Kw-6b55169c – Fictional-Kw-91e6233c of Fictional-CrystalBell: Fictional-Kw-e958d854 OST",
+      "Fictional-Kw-49cded6a – various",
+      "Fictional-Kw-cd41cf7d – Fictional-Kw-24c0ec96",
+      "Fictional-Kw-3ee271e4 the Sun – Fictional-VelvetLantern"
     ]
   },
   "Danceful": {
     "description": "Music whose primary function is to move the body on a dancefloor or in any physical space. Strong, consistent groove, clear rhythmic pulse, and a tempo designed for dancing. Distinct from Groovy (which is a feel, not necessarily dance-targeted) and Upbeat (which is emotional, not primarily physical).",
     "examples": [
-      "Get Lucky – Daft Punk",
-      "Around the World – Daft Punk",
-      "September – MockBand_EWF",
-      "Le Freak – Chic",
-      "I Gotta Feeling – The Black Eyed Peas"
+      "Fictional-Kw-40376286 – Fictional-Kw-39bfe262",
+      "Around the World – Fictional-Kw-39bfe262",
+      "September – Fictional-AmberVeil",
+      "Fictional-Kw-bd27cf27 – Fictional-Kw-0f2816a7",
+      "Fictional-Kw-2e41e95c – Fictional-Kw-e3623d34"
     ]
   },
   "Dark": {
     "description": "A pervasive sense of shadow, dread, or moral ambiguity — not necessarily violent or terrifying, but devoid of light. The track inhabits darkness as an aesthetic space: minor harmonies, low register, restrained tempo. Distinct from Macabre (which fixates on death) and Ominous (which involves threat): Dark is an atmosphere, not an event.",
     "examples": [
-      "Welcome to the Machine – MockBand_PinkFloyd",
-      "In the Court of the Crimson King – MockBand_KingCrimson",
-      "Comfortably Numb – MockBand_PinkFloyd",
-      "Abyss of the Shriek – FictionalBand_c7bd66: Symphony of the Night OST",
-      "Something in the Way – FictionalBand_9d7f35"
+      "Welcome to the Machine – Fictional-EbonyBloom",
+      "In the Court of the Fictional-Kw-326706ec – Fictional-BlazingCastle",
+      "Comfortably Fictional-Kw-b4aecf76 – Fictional-EbonyBloom",
+      "Abyss of the Shriek – Fictional-EmeraldWarden: Symphony of Fictional-Kw-85e36139 OST",
+      "Something in the Way – Fictional-ShadowPhoenix"
     ]
   },
   "Defiant": {
     "description": "Resistance expressed with dignity and controlled force — not the chaotic energy of Rebellious, but the firm refusal to yield. The track communicates 'I will not be broken.' Often has a slow-burn intensity, a steady tempo, and a sense of conviction rather than rage.",
     "examples": [
-      "We Will Rock You – FictionalBand_2c2d2c",
-      "Eye of the Tiger – FictionalBand_f570ad",
-      "We Are the Champions – FictionalBand_2c2d2c",
-      "Overcome – Live",
+      "Fictional-Kw-06db9c2c – Fictional-IvoryLighthouse",
+      "Fictional-Kw-d7110683 – Fictional-ScarletWhisper",
+      "We Are the Champions – Fictional-IvoryLighthouse",
+      "Overcome – Fictional-Kw-d0dbe915",
       "Resilience anthems in general"
     ]
   },
   "Depressive": {
-    "description": "A state of emotional numbness, hopelessness, or collapsed will — beyond sadness into the absence of feeling or the inability to care. The track reflects inertia and despair. Distinct from Sad (which still has emotional movement) and Anguished (which is actively suffering): Depressive is the quiet bottom.",
+    "description": "A state of emotional Fictional-Kw-b4aecf76ness, hopelessness, or collapsed will — beyond sadness into the absence of feeling or the inability to care. The track reflects inertia and despair. Distinct from Sad (which still has emotional movement) and Anguished (which is actively suffering): Depressive is the quiet bottom.",
     "examples": [
-      "Coma White – MockSinger_Marilyn",
-      "The Needle and the Damage Done – MockSinger_Neil",
-      "Adam's Song – MockBand_Blink",
-      "How Soon Is Now? – The Smiths",
-      "Disintegration – The Cure"
+      "Fictional-Kw-c4cc47b2 – Fictional-SmokySummit",
+      "Fictional-Kw-27b6f104 and the Fictional-Kw-55043579 – Fictional-MarbleBloom",
+      "Adam's Song – Fictional-JasperWarden",
+      "Fictional-Kw-12e57df2? – Fictional-Kw-5c9c48a4",
+      "Disintegration – Fictional-Kw-20c5c7ec"
     ]
   },
   "Desperate": {
     "description": "Urgency born of fear, loss, or running out of options — the emotional state where the stakes are everything and the outcome is uncertain. Faster tempo, strained delivery, compressed dynamics. Distinct from Tense (which is waiting) and Anguished (which has already suffered loss): Desperate is mid-crisis, still fighting.",
     "examples": [
-      "Numb/Encore – MockBand_Linkin & Jay-Z",
-      "In the End – MockBand_Linkin",
-      "One Step Closer – MockBand_Linkin",
-      "Running Up That Hill – Kate Bush",
-      "Clocks – Coldplay"
+      "Fictional-Kw-b4aecf76/Encore – Fictional-ThistleGate & Fictional-Kw-0e375754",
+      "Fictional-Kw-a6a3b111 – Fictional-ThistleGate",
+      "Fictional-Kw-92f62e24 – Fictional-ThistleGate",
+      "Fictional-Kw-eae86eac – Fictional-Kw-c39ac31a",
+      "Clocks – Fictional-Kw-09b792e7"
     ]
   },
   "Determined": {
-    "description": "Clear, focused will directed toward a goal with forward momentum and no hesitation. The track is energising but controlled — no chaos, no desperation, just steady purposeful drive. Often used in training montages, hero journey sequences, or any moment of committed effort.",
+    "description": "Clear, focused will directed toward a goal with forward momentum and no hesitation. The track is energising but controlled — no chaos, no desperation, just steady purposeful drive. Often used in training montages, hero Fictional-Kw-98dc0157 sequences, or any moment of committed effort.",
     "examples": [
-      "Eye of the Tiger – FictionalBand_f570ad",
-      "Harder, Better, Faster, Stronger – Daft Punk",
-      "Lose Yourself – Eminem",
-      "Don't Stop Me Now – FictionalBand_2c2d2c",
-      "Won't Back Down – MockSinger_Tom"
+      "Fictional-Kw-d7110683 – Fictional-ScarletWhisper",
+      "Harder, Better, Faster, Stronger – Fictional-Kw-39bfe262",
+      "Fictional-Kw-0f0242f6 – Fictional-Kw-26b637ed",
+      "Don't Fictional-Kw-bceede5d – Fictional-IvoryLighthouse",
+      "Won't Fictional-Kw-fa37187d – Fictional-OpalDrifter"
     ]
   },
   "Ecstatic": {
     "description": "Overwhelming, peak-intensity joy or euphoria — the emotional equivalent of sensory overload from positive stimuli. Not merely happy or upbeat: Ecstatic is joy past its ordinary limit. Often associated with festival peaks, climactic musical builds, or moments of collective transcendence.",
     "examples": [
-      "Don't Stop Me Now – FictionalBand_2c2d2c",
-      "Mr. Brightside – The Killers (chorus)",
-      "Bohemian Rhapsody – FictionalBand_2c2d2c (finale)",
-      "Harder to Breathe – Maroon 5",
-      "I Feel Good – James Brown"
+      "Don't Fictional-Kw-bceede5d – Fictional-IvoryLighthouse",
+      "Mr. Brightside – Fictional-Kw-f8ea1c11 (chorus)",
+      "Fictional-Kw-9017582e – Fictional-IvoryLighthouse (finale)",
+      "Harder to Breathe – Fictional-Kw-24c0ec96",
+      "I Fictional-Kw-f3a9fce5 – Fictional-Kw-959660ed"
     ]
   },
   "Emotional": {
     "description": "A broad, unspecified emotional weight — the track carries strong feeling that is genuine and moving but does not resolve cleanly into a single named emotion. Use this when a track is clearly emotionally significant but straddles multiple specific moods simultaneously.",
     "examples": [
-      "The Night Will Always Win – Manchester Orchestra",
-      "Fix You – Coldplay",
-      "Let Her Go – Passenger",
-      "Stay With Me – Sam Smith",
-      "Someone Like You – Adele"
+      "Fictional-Kw-a032f9a2 – Fictional-Kw-a21acd58",
+      "Fictional-Kw-bedec7b8 – Fictional-Kw-09b792e7",
+      "Fictional-Kw-9954f414 – Fictional-Kw-4e85eddf",
+      "Fictional-Kw-d22d0122 – Fictional-Kw-375591ec",
+      "Fictional-Kw-8b37d97d – Fictional-Kw-ee265207"
     ]
   },
   "Energetic": {
     "description": "High physical and emotional energy — the track accelerates, elevates, and sustains intensity. Fast tempo, driving rhythm, and a sense of momentum that demands movement or heightened attention. Unlike Aggressive (which is hostile) or Explosive (which is momentary): Energetic is sustained high-output.",
     "examples": [
-      "Master of Puppets – FictionalBand_8b0ee5",
-      "Uprising – Muse",
-      "Knights of Cydonia – Muse",
-      "Thunderstruck – ThePixelChords",
-      "Can't Stop – MockBand_RHCP"
+      "Fictional-Kw-7749bdd4 – Fictional-BrassCompass",
+      "Uprising – Fictional-Kw-98a99cb9",
+      "Knights of Cydonia – Fictional-Kw-98a99cb9",
+      "Fictional-Kw-db7c7978 – Fictional-BrassTide",
+      "Can't Stop – Fictional-SilverLighthouse"
     ]
   },
   "Epic": {
     "description": "Grand scale — the track makes its subject feel mythological, timeless, or monumentally important. Long builds, sweeping orchestration or guitar work, and a sense that what is at stake is enormous. Distinct from Heroic (which is personal) and Triumphant (which resolves): Epic maintains grandeur without necessarily resolving.",
     "examples": [
-      "Starless – MockBand_KingCrimson",
-      "Supper's Ready – Genesis",
-      "2001: A Space Odyssey Suite – Richard Strauss",
-      "One-Winged Angel – Final Fantasy VII OST",
-      "Eplerum – Two Steps from Hell"
+      "Starless – Fictional-BlazingCastle",
+      "Supper's Ready – Fictional-Kw-289ffeb2",
+      "2001: A Fictional-Kw-be39c057 – Fictional-Kw-1326737f",
+      "One-Fictional-Kw-ca96d708 – Fictional-Kw-636e48cb VII OST",
+      "Eplerum – Fictional-Kw-19c71491"
     ]
   },
   "Ethereal": {
     "description": "Light, translucent, and free from the physical — the track seems to exist at the edge of perception, like something heard through mist or dreamed rather than remembered. Gentle textures, high register, minimal rhythm. Distinct from Peaceful (which is grounded) and Mysterious (which has tension): Ethereal is weightless.",
     "examples": [
-      "Clair de Lune – Claude Debussy",
-      "Experience – Ludovico Einaudi",
-      "Girl with Flaxen Hair – Debussy",
-      "Secret of the Forest – Chrono Trigger OST",
-      "Song of the Goddess – Final Fantasy XIV OST"
+      "Clair de Lune – Fictional-Kw-1e2e9f67",
+      "Experience – Fictional-Kw-778e91e9",
+      "Girl with Fictional-Kw-2510c89f – Fictional-Kw-22b35da2",
+      "Secret of the Forest – Fictional-Kw-e02c0d5b OST",
+      "Song of the Goddess – Fictional-Kw-636e48cb XIV OST"
     ]
   },
   "Explosive": {
-    "description": "A sudden, massive release of energy — the track hits with overwhelming force in a concentrated burst. Dynamic contrast is extreme: silence or build followed by wall-of-sound impact. Distinct from Energetic (which is sustained) and Chaotic (which is disorganised): Explosive is controlled detonation.",
+    "description": "A sudden, massive release of energy — the track hits with overwhelming force in a concentrated burst. Dynamic contrast is Fictional-Kw-287e9593: silence or build followed by wall-of-sound impact. Distinct from Energetic (which is sustained) and Chaotic (which is disorganised): Explosive is controlled detonation.",
     "examples": [
-      "Battery – FictionalBand_8b0ee5 (opening)",
-      "Aces High – MockBand_Iron",
-      "Enter Sandman – FictionalBand_8b0ee5",
-      "Smells Like Teen Spirit – FictionalBand_9d7f35 (chorus entrance)",
-      "Bulls on Parade – Rage Against the Machine"
+      "Battery – Fictional-BrassCompass (opening)",
+      "Fictional-Kw-f0aea57d – Fictional-RustyMask",
+      "Fictional-Kw-5e5601d7 – Fictional-BrassCompass",
+      "Fictional-Kw-3fd20e5d – Fictional-ShadowPhoenix (chorus entrance)",
+      "Bulls on Parade – Fictional-Kw-896901cc the Machine"
     ]
   },
   "Focused": {
-    "description": "A state of clear, sharp attention without distraction. The track supports concentration through regularity, moderate tempo, and absence of jarring elements. Unlike StudyFocus (which carries a lo-fi/ambient quality), Focused can be more rhythmically active — it's about cognitive clarity, not relaxation.",
+    "description": "A state of clear, sharp attention without distraction. The track supports concentration through regularity, moderate tempo, and absence of jarring elements. Focused can be more rhythmically active than ambient/lo-fi tracks — it's about cognitive clarity, not relaxation.",
     "examples": [
-      "Harder, Better, Faster, Stronger – Daft Punk",
-      "Voyager – Daft Punk",
-      "March of the Pigs – Nine Inch Nails",
-      "Productivity playlists from MockDJ_Nujabes' catalogue",
-      "Logical Song – Supertramp"
+      "Harder, Better, Faster, Stronger – Fictional-Kw-39bfe262",
+      "Voyager – Fictional-Kw-39bfe262",
+      "March of the Pigs – Fictional-Kw-166a8328",
+      "Productivity playlists from Fictional-PhantomHorizon' catalogue",
+      "Fictional-Kw-8cfba85c – Fictional-Kw-e3a245cf"
     ]
   },
   "Frenzy": {
-    "description": "Extreme speed and intensity pushed to the edge of human execution — or past it. The track is defined by its velocity and density: blast beats, shred solos, hyper-fast bass lines. Not chaotic (there is structure) but the structure is moving too fast to track comfortably. Pure kinetic overload.",
+    "description": "Fictional-Kw-287e9593 speed and intensity pushed to the edge of human execution — or past it. The track is defined by its velocity and density: blast beats, shred solos, hyper-fast bass lines. Not chaotic (there is structure) but the structure is moving too fast to track comfortably. Pure kinetic overload.",
     "examples": [
-      "Painkiller – Judas Priest",
-      "Tornado of Souls – FictionalBand_7a0069",
-      "Eruption – MockBand_VanHalen",
-      "Surfing with the Alien – Joe Satriani",
-      "Fury of the Storm – FictionalBand_7c8b45"
+      "Painkiller – Fictional-Kw-313498fa",
+      "Tornado of Souls – Fictional-LunarKnight",
+      "Eruption – Fictional-GlassCastle",
+      "Surfing with the Alien – Fictional-Kw-235c5991",
+      "Fury of the Storm – Fictional-SolarWarden"
     ]
   },
   "Furious": {
     "description": "Hot, emotional anger — personal, raw, and burning. Unlike Aggressive (which is exteriorised hostility) or Vengeful (which is cold and calculated), Furious is the immediate flare of rage. The track feels like it was made in the moment of the emotion, not after reflection.",
     "examples": [
-      "Break Stuff – MockBand_LimpBizkit",
-      "Angel – Massive Attack (intense sections)",
-      "Head Like a Hole – Nine Inch Nails",
-      "Killing in the Name – Rage Against the Machine",
-      "Bury the Hatchet – SOAD"
+      "Fictional-Kw-783aeb10 – Fictional-SmokySummit",
+      "Angel – Fictional-Kw-15a3f278 (intense sections)",
+      "Fictional-Kw-3b2b389d a Hole – Fictional-Kw-166a8328",
+      "Killing in the Name – Fictional-Kw-896901cc the Machine",
+      "Bury the Hatchet – Fictional-SterlingBeacon"
     ]
   },
   "Gritty": {
     "description": "Rough, unpolished, and honest — the track sounds like it has texture and dirt in it. Blues-influenced rock, raw hip-hop, street-level soul. No gloss, no stadium sheen. The aesthetic communicates lived experience, struggle, and authenticity over beauty.",
     "examples": [
-      "Black Dog – Led Zeppelin",
-      "Whole Lotta Love – Led Zeppelin",
-      "Seven Nation Army – The White Stripes",
-      "Ball and Biscuit – The White Stripes",
-      "Superstition – Stevie Wonder (raw live versions)"
+      "Fictional-Kw-00baf9bf – Fictional-Kw-a8c86eae",
+      "Fictional-Kw-536c9985 – Fictional-Kw-a8c86eae",
+      "Fictional-Kw-51e2bacd – Fictional-Kw-9004901a",
+      "Ball and Biscuit – Fictional-Kw-9004901a",
+      "Superstition – Fictional-Kw-8994337c (raw live versions)"
     ]
   },
   "Groovy": {
     "description": "A deep, irresistible rhythmic feel that makes the body want to move without the urgency of full dancing — more of a sway, a nod, a compulsive foot tap. Funk, soul, and R&B architecture: the groove is the content. Distinct from Danceful (which is about the dancefloor) and Upbeat (which is about emotion): Groovy is about the pocket.",
     "examples": [
-      "Give It Away – MockBand_RHCP",
-      "Around the World – Daft Punk",
-      "Superstition – Stevie Wonder",
-      "Brick House – FictionalBand_384065",
-      "Higher Ground – MockBand_RHCP"
+      "Fictional-Kw-cba5833f – Fictional-SilverLighthouse",
+      "Around the World – Fictional-Kw-39bfe262",
+      "Superstition – Fictional-Kw-8994337c",
+      "Fictional-Kw-3afa2a44 – Fictional-IronLantern",
+      "Fictional-Kw-d8ceb2b3 – Fictional-SilverLighthouse"
     ]
   },
   "Hardworking": {
     "description": "Steady, industrious energy — the mood of grinding through effort with discipline and without glamour. The track is neither thrilling nor dull; it supports sustained, rhythmic effort. Think factories, long drives, repetitive physical labour done with pride. Closely related to Determined but slower and less goal-climactic.",
     "examples": [
-      "Whistle While You Work – Disney",
-      "Take It on the Run – MockBand_REO",
-      "Working for the Weekend – Loverboy",
-      "9 to 5 – Dolly Parton",
-      "Blue Collar Man – FictionalBand_be06e4"
+      "Fictional-Kw-953b03e7 – Fictional-Kw-f240a4a0",
+      "Fictional-Kw-3b017cc6 on the Run – Fictional-ObsidianPrism",
+      "Fictional-Kw-feee254a – Loverboy",
+      "9 to 5 – Fictional-Kw-4fa84a4c",
+      "Fictional-Kw-d0e04ad5 – Fictional-QuartzChain"
     ]
   },
   "Heartbreak": {
-    "description": "The acute emotional pain of losing a love — not the long grief of Melancholic or the numbness of Depressive, but the sharp, specific wound of romantic loss. Heartbreak has a freshness to it: the wound is recent, the memory vivid, the absence felt physically.",
+    "description": "The acute emotional pain of losing a love — not the long grief of Melancholic or the Fictional-Kw-b4aecf76ness of Depressive, but the sharp, specific wound of romantic loss. Heartbreak has a freshness to it: the wound is recent, the memory vivid, the absence felt physically.",
     "examples": [
-      "Someone Like You – Adele",
-      "The Night Will Always Win – Manchester Orchestra",
-      "Nothing Compares 2 U – Sinéad O'Connor",
-      "Skinny Love – Bon Iver",
-      "Back to December – Taylor Swift"
+      "Fictional-Kw-8b37d97d – Fictional-Kw-ee265207",
+      "Fictional-Kw-a032f9a2 – Fictional-Kw-a21acd58",
+      "Fictional-Kw-3a93c36b 2 U – Fictional-Kw-1fbaee35",
+      "Fictional-Kw-538e93ed – Fictional-Kw-ea4530d4",
+      "Back to December – Fictional-Kw-28239d61"
     ]
   },
   "Heroic": {
     "description": "Personal courage, sacrifice, and nobility — the music of the protagonist rising to meet a defining moment. Distinct from Epic (which is about scale) and Triumphant (which celebrates the outcome): Heroic is about the act itself — the choice to face something difficult despite the cost.",
     "examples": [
-      "Superman Theme – John Williams",
-      "The Imperial March (inverted heroic readings) – Anakin's Theme",
-      "Dream Theater – A Change of Seasons",
-      "FictionalBand_97c8f6s of the Universe – FictionalBand_2c2d2c",
-      "The Final Countdown – Europe"
+      "Fictional-Kw-c4e92233 – Fictional-Kw-0b32e2f9",
+      "Fictional-Kw-4722588b (inverted heroic readings) – Fictional-Kw-f614d3f4",
+      "Fictional-Kw-2aea5b22 – Fictional-Kw-76a65548",
+      "Fictional-ZincNeedles of the Universe – Fictional-IvoryLighthouse",
+      "Fictional-Kw-75718e93 – Fictional-Kw-7612e840"
     ]
   },
   "Hypnotic": {
     "description": "A track that induces trance-like states through repetition, pulsing rhythm, or minimalist loop structure. The goal is to suspend conscious thought through rhythmic or harmonic hypnosis. Distinct from Meditative (which is silent-inward) and Chill (which is passive relaxation): Hypnotic actively entrains the listener's mind.",
     "examples": [
-      "Music for Airports – Brian Eno",
-      "Autobahn – FictionalBand_b36e17",
-      "Trans-Europe Express – FictionalBand_b36e17",
-      "Teardrop – Massive Attack",
-      "Porcelain – Moby"
+      "Music for Airports – Fictional-Kw-47c1657d",
+      "Autobahn – Fictional-SpectralTower",
+      "Trans-Fictional-Kw-7612e840 Express – Fictional-SpectralTower",
+      "Teardrop – Fictional-Kw-15a3f278",
+      "Porcelain – Fictional-Kw-469eef78"
     ]
   },
   "Introspective": {
     "description": "Quiet, inward examination of the self — the track accompanies the experience of sitting with one's own thoughts, memories, and contradictions. The pace is unhurried, the tone ambiguous. Distinct from Contemplative (which looks outward at ideas) and Brooding (which has suppressed charge): Introspective is calm self-examination.",
     "examples": [
-      "Everlong – Foo Fighters",
-      "Man in the Mirror – Michael Jackson",
-      "No Surprises – Radiohead",
-      "Let Down – Radiohead",
-      "Name – MockBand_GooGoo"
+      "Everlong – Fictional-ScarletPrism",
+      "Fictional-Kw-2d455771 – Fictional-LunarSpire",
+      "Fictional-Kw-0f750f51 – Fictional-Kw-222a5a8b",
+      "Fictional-Kw-7e5208ac – Fictional-Kw-222a5a8b",
+      "Name – Fictional-SterlingThorn"
     ]
   },
   "Jaded": {
-    "description": "Disillusionment, exhaustion with the world, and the cynical acceptance that things will not improve. The track has been through too much to be surprised or moved anymore. Not anger (too tired) or despair (too numb to feel that strongly) — Jaded is the resigned detachment of the seen-it-all.",
+    "description": "Disillusionment, exhaustion with the world, and the cynical Fictional-Kw-4abe77c2ance that things will not improve. The track has been through too much to be surprised or moved anymore. Not anger (too tired) or despair (too Fictional-Kw-b4aecf76 to feel that strongly) — Jaded is the resigned detachment of the seen-it-all.",
     "examples": [
-      "Creep – Radiohead",
-      "Boulevard of Broken Dreams – MockBand_GreenDay",
-      "When I Come Around – MockBand_GreenDay",
-      "Bitter – Nine Inch Nails",
-      "If You're Feeling Sinister – Belle & Sebastian"
+      "Fictional-Kw-1f8c1bee – Fictional-Kw-222a5a8b",
+      "Boulevard of Fictional-Kw-9a1b2660 – Fictional-ShadowPeak",
+      "When I Fictional-Kw-3645b922 – Fictional-ShadowPeak",
+      "Bitter – Fictional-Kw-166a8328",
+      "If You're Fictional-Kw-fa2ac2ed – Fictional-Kw-58116cfc"
     ]
   },
   "Joyful": {
     "description": "Pure, uncomplicated happiness — the experience of delight without anxiety or irony. The track radiates warmth, positivity, and good feeling without requiring anything from the listener. Not Ecstatic (which is overwhelming) or Upbeat (which still has energy direction): Joyful is simply, completely happy.",
     "examples": [
-      "Happy – Pharrell Williams",
-      "Here Comes the Sun – The FictionalBand_0503fc",
-      "I Wanna Dance with Somebody – Whitney Houston",
-      "Walking on Sunshine – Katrina and the Waves",
-      "Lovely Day – Bill Withers"
+      "Happy – Fictional-Kw-fb1d30c9",
+      "Fictional-Kw-3ee271e4 the Sun – Fictional-VelvetLantern",
+      "I Fictional-Kw-53e3d575 with Somebody – Fictional-Kw-f4946232",
+      "Walking on Sunshine – Fictional-Kw-50029382",
+      "Fictional-Kw-4ae844d0 – Fictional-Kw-69c6ab6e"
     ]
   },
   "Lonely": {
     "description": "The particular ache of isolation — awareness of one's disconnection from other people and the world. Not Sad (which is about loss) or Depressive (which is collapse): Lonely is the persistent, specific feeling of existing outside of connection. Often features space in the mix — silence, echo, or sparse instrumentation.",
     "examples": [
-      "Lonely – Akon",
-      "Mad World – Gary Jules / Tears for Fears",
-      "Eleanor Rigby – The FictionalBand_0503fc",
-      "The Stranger – Billy Joel",
-      "Only – Nine Inch Nails"
+      "Lonely – Fictional-Kw-ac6b00de",
+      "Fictional-Kw-51f93ec4 – Fictional-Kw-c426a9fa / Fictional-Kw-6559de06",
+      "Fictional-Kw-1ae4a17a – Fictional-VelvetLantern",
+      "Fictional-Kw-c84e9ec5 – Fictional-Kw-79a3d73b",
+      "Only – Fictional-Kw-166a8328"
     ]
   },
   "Macabre": {
     "description": "A preoccupation with death, decay, and the grotesque — the aesthetic embrace of mortality as subject matter. Not just Dark (which is an atmosphere) or Ominous (which is a threat): Macabre specifically concerns itself with the imagery and ritual of death, often with an unsettling beauty.",
     "examples": [
-      "Danse Macabre – Saint-Saëns",
-      "Ghost Love Score – Nightwish",
-      "For Whom the Bell Tolls – FictionalBand_8b0ee5",
-      "Welcome Home (Sanitarium) – FictionalBand_8b0ee5",
-      "Grim Grinning Ghosts – Haunted Mansion OST"
+      "Danse Macabre – Fictional-Kw-f20f7e15",
+      "Fictional-Kw-2ce2379f – Fictional-Kw-6d270c0b",
+      "Fictional-Kw-e61ee602 the Fictional-Kw-4854339d – Fictional-BrassCompass",
+      "Fictional-Kw-abc40a2d (Sanitarium) – Fictional-BrassCompass",
+      "Fictional-Kw-b42bb8b1 – Fictional-Kw-188ae604 OST"
     ]
   },
   "Meditative": {
     "description": "Deep, intentional stillness — the track accompanies the emptying of mental activity rather than its direction. Slower than Chill, more purposeful than Ambient, and distinct from Contemplative (which involves active thought): Meditative is the sound of the mind becoming quiet. Often used in yoga, breathwork, or intentional rest.",
     "examples": [
-      "Spiegel im Spiegel – Arvo Pärt",
-      "Gymnopédie No. 1 – Erik Satie",
-      "Buddha Bar compilations",
-      "Stream of music from MockDJ_Nujabes' ambient catalogue",
-      "Weightless – Marconi Union"
+      "Spiegel im Spiegel – Fictional-Kw-1239665b",
+      "Gymnopédie No. 1 – Fictional-Kw-283b072d",
+      "Fictional-Kw-eb054f2c compilations",
+      "Stream of music from Fictional-PhantomHorizon' ambient catalogue",
+      "Weightless – Fictional-Kw-68299162"
     ]
   },
   "Melancholic": {
     "description": "A beautiful sadness — not the raw grief of Anguished or the total collapse of Depressive, but a refined, sustained sorrow that has an aesthetic dimension. Melancholy finds meaning in its own pain. Minor keys, slow tempos, rich harmonics. Time and distance have softened the grief into something that can be contemplated.",
     "examples": [
-      "Mining Melancholy – MockGame_DK Country OST",
-      "Asleep – The Smiths",
-      "The Book of Love – Peter Gabriel",
-      "A Case of You – Joni Mitchell",
-      "Holocene – Bon Iver"
+      "Fictional-Kw-488d4831 – Fictional-SapphireOracle Country OST",
+      "Asleep – Fictional-Kw-5c9c48a4",
+      "Fictional-Kw-4f74bac6 of Love – Fictional-Kw-4af5059f",
+      "A Case of You – Fictional-Kw-8932b88a",
+      "Holocene – Fictional-Kw-ea4530d4"
     ]
   },
   "Mysterious": {
     "description": "The sensation that something is hidden or unknown — the track invites curiosity about what lies behind a closed door or beneath the surface. Neither threatening nor comfortable: Mysterious is the suspended state of not-yet-knowing. Often uses modal harmonies, sparse textures, or recurring motifs.",
     "examples": [
-      "Stone Tower Temple – Majora's Mask OST",
-      "Bloody Tears – FictionalBand_c7bd66 OST",
-      "Tubular Bells – Mike Oldfield",
-      "Mysterious Ways – FictionalBand_468482",
-      "White Room – FictionalBand_df7721"
+      "Fictional-Kw-71bb3f77 – Fictional-Kw-15396039 OST",
+      "Fictional-Kw-57d292fc – Fictional-EmeraldWarden OST",
+      "Fictional-Kw-5c5c07f8 – Fictional-Kw-f20cb762",
+      "Mysterious Ways – Fictional-Kw-270c1b08",
+      "Fictional-Kw-ebec84d1 – Fictional-StormMoon"
     ]
   },
   "Nostalgic": {
     "description": "Longing for a past time — the experience of encountering something that carries the emotional weight of memory, childhood, or an era that has closed. The track is not sad about the past but saturated with it. Distinct from Wistful (which is a gentler, less specific longing) and Melancholic (which is grief): Nostalgic is memory-flavoured.",
     "examples": [
-      "Boys of Summer – Don Henley",
-      "Summer of '69 – Bryan Adams",
-      "In My Life – The FictionalBand_0503fc",
-      "Good Riddance (Time of Your Life) – MockBand_GreenDay",
-      "Swimming Where the Ocean Floor Drops Off – Mineral"
+      "Boys of Summer – Fictional-Kw-953f75a5",
+      "Summer of '69 – Fictional-Kw-fa747d78",
+      "Fictional-Kw-68925358 – Fictional-VelvetLantern",
+      "Fictional-Kw-85f30bdd (Time of Fictional-Kw-e2607ab1) – Fictional-ShadowPeak",
+      "Fictional-Kw-bc902d58 the Fictional-Kw-43355727 – Fictional-Kw-08b4b82c"
     ]
   },
   "Ominous": {
     "description": "The atmosphere of an impending threat — something terrible is approaching or could happen. Different from Dark (aesthetic) and Suspenseful (active tension): Ominous is the dread of the not-yet-arrived. Low frequencies, slow tempo, minor mode, and a sense that the music is circling something it has not yet named.",
     "examples": [
-      "Something Wicked This Way Comes – various",
-      "Scarecrow – FictionalBand_c7bd66 OST",
-      "Premonition – Final Fantasy VIII OST",
-      "A Warm Place – Nine Inch Nails (inverted, approaching dread)",
-      "Fear of the Dark – MockBand_Iron"
+      "Fictional-Kw-142f7c96 – various",
+      "Scarecrow – Fictional-EmeraldWarden OST",
+      "Premonition – Fictional-Kw-636e48cb VIII OST",
+      "A Fictional-Kw-2d3e2566 – Fictional-Kw-166a8328 (inverted, approaching dread)",
+      "Fear of the Dark – Fictional-RustyMask"
     ]
   },
   "Optimistic": {
     "description": "The quiet confidence that things will be alright — not the peak of Joyful or the energy of Upbeat, but the steady sense that the future holds good things. The track faces forward with warmth and ease. Often features major keys, open harmonies, and an unhurried pace.",
     "examples": [
-      "Somewhere Over the Rainbow – Israel Kamakawiwoʻole",
-      "What a Wonderful World – Louis Armstrong",
-      "Brand New Day – Sting",
-      "Beautiful Day – FictionalBand_468482",
-      "Waiting on the World to Change – John Mayer"
+      "Fictional-Kw-fe6acc5b – Fictional-Kw-2a673ffe",
+      "Fictional-Kw-b6ae6b50 – Fictional-Kw-52e38d9e",
+      "Fictional-Kw-76b19a8e – Fictional-Kw-4669569c",
+      "Fictional-Kw-7c6c20b0 – Fictional-Kw-270c1b08",
+      "Waiting on the World to Change – Fictional-Kw-10af4335"
     ]
   },
   "Peaceful": {
     "description": "Outdoor, open calm — the complete absence of conflict or urgency in a spacious, natural setting. Grounded and present, unlike the detachment of Ethereal or the enclosure of Cozy. The track evokes still lakes, morning light, or any moment where the world is simply still and benign.",
     "examples": [
-      "Fields of Gold – Sting",
-      "The Rain of Castamere – Game of Thrones OST (quieter readings)",
-      "Lon Lon Ranch – Ocarina of Time OST",
-      "Spring from Four Seasons – Vivaldi",
-      "Morning Has Broken – Cat Stevens"
+      "Fields of Gold – Fictional-Kw-4669569c",
+      "Fictional-Kw-86cb60f4 of Fictional-Kw-2f9469bd – Fictional-Kw-583e9780 OST (quieter readings)",
+      "Fictional-Kw-6b55169c – Fictional-Kw-e958d854 OST",
+      "Spring from Fictional-Kw-852265ab – Fictional-Kw-15607a23",
+      "Fictional-Kw-368625a2 – Fictional-Kw-47068261"
     ]
   },
   "Playful": {
     "description": "Light, silly, bouncy, and unpredictable — the track treats everything as a game and nothing as serious. Quick tempo changes, unexpected harmonics, bright timbres. Distinct from Whimsical (which is imaginative and slightly fantastical) and Joyful (which is warm and steady): Playful is mischievous and kinetic.",
     "examples": [
-      "Bob-omb Battlefield – Super FictionalBand_1cc477 64 OST",
-      "Coconut Mall – FictionalBand_1cc477 Kart Wii OST",
-      "Yakety Sax – Boots Randolph",
-      "Zip-a-Dee-Doo-Dah – Disney",
-      "Goofy Goober Rock – SpongeBob"
+      "Bob-omb Battlefield – Super Fictional-JadePrism 64 OST",
+      "Fictional-Kw-81fea809 – Fictional-JadePrism Fictional-Kw-92e3230c OST",
+      "Fictional-Kw-7a5177a6 – Fictional-Kw-73d1875c",
+      "Fictional-Kw-bf16f999 – Fictional-Kw-f240a4a0",
+      "Fictional-Kw-592137f2 – Fictional-Kw-e1964798"
     ]
   },
   "Rebellious": {
     "description": "Active opposition to authority, social norms, or power structures — not just anger but an ideological rejection accompanied by action. The track is confrontational in its message and sound. Distinct from Defiant (which resists with dignity) and Aggressive (which is physical): Rebellious is political, cultural, or generational in its refusal.",
     "examples": [
-      "Killing in the Name – Rage Against the Machine",
-      "Anarchy in the U.K. – MockBand_SexPistols",
-      "Holiday – MockBand_GreenDay",
-      "Know Your Enemy – Rage Against the Machine",
-      "Testify – Rage Against the Machine"
+      "Killing in the Name – Fictional-Kw-896901cc the Machine",
+      "Anarchy in the U.K. – Fictional-AzureMirror",
+      "Holiday – Fictional-ShadowPeak",
+      "Fictional-Kw-9518ec8a – Fictional-Kw-896901cc the Machine",
+      "Testify – Fictional-Kw-896901cc the Machine"
     ]
   },
   "Relaxed": {
     "description": "A comfortable, low-energy state without any particular emotional direction — the absence of tension rather than the presence of feeling. More passive than Chill (which has a slight cool affect) and more indolent than Peaceful (which is actively still): Relaxed is simply neutral and at ease.",
     "examples": [
-      "Banana Pancakes – Jack Johnson",
-      "Better Together – Jack Johnson",
-      "Sitting, Waiting, Wishing – Jack Johnson",
-      "No Woman No Cry – Bob Marley",
-      "Three Little Birds – Bob Marley"
+      "Fictional-Kw-fce9baa5 – Fictional-Kw-018ff799",
+      "Fictional-Kw-c8a8773b – Fictional-Kw-018ff799",
+      "Sitting, Waiting, Wishing – Fictional-Kw-018ff799",
+      "Fictional-Kw-d4e72770 – Fictional-Kw-59a3c84d",
+      "Fictional-Kw-560ad6f5 – Fictional-Kw-59a3c84d"
     ]
   },
   "Resigned": {
-    "description": "Acceptance of a difficult or unchangeable reality — not with peace, but with the exhausted acknowledgment that struggle is over and the outcome is set. The track conveys letting go of a fight that has been lost, or accepting a fate that cannot be altered. Quieter than Depressive, less agonised than Anguished.",
+    "description": "Fictional-Kw-4abe77c2ance of a difficult or unchangeable reality — not with peace, but with the exhausted acknowledgment that struggle is over and the outcome is set. The track conveys letting go of a fight that has been lost, or Fictional-Kw-4abe77c2ing a fate that cannot be altered. Quieter than Depressive, less agonised than Anguished.",
     "examples": [
-      "The Sound of Silence – Simon & Garfunkel",
-      "Yesterday – The FictionalBand_0503fc",
-      "And I Love Her – The FictionalBand_0503fc",
-      "Against the Wind – Bob Seger",
-      "Old Man – MockSinger_Neil"
+      "Fictional-Kw-9d2dd9cc – Fictional-Kw-426ed6bb",
+      "Fictional-IronHarborterday – Fictional-VelvetLantern",
+      "And I Fictional-Kw-9717c319 – Fictional-VelvetLantern",
+      "Against the Wind – Fictional-Kw-3a4290c7",
+      "Fictional-Kw-98ac91ad – Fictional-MarbleBloom"
     ]
   },
   "Reverent": {
     "description": "Deep respect and awe directed toward something sacred, ancient, or immeasurably significant. The track demands a lowering of volume in the listener's inner life — this is music that asks you to stand still. Distinct from Spiritual (which is about personal transcendence) and Awe-inspired (which is aesthetic): Reverent implies veneration.",
     "examples": [
-      "Ave Maria – Schubert / Gounod",
-      "O Fortuna – Carl Orff",
-      "Requiem – Mozart",
-      "Gregorian Chants – various",
-      "Sacred War – Soviet Patriotic (classical)"
+      "Fictional-Kw-f24d1a09 – Fictional-Kw-a10a7b46 / Gounod",
+      "O Fortuna – Fictional-Kw-17918664",
+      "Requiem – Fictional-Kw-e842795b",
+      "Fictional-Kw-4202eaa2 – various",
+      "Fictional-Kw-e6157321 – Soviet Patriotic (classical)"
     ]
   },
   "Romantic": {
     "description": "The emotional register of love in its tender, intimate, and affectionate dimension — not raw desire (Sensual) or the pain of its loss (Hearthbreak): Romantic is the present experience of loving and being loved. Slow, warm, and personal. Often features intimate vocals and melodic simplicity.",
     "examples": [
-      "La Vie en Rose – Édith Piaf",
-      "Can't Help Falling in Love – MockSinger_Elvis",
-      "At Last – Etta James",
-      "Thinking Out Loud – Ed Sheeran",
-      "The Way You Look Tonight – Frank Sinatra"
+      "Fictional-Kw-8c913833 – Fictional-Kw-a594bb83",
+      "Can't Fictional-Kw-b83c582a in Love – Fictional-ShadowThorn",
+      "Fictional-Kw-3cb38e0d – Fictional-Kw-3ed72695",
+      "Fictional-Kw-aa6d93d6 – Fictional-Kw-02766b32",
+      "Fictional-Kw-5b7678c6 – Fictional-Kw-a24ffcf2"
     ]
   },
   "Sad": {
-    "description": "Simple, direct sorrow — the emotional response to loss, disappointment, or pain without the refinement of Melancholic or the extreme depth of Anguished. Sad tracks are emotionally clear and accessible: the listener knows exactly what they feel and why. Not complex, not compound — just sad.",
+    "description": "Simple, direct sorrow — the emotional response to loss, disappointment, or pain without the refinement of Melancholic or the Fictional-Kw-287e9593 depth of Anguished. Sad tracks are emotionally clear and accessible: the listener knows exactly what they feel and why. Not complex, not compound — just sad.",
     "examples": [
-      "Tears in Heaven – Eric Clapton",
-      "Everybody Hurts – MockBand_REM.",
-      "The Night Will Always Win – Manchester Orchestra",
-      "With or Without You – FictionalBand_468482",
-      "Wish You Were Here – MockBand_PinkFloyd"
+      "Tears in Heaven – Fictional-Kw-ecab6f2c",
+      "Fictional-Kw-8efadf92 – Fictional-MarbleRose",
+      "Fictional-Kw-a032f9a2 – Fictional-Kw-a21acd58",
+      "With or Fictional-Kw-96ad8985 – Fictional-Kw-270c1b08",
+      "Fictional-Kw-72d42264 – Fictional-EbonyBloom"
     ]
   },
   "Sensual": {
     "description": "Physical desire, seduction, and intimate bodily awareness — the track is erotic in its pacing, tone, or lyrical content. Slow tempo, warm bass, breathy or smooth vocals. Distinct from Romantic (which is emotional) and Groovy (which is rhythmic): Sensual is about the body and attraction specifically.",
     "examples": [
-      "Let's Get It On – Marvin Gaye",
-      "Sexual Healing – Marvin Gaye",
-      "Motivation – Normani",
-      "Wicked Game – Chris Isaak",
-      "Earned It – The Weeknd"
+      "Let's Fictional-Kw-79f88d99 – Fictional-Kw-e770281e",
+      "Fictional-Kw-99f487cd – Fictional-Kw-e770281e",
+      "Motivation – Fictional-Kw-490038ae",
+      "Fictional-Kw-f0d10c25 – Fictional-Kw-507d5f37",
+      "Fictional-Kw-78a6af34 – Fictional-Kw-a9285dfc"
     ]
   },
   "Serene": {
     "description": "Deep, intentional tranquility — more structured and deliberate than Peaceful, more grounded than Ethereal. Often features traditional or acoustic instrumentation (koto, guzheng, acoustic guitar, strings). The listener is drawn into stillness through the music's restraint and internal order.",
     "examples": [
-      "FictionalBand_b06461 traditional solo pieces – Japanese classical",
-      "Gymnopédie No. 1 – Erik Satie",
-      "Path of the Wind – My Neighbor Totoro OST",
-      "Spirited Away medleys – Yuki Ishibashi arrangements",
-      "Sleep – Max Richter"
+      "Koto traditional solo pieces – Japanese classical",
+      "Gymnopédie No. 1 – Fictional-Kw-283b072d",
+      "Path of the Wind – Fictional-Kw-15997bed OST",
+      "Fictional-Kw-b2412f79 medleys – Fictional-Kw-bdde5a30 arrangements",
+      "Sleep – Fictional-Kw-49f093a0"
     ]
   },
   "Sleepy": {
     "description": "Music calibrated to the onset of sleep — deliberately slow, soft, monotonous in the most soothing sense, and stripped of stimulation. The track makes the eyelids heavy. Distinct from Relaxed (which is comfortable-awake) and Meditative (which is intentionally still): Sleepy is music that wants you to drift off.",
     "examples": [
-      "Weightless – Marconi Union",
-      "Comptine d'un autre été – Yann Tiersen",
-      "Clair de Lune – Debussy",
+      "Weightless – Fictional-Kw-68299162",
+      "Comptine d'un autre été – Fictional-Kw-3e19d728",
+      "Clair de Lune – Fictional-Kw-22b35da2",
       "Lullaby – various traditional",
-      "Sleep – Eric Whitacre"
+      "Sleep – Fictional-Kw-124dcb2e"
     ]
   },
   "Soaring": {
     "description": "An uplifting, ascending quality — the sensation of rising above constraints. Melodic lines that climb and open, emotional resolution that feels like release into open sky. Distinct from Triumphant (which is about victory) and Epic (which is about scale): Soaring is a specific physical-emotional sensation of elevation and freedom.",
     "examples": [
-      "Don't Stop Believin' – Journey",
-      "Separate Ways – Journey",
-      "Open Arms – Journey",
-      "I Believe I Can Fly – R. Kelly",
-      "Defying Gravity – Wicked Broadway OST"
+      "Don't Fictional-Kw-8e9d25b3' – Fictional-Kw-98dc0157",
+      "Fictional-Kw-aaa8344b – Fictional-Kw-98dc0157",
+      "Fictional-Kw-a1e2b1f9 – Fictional-Kw-98dc0157",
+      "I Believe I Can Fly – Fictional-Kw-8c9617c2",
+      "Fictional-Kw-cc853ca0 – Fictional-Kw-65587954 OST"
     ]
   },
   "Spiritual": {
     "description": "A sense of connection to something beyond the ordinary — transcendence, the sacred, or the infinite. Not specifically religious but concerned with the numinous. Distinct from Reverent (which is directional veneration) and Meditative (which is inward/empty): Spiritual is the feeling of being temporarily outside of one's ordinary self and in contact with something greater.",
     "examples": [
-      "Koyaanisqatsi – Philip Glass",
-      "Agnus Dei – Samuel Barber",
-      "Hallelujah – Leonard Cohen",
-      "Amazing Grace – traditional",
-      "Teardrop – Massive Attack"
-    ]
-  },
-  "StudyFocus": {
-    "description": "Lo-fi, ambient, or minimally-vocal music designed to sustain concentration over long periods without demanding attention. The texture is consistent, the dynamics are flat, and the mood is cool-neutral. A context-adjacent mood: not an emotional state in itself but the sound-environment of focused intellectual work.",
-    "examples": [
-      "Aruarian Dance – MockDJ_Nujabes",
-      "Luv(sic) Hexalogy – MockDJ_Nujabes",
-      "Various lo-fi hip-hop compilations",
-      "Music for Airports pt. 1/1 – Brian Eno",
-      "Comptine d'un autre été – Yann Tiersen"
+      "Koyaanisqatsi – Fictional-Kw-0c6a0d83",
+      "Fictional-Kw-539bf33c – Fictional-Kw-452b082f",
+      "Fictional-Kw-d6e00f39 – Fictional-Kw-cb5b7dc1",
+      "Fictional-Kw-78668218 – traditional",
+      "Teardrop – Fictional-Kw-15a3f278"
     ]
   },
   "Surreal": {
     "description": "Dreamlike unreality — the sensation that the normal rules of experience have been suspended and replaced by something that follows its own logic. Neither pleasant nor unpleasant by default: Surreal is disorientating in a specific, soft way — like a lucid dream. Distinct from Mysterious (which is hidden-real) and Chaotic (which is disorder): Surreal is ordered but wrongly so.",
     "examples": [
-      "Lucy in the Sky with Diamonds – The FictionalBand_0503fc",
-      "Interstellar Overdrive – MockBand_PinkFloyd",
-      "A Whiter Shade of Pale – Procol Harum",
-      "Echoes – MockBand_PinkFloyd",
-      "Tomorrow Never Knows – The FictionalBand_0503fc"
+      "Lucy in the Sky with Diamonds – Fictional-VelvetLantern",
+      "Fictional-Kw-7fdba541 – Fictional-EbonyBloom",
+      "Fictional-Kw-238641b4 – Fictional-Kw-6ab8d6a6",
+      "Echoes – Fictional-EbonyBloom",
+      "Fictional-Kw-fa1e7c86 – Fictional-VelvetLantern"
     ]
   },
   "Suspenseful": {
     "description": "Active, mounting tension aimed at a specific unresolved outcome — the listener knows something is coming and cannot look away. Unlike Ominous (dread of the undefined) or Tense (generalised anxiety): Suspenseful is narrative, forward-moving, and pointed at a climax. Boss fight music, thriller scoring, and chase sequences.",
     "examples": [
-      "Vampire Killer – FictionalBand_c7bd66 OST",
-      "Dracula's Castle – FictionalBand_c7bd66: Symphony of the Night OST",
-      "Psycho Theme – Bernard Herrmann",
-      "Mission: Impossible Theme – Lalo Schifrin",
-      "FictionalBand_0d7f61 E1M1 – Bobby FictionalBand_97c8f6"
+      "Fictional-Kw-23f3b407 – Fictional-EmeraldWarden OST",
+      "Fictional-Kw-a2ce73b7 – Fictional-EmeraldWarden: Symphony of Fictional-Kw-85e36139 OST",
+      "Fictional-Kw-5d2cd00a – Fictional-Kw-28576b97",
+      "Mission: Fictional-Kw-46a0e7f1 – Fictional-Kw-e7438aeb",
+      "Fictional-MidnightFrost E1M1 – Bobby Fictional-ZincNeedle"
     ]
   },
   "Tender": {
     "description": "Gentle, careful affection — the emotional register of handling something fragile with great care. Quiet, restrained, and intimate. Distinct from Romantic (which has desire) and Peaceful (which is environmental): Tender is about the emotional act of being careful with another person or with a precious memory.",
     "examples": [
-      "Blackbird – The FictionalBand_0503fc",
-      "Norwegian Wood – The FictionalBand_0503fc",
-      "Wild Horses – The MockBand_Stones",
-      "The Night – Frankie Valli & The Four Seasons",
-      "Father and Son – Cat Stevens"
+      "Blackbird – Fictional-VelvetLantern",
+      "Fictional-Kw-b09f6174 – Fictional-VelvetLantern",
+      "Fictional-Kw-b7e3bb55 – Fictional-ThunderIsle",
+      "Fictional-Kw-85e36139 – Fictional-Kw-d1502f1b & Fictional-Kw-ccc64492",
+      "Father and Son – Fictional-Kw-47068261"
     ]
   },
   "Tense": {
     "description": "A state of generalised anxiety or alertness — muscles tight, breath shallow. Nothing has happened yet but something might. Distinct from Suspenseful (which is narrative) and Ominous (which is dread): Tense is physiological, low-grade, sustained. The track keeps the nervous system slightly elevated without a clear trigger or target.",
     "examples": [
-      "Jaws Theme – John Williams",
-      "In the Hall of the Mountain King – Grieg",
-      "Brain Dance – Aphex Twin",
-      "Closer – Nine Inch Nails",
+      "Fictional-Kw-4d8aeb56 – Fictional-Kw-0b32e2f9",
+      "In the Hall of the Fictional-Kw-a43c2581 – Fictional-Kw-cb192c50",
+      "Fictional-Kw-5654172a – Fictional-Kw-5e7c6782",
+      "Fictional-Kw-a7689246 – Fictional-Kw-166a8328",
       "March of the Machine – various OST uses"
     ]
   },
   "Triumphant": {
     "description": "The emotional peak of having overcome — victory achieved, struggle concluded, effort rewarded. The track announces that the battle is over and the right side won. Distinct from Heroic (effort) and Epic (scale): Triumphant is the resolution. Often features fanfare, rising key modulations, and full dynamic range at maximum.",
     "examples": [
-      "Eye of the Tiger – FictionalBand_f570ad",
-      "We Are the Champions – FictionalBand_2c2d2c",
+      "Fictional-Kw-d7110683 – Fictional-ScarletWhisper",
+      "We Are the Champions – Fictional-IvoryLighthouse",
       "Finale – Rocky OST",
-      "Ode to Joy – Beethoven",
-      "Star Wars Main Theme / End Credits – John Williams"
+      "Ode to Joy – Fictional-Kw-b4086300",
+      "Fictional-Kw-d858fd0e / Fictional-Kw-73c692e9 – Fictional-Kw-0b32e2f9"
     ]
   },
   "Upbeat": {
     "description": "A generally positive emotional energy — the track lifts the listener's mood without demanding they dance, shout, or feel anything specific. Happy, bright, and easy. Distinct from Ecstatic (peak intensity), Joyful (simple happiness), and Energetic (physical drive): Upbeat is the baseline of feeling good.",
     "examples": [
-      "Livin' on a Prayer – Bon Jovi",
-      "Mr. Blue Sky – ELO",
-      "Valerie – Mark Ronson ft. Amy Winehouse",
-      "Jumpin' Jack Flash – The MockBand_Stones",
-      "Shake It Off – Taylor Swift"
+      "Livin' on a Prayer – Fictional-Kw-333c75b2",
+      "Fictional-Kw-fb1bbc2c – Fictional-Kw-a1d7dfb5",
+      "Valerie – Fictional-Kw-12aed0a6 ft. Fictional-Kw-7966ef68",
+      "Jumpin' Fictional-Kw-0f53f281 – Fictional-ThunderIsle",
+      "Fictional-Kw-db350b0b – Fictional-Kw-28239d61"
     ]
   },
   "Vengeful": {
     "description": "Cold, calculated anger directed at a specific target — not the hot flare of Furious or the confrontation of Aggressive, but the slow-burn desire for retribution. The track has patience in its menace. The wound is real, the score is not yet settled, and the listener knows it will be.",
     "examples": [
-      "Tear It Down – FictionalBand_8b0ee5",
-      "The God That Failed – FictionalBand_8b0ee5",
-      "Prison Sex – Tool",
-      "Last Resort – Papa Roach",
-      "Revenge – FictionalBand_7a0069 catalogue broadly"
+      "Fictional-Kw-1b13748f – Fictional-BrassCompass",
+      "Fictional-Kw-31d51a08 – Fictional-BrassCompass",
+      "Fictional-Kw-511623b2 – Fictional-Kw-39ab32c5",
+      "Fictional-Kw-4a8cd79e – Fictional-Kw-a3a4cc81",
+      "Revenge – Fictional-LunarKnight catalogue broadly"
     ]
   },
   "Whimsical": {
-    "description": "Fantastical, imaginative, and gently unpredictable — the track inhabits a world adjacent to reality where the rules are softened by magic or fancy. Distinct from Playful (which is active and mischievous) and Surreal (which is disorienting): Whimsical is warm and inviting in its strangeness. Think fairy tales, Studio Ghibli, and childhood wonder.",
+    "description": "Fantastical, imaginative, and gently unpredictable — the track inhabits a world adjacent to reality where the rules are softened by magic or fancy. Distinct from Playful (which is active and mischievous) and Surreal (which is disorienting): Whimsical is warm and inviting in its strangeness. Think fairy tales, Fictional-CrimsonFountain, and childhood wonder.",
     "examples": [
-      "My Neighbor Totoro Theme – Studio Ghibli OST",
-      "Arrietty's Song – Studio Ghibli OST",
-      "Caramelldansen – Caramell",
-      "Fraggle Rock Theme – traditional",
+      "Fictional-Kw-37c2a217 – Fictional-CrimsonFountain OST",
+      "Arrietty's Song – Fictional-CrimsonFountain OST",
+      "Caramelldansen – Fictional-Kw-920e8c9f",
+      "Fictional-Kw-f1fb9ced – traditional",
       "Teapots and Trombones – whimsical orchestral works broadly"
     ]
   },
   "Wistful": {
     "description": "A soft, diffuse longing — not the sharp ache of Yearning or the memory-saturated density of Nostalgic, but a gentle awareness that something good is far away or already passed. The track doesn't linger painfully; it simply looks back with quiet affection and slight sadness before moving on.",
     "examples": [
-      "The Sounds of Silence – Simon & Garfunkel",
-      "Dust in the Wind – Kansas",
-      "Landslide – Fleetwood Mac",
-      "River – Joni Mitchell",
-      "Both Sides Now – Joni Mitchell"
+      "Fictional-Kw-d2f37461 of Silence – Fictional-Kw-426ed6bb",
+      "Fictional-Kw-a1807c41 – Fictional-Kw-e944d129",
+      "Landslide – Fictional-Kw-f7bff349",
+      "River – Fictional-Kw-8932b88a",
+      "Fictional-Kw-8edb14fd – Fictional-Kw-8932b88a"
     ]
   },
   "Yearning": {
     "description": "Intense, sustained desire for something out of reach — a person, a place, a state of being. Stronger and more directed than Wistful, more emotional and less analytic than Introspective. The track aches with wanting. It has direction: there is a specific thing being longed for, even if unnamed.",
     "examples": [
-      "Can't Help Falling in Love – MockSinger_Elvis",
-      "In Your Eyes – Peter Gabriel",
-      "More Than Words – Extreme",
-      "Everlong – Foo Fighters",
-      "I Will Always Love You – Whitney Houston"
+      "Can't Fictional-Kw-b83c582a in Love – Fictional-ShadowThorn",
+      "In Your EFictional-IronHarbor– Fictional-Kw-4af5059f",
+      "Fictional-Kw-75995f09 – Fictional-Kw-287e9593",
+      "Everlong – Fictional-ScarletPrism",
+      "I Fictional-Kw-adf50787 – Fictional-Kw-f4946232"
     ]
   }
 }

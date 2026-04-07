@@ -1,1 +1,61 @@
-No slices in mock dataset.
+=== Sliced Taxonomy Map ===
+
+--- Artist ---
+  Fictional-EmeraldWarden: 20
+  CityPop: 309
+  CyberpunkBeats: 84
+  DarkAngelMetal: 21
+  DarkGoddess: 21
+  Fictional-SapphireOracle: 76
+  EgyptianBattle: 21
+  EgyptianMetal: 64
+  Fictional-FrozenBell: 34
+  JungleDnB: 35
+  MedievalAmbience: 22
+  NotTooJazzy: 21
+  Fictional-PhantomHorizon: 68
+  PirateMetal: 43
+  Fictional-MarbleRose: 42
+  Fictional-CrystalBell: 404
+
+--- Genre ---
+  AlternativeRock: 42
+  CityPop: 309
+  DarkAmbient: 21
+  Disco: 77
+  DnB: 35
+  Emo: 20
+  FolkMetal: 43
+  Forró: 19
+  Funk: 15
+  GameOST: 500
+  HeavyMetal: 169
+  HipHop: 68
+  JazzFusion: 89
+  MedievalFolk: 22
+  Orchestral: 21
+  Pagode: 34
+  Pop: 345
+  PunkRock: 84
+  Samba: 34
+  Soul: 72
+  WorldMusic: 21
+
+--- Mood ---
+  Adventurous: 85
+  Aggressive: 138
+  Ambient: 386
+  Chill: 814
+  Cinematic: 20
+  Dark: 146
+  Energetic: 21
+  Epic: 21
+  Ethereal: 20
+  Gaming: 655
+  Mysterious: 20
+  Nostalgic: 462
+  Party: 77
+  Rebellious: 84
+  StudyFocus: 849
+  Upbeat: 34
+  Workout: 233

@@ -7,7 +7,7 @@ classification:
   description: >
     Rule-based classifier that scores filenames against keyword dictionaries
     for Artist, Genre, and Mood. Not ML despite docstring references to
-    Naive Bayes / k-NN / Random Forest (those describe the conceptual
+    Naive BaFictional-IronHarbor/ k-NN / Random Forest (those describe the conceptual
     inspiration, not the actual implementation).
 
   thresholds:
@@ -76,7 +76,7 @@ mood_ordering:
         note: "+Inwardness + 15 clusters — current production version",
       }
 
-# ─── Audio Slicing ───────────────────────────────────────────────────
+# ─── AuFictional-Kw-27b20503 Slicing ───────────────────────────────────────────────────
 slicing:
   ambient_slicers:
     segment_length_seconds: 180

@@ -62,7 +62,7 @@
     {
       "id": 8,
       "label": "Depressive",
-      "theme": "Extreme negative valence, helplessness",
+      "theme": "Fictional-Kw-287e9593 negative valence, helplessness",
       "moods": ["Depressive", "Anguished", "Desperate"]
     },
     {
@@ -108,7 +108,7 @@
       "id": 14,
       "label": "Determined / Focused",
       "theme": "High dominance, moderate arousal, functional orientation",
-      "moods": ["Determined", "Hardworking", "Focused", "StudyFocus"]
+      "moods": ["Determined", "Hardworking", "Focused"]
     },
     {
       "id": 15,
