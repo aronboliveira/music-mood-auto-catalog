@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Apply JoJo Reference Rule: scan a taxonomy root for tracks matching
-entries in docs/guidelines/data/jojo-refs.yml and copy matches to
-Artist/JoJoRef/.
+Apply Fictional-Jozep Reference Rule: scan a taxonomy root for tracks matching
+entries in docs/guidelines/data/jozep-refs.yml and copy matches to
+Artist/Fictional-JozepRef/.
 
 Usage:
-    python3 scripts/apply_jojo_refs.py --root classified/singles/sliced [--apply]
-    python3 scripts/apply_jojo_refs.py --root classified/singles [--apply]
+    python3 scripts/apply_Fictional-Jozep_refs.py --root classified/singles/sliced [--apply]
+    python3 scripts/apply_Fictional-Jozep_refs.py --root classified/singles [--apply]
 
 Without --apply, runs in dry-run mode and just prints matches.
 """
@@ -28,7 +28,7 @@ try:
 except ImportError:
     sys.exit("unidecode is required: pip install unidecode")
 
-JOJO_REFS_PATH = Path("docs/guidelines/data/jojo-refs.yml")
+JOJOURNEYS_REFS_PATH = Path("docs/guidelines/data/jozep-refs.yml")
 
 
 def normalize(text: str) -> str:
@@ -39,9 +39,9 @@ def normalize(text: str) -> str:
     return text
 
 
-def parse_jojo_refs(yml_path: Path) -> list[tuple[str, str, str]]:
+def parse_fictional_jozep_refs(yml_path: Path) -> list[tuple[str, str, str]]:
     """
-    Parse jojo-refs.yml. Returns list of (character, norm_artist, norm_song).
+    Parse jozep-refs.yml. Returns list of (character, norm_artist, norm_song).
     Each value is like: "Artist - Song Title (URL)"
     """
     with open(yml_path, 'r', encoding='utf-8') as f:
@@ -82,8 +82,8 @@ def _word_boundary_match(token: str, text: str) -> bool:
 
 def find_matches(taxonomy_root: Path, refs: list[tuple[str, str, str]]) -> list[tuple[Path, str]]:
     """
-    Walk Artist/ subfolders (excluding JoJoRef itself) and find files
-    whose normalized stem matches any jojo ref (word-boundary match).
+    Walk Artist/ subfolders (excluding Fictional-JozepRef itself) and find files
+    whose normalized stem matches any Fictional-Jozep ref (word-boundary match).
     Returns list of (path, character) tuples.
     """
     artist_dir = taxonomy_root / "Artist"
@@ -93,9 +93,10 @@ def find_matches(taxonomy_root: Path, refs: list[tuple[str, str, str]]) -> list[
 
     matches = []
     seen = set()
-    for mp3 in artist_dir.rglob("*.mp3"):
-        # Skip files already in JoJoRef
-        if "JoJoRef" in mp3.parts:
+
+    for mp3 in sorted(artist_dir.rglob("*.mp3")):
+        # Skip files already in Fictional-JozepRef
+        if "Fictional-JozepRef" in mp3.parts:
             continue
 
         norm_stem = normalize(mp3.stem)
@@ -117,19 +118,19 @@ def find_matches(taxonomy_root: Path, refs: list[tuple[str, str, str]]) -> list[
     return matches
 
 
-def copy_to_jojoref(matches: list[tuple[Path, str]], taxonomy_root: Path, dry_run: bool):
-    """Copy matched files to Artist/JoJoRef/."""
-    jojoref_dir = taxonomy_root / "Artist" / "JoJoRef"
+def copy_to_fictional_jozep_ref(matches: list[tuple[Path, str]], taxonomy_root: Path, dry_run: bool):
+    """Copy matched files to Artist/Fictional-JozepRef/."""
+    fictional_jozep_ref_dir = taxonomy_root / "Artist" / "Fictional-JozepRef"
 
     if not dry_run:
-        jojoref_dir.mkdir(parents=True, exist_ok=True)
+        fictional_jozep_ref_dir.mkdir(parents=True, exist_ok=True)
 
     copied = 0
     skipped = 0
     errors = []
 
     for src, character in matches:
-        dst = jojoref_dir / src.name
+        dst = fictional_jozep_ref_dir / src.name
 
         if dst.exists() and os.path.getsize(src) == os.path.getsize(dst):
             skipped += 1
@@ -139,11 +140,11 @@ def copy_to_jojoref(matches: list[tuple[Path, str]], taxonomy_root: Path, dry_ru
         base, ext = os.path.splitext(src.name)
         counter = 1
         while dst.exists():
-            dst = jojoref_dir / f"{base}-dup{counter}{ext}"
+            dst = fictional_jozep_ref_dir / f"{base}-dup{counter}{ext}"
             counter += 1
 
         if dry_run:
-            print(f"  [DRY] {src.name} -> JoJoRef/ (ref: {character})")
+            print(f"  [DRY] {src.name} -> Fictional-JozepRef/ (ref: {character})")
             copied += 1
         else:
             for attempt in range(3):
@@ -162,7 +163,7 @@ def copy_to_jojoref(matches: list[tuple[Path, str]], taxonomy_root: Path, dry_ru
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Apply JoJo Reference Rule")
+    parser = argparse.ArgumentParser(description="Apply Fictional-Jozep Reference Rule")
     parser.add_argument("--root", required=True,
                         help="Taxonomy root (e.g. classified/singles/sliced)")
     parser.add_argument("--apply", action="store_true",
@@ -173,11 +174,11 @@ def main():
     if not taxonomy_root.exists():
         sys.exit(f"Root does not exist: {taxonomy_root}")
 
-    if not JOJO_REFS_PATH.exists():
-        sys.exit(f"jojo-refs.yml not found: {JOJO_REFS_PATH}")
+    if not JOJOURNEYS_REFS_PATH.exists():
+        sys.exit(f"jozep-refs.yml not found: {JOJOURNEYS_REFS_PATH}")
 
-    print(f"Loading JoJo refs from {JOJO_REFS_PATH}...")
-    refs = parse_jojo_refs(JOJO_REFS_PATH)
+    print(f"Loading Fictional-Jozep refs from {JOJOURNEYS_REFS_PATH}...")
+    refs = parse_fictional_jozep_refs(JOJOURNEYS_REFS_PATH)
     print(f"Loaded {len(refs)} reference entries")
 
     print(f"\nScanning {taxonomy_root}/Artist/ for matches...")
@@ -189,8 +190,8 @@ def main():
         return
 
     print(f"\n{'DRY RUN' if not args.apply else 'APPLYING'}: "
-          f"copying {len(matches)} files to Artist/JoJoRef/")
-    copied, skipped, errors = copy_to_jojoref(
+          f"copying {len(matches)} files to Artist/Fictional-JozepRef/")
+    copied, skipped, errors = copy_to_fictional_jozep_ref(
         matches, taxonomy_root, dry_run=not args.apply)
 
     print(f"\nCopied: {copied} | Skipped (dup): {skipped} | Errors: {len(errors)}")
