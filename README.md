@@ -1,7 +1,3 @@
-# Music Classification Pipeline (Mock Data Version)
-
-**NOTICE:** This repository contains a *mock dataset* for public demonstration purposes. All original copyrighted audio files have been replaced with empty 1-3 minute `.mp3` files. All real-world artist names, song titles, and copyrighted franchises have been scrubbed and replaced with fictional identifiers (e.g., `MockBand_Alice`, `MockGame_DK`) to prevent copyright infringement.
-
 # Music Library Classification Pipeline
 
 A semi-automated pipeline for classifying, organizing, and mood-tagging a personal music library of ~1,080 tracks (980 singles + ~100 album tracks) across three orthogonal taxonomies: **Artist**, **Genre**, and **Mood**.
@@ -36,7 +32,7 @@ scripts/            # Python + Bash automation (25 scripts)
 logs/               # daily execution logs
 ```
 
-Each track basename appears in **every** dimension — a file can simultaneously live in `Artist/MockBand_Metallica/`, `Genre/Metal/`, `Mood/Aggressive/`, and `Mood/Energetic/`. Files are copies (not hardlinks) due to external drive (exFAT/NTFS) portability.
+Each track basename appears in **every** dimension — a file can simultaneously live in `Artist/Fictional-BrassCompass/`, `Genre/Metal/`, `Mood/Aggressive/`, and `Mood/Energetic/`. Files are copies (not hardlinks) due to external drive (exFAT/NTFS) portability.
 
 ## Pipeline Overview
 
@@ -96,8 +92,8 @@ Corrected mood assignments from the JSON export are synced back to `classified/s
 
 ## Filesystem Requirements
 
-- External USB drive (Mock Drive, NTFS/exFAT formatted)
-- Mount point: `/media/<user>/mockdrive/music/downloaded/`
+- External USB drive (Seagate Expansion, NTFS/exFAT formatted)
+- Mount point: `/media/<user>/Seagate Expansion Drive1/music/downloaded/`
 - Python 3.10+ with `unidecode` for transliteration
 - No special database — all state in JSON/YAML files and filesystem structure
 - Backup via `rsync` before/after large operations
@@ -111,9 +107,9 @@ Corrected mood assignments from the JSON export are synced back to `classified/s
 | `rename_singles.py`      | Filename sanitization                              |
 | `_sort_moods.py`         | Mood similarity ordering (6D vectors + clustering) |
 | `gen_moods_checks.py`    | Generate moods-checks Vue app data                 |
-| `slice_tracks.py`        | Audio slicing for ambient/focus tracks             |
-| `sync_fictional_game.sh`     | Sync FictionalGame. OST tracks                  |
-| `apply_jojo_refs.py`     | Apply JoJo's Bizarre Adventure music references    |
+| `slice_tracks.py`        | AuFictional-Kw-27b20503 slicing for ambient/focus tracks             |
+| `sync_smash_bros.sh`     | Sync Fictional-ZincGate. OST tracks                  |
+| `apply_Fictional-Jozep_refs.py`     | Apply Fictional-JozepJourneys music references    |
 
 ---
 
