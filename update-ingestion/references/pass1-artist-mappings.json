@@ -1,0 +1,1718 @@
+{
+  "artist_id_to_fictional": {
+    "ABBA": "Fictional-DuskPeak",
+    "ACDC": "Fictional-BrassTide",
+    "Aerosmith": "Fictional-AzureSpire",
+    "AirSupply": "Fictional-BrassHorizon",
+    "Alcione": "Fictional-VelvetSpire",
+    "AlessiBrothers": "Fictional-LunarDrifter",
+    "AliceInChains": "Fictional-ZincWing",
+    "America": "Fictional-IronCanyon",
+    "Angra": "Fictional-FrozenMask",
+    "Anri": "Fictional-FadingHelix",
+    "ArianaGrande": "Fictional-MistySpark",
+    "AsianKungFuGeneration": "Fictional-EmeraldTrail",
+    "AvengedSevenfold": "Fictional-ObsidianCastle",
+    "Babyface": "Fictional-EbonySpark",
+    "BadCompany": "Fictional-MistyStrand",
+    "BanjoKazooie": "Fictional-IronSail",
+    "Bayonetta": "Fictional-EmeraldFlame",
+    "BeachBoys": "Fictional-SpectralTower",
+    "Beatles": "Fictional-VelvetLantern",
+    "Belo": "Fictional-IronSignal",
+    "BetteMidler": "Fictional-SolarWarden",
+    "BlackSabbath": "Fictional-FrozenSignal",
+    "Blink182": "Fictional-JasperWarden",
+    "BobDylan": "Fictional-CobaltSignal",
+    "BoneyM": "Fictional-SmokyPrism",
+    "BoyzIIMen": "Fictional-GildedFalcon",
+    "BreakingBenjamin": "Fictional-QuartzRidge",
+    "BringMeTheHorizon": "Fictional-SterlingLotus",
+    "BruceDickinson": "Fictional-PhantomRaven",
+    "BruceSpringsteen": "Fictional-OpalRidge",
+    "BrunoMars": "Fictional-TwilightDrifter",
+    "BulletForMyValentine": "Fictional-ScarletCanyon",
+    "CPM22": "Fictional-FrozenNeedle",
+    "CaetanoVeloso": "Fictional-ScarletLeaf",
+    "Cameo": "Fictional-GraniteMirror",
+    "CapitalInicial": "Fictional-EmeraldBloom",
+    "CaptainAndTennille": "Fictional-ThunderPrism",
+    "Castlevania": "Fictional-EmeraldWarden",
+    "CharlieBrownJr": "Fictional-CobaltOracle",
+    "CheapTrick": "Fictional-GraniteRiver",
+    "ChuckBerry": "Fictional-ThunderSpire",
+    "Commodores": "Fictional-IronLantern",
+    "Cream": "Fictional-StormMoon",
+    "CrowdedHouse": "Fictional-TimberStone",
+    "CurtisMayfield": "Fictional-CrimsonWhisper",
+    "DJDave": "Fictional-GlassStone",
+    "DOOM": "Fictional-MidnightFrost",
+    "DaleHawkins": "Fictional-StormQuarry",
+    "Darude": "Fictional-IndigoHarbor",
+    "DavidBowie": "Fictional-IvorySignal",
+    "DeadFish": "Fictional-NeonDawn",
+    "DeadKennedys": "Fictional-JasperBloom",
+    "DeepPurple": "Fictional-JasperHorizon",
+    "Devo": "Fictional-TimberDawn",
+    "Dio": "Fictional-FadingGarden",
+    "DireStraits": "Fictional-TimberNeedle",
+    "Disturbed": "Fictional-TwilightPhoenix",
+    "Djavan": "Fictional-ScarletPrism",
+    "DonkeyKong": "Fictional-SapphireOracle",
+    "Donovan": "Fictional-VioletGarden",
+    "DoobieBrothers": "Fictional-NeonPillar",
+    "DragonBall": "Fictional-LunarChain",
+    "DragonForce": "Fictional-SolarWarden",
+    "EarthWindAndFire": "Fictional-AmberVeil",
+    "ElvisPresley": "Fictional-ShadowThorn",
+    "EngenheirosDoHawaii": "Fictional-ZincBeacon",
+    "Enigma": "Fictional-TimberRidge",
+    "Evanescence": "Fictional-IronMesa",
+    "FLOW": "Fictional-MidnightBell",
+    "FZero": "Fictional-ThistleOrchid",
+    "FaithNoMore": "Fictional-QuartzPeak",
+    "Faun": "Fictional-LunarCanyon",
+    "FireEmblem": "Fictional-SolarIsle",
+    "FooFighters": "Fictional-ScarletPrism",
+    "FundoDeQuintal": "Fictional-FrozenBell",
+    "GigiDAgostino": "Fictional-RustyRiver",
+    "GooGooDolls": "Fictional-SterlingThorn",
+    "Gorillaz": "Fictional-ShadowHorizon",
+    "GratefulDead": "Fictional-ScarletGlacier",
+    "GreenDay": "Fictional-ShadowPeak",
+    "GuiltyGear": "Fictional-BrassWhisper",
+    "GunsNRoses": "Fictional-GraniteCastle",
+    "HallAndOates": "Fictional-FadingIsle",
+    "HimikoKikuchi": "Fictional-CobaltRiver",
+    "IggyPop": "Fictional-PhantomRaven",
+    "InfectedMushroom": "Fictional-JadeOracle",
+    "IronMaiden": "Fictional-RustyMask",
+    "JGeilsBand": "Fictional-IndigoSummit",
+    "JeffBeck": "Fictional-CoralLighthouse",
+    "JethroTull": "Fictional-EmeraldRaven",
+    "Jigsaw": "Fictional-GildedFrost",
+    "JimiHendrix": "Fictional-ThunderChain",
+    "Fictional-Jozep": "Fictional-BrassGhost",
+    "JorgeVercillo": "Fictional-PhantomMirror",
+    "JunkoOhashi": "Fictional-GraniteCompass",
+    "KISS": "Fictional-JadeLotus",
+    "KennyG": "Fictional-PhantomLighthouse",
+    "KenshiYonezu": "Fictional-EbonyBeacon",
+    "KingCrimson": "Fictional-BlazingCastle",
+    "Kraftwerk": "Fictional-SpectralTower",
+    "Legiao": "Fictional-BlazingEcho",
+    "LimpBizkit": "Fictional-SmokySummit",
+    "LinkinPark": "Fictional-ThistleGate",
+    "LisaLisa": "Fictional-DuskLantern",
+    "LittleFeat": "Fictional-ThistleShield",
+    "LordOfTheRings": "Fictional-VioletStone",
+    "LosHermanos": "Fictional-VioletHelix",
+    "LynyrdSkynyrd": "Fictional-LunarHorizon",
+    "Madonna": "Fictional-EmeraldDawn",
+    "ManhattanTransfer": "Fictional-FrozenStrand",
+    "MapleStory": "Fictional-MarbleCrown",
+    "MariahCarey": "Fictional-AzureRaven",
+    "MarilynManson": "Fictional-SmokySummit",
+    "Mario": "Fictional-JadePrism",
+    "MarisaMonte": "Fictional-ScarletVoyage",
+    "Massacration": "Fictional-EmeraldMesa",
+    "Matanza": "Fictional-GraniteCrown",
+    "Megadeth": "Fictional-LunarKnight",
+    "Metallica": "Fictional-BrassCompass",
+    "Metroid": "Fictional-MidnightSpire",
+    "MichaelJackson": "Fictional-LunarSpire",
+    "MichelleHeafy": "Fictional-SmokyPeak",
+    "MikiMatsubara": "Fictional-AzurePrism",
+    "MoodyBlues": "Fictional-SterlingQuarry",
+    "Mother": "Fictional-RustyMirror",
+    "MyChemicalRomance": "Fictional-EbonyFlame",
+    "NSYNC": "Fictional-IronSerpent",
+    "Naruto": "Fictional-SterlingGate",
+    "NeilYoung": "Fictional-MarbleBloom",
+    "Nena": "Fictional-GoldenLantern",
+    "Nickelback": "Fictional-CoralVoyage",
+    "Nirvana": "Fictional-ShadowPhoenix",
+    "NotoriousBIG": "Fictional-DuskPhoenix",
+    "Nujabes": "Fictional-PhantomHorizon",
+    "ORappa": "Fictional-TimberCastle",
+    "Oasis": "Fictional-JasperIsle",
+    "OingoBoingo": "Fictional-AmberBell",
+    "OmegaTribe": "Fictional-SapphireSpire",
+    "OnePunchMan": "Fictional-ObsidianFalcon",
+    "OsMutantes": "Fictional-BlazingLighthouse",
+    "OsParalamas": "Fictional-SapphireHaven",
+    "Paramore": "Fictional-ShadowHorizon",
+    "PaulMcCartney": "Fictional-SapphireNeedle",
+    "PaulaAbdul": "Fictional-BrassSpire",
+    "PearlJam": "Fictional-AzurePhoenix",
+    "PetShopBoys": "Fictional-VolcanicLotus",
+    "PinkFloyd": "Fictional-EbonyBloom",
+    "Pitty": "Fictional-ZincCipher",
+    "Poco": "Fictional-CrimsonCrown",
+    "Pokemon": "Fictional-BrassHorizon",
+    "Prince": "Fictional-ZincNeedle",
+    "PrincessMononoke": "Fictional-AmberSpark",
+    "Queen": "Fictional-IvoryLighthouse",
+    "REM": "Fictional-MarbleRose",
+    "REOSpeedwagon": "Fictional-ObsidianPrism",
+    "RagnarokOnline": "Fictional-PhantomWhisper",
+    "Rammstein": "Fictional-IronMesa",
+    "RedHotChiliPeppers": "Fictional-SilverLighthouse",
+    "RollingStones": "Fictional-ThunderIsle",
+    "SHINee": "Fictional-NeonShore",
+    "Sabaton": "Fictional-JadeFrost",
+    "Sade": "Fictional-FrozenCrown",
+    "Santana": "Fictional-CrimsonScholar",
+    "SexPistols": "Fictional-AzureMirror",
+    "SkankBR": "Fictional-RustyDawn",
+    "Slipknot": "Fictional-VioletFalcon",
+    "SmokeyRobinson": "Fictional-TwilightSpark",
+    "SoftMachine": "Fictional-QuartzStrand",
+    "Sonic": "Fictional-AzureShore",
+    "SpiceGirls": "Fictional-ScarletBell",
+    "SteelyDan": "Fictional-EbonyBell",
+    "Stratovarius": "Fictional-ScarletHorizon",
+    "StrayCats": "Fictional-EbonyVoyage",
+    "StudioGhibli": "Fictional-CrimsonFountain",
+    "Styx": "Fictional-QuartzChain",
+    "Sublime": "Fictional-QuartzPhoenix",
+    "SuperSmashBros": "Fictional-ZincGate",
+    "Survivor": "Fictional-ScarletWhisper",
+    "SystemOfADown": "Fictional-SterlingBeacon",
+    "TalkingHeads": "Fictional-GraniteShore",
+    "TameImpala": "Fictional-ThunderGhost",
+    "TerenceTrentDArby": "Fictional-IronPrism",
+    "TheBand": "Fictional-SterlingJewel",
+    "TheCars": "Fictional-SmokySpark",
+    "TheCranberries": "Fictional-FrozenWing",
+    "TheOffspring": "Fictional-TimberFlame",
+    "TheSims": "Fictional-ZincHaven",
+    "TimMaia": "Fictional-OpalWing",
+    "TomPetty": "Fictional-OpalDrifter",
+    "Tribalistas": "Fictional-ThunderThorn",
+    "Turisas": "Fictional-VolcanicSignal",
+    "U2": "Fictional-MidnightWhisper",
+    "Underworld": "Fictional-ObsidianRiver",
+    "VanHalen": "Fictional-GlassCastle",
+    "Vanessa": "Fictional-VolcanicHorn",
+    "VanessaDaMata": "Fictional-ScarletPrism",
+    "VanillaIce": "Fictional-IronIsle",
+    "WangChung": "Fictional-CoralCanyon",
+    "WeatherReport": "Fictional-ThunderNest",
+    "Wham": "Fictional-ThistleLeaf",
+    "Whitesnake": "Fictional-CrimsonFrost",
+    "WindRose": "Fictional-ScarletSwan",
+    "WorldOfWarcraft": "Fictional-CoralForge",
+    "YUI": "Fictional-CrystalCipher",
+    "Yasuha": "Fictional-ThunderTide",
+    "Yes": "Fictional-IronHarbor",
+    "YoYoMa": "Fictional-TimberThorn",
+    "ZecaPagodinho": "Fictional-MarbleDrifter",
+    "Zelda": "Fictional-CrystalBell"
+  },
+  "text_form_to_fictional": {
+    "abba": "Fictional-DuskPeak",
+    "ac dc": "Fictional-BrassTide",
+    "acdc": "Fictional-BrassTide",
+    "ac/dc": "Fictional-BrassTide",
+    "AC/DC": "Fictional-BrassTide",
+    "aerosmith": "Fictional-AzureSpire",
+    "Aerosmith": "Fictional-AzureSpire",
+    "air supply": "Fictional-BrassHorizon",
+    "Air Supply": "Fictional-BrassHorizon",
+    "alcione": "Fictional-VelvetSpire",
+    "Alcione": "Fictional-VelvetSpire",
+    "alessi brothers": "Fictional-LunarDrifter",
+    "alessi ": "Fictional-LunarDrifter",
+    "Alessi Brothers": "Fictional-LunarDrifter",
+    "Alessi": "Fictional-LunarDrifter",
+    "alice in chains": "Fictional-ZincWing",
+    "alice_in_chains": "Fictional-ZincWing",
+    "Alice-In-Chains": "Fictional-ZincWing",
+    "Alice in Chains": "Fictional-ZincWing",
+    "america - a horse": "Fictional-IronCanyon",
+    "America - A Horse": "Fictional-IronCanyon",
+    "angra": "Fictional-FrozenMask",
+    "Angra": "Fictional-FrozenMask",
+    "anri": "Fictional-FadingHelix",
+    "Anri": "Fictional-FadingHelix",
+    "ariana grande": "Fictional-MistySpark",
+    "Ariana Grande": "Fictional-MistySpark",
+    "asian kung-fu generation": "Fictional-EmeraldTrail",
+    "asian kung fu": "Fictional-EmeraldTrail",
+    "Asian Kung-Fu Generation": "Fictional-EmeraldTrail",
+    "avenged sevenfold": "Fictional-ObsidianCastle",
+    "a7x": "Fictional-ObsidianCastle",
+    "Avenged Sevenfold": "Fictional-ObsidianCastle",
+    "A7X": "Fictional-ObsidianCastle",
+    "babyface": "Fictional-EbonySpark",
+    "Babyface": "Fictional-EbonySpark",
+    "Baby Face": "Fictional-EbonySpark",
+    "bad company": "Fictional-MistyStrand",
+    "Bad Company": "Fictional-MistyStrand",
+    "banjo-kazooie": "Fictional-IronSail",
+    "banjo kazooie": "Fictional-IronSail",
+    "banjo-tooie": "Fictional-IronSail",
+    "Banjo-Kazooie": "Fictional-IronSail",
+    "Banjo Kazooie": "Fictional-IronSail",
+    "bayonetta": "Fictional-EmeraldFlame",
+    "Bayonetta": "Fictional-EmeraldFlame",
+    "beach boys": "Fictional-SpectralTower",
+    "Beach Boys": "Fictional-SpectralTower",
+    "Beach Boy": "Fictional-SpectralTower",
+    "beatles": "Fictional-VelvetLantern",
+    "Beatles": "Fictional-VelvetLantern",
+    "The Beatles": "Fictional-VelvetLantern",
+    "belo": "Fictional-IronSignal",
+    "Belo": "Fictional-IronSignal",
+    "bette midler": "Fictional-SolarWarden",
+    "Bette Midler": "Fictional-SolarWarden",
+    "Midler": "Fictional-SolarWarden",
+    "black sabbath": "Fictional-FrozenSignal",
+    "Black Sabbath": "Fictional-FrozenSignal",
+    "blink-182": "Fictional-JasperWarden",
+    "blink 182": "Fictional-JasperWarden",
+    "Blink-182": "Fictional-JasperWarden",
+    "blink182": "Fictional-JasperWarden",
+    "bob dylan": "Fictional-CobaltSignal",
+    "Bob Dylan": "Fictional-CobaltSignal",
+    "boney m": "Fictional-SmokyPrism",
+    "Boney M": "Fictional-SmokyPrism",
+    "boyz ii men": "Fictional-GildedFalcon",
+    "boys ii men": "Fictional-GildedFalcon",
+    "boyz 2 men": "Fictional-GildedFalcon",
+    "Boyz II Men": "Fictional-GildedFalcon",
+    "Boy II Man": "Fictional-GildedFalcon",
+    "breaking benjamin": "Fictional-QuartzRidge",
+    "Breaking Benjamin": "Fictional-QuartzRidge",
+    "brk bj": "Fictional-QuartzRidge",
+    "bk bj": "Fictional-QuartzRidge",
+    "brk-bj": "Fictional-QuartzRidge",
+    "bk-bj": "Fictional-QuartzRidge",
+    "bring me the horizon": "Fictional-SterlingLotus",
+    "bmth": "Fictional-SterlingLotus",
+    "Bring-Me-The-Horizon": "Fictional-SterlingLotus",
+    "Bring Me The Horizon": "Fictional-SterlingLotus",
+    "bruce dickinson": "Fictional-PhantomRaven",
+    "Bruce Dickinson": "Fictional-PhantomRaven",
+    "Bruce-Dickinson": "Fictional-PhantomRaven",
+    "Brave-Knight": "Fictional-PhantomRaven",
+    "BraveKnight": "Fictional-PhantomRaven",
+    "bruce springsteen": "Fictional-OpalRidge",
+    "Bruce Springsteen": "Fictional-OpalRidge",
+    "bruno mars": "Fictional-TwilightDrifter",
+    "Bruno Mars": "Fictional-TwilightDrifter",
+    "bullet for my valentine": "Fictional-ScarletCanyon",
+    "bfmv": "Fictional-ScarletCanyon",
+    "Bullet For My Valentine": "Fictional-ScarletCanyon",
+    "BFMV": "Fictional-ScarletCanyon",
+    "cpm 22": "Fictional-FrozenNeedle",
+    "cpm22": "Fictional-FrozenNeedle",
+    "CPM 22": "Fictional-FrozenNeedle",
+    "caetano veloso": "Fictional-ScarletLeaf",
+    "Caetano Veloso": "Fictional-ScarletLeaf",
+    "cameo ": "Fictional-GraniteMirror",
+    "Cameo": "Fictional-GraniteMirror",
+    "capital inicial": "Fictional-EmeraldBloom",
+    "Capital Inicial": "Fictional-EmeraldBloom",
+    "Capital-Inicial": "Fictional-EmeraldBloom",
+    "captain & tennille": "Fictional-ThunderPrism",
+    "captain tennille": "Fictional-ThunderPrism",
+    "Captain & Tennille": "Fictional-ThunderPrism",
+    "Captain Tennille": "Fictional-ThunderPrism",
+    "castlevania": "Fictional-EmeraldWarden",
+    "Castlevania": "Fictional-EmeraldWarden",
+    "charlie brown jr": "Fictional-CobaltOracle",
+    "charlie_brown": "Fictional-CobaltOracle",
+    "Charlie Brown Jr": "Fictional-CobaltOracle",
+    "Charlie-Brown-Jr": "Fictional-CobaltOracle",
+    "cheap trick": "Fictional-GraniteRiver",
+    "Cheap Trick": "Fictional-GraniteRiver",
+    "chuck berry": "Fictional-ThunderSpire",
+    "Chuck Berry": "Fictional-ThunderSpire",
+    "commodores": "Fictional-IronLantern",
+    "Commodores": "Fictional-IronLantern",
+    "cream ": "Fictional-StormMoon",
+    "Cream": "Fictional-StormMoon",
+    "crowded house": "Fictional-TimberStone",
+    "Crowded House": "Fictional-TimberStone",
+    "curtis mayfield": "Fictional-CrimsonWhisper",
+    "Curtis Mayfield": "Fictional-CrimsonWhisper",
+    "dj_dave": "Fictional-GlassStone",
+    "djdave": "Fictional-GlassStone",
+    "dj dave": "Fictional-GlassStone",
+    "DJ Dave": "Fictional-GlassStone",
+    "DJDave": "Fictional-GlassStone",
+    "DJ-Dave": "Fictional-GlassStone",
+    "doom": "Fictional-MidnightFrost",
+    "DOOM": "Fictional-MidnightFrost",
+    "dale hawkins": "Fictional-StormQuarry",
+    "Dale Hawkins": "Fictional-StormQuarry",
+    "darude": "Fictional-IndigoHarbor",
+    "Darude": "Fictional-IndigoHarbor",
+    "david bowie": "Fictional-IvorySignal",
+    "David Bowie": "Fictional-IvorySignal",
+    "dead fish": "Fictional-NeonDawn",
+    "Dead Fish": "Fictional-NeonDawn",
+    "dead kennedys": "Fictional-JasperBloom",
+    "Dead Kennedys": "Fictional-JasperBloom",
+    "deep purple": "Fictional-JasperHorizon",
+    "Deep Purple": "Fictional-JasperHorizon",
+    "devo ": "Fictional-TimberDawn",
+    "Devo": "Fictional-TimberDawn",
+    "Dio": "Fictional-FadingGarden",
+    "dire straits": "Fictional-TimberNeedle",
+    "Dire Straits": "Fictional-TimberNeedle",
+    "disturbed": "Fictional-TwilightPhoenix",
+    "Disturbed": "Fictional-TwilightPhoenix",
+    "djavan": "Fictional-ScarletPrism",
+    "Djavan": "Fictional-ScarletPrism",
+    "donkey kong": "Fictional-SapphireOracle",
+    "Donkey Kong": "Fictional-SapphireOracle",
+    "DonkeyKong": "Fictional-SapphireOracle",
+    "dkc": "Fictional-SapphireOracle",
+    "DKC": "Fictional-SapphireOracle",
+    "donovan ": "Fictional-VioletGarden",
+    "Donovan": "Fictional-VioletGarden",
+    "doobie brothers": "Fictional-NeonPillar",
+    "Doobie Brothers": "Fictional-NeonPillar",
+    "dragon ball": "Fictional-LunarChain",
+    "Dragon Ball": "Fictional-LunarChain",
+    "dragonforce": "Fictional-SolarWarden",
+    "DragonForce": "Fictional-SolarWarden",
+    "earth, wind": "Fictional-AmberVeil",
+    "earth wind": "Fictional-AmberVeil",
+    "ewf ": "Fictional-AmberVeil",
+    "Earth, Wind & Fire": "Fictional-AmberVeil",
+    "Earth Wind and Fire": "Fictional-AmberVeil",
+    "elvis presley": "Fictional-ShadowThorn",
+    "Elvis Presley": "Fictional-ShadowThorn",
+    "engenheiros do hawaii": "Fictional-ZincBeacon",
+    "Engenheiros do Hawaii": "Fictional-ZincBeacon",
+    "enigma ": "Fictional-TimberRidge",
+    "Enigma": "Fictional-TimberRidge",
+    "evanescence": "Fictional-IronMesa",
+    "Evanescence": "Fictional-IronMesa",
+    "flow - sign": "Fictional-MidnightBell",
+    "FLOW": "Fictional-MidnightBell",
+    "f-zero": "Fictional-ThistleOrchid",
+    "F-Zero": "Fictional-ThistleOrchid",
+    "FZero": "Fictional-ThistleOrchid",
+    "faith no more": "Fictional-QuartzPeak",
+    "Faith No More": "Fictional-QuartzPeak",
+    "faith-no-more": "Fictional-QuartzPeak",
+    "Faith-No-More": "Fictional-QuartzPeak",
+    "faun": "Fictional-LunarCanyon",
+    "Faun": "Fictional-LunarCanyon",
+    "fire emblem": "Fictional-SolarIsle",
+    "Fire Emblem": "Fictional-SolarIsle",
+    "foo fighters": "Fictional-ScarletPrism",
+    "Foo Fighters": "Fictional-ScarletPrism",
+    "Foo-Fighters": "Fictional-ScarletPrism",
+    "fundo de quintal": "Fictional-FrozenBell",
+    "Fundo de Quintal": "Fictional-FrozenBell",
+    "gigi d'agostino": "Fictional-RustyRiver",
+    "gigi dagostino": "Fictional-RustyRiver",
+    "Gigi D'Agostino": "Fictional-RustyRiver",
+    "goo goo dolls": "Fictional-SterlingThorn",
+    "Goo Goo Dolls": "Fictional-SterlingThorn",
+    "gorillaz": "Fictional-ShadowHorizon",
+    "Gorillaz": "Fictional-ShadowHorizon",
+    "grateful dead": "Fictional-ScarletGlacier",
+    "Grateful Dead": "Fictional-ScarletGlacier",
+    "The Grateful Dead": "Fictional-ScarletGlacier",
+    "green day": "Fictional-ShadowPeak",
+    "Green Day": "Fictional-ShadowPeak",
+    "guilty gear": "Fictional-BrassWhisper",
+    "Guilty Gear": "Fictional-BrassWhisper",
+    "guns n' roses": "Fictional-GraniteCastle",
+    "guns n roses": "Fictional-GraniteCastle",
+    "Guns N' Roses": "Fictional-GraniteCastle",
+    "Guns N Roses": "Fictional-GraniteCastle",
+    "hall & oates": "Fictional-FadingIsle",
+    "hall and oates": "Fictional-FadingIsle",
+    "Hall & Oates": "Fictional-FadingIsle",
+    "himiko kikuchi": "Fictional-CobaltRiver",
+    "Himiko Kikuchi": "Fictional-CobaltRiver",
+    "iggy pop": "Fictional-PhantomRaven",
+    "Iggy Pop": "Fictional-PhantomRaven",
+    "Iggy": "Fictional-PhantomRaven",
+    "infected mushroom": "Fictional-JadeOracle",
+    "Infected Mushroom": "Fictional-JadeOracle",
+    "Infected-Mushroom": "Fictional-JadeOracle",
+    "iron maiden": "Fictional-RustyMask",
+    "Iron Maiden": "Fictional-RustyMask",
+    "j. geil": "Fictional-IndigoSummit",
+    "j. geils": "Fictional-IndigoSummit",
+    "j geil": "Fictional-IndigoSummit",
+    "J. Geils Band": "Fictional-IndigoSummit",
+    "J. Geil": "Fictional-IndigoSummit",
+    "jeff beck": "Fictional-CoralLighthouse",
+    "Jeff Beck": "Fictional-CoralLighthouse",
+    "Wired Beck": "Fictional-CoralLighthouse",
+    "jethro tull": "Fictional-EmeraldRaven",
+    "Jethro Tull": "Fictional-EmeraldRaven",
+    "jigsaw - sky": "Fictional-GildedFrost",
+    "jigsaw sky high": "Fictional-GildedFrost",
+    "Jigsaw": "Fictional-GildedFrost",
+    "jimi hendrix": "Fictional-ThunderChain",
+    "Jimi Hendrix": "Fictional-ThunderChain",
+    "jojo": "Fictional-BrassGhost",
+    "Fictional-Jozep": "Fictional-BrassGhost",
+    "jorge vercillo": "Fictional-PhantomMirror",
+    "Jorge Vercillo": "Fictional-PhantomMirror",
+    "Jorge-Vercillo": "Fictional-PhantomMirror",
+    "junko ohashi": "Fictional-GraniteCompass",
+    "Junko Ohashi": "Fictional-GraniteCompass",
+    "Junko-Ohashi": "Fictional-GraniteCompass",
+    "i was made for lovin' you": "Fictional-JadeLotus",
+    "i_was_made_for_lovin": "Fictional-JadeLotus",
+    "Kiss": "Fictional-JadeLotus",
+    "KISS": "Fictional-JadeLotus",
+    "kenny g": "Fictional-PhantomLighthouse",
+    "Kenny G": "Fictional-PhantomLighthouse",
+    "kenshi yonezu": "Fictional-EbonyBeacon",
+    "Kenshi Yonezu": "Fictional-EbonyBeacon",
+    "king crimson": "Fictional-BlazingCastle",
+    "King Crimson": "Fictional-BlazingCastle",
+    "kraftwerk": "Fictional-SpectralTower",
+    "Kraftwerk": "Fictional-SpectralTower",
+    "Kraft Werk": "Fictional-SpectralTower",
+    "legião urbana": "Fictional-BlazingEcho",
+    "legiao": "Fictional-BlazingEcho",
+    "Legião Urbana": "Fictional-BlazingEcho",
+    "Legiao": "Fictional-BlazingEcho",
+    "limp bizkit": "Fictional-SmokySummit",
+    "Limp Bizkit": "Fictional-SmokySummit",
+    "linkin park": "Fictional-ThistleGate",
+    "Linkin Park": "Fictional-ThistleGate",
+    "lisa lisa": "Fictional-DuskLantern",
+    "Lisa Lisa": "Fictional-DuskLantern",
+    "little feat": "Fictional-ThistleShield",
+    "little feet": "Fictional-ThistleShield",
+    "Little Feat": "Fictional-ThistleShield",
+    "lord of the rings": "Fictional-VioletStone",
+    "Lord of the Rings": "Fictional-VioletStone",
+    "los hermanos": "Fictional-VioletHelix",
+    "los_hermanos": "Fictional-VioletHelix",
+    "Los Hermanos": "Fictional-VioletHelix",
+    "lynyrd skynyrd": "Fictional-LunarHorizon",
+    "Lynyrd Skynyrd": "Fictional-LunarHorizon",
+    "madonna": "Fictional-EmeraldDawn",
+    "Madonna": "Fictional-EmeraldDawn",
+    "manhattan transfer": "Fictional-FrozenStrand",
+    "Manhattan Transfer": "Fictional-FrozenStrand",
+    "maplestory": "Fictional-MarbleCrown",
+    "MapleStory": "Fictional-MarbleCrown",
+    "mariah carey": "Fictional-AzureRaven",
+    "Mariah Carey": "Fictional-AzureRaven",
+    "Mariah": "Fictional-AzureRaven",
+    "marilyn manson": "Fictional-SmokySummit",
+    "Marilyn Manson": "Fictional-SmokySummit",
+    "mario": "Fictional-JadePrism",
+    "Mario": "Fictional-JadePrism",
+    "marisa monte": "Fictional-ScarletVoyage",
+    "Marisa Monte": "Fictional-ScarletVoyage",
+    "massacration": "Fictional-EmeraldMesa",
+    "Massacration": "Fictional-EmeraldMesa",
+    "matanza": "Fictional-GraniteCrown",
+    "Matanza": "Fictional-GraniteCrown",
+    "megadeth": "Fictional-LunarKnight",
+    "Megadeth": "Fictional-LunarKnight",
+    "metallica": "Fictional-BrassCompass",
+    "Metallica": "Fictional-BrassCompass",
+    "metroid": "Fictional-MidnightSpire",
+    "Metroid": "Fictional-MidnightSpire",
+    "michael jackson": "Fictional-LunarSpire",
+    "Michael Jackson": "Fictional-LunarSpire",
+    "michelle heafy": "Fictional-SmokyPeak",
+    "michelleheafy": "Fictional-SmokyPeak",
+    "Michelle Heafy": "Fictional-SmokyPeak",
+    "MichelleHeafy": "Fictional-SmokyPeak",
+    "miki matsubara": "Fictional-AzurePrism",
+    "Miki Matsubara": "Fictional-AzurePrism",
+    "Miki-Matsubara": "Fictional-AzurePrism",
+    "moody blues": "Fictional-SterlingQuarry",
+    "Moody Blues": "Fictional-SterlingQuarry",
+    "The Moody Blues": "Fictional-SterlingQuarry",
+    "Mother": "Fictional-RustyMirror",
+    "my chemical romance": "Fictional-EbonyFlame",
+    "My Chemical Romance": "Fictional-EbonyFlame",
+    "nsync": "Fictional-IronSerpent",
+    "n'sync": "Fictional-IronSerpent",
+    "NSYNC": "Fictional-IronSerpent",
+    "N'Sync": "Fictional-IronSerpent",
+    "naruto": "Fictional-SterlingGate",
+    "Naruto": "Fictional-SterlingGate",
+    "neil young": "Fictional-MarbleBloom",
+    "Neil Young": "Fictional-MarbleBloom",
+    "nena ": "Fictional-GoldenLantern",
+    "Nena": "Fictional-GoldenLantern",
+    "nickelback": "Fictional-CoralVoyage",
+    "Nickelback": "Fictional-CoralVoyage",
+    "nirvana": "Fictional-ShadowPhoenix",
+    "Nirvana": "Fictional-ShadowPhoenix",
+    "notorious big": "Fictional-DuskPhoenix",
+    "notorius big": "Fictional-DuskPhoenix",
+    "Notorious B.I.G.": "Fictional-DuskPhoenix",
+    "nujabes": "Fictional-PhantomHorizon",
+    "Nujabes": "Fictional-PhantomHorizon",
+    "o rappa": "Fictional-TimberCastle",
+    "O Rappa": "Fictional-TimberCastle",
+    "O-Rappa": "Fictional-TimberCastle",
+    "ORappa": "Fictional-TimberCastle",
+    "oasis": "Fictional-JasperIsle",
+    "Oasis": "Fictional-JasperIsle",
+    "oingo boingo": "Fictional-AmberBell",
+    "oingo & boingo": "Fictional-AmberBell",
+    "Oingo Boingo": "Fictional-AmberBell",
+    "Oingo & Boingo": "Fictional-AmberBell",
+    "omega tribe": "Fictional-SapphireSpire",
+    "1986 omega tribe": "Fictional-SapphireSpire",
+    "Omega Tribe": "Fictional-SapphireSpire",
+    "one punch man": "Fictional-ObsidianFalcon",
+    "one_punch_man": "Fictional-ObsidianFalcon",
+    "One Punch Man": "Fictional-ObsidianFalcon",
+    "os mutantes": "Fictional-BlazingLighthouse",
+    "Os Mutantes": "Fictional-BlazingLighthouse",
+    "paralamas": "Fictional-SapphireHaven",
+    "Paralamas": "Fictional-SapphireHaven",
+    "Os Paralamas": "Fictional-SapphireHaven",
+    "paramore": "Fictional-ShadowHorizon",
+    "Paramore": "Fictional-ShadowHorizon",
+    "paul mccartney": "Fictional-SapphireNeedle",
+    "Paul McCartney": "Fictional-SapphireNeedle",
+    "paula abdul": "Fictional-BrassSpire",
+    "Paula Abdul": "Fictional-BrassSpire",
+    "pearl jam": "Fictional-AzurePhoenix",
+    "Pearl Jam": "Fictional-AzurePhoenix",
+    "pet shop boys": "Fictional-VolcanicLotus",
+    "Pet Shop Boys": "Fictional-VolcanicLotus",
+    "Pet Shop": "Fictional-VolcanicLotus",
+    "pink floyd": "Fictional-EbonyBloom",
+    "Pink Floyd": "Fictional-EbonyBloom",
+    "pitty": "Fictional-ZincCipher",
+    "Pitty": "Fictional-ZincCipher",
+    "poco ": "Fictional-CrimsonCrown",
+    "Poco": "Fictional-CrimsonCrown",
+    "pokémon": "Fictional-BrassHorizon",
+    "pokemon": "Fictional-BrassHorizon",
+    "Pokémon": "Fictional-BrassHorizon",
+    "Pokemon": "Fictional-BrassHorizon",
+    "prince ": "Fictional-ZincNeedle",
+    "Prince": "Fictional-ZincNeedle",
+    "princess mononoke": "Fictional-AmberSpark",
+    "mononoke": "Fictional-AmberSpark",
+    "Princess Mononoke": "Fictional-AmberSpark",
+    "queen ": "Fictional-IvoryLighthouse",
+    "Queen": "Fictional-IvoryLighthouse",
+    "r.e.m.": "Fictional-MarbleRose",
+    "rem ": "Fictional-MarbleRose",
+    "R.E.M.": "Fictional-MarbleRose",
+    "REM": "Fictional-MarbleRose",
+    "reo speedwagon": "Fictional-ObsidianPrism",
+    "REO Speedwagon": "Fictional-ObsidianPrism",
+    "ragnarok online": "Fictional-PhantomWhisper",
+    "Ragnarok Online": "Fictional-PhantomWhisper",
+    "rammstein": "Fictional-IronMesa",
+    "Rammstein": "Fictional-IronMesa",
+    "red hot chili peppers": "Fictional-SilverLighthouse",
+    "rhcp": "Fictional-SilverLighthouse",
+    "rchp": "Fictional-SilverLighthouse",
+    "Red Hot Chili Peppers": "Fictional-SilverLighthouse",
+    "RHCP": "Fictional-SilverLighthouse",
+    "Red Hot Chili Pepper": "Fictional-SilverLighthouse",
+    "rolling stones": "Fictional-ThunderIsle",
+    "Rolling Stones": "Fictional-ThunderIsle",
+    "The Rolling Stones": "Fictional-ThunderIsle",
+    "shinee": "Fictional-NeonShore",
+    "SHINee": "Fictional-NeonShore",
+    "sabaton": "Fictional-JadeFrost",
+    "Sabaton": "Fictional-JadeFrost",
+    "sade ": "Fictional-FrozenCrown",
+    "Sade": "Fictional-FrozenCrown",
+    "santana ": "Fictional-CrimsonScholar",
+    "Santana": "Fictional-CrimsonScholar",
+    "sex pistols": "Fictional-AzureMirror",
+    "Sex Pistols": "Fictional-AzureMirror",
+    "skank": "Fictional-RustyDawn",
+    "Skank": "Fictional-RustyDawn",
+    "slipknot": "Fictional-VioletFalcon",
+    "Slipknot": "Fictional-VioletFalcon",
+    "smokey robinson": "Fictional-TwilightSpark",
+    "Smokey Robinson": "Fictional-TwilightSpark",
+    "soft machine": "Fictional-QuartzStrand",
+    "Soft Machine": "Fictional-QuartzStrand",
+    "sonic": "Fictional-AzureShore",
+    "Sonic": "Fictional-AzureShore",
+    "spice girls": "Fictional-ScarletBell",
+    "Spice Girls": "Fictional-ScarletBell",
+    "Spice Girl": "Fictional-ScarletBell",
+    "steely dan": "Fictional-EbonyBell",
+    "Steely Dan": "Fictional-EbonyBell",
+    "stratovarius": "Fictional-ScarletHorizon",
+    "Stratovarius": "Fictional-ScarletHorizon",
+    "stray cats": "Fictional-EbonyVoyage",
+    "stray cat ": "Fictional-EbonyVoyage",
+    "Stray Cats": "Fictional-EbonyVoyage",
+    "Stray Cat": "Fictional-EbonyVoyage",
+    "ghibli": "Fictional-CrimsonFountain",
+    "Studio Ghibli": "Fictional-CrimsonFountain",
+    "Studio-Ghibli": "Fictional-CrimsonFountain",
+    "Ghibli": "Fictional-CrimsonFountain",
+    "styx ": "Fictional-QuartzChain",
+    "Styx": "Fictional-QuartzChain",
+    "Father Styx": "Fictional-QuartzChain",
+    "sublime": "Fictional-QuartzPhoenix",
+    "Sublime": "Fictional-QuartzPhoenix",
+    "super smash bros": "Fictional-ZincGate",
+    "smash bros": "Fictional-ZincGate",
+    "ssbb": "Fictional-ZincGate",
+    "ssbm": "Fictional-ZincGate",
+    "ssbu": "Fictional-ZincGate",
+    "Super Smash Bros": "Fictional-ZincGate",
+    "Smash Bros": "Fictional-ZincGate",
+    "melee": "Fictional-ZincGate",
+    "survivor ": "Fictional-ScarletWhisper",
+    "Survivor": "Fictional-ScarletWhisper",
+    "system of a down": "Fictional-SterlingBeacon",
+    "soad": "Fictional-SterlingBeacon",
+    "System of a Down": "Fictional-SterlingBeacon",
+    "System-Of-A-Down": "Fictional-SterlingBeacon",
+    "SOAD": "Fictional-SterlingBeacon",
+    "talking heads": "Fictional-GraniteShore",
+    "Talking Heads": "Fictional-GraniteShore",
+    "tame impala": "Fictional-ThunderGhost",
+    "Tame Impala": "Fictional-ThunderGhost",
+    "terence trent": "Fictional-IronPrism",
+    "d'arby": "Fictional-IronPrism",
+    "Terence Trent D'Arby": "Fictional-IronPrism",
+    "Daniel J. D'Arby": "Fictional-IronPrism",
+    "the band ": "Fictional-SterlingJewel",
+    "The Band": "Fictional-SterlingJewel",
+    "the cars": "Fictional-SmokySpark",
+    "The Cars": "Fictional-SmokySpark",
+    "cranberries": "Fictional-FrozenWing",
+    "Cranberries": "Fictional-FrozenWing",
+    "The Cranberries": "Fictional-FrozenWing",
+    "offspring": "Fictional-TimberFlame",
+    "Offspring": "Fictional-TimberFlame",
+    "The Offspring": "Fictional-TimberFlame",
+    "the fictional-vidasimu": "Fictional-ZincHaven",
+    "The Fictional-VidaSimu": "Fictional-ZincHaven",
+    "tim maia": "Fictional-OpalWing",
+    "Tim Maia": "Fictional-OpalWing",
+    "tom petty": "Fictional-OpalDrifter",
+    "Tom Petty": "Fictional-OpalDrifter",
+    "Tonpetty": "Fictional-OpalDrifter",
+    "tribalistas": "Fictional-ThunderThorn",
+    "Tribalistas": "Fictional-ThunderThorn",
+    "turisas": "Fictional-VolcanicSignal",
+    "Turisas": "Fictional-VolcanicSignal",
+    "u2 ": "Fictional-MidnightWhisper",
+    "U2": "Fictional-MidnightWhisper",
+    "underworld ": "Fictional-ObsidianRiver",
+    "Underworld": "Fictional-ObsidianRiver",
+    "Under World": "Fictional-ObsidianRiver",
+    "van halen": "Fictional-GlassCastle",
+    "Van Halen": "Fictional-GlassCastle",
+    "vanessa da mata": "Fictional-VolcanicHorn",
+    "Vanessa Da Mata": "Fictional-VolcanicHorn",
+    "Vanessa-Da-Mata": "Fictional-VolcanicHorn",
+    "Vanessa da Mata": "Fictional-ScarletPrism",
+    "vanilla ice": "Fictional-IronIsle",
+    "Vanilla Ice": "Fictional-IronIsle",
+    "wang chung": "Fictional-CoralCanyon",
+    "Wang Chung": "Fictional-CoralCanyon",
+    "weather report": "Fictional-ThunderNest",
+    "Weather Report": "Fictional-ThunderNest",
+    "wham!": "Fictional-ThistleLeaf",
+    "wham ": "Fictional-ThistleLeaf",
+    "Wham!": "Fictional-ThistleLeaf",
+    "Wham": "Fictional-ThistleLeaf",
+    "whitesnake": "Fictional-CrimsonFrost",
+    "Whitesnake": "Fictional-CrimsonFrost",
+    "wind rose": "Fictional-ScarletSwan",
+    "Wind Rose": "Fictional-ScarletSwan",
+    "world of warcraft": "Fictional-CoralForge",
+    "warcraft": "Fictional-CoralForge",
+    "World of Warcraft": "Fictional-CoralForge",
+    "Warcraft": "Fictional-CoralForge",
+    "yui": "Fictional-CrystalCipher",
+    "YUI": "Fictional-CrystalCipher",
+    "yasuha": "Fictional-ThunderTide",
+    "Yasuha": "Fictional-ThunderTide",
+    "yes ": "Fictional-IronHarbor",
+    "Yes": "Fictional-IronHarbor",
+    "yo-yo ma": "Fictional-TimberThorn",
+    "yo yo ma": "Fictional-TimberThorn",
+    "Yo-Yo Ma": "Fictional-TimberThorn",
+    "zeca pagodinho": "Fictional-MarbleDrifter",
+    "Zeca Pagodinho": "Fictional-MarbleDrifter",
+    "zelda": "Fictional-CrystalBell",
+    "Zelda": "Fictional-CrystalBell",
+    "legend of zelda": "Fictional-CrystalBell"
+  },
+  "artist_text_forms": {
+    "ABBA": [
+      "abba"
+    ],
+    "ACDC": [
+      "ac dc",
+      "acdc",
+      "ac/dc",
+      "AC/DC"
+    ],
+    "Aerosmith": [
+      "aerosmith",
+      "Aerosmith"
+    ],
+    "AirSupply": [
+      "air supply",
+      "Air Supply"
+    ],
+    "Alcione": [
+      "alcione",
+      "Alcione"
+    ],
+    "AlessiBrothers": [
+      "alessi brothers",
+      "alessi ",
+      "Alessi Brothers",
+      "Alessi"
+    ],
+    "AliceInChains": [
+      "alice in chains",
+      "alice_in_chains",
+      "Alice-In-Chains",
+      "Alice in Chains"
+    ],
+    "America": [
+      "america - a horse",
+      "America - A Horse"
+    ],
+    "Angra": [
+      "angra",
+      "Angra"
+    ],
+    "Anri": [
+      "anri",
+      "Anri"
+    ],
+    "ArianaGrande": [
+      "ariana grande",
+      "Ariana Grande"
+    ],
+    "AsianKungFuGeneration": [
+      "asian kung-fu generation",
+      "asian kung fu",
+      "Asian Kung-Fu Generation"
+    ],
+    "AvengedSevenfold": [
+      "avenged sevenfold",
+      "a7x",
+      "Avenged Sevenfold",
+      "A7X"
+    ],
+    "Babyface": [
+      "babyface",
+      "Babyface",
+      "Baby Face"
+    ],
+    "BadCompany": [
+      "bad company",
+      "Bad Company"
+    ],
+    "BanjoKazooie": [
+      "banjo-kazooie",
+      "banjo kazooie",
+      "banjo-tooie",
+      "Banjo-Kazooie",
+      "Banjo Kazooie"
+    ],
+    "Bayonetta": [
+      "bayonetta",
+      "Bayonetta"
+    ],
+    "BeachBoys": [
+      "beach boys",
+      "Beach Boys",
+      "Beach Boy"
+    ],
+    "Beatles": [
+      "beatles",
+      "Beatles",
+      "The Beatles"
+    ],
+    "Belo": [
+      "belo",
+      "Belo"
+    ],
+    "BetteMidler": [
+      "bette midler",
+      "Bette Midler",
+      "Midler"
+    ],
+    "BlackSabbath": [
+      "black sabbath",
+      "Black Sabbath"
+    ],
+    "Blink182": [
+      "blink-182",
+      "blink 182",
+      "Blink-182",
+      "blink182"
+    ],
+    "BobDylan": [
+      "bob dylan",
+      "Bob Dylan"
+    ],
+    "BoneyM": [
+      "boney m",
+      "Boney M"
+    ],
+    "BoyzIIMen": [
+      "boyz ii men",
+      "boys ii men",
+      "boyz 2 men",
+      "Boyz II Men",
+      "Boy II Man"
+    ],
+    "BreakingBenjamin": [
+      "breaking benjamin",
+      "Breaking Benjamin",
+      "brk bj",
+      "bk bj",
+      "brk-bj",
+      "bk-bj"
+    ],
+    "BringMeTheHorizon": [
+      "bring me the horizon",
+      "bmth",
+      "Bring-Me-The-Horizon",
+      "Bring Me The Horizon"
+    ],
+    "BruceDickinson": [
+      "bruce dickinson",
+      "Bruce Dickinson",
+      "Bruce-Dickinson",
+      "Brave-Knight",
+      "BraveKnight"
+    ],
+    "BruceSpringsteen": [
+      "bruce springsteen",
+      "Bruce Springsteen"
+    ],
+    "BrunoMars": [
+      "bruno mars",
+      "Bruno Mars"
+    ],
+    "BulletForMyValentine": [
+      "bullet for my valentine",
+      "bfmv",
+      "Bullet For My Valentine",
+      "BFMV"
+    ],
+    "CPM22": [
+      "cpm 22",
+      "cpm22",
+      "CPM 22"
+    ],
+    "CaetanoVeloso": [
+      "caetano veloso",
+      "Caetano Veloso"
+    ],
+    "Cameo": [
+      "cameo ",
+      "Cameo"
+    ],
+    "CapitalInicial": [
+      "capital inicial",
+      "Capital Inicial",
+      "Capital-Inicial"
+    ],
+    "CaptainAndTennille": [
+      "captain & tennille",
+      "captain tennille",
+      "Captain & Tennille",
+      "Captain Tennille"
+    ],
+    "Castlevania": [
+      "castlevania",
+      "Castlevania"
+    ],
+    "CharlieBrownJr": [
+      "charlie brown jr",
+      "charlie_brown",
+      "Charlie Brown Jr",
+      "Charlie-Brown-Jr"
+    ],
+    "CheapTrick": [
+      "cheap trick",
+      "Cheap Trick"
+    ],
+    "ChuckBerry": [
+      "chuck berry",
+      "Chuck Berry"
+    ],
+    "Commodores": [
+      "commodores",
+      "Commodores"
+    ],
+    "Cream": [
+      "cream ",
+      "Cream"
+    ],
+    "CrowdedHouse": [
+      "crowded house",
+      "Crowded House"
+    ],
+    "CurtisMayfield": [
+      "curtis mayfield",
+      "Curtis Mayfield"
+    ],
+    "DJDave": [
+      "dj_dave",
+      "djdave",
+      "dj dave",
+      "DJ Dave",
+      "DJDave",
+      "DJ-Dave"
+    ],
+    "DOOM": [
+      "doom",
+      "DOOM"
+    ],
+    "DaleHawkins": [
+      "dale hawkins",
+      "Dale Hawkins"
+    ],
+    "Darude": [
+      "darude",
+      "Darude"
+    ],
+    "DavidBowie": [
+      "david bowie",
+      "David Bowie"
+    ],
+    "DeadFish": [
+      "dead fish",
+      "Dead Fish"
+    ],
+    "DeadKennedys": [
+      "dead kennedys",
+      "Dead Kennedys"
+    ],
+    "DeepPurple": [
+      "deep purple",
+      "Deep Purple"
+    ],
+    "Devo": [
+      "devo ",
+      "Devo"
+    ],
+    "Dio": [
+      "Dio"
+    ],
+    "DireStraits": [
+      "dire straits",
+      "Dire Straits"
+    ],
+    "Disturbed": [
+      "disturbed",
+      "Disturbed"
+    ],
+    "Djavan": [
+      "djavan",
+      "Djavan"
+    ],
+    "DonkeyKong": [
+      "donkey kong",
+      "Donkey Kong",
+      "DonkeyKong",
+      "dkc",
+      "DKC"
+    ],
+    "Donovan": [
+      "donovan ",
+      "Donovan"
+    ],
+    "DoobieBrothers": [
+      "doobie brothers",
+      "Doobie Brothers"
+    ],
+    "DragonBall": [
+      "dragon ball",
+      "Dragon Ball"
+    ],
+    "DragonForce": [
+      "dragonforce",
+      "DragonForce"
+    ],
+    "EarthWindAndFire": [
+      "earth, wind",
+      "earth wind",
+      "ewf ",
+      "Earth, Wind & Fire",
+      "Earth Wind and Fire"
+    ],
+    "ElvisPresley": [
+      "elvis presley",
+      "Elvis Presley"
+    ],
+    "EngenheirosDoHawaii": [
+      "engenheiros do hawaii",
+      "Engenheiros do Hawaii"
+    ],
+    "Enigma": [
+      "enigma ",
+      "Enigma"
+    ],
+    "Evanescence": [
+      "evanescence",
+      "Evanescence"
+    ],
+    "FLOW": [
+      "flow - sign",
+      "FLOW"
+    ],
+    "FZero": [
+      "f-zero",
+      "F-Zero",
+      "FZero"
+    ],
+    "FaithNoMore": [
+      "faith no more",
+      "Faith No More",
+      "faith-no-more",
+      "Faith-No-More"
+    ],
+    "Faun": [
+      "faun",
+      "Faun"
+    ],
+    "FireEmblem": [
+      "fire emblem",
+      "Fire Emblem"
+    ],
+    "FooFighters": [
+      "foo fighters",
+      "Foo Fighters",
+      "Foo-Fighters"
+    ],
+    "FundoDeQuintal": [
+      "fundo de quintal",
+      "Fundo de Quintal"
+    ],
+    "GigiDAgostino": [
+      "gigi d'agostino",
+      "gigi dagostino",
+      "Gigi D'Agostino"
+    ],
+    "GooGooDolls": [
+      "goo goo dolls",
+      "Goo Goo Dolls"
+    ],
+    "Gorillaz": [
+      "gorillaz",
+      "Gorillaz"
+    ],
+    "GratefulDead": [
+      "grateful dead",
+      "Grateful Dead",
+      "The Grateful Dead"
+    ],
+    "GreenDay": [
+      "green day",
+      "Green Day"
+    ],
+    "GuiltyGear": [
+      "guilty gear",
+      "Guilty Gear"
+    ],
+    "GunsNRoses": [
+      "guns n' roses",
+      "guns n roses",
+      "Guns N' Roses",
+      "Guns N Roses"
+    ],
+    "HallAndOates": [
+      "hall & oates",
+      "hall and oates",
+      "Hall & Oates"
+    ],
+    "HimikoKikuchi": [
+      "himiko kikuchi",
+      "Himiko Kikuchi"
+    ],
+    "IggyPop": [
+      "iggy pop",
+      "Iggy Pop",
+      "Iggy"
+    ],
+    "InfectedMushroom": [
+      "infected mushroom",
+      "Infected Mushroom",
+      "Infected-Mushroom"
+    ],
+    "IronMaiden": [
+      "iron maiden",
+      "Iron Maiden"
+    ],
+    "JGeilsBand": [
+      "j. geil",
+      "j. geils",
+      "j geil",
+      "J. Geils Band",
+      "J. Geil"
+    ],
+    "JeffBeck": [
+      "jeff beck",
+      "Jeff Beck",
+      "Wired Beck"
+    ],
+    "JethroTull": [
+      "jethro tull",
+      "Jethro Tull"
+    ],
+    "Jigsaw": [
+      "jigsaw - sky",
+      "jigsaw sky high",
+      "Jigsaw"
+    ],
+    "JimiHendrix": [
+      "jimi hendrix",
+      "Jimi Hendrix"
+    ],
+    "Fictional-Jozep": [
+      "jojo",
+      "Fictional-Jozep"
+    ],
+    "JorgeVercillo": [
+      "jorge vercillo",
+      "Jorge Vercillo",
+      "Jorge-Vercillo"
+    ],
+    "JunkoOhashi": [
+      "junko ohashi",
+      "Junko Ohashi",
+      "Junko-Ohashi"
+    ],
+    "KISS": [
+      "i was made for lovin' you",
+      "i_was_made_for_lovin",
+      "Kiss",
+      "KISS"
+    ],
+    "KennyG": [
+      "kenny g",
+      "Kenny G"
+    ],
+    "KenshiYonezu": [
+      "kenshi yonezu",
+      "Kenshi Yonezu"
+    ],
+    "KingCrimson": [
+      "king crimson",
+      "King Crimson"
+    ],
+    "Kraftwerk": [
+      "kraftwerk",
+      "Kraftwerk",
+      "Kraft Werk"
+    ],
+    "Legiao": [
+      "legião urbana",
+      "legiao",
+      "Legião Urbana",
+      "Legiao"
+    ],
+    "LimpBizkit": [
+      "limp bizkit",
+      "Limp Bizkit"
+    ],
+    "LinkinPark": [
+      "linkin park",
+      "Linkin Park"
+    ],
+    "LisaLisa": [
+      "lisa lisa",
+      "Lisa Lisa"
+    ],
+    "LittleFeat": [
+      "little feat",
+      "little feet",
+      "Little Feat"
+    ],
+    "LordOfTheRings": [
+      "lord of the rings",
+      "Lord of the Rings"
+    ],
+    "LosHermanos": [
+      "los hermanos",
+      "los_hermanos",
+      "Los Hermanos"
+    ],
+    "LynyrdSkynyrd": [
+      "lynyrd skynyrd",
+      "Lynyrd Skynyrd"
+    ],
+    "Madonna": [
+      "madonna",
+      "Madonna"
+    ],
+    "ManhattanTransfer": [
+      "manhattan transfer",
+      "Manhattan Transfer"
+    ],
+    "MapleStory": [
+      "maplestory",
+      "MapleStory"
+    ],
+    "MariahCarey": [
+      "mariah carey",
+      "Mariah Carey",
+      "Mariah"
+    ],
+    "MarilynManson": [
+      "marilyn manson",
+      "Marilyn Manson"
+    ],
+    "Mario": [
+      "mario",
+      "Mario"
+    ],
+    "MarisaMonte": [
+      "marisa monte",
+      "Marisa Monte"
+    ],
+    "Massacration": [
+      "massacration",
+      "Massacration"
+    ],
+    "Matanza": [
+      "matanza",
+      "Matanza"
+    ],
+    "Megadeth": [
+      "megadeth",
+      "Megadeth"
+    ],
+    "Metallica": [
+      "metallica",
+      "Metallica"
+    ],
+    "Metroid": [
+      "metroid",
+      "Metroid"
+    ],
+    "MichaelJackson": [
+      "michael jackson",
+      "Michael Jackson"
+    ],
+    "MichelleHeafy": [
+      "michelle heafy",
+      "michelleheafy",
+      "Michelle Heafy",
+      "MichelleHeafy"
+    ],
+    "MikiMatsubara": [
+      "miki matsubara",
+      "Miki Matsubara",
+      "Miki-Matsubara"
+    ],
+    "MoodyBlues": [
+      "moody blues",
+      "Moody Blues",
+      "The Moody Blues"
+    ],
+    "Mother": [
+      "Mother"
+    ],
+    "MyChemicalRomance": [
+      "my chemical romance",
+      "My Chemical Romance"
+    ],
+    "NSYNC": [
+      "nsync",
+      "n'sync",
+      "NSYNC",
+      "N'Sync"
+    ],
+    "Naruto": [
+      "naruto",
+      "Naruto"
+    ],
+    "NeilYoung": [
+      "neil young",
+      "Neil Young"
+    ],
+    "Nena": [
+      "nena ",
+      "Nena"
+    ],
+    "Nickelback": [
+      "nickelback",
+      "Nickelback"
+    ],
+    "Nirvana": [
+      "nirvana",
+      "Nirvana"
+    ],
+    "NotoriousBIG": [
+      "notorious big",
+      "notorius big",
+      "Notorious B.I.G."
+    ],
+    "Nujabes": [
+      "nujabes",
+      "Nujabes"
+    ],
+    "ORappa": [
+      "o rappa",
+      "O Rappa",
+      "O-Rappa",
+      "ORappa"
+    ],
+    "Oasis": [
+      "oasis",
+      "Oasis"
+    ],
+    "OingoBoingo": [
+      "oingo boingo",
+      "oingo & boingo",
+      "Oingo Boingo",
+      "Oingo & Boingo"
+    ],
+    "OmegaTribe": [
+      "omega tribe",
+      "1986 omega tribe",
+      "Omega Tribe"
+    ],
+    "OnePunchMan": [
+      "one punch man",
+      "one_punch_man",
+      "One Punch Man"
+    ],
+    "OsMutantes": [
+      "os mutantes",
+      "Os Mutantes"
+    ],
+    "OsParalamas": [
+      "paralamas",
+      "Paralamas",
+      "Os Paralamas"
+    ],
+    "Paramore": [
+      "paramore",
+      "Paramore"
+    ],
+    "PaulMcCartney": [
+      "paul mccartney",
+      "Paul McCartney"
+    ],
+    "PaulaAbdul": [
+      "paula abdul",
+      "Paula Abdul"
+    ],
+    "PearlJam": [
+      "pearl jam",
+      "Pearl Jam"
+    ],
+    "PetShopBoys": [
+      "pet shop boys",
+      "Pet Shop Boys",
+      "Pet Shop"
+    ],
+    "PinkFloyd": [
+      "pink floyd",
+      "Pink Floyd"
+    ],
+    "Pitty": [
+      "pitty",
+      "Pitty"
+    ],
+    "Poco": [
+      "poco ",
+      "Poco"
+    ],
+    "Pokemon": [
+      "pokémon",
+      "pokemon",
+      "Pokémon",
+      "Pokemon"
+    ],
+    "Prince": [
+      "prince ",
+      "Prince"
+    ],
+    "PrincessMononoke": [
+      "princess mononoke",
+      "mononoke",
+      "Princess Mononoke"
+    ],
+    "Queen": [
+      "queen ",
+      "Queen"
+    ],
+    "REM": [
+      "r.e.m.",
+      "rem ",
+      "R.E.M.",
+      "REM"
+    ],
+    "REOSpeedwagon": [
+      "reo speedwagon",
+      "REO Speedwagon"
+    ],
+    "RagnarokOnline": [
+      "ragnarok online",
+      "Ragnarok Online"
+    ],
+    "Rammstein": [
+      "rammstein",
+      "Rammstein"
+    ],
+    "RedHotChiliPeppers": [
+      "red hot chili peppers",
+      "rhcp",
+      "rchp",
+      "Red Hot Chili Peppers",
+      "RHCP",
+      "Red Hot Chili Pepper"
+    ],
+    "RollingStones": [
+      "rolling stones",
+      "Rolling Stones",
+      "The Rolling Stones"
+    ],
+    "SHINee": [
+      "shinee",
+      "SHINee"
+    ],
+    "Sabaton": [
+      "sabaton",
+      "Sabaton"
+    ],
+    "Sade": [
+      "sade ",
+      "Sade"
+    ],
+    "Santana": [
+      "santana ",
+      "Santana"
+    ],
+    "SexPistols": [
+      "sex pistols",
+      "Sex Pistols"
+    ],
+    "SkankBR": [
+      "skank",
+      "Skank"
+    ],
+    "Slipknot": [
+      "slipknot",
+      "Slipknot"
+    ],
+    "SmokeyRobinson": [
+      "smokey robinson",
+      "Smokey Robinson"
+    ],
+    "SoftMachine": [
+      "soft machine",
+      "Soft Machine"
+    ],
+    "Sonic": [
+      "sonic",
+      "Sonic"
+    ],
+    "SpiceGirls": [
+      "spice girls",
+      "Spice Girls",
+      "Spice Girl"
+    ],
+    "SteelyDan": [
+      "steely dan",
+      "Steely Dan"
+    ],
+    "Stratovarius": [
+      "stratovarius",
+      "Stratovarius"
+    ],
+    "StrayCats": [
+      "stray cats",
+      "stray cat ",
+      "Stray Cats",
+      "Stray Cat"
+    ],
+    "StudioGhibli": [
+      "ghibli",
+      "Studio Ghibli",
+      "Studio-Ghibli",
+      "Ghibli"
+    ],
+    "Styx": [
+      "styx ",
+      "Styx",
+      "Father Styx"
+    ],
+    "Sublime": [
+      "sublime",
+      "Sublime"
+    ],
+    "SuperSmashBros": [
+      "super smash bros",
+      "smash bros",
+      "ssbb",
+      "ssbm",
+      "ssbu",
+      "Super Smash Bros",
+      "Smash Bros",
+      "melee"
+    ],
+    "Survivor": [
+      "survivor ",
+      "Survivor"
+    ],
+    "SystemOfADown": [
+      "system of a down",
+      "soad",
+      "System of a Down",
+      "System-Of-A-Down",
+      "SOAD"
+    ],
+    "TalkingHeads": [
+      "talking heads",
+      "Talking Heads"
+    ],
+    "TameImpala": [
+      "tame impala",
+      "Tame Impala"
+    ],
+    "TerenceTrentDArby": [
+      "terence trent",
+      "d'arby",
+      "Terence Trent D'Arby",
+      "Daniel J. D'Arby"
+    ],
+    "TheBand": [
+      "the band ",
+      "The Band"
+    ],
+    "TheCars": [
+      "the cars",
+      "The Cars"
+    ],
+    "TheCranberries": [
+      "cranberries",
+      "Cranberries",
+      "The Cranberries"
+    ],
+    "TheOffspring": [
+      "offspring",
+      "Offspring",
+      "The Offspring"
+    ],
+    "TheSims": [
+      "the fictional-vidasimu",
+      "The Fictional-VidaSimu"
+    ],
+    "TimMaia": [
+      "tim maia",
+      "Tim Maia"
+    ],
+    "TomPetty": [
+      "tom petty",
+      "Tom Petty",
+      "Tonpetty"
+    ],
+    "Tribalistas": [
+      "tribalistas",
+      "Tribalistas"
+    ],
+    "Turisas": [
+      "turisas",
+      "Turisas"
+    ],
+    "U2": [
+      "u2 ",
+      "U2"
+    ],
+    "Underworld": [
+      "underworld ",
+      "Underworld",
+      "Under World"
+    ],
+    "VanHalen": [
+      "van halen",
+      "Van Halen"
+    ],
+    "Vanessa": [
+      "vanessa da mata",
+      "Vanessa Da Mata",
+      "Vanessa-Da-Mata"
+    ],
+    "VanessaDaMata": [
+      "vanessa da mata",
+      "Vanessa da Mata"
+    ],
+    "VanillaIce": [
+      "vanilla ice",
+      "Vanilla Ice"
+    ],
+    "WangChung": [
+      "wang chung",
+      "Wang Chung"
+    ],
+    "WeatherReport": [
+      "weather report",
+      "Weather Report"
+    ],
+    "Wham": [
+      "wham!",
+      "wham ",
+      "Wham!",
+      "Wham"
+    ],
+    "Whitesnake": [
+      "whitesnake",
+      "Whitesnake"
+    ],
+    "WindRose": [
+      "wind rose",
+      "Wind Rose"
+    ],
+    "WorldOfWarcraft": [
+      "world of warcraft",
+      "warcraft",
+      "World of Warcraft",
+      "Warcraft"
+    ],
+    "YUI": [
+      "yui",
+      "YUI"
+    ],
+    "Yasuha": [
+      "yasuha",
+      "Yasuha"
+    ],
+    "Yes": [
+      "yes ",
+      "Yes"
+    ],
+    "YoYoMa": [
+      "yo-yo ma",
+      "yo yo ma",
+      "Yo-Yo Ma"
+    ],
+    "ZecaPagodinho": [
+      "zeca pagodinho",
+      "Zeca Pagodinho"
+    ],
+    "Zelda": [
+      "zelda",
+      "Zelda",
+      "legend of zelda"
+    ]
+  }
+}

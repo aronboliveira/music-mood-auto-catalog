@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Guidemap: Fictional Name Replacement System
+  ============================================
+  Semi-structured index of all documents, data references, and scripts
+  involved in replacing real artist/album/track names with fictional ones.
+
+  Purpose: Enable full re-application of fictional names after ingesting
+  new source files (e.g., new classifications, updated track lists).
+
+  Last updated: 2026-04-07
+-->
+<guidemap version="1.0" project="music-algorithm">
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- REPLACEMENT REFERENCE DATA                                  -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <references>
+    <reference id="all-merged" format="json" priority="1">
+      <path>update-ingestion/references/all-replacements-merged.json</path>
+      <description>
+        Single flat map of ALL old→new string replacements across all passes.
+        Sorted longest-first. Use this for mass replacement tools (Java, sed).
+        Contains ~1400 unique entries covering artists, song titles, game/anime refs.
+      </description>
+      <usage>Primary input for MassReplacer.java and apply-fictional-names.sh</usage>
+    </reference>
+
+    <reference id="pass1-artists" format="json" priority="2">
+      <path>update-ingestion/references/pass1-artist-mappings.json</path>
+      <description>
+        Pass 1 data: PascalCase artist IDs → Fictional-{Adj}{Noun} mappings,
+        plus all textual variants (lowercase, titled, hyphenated).
+        Generated deterministically via MD5 hash from scripts/apply_fictional_names.py.
+      </description>
+      <sections>
+        <section key="artist_id_to_fictional">PascalCase ID → Fictional name (163 entries)</section>
+        <section key="text_form_to_fictional">All text variants → same Fictional name</section>
+        <section key="artist_text_forms">PascalCase ID → list of variant strings</section>
+      </sections>
+    </reference>
+
+    <reference id="pass2-keywords" format="json" priority="2">
+      <path>update-ingestion/references/pass2-keyword-scrub.json</path>
+      <description>
+        Pass 2 data: keyword-level replacements for song titles, artist names
+        missed by pass 1, and game/anime franchise references.
+        Uses Fictional-Kw-{8hex} naming via MD5. ~1947 rules with case variants.
+      </description>
+      <sections>
+        <section key="extra_artist_names">~48 lowercase artist names</section>
+        <section key="extra_song_titles">~160 song titles</section>
+        <section key="extra_game_anime_refs">~62 game/anime franchise references</section>
+        <section key="keep_strings">~200+ protected strings (genres, moods, instruments)</section>
+        <section key="full_table">Complete old→new replacement dict</section>
+      </sections>
+    </reference>
+
+    <reference id="pass3-third" format="json" priority="2">
+      <path>update-ingestion/references/pass3-third-pass.json</path>
+      <description>
+        Pass 3 data: remaining multi-word artist names, classical composers,
+        concatenated/hyphenated forms for dict keys. ~270 regex rules.
+        Has ambiguous-word context restrictions (word-boundary + lookbehind).
+      </description>
+      <sections>
+        <section key="artist_names">~145 multi-word artist names</section>
+        <section key="song_titles">~12 remaining song title stragglers</section>
+        <section key="extra_performers">3 Unicode performer names</section>
+        <section key="concat_artist_forms">~60 hyphenated/concatenated forms</section>
+        <section key="full_rules">Compiled regex pattern + replacement pairs</section>
+      </sections>
+    </reference>
+
+    <reference id="jozep-refs" format="json" priority="3">
+      <path>update-ingestion/references/jozep-refs.json</path>
+      <description>
+        JoJo's Bizarre Adventure character → song mapping.
+        ~120 entries. Used by apply_jozep_refs.py for file-copy operations.
+        Already post-fictionalised (artist names in values are Fictional-*).
+      </description>
+    </reference>
+  </references>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- REPLACEMENT SCRIPTS (Python — context-aware)                -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <scripts>
+    <script id="pass1" language="python" order="1">
+      <path>scripts/apply_fictional_names.py</path>
+      <description>
+        First pass: 163 PascalCase artist IDs → Fictional-{Adj}{Noun}.
+        Track filenames → Fictional-Track-{8hex}.mp3.
+        Deterministic via MD5 hash. Handles JSON key replacement.
+      </description>
+      <args>--apply (or omit for dry run)</args>
+      <naming-pattern>Fictional-{Adjective}{Noun}</naming-pattern>
+    </script>
+
+    <script id="pass2" language="python" order="2">
+      <path>scripts/apply_keyword_scrub.py</path>
+      <description>
+        Second pass: ~1947 keyword-level rules for song titles, game/anime refs,
+        remaining artist names. Case-variant expansion (Title, UPPER, hyphenated).
+      </description>
+      <args>--apply (or omit for dry run)</args>
+      <naming-pattern>Fictional-Kw-{8hex}</naming-pattern>
+    </script>
+
+    <script id="pass3" language="python" order="3">
+      <path>scripts/apply_third_pass.py</path>
+      <description>
+        Third pass: ~270 regex rules for multi-word artist names, classical
+        composers, concat forms. Ambiguous words get context-restricted patterns.
+      </description>
+      <args>--apply (or omit for dry run)</args>
+      <naming-pattern>Fictional-Kw-{8hex}</naming-pattern>
+    </script>
+
+    <script id="jozep-copy" language="python" order="4">
+      <path>scripts/apply_jozep_refs.py</path>
+      <description>
+        JoJo reference handler: scans Artist/ subfolders, matches file stems
+        against jozep-refs.yml entries, copies matches to Artist/Fictional-JozepRef/.
+      </description>
+      <data-file>docs/guidelines/data/jozep-refs.yml</data-file>
+    </script>
+
+    <script id="vidasimu-copy" language="python" order="5">
+      <path>scripts/copy_vidasimu.py</path>
+      <description>
+        Copies already-renamed Fictional-VidaSimu tracks to correct Genre/Mood folders.
+        Hardcoded filename sets (26 files).
+      </description>
+    </script>
+  </scripts>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- MASS REPLACEMENT TOOLS (Java — performance)                 -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <tools>
+    <tool id="mass-replacer" language="java">
+      <path>update-ingestion/tools/MassReplacer.java</path>
+      <description>
+        High-performance string replacer. Reads the merged JSON map and applies
+        all replacements to every text file under a target directory.
+        Longest-match-first ordering. Single pass per file.
+      </description>
+      <compile>javac update-ingestion/tools/MassReplacer.java</compile>
+      <run>java -cp update-ingestion/tools MassReplacer update-ingestion/references/all-replacements-merged.json . --apply</run>
+    </tool>
+
+    <tool id="orchestrator" language="bash">
+      <path>update-ingestion/tools/apply-fictional-names.sh</path>
+      <description>
+        Full pipeline orchestrator: cleanup → Java mass replace → Python passes → verification.
+        Supports --apply, --java-only, --py-only modes.
+      </description>
+    </tool>
+
+    <tool id="cleanup" language="bash">
+      <path>update-ingestion/tools/pre-ingest-cleanup.sh</path>
+      <description>
+        Pre-ingestion cleanup: delete images in media/prints dirs,
+        delete old .html in docs/maps/ (keeps most recent date folder).
+      </description>
+    </tool>
+  </tools>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- NAMING CONVENTIONS                                          -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <naming-conventions>
+    <convention prefix="Fictional-" scope="artists">
+      <pattern>Fictional-{Adjective}{Noun}</pattern>
+      <examples>Fictional-ScarletPrism, Fictional-IronHarbor, Fictional-TwilightPhoenix</examples>
+      <generator>MD5 hash of PascalCase artist ID → _ADJ[h%50] + _NOUN[(h>>8)%72]</generator>
+    </convention>
+
+    <convention prefix="Fictional-Track-" scope="track-filenames">
+      <pattern>Fictional-Track-{8hex}.mp3</pattern>
+      <examples>Fictional-Track-a87ff679.mp3, Fictional-Track-8607bd0e_part_001.mp3</examples>
+      <generator>MD5 hash of mp3 stem → first 8 hex chars. Preserves _part_NNN suffixes.</generator>
+    </convention>
+
+    <convention prefix="Fictional-Kw-" scope="keywords">
+      <pattern>Fictional-Kw-{8hex}</pattern>
+      <examples>Fictional-Kw-27b20503, Fictional-Kw-961bcf19</examples>
+      <generator>MD5 hash of lowercase keyword → first 8 hex chars</generator>
+    </convention>
+
+    <convention prefix="Fictional-VidaSimu" scope="sims-franchise">
+      <description>The Sims franchise → Fictional-VidaSimu</description>
+    </convention>
+
+    <convention prefix="Fictional-Jozep" scope="jojo-franchise">
+      <description>JoJo standalone → Fictional-Jozep. JoJo's Bizarre Adventure → Fictional-JozepJourneys</description>
+    </convention>
+  </naming-conventions>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- PROTECTED STRINGS (never replaced)                          -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <protected-strings>
+    <category name="genres">
+      Rock, Metal, Pop, Jazz, Blues, Classical, Electronic, HipHop, R&amp;B, Country,
+      Folk, Punk, Reggae, Soul, Funk, Grunge, NuMetal, Metalcore, PostRock, Shoegaze,
+      AlternativeRock, AlternativeMetal, ProgressiveRock, ProgressiveMetal,
+      SymphonicMetal, IndustrialMetal, DeathMetal, BlackMetal, ThrashMetal,
+      PowerMetal, DoomMetal, StoneRock, PostPunk, GothicRock, DreamPop,
+      Ambient, DarkAmbient, Chillwave, Synthwave, WorldMusic, LatinPop,
+      BossaNova, Samba, MPB, Sertanejo, Forró, Pagode, AxéMusic,
+      AnimeOST, GameOST, FilmOST, Soundtrack
+    </category>
+    <category name="moods">
+      All mood labels from docs/guidelines/moods.txt (Aggressive, Chill, Dark,
+      Dreamy, Energetic, Ethereal, Euphoric, Happy, Haunting, Hopeful,
+      Intense, Melancholic, Nostalgic, Peaceful, Powerful, Rebellious,
+      Reflective, Romantic, Sad, Serene, Triumphant, Upbeat, etc.)
+    </category>
+    <category name="structural">
+      Artist, Genre, Mood, singles, albums, classified, Various, Unclassified
+    </category>
+  </protected-strings>
+
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <!-- WORKFLOW: How to re-apply after new source ingestion        -->
+  <!-- ════════════════════════════════════════════════════════════ -->
+  <workflow>
+    <step order="1">Run pre-ingest-cleanup.sh --apply (delete stale media/html)</step>
+    <step order="2">Copy/merge new source files into the workspace</step>
+    <step order="3">Run apply-fictional-names.sh --apply (full pipeline)</step>
+    <step order="4">Review git diff for correctness</step>
+    <step order="5">Run flake8 + mypy verification</step>
+    <step order="6">Git add + commit + push granularly</step>
+  </workflow>
+
+</guidemap>

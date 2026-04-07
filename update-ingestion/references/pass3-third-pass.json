@@ -1,0 +1,1367 @@
+{
+  "artist_names": [
+    "Avenged Sevenfold",
+    "Ariana Grande",
+    "Bright Eyes",
+    "Bruno Mars",
+    "Bryan Adams",
+    "Bill Bruford",
+    "Bill Withers",
+    "Billy Joel",
+    "Bob Seger",
+    "Brian Eno",
+    "Belle & Sebastian",
+    "Bernard Herrmann",
+    "Bon Iver",
+    "Bon Jovi",
+    "Bruce Springsteen",
+    "Carl Orff",
+    "Cat Stevens",
+    "Capital Inicial",
+    "Charlie Brown Jr",
+    "Chris Isaak",
+    "Chuck Berry",
+    "Claude Debussy",
+    "Daft Punk",
+    "Deep Purple",
+    "Dolly Parton",
+    "Don Gibson",
+    "Don Henley",
+    "Don McLean",
+    "Dream Theater",
+    "Édith Piaf",
+    "Ed Sheeran",
+    "Electric Light Orchestra",
+    "Emerson, Lake & Palmer",
+    "Eric Whitacre",
+    "Erik Satie",
+    "Etta James",
+    "Fleetwood Mac",
+    "Foo Fighters",
+    "Frank Sinatra",
+    "Frankie Valli",
+    "Fundo de Quintal",
+    "Gary Jules",
+    "Green Day",
+    "Holland K Smith",
+    "Iron Maiden",
+    "Israel Kamakawiwoʻole",
+    "Israel Kamakawiwo'ole",
+    "Jack Johnson",
+    "Jethro Tull",
+    "Joe Satriani",
+    "John Mayer",
+    "John Williams",
+    "Joni Mitchell",
+    "Judas Priest",
+    "Kate Bush",
+    "Katrina and the Waves",
+    "King Crimson",
+    "Klaus Badelt",
+    "Lady Gaga",
+    "Lalo Schifrin",
+    "Led Zeppelin",
+    "Leonard Cohen",
+    "Leon Bridges",
+    "Linkin Park",
+    "Loggins & Messina",
+    "Louis Armstrong",
+    "Ludovico Einaudi",
+    "Magdalena Pedarnig",
+    "Manchester Orchestra",
+    "Marconi Union",
+    "Mark Ronson",
+    "Maroon 5",
+    "Martin O'Donnell",
+    "Marvin Gaye",
+    "Massive Attack",
+    "Max Richter",
+    "Michael Jackson",
+    "Mike Oldfield",
+    "Miles Davis",
+    "Nat King Cole",
+    "Nine Inch Nails",
+    "Of Monsters and Men",
+    "Papa Roach",
+    "Pearl Jam",
+    "Peter Gabriel",
+    "Pharrell Williams",
+    "Phil Collins",
+    "Philip Glass",
+    "Pink Floyd",
+    "Rage Against",
+    "Red Hot Chili Peppers",
+    "Richard Strauss",
+    "R. Kelly",
+    "Rolling Stones",
+    "Saint-Saëns",
+    "Sam Smith",
+    "Samuel Barber",
+    "Simon & Garfunkel",
+    "Sinéad O'Connor",
+    "Stevie Wonder",
+    "Suzi Quatro",
+    "System of a Down",
+    "Taylor Swift",
+    "Tears for Fears",
+    "The Cure",
+    "The Killers",
+    "The O'Jays",
+    "The Prodigy",
+    "The Smiths",
+    "The Weeknd",
+    "The White Stripes",
+    "Tim Maia",
+    "Two Steps from Hell",
+    "T. Rex",
+    "Van Halen",
+    "Whitney Houston",
+    "Yann Tiersen",
+    "ZZ Top",
+    "Amy Winehouse",
+    "Aphex Twin",
+    "Arvo Pärt",
+    "Blink 182",
+    "Blink-182",
+    "Blink182",
+    "Bob Marley",
+    "Bright Eyes",
+    "ABBA",
+    "Akon",
+    "Beethoven",
+    "Caramell",
+    "Chic",
+    "Debussy",
+    "Disney",
+    "Duffy",
+    "Eagles",
+    "ELO",
+    "Eminem",
+    "Enya",
+    "Europe",
+    "Evanescence",
+    "Extreme",
+    "Gorillaz",
+    "Grieg",
+    "Hawkwind",
+    "Jay-Z",
+    "Journey",
+    "Kansas",
+    "Korn",
+    "Live",
+    "Megadeth",
+    "Mineral",
+    "Moby",
+    "Mozart",
+    "Muse",
+    "Nightwish",
+    "Normani",
+    "Oasis",
+    "Outkast",
+    "Passenger",
+    "Perfume",
+    "Prince",
+    "Rammstein",
+    "Rainbow",
+    "Ratt",
+    "Rihanna",
+    "Sabaton",
+    "Schubert",
+    "Scorpions",
+    "Slayer",
+    "Sting",
+    "Stratovarius",
+    "Supertramp",
+    "Surface",
+    "Tool",
+    "Trivium",
+    "Tycho",
+    "U2",
+    "Vivaldi",
+    "SpongeBob"
+  ],
+  "song_titles": [
+    "Somewhere Over the Rainbow",
+    "Sharp Dressed Man",
+    "Scar Tissue",
+    "Purple Rain",
+    "Hotel California",
+    "Sound of Silence",
+    "The Sound of Silence",
+    "Orinoco Flow",
+    "californication",
+    "under the bridge",
+    "somewhere over the rainbow",
+    "what a wonderful world"
+  ],
+  "extra_performers": [
+    "Israel Kamakawiwoʻole",
+    "Israel Kamakawiwo'ole",
+    "Joe Satriani"
+  ],
+  "concat_artist_forms": [
+    "avenged-sevenfold",
+    "avengedsevenfold",
+    "bobmarley",
+    "bob-marley",
+    "bon-jovi",
+    "bonjovi",
+    "bruce-springsteen",
+    "brucespringsteen",
+    "bruno-mars",
+    "brunomars",
+    "capitalinicial",
+    "capital-inicial",
+    "charlie-brown-jr",
+    "charliebrownjr",
+    "chuck-berry",
+    "chuckberry",
+    "daft-punk",
+    "daftpunk",
+    "deep-purple",
+    "deeppurple",
+    "foo-fighters",
+    "foofighters",
+    "franksinatra",
+    "frank-sinatra",
+    "fundo-de-quintal",
+    "fundodequintal",
+    "green-day",
+    "greenday",
+    "iron-maiden",
+    "ironmaiden",
+    "jack-johnson",
+    "jackjohnson",
+    "jethro-tull",
+    "jethrotull",
+    "judaspriest",
+    "judas-priest",
+    "ledzeppelin",
+    "led-zeppelin",
+    "linkin-park",
+    "linkinpark",
+    "ls-jack",
+    "lsjack",
+    "marvin-gaye",
+    "marvingaye",
+    "massive-attack",
+    "massiveattack",
+    "michael-jackson",
+    "michaeljackson",
+    "ne-yo",
+    "neyo",
+    "nine-inch-nails",
+    "pearl-jam",
+    "pearljam",
+    "philcollins",
+    "phil-collins",
+    "pink-floyd",
+    "pinkfloyd",
+    "rage-against",
+    "rageagainst",
+    "red-hot-chili-peppers",
+    "redhotchilipeppers",
+    "rolling-stones",
+    "rollingstones",
+    "sam-smith",
+    "samsmith",
+    "steviewonder",
+    "stevie-wonder",
+    "summer-eletrohits",
+    "summereletrohits",
+    "system-of-a-down",
+    "systemofadown",
+    "the-cure",
+    "thecure",
+    "the-smiths",
+    "thesmiths",
+    "tim-maia",
+    "timmaia",
+    "van-halen",
+    "vanhalen",
+    "whitney-houston",
+    "whitneyhouston"
+  ],
+  "full_rules": [
+    [
+      "\\bSomewhere\\ Over\\ the\\ Rainbow\\b",
+      "Fictional-Kw-fe6acc5b"
+    ],
+    [
+      "\\bElectric\\ Light\\ Orchestra\\b",
+      "Fictional-Kw-c31a7dee"
+    ],
+    [
+      "\\bEmerson,\\ Lake\\ \\&\\ Palmer\\b",
+      "Fictional-Kw-9e994276"
+    ],
+    [
+      "\\bwhat\\ a\\ wonderful\\ world\\b",
+      "Fictional-Kw-b6ae6b50"
+    ],
+    [
+      "\\bIsrael\\ Kamakawiwoʻole\\b",
+      "Fictional-Kw-2a673ffe"
+    ],
+    [
+      "\\bIsrael\\ Kamakawiwo'ole\\b",
+      "Fictional-Kw-2f3d091a"
+    ],
+    [
+      "\\bKatrina\\ and\\ the\\ Waves\\b",
+      "Fictional-Kw-50029382"
+    ],
+    [
+      "\\bRed\\ Hot\\ Chili\\ Peppers\\b",
+      "Fictional-Kw-89c410e4"
+    ],
+    [
+      "\\bred\\-hot\\-chili\\-peppers\\b",
+      "Fictional-Kw-609363a9"
+    ],
+    [
+      "\\bManchester\\ Orchestra\\b",
+      "Fictional-Kw-a21acd58"
+    ],
+    [
+      "\\bThe\\ Sound\\ of\\ Silence\\b",
+      "Fictional-Kw-9d2dd9cc"
+    ],
+    [
+      "\\bOf\\ Monsters\\ and\\ Men\\b",
+      "Fictional-Kw-1e6683c7"
+    ],
+    [
+      "\\bTwo\\ Steps\\ from\\ Hell\\b",
+      "Fictional-Kw-19c71491"
+    ],
+    [
+      "\\bMagdalena\\ Pedarnig\\b",
+      "Fictional-Kw-11799871"
+    ],
+    [
+      "\\bredhotchilipeppers\\b",
+      "Fictional-Kw-e25bb685"
+    ],
+    [
+      "\\bAvenged\\ Sevenfold\\b",
+      "Fictional-Kw-6125f3f0"
+    ],
+    [
+      "\\bBelle\\ \\&\\ Sebastian\\b",
+      "Fictional-Kw-58116cfc"
+    ],
+    [
+      "\\bBruce\\ Springsteen\\b",
+      "Fictional-Kw-028ad117"
+    ],
+    [
+      "\\bLoggins\\ \\&\\ Messina\\b",
+      "Fictional-Kw-112385b1"
+    ],
+    [
+      "\\bPharrell\\ Williams\\b",
+      "Fictional-Kw-fb1d30c9"
+    ],
+    [
+      "\\bSimon\\ \\&\\ Garfunkel\\b",
+      "Fictional-Kw-426ed6bb"
+    ],
+    [
+      "\\bThe\\ White\\ Stripes\\b",
+      "Fictional-Kw-9004901a"
+    ],
+    [
+      "\\bSharp\\ Dressed\\ Man\\b",
+      "Fictional-Kw-255963ae"
+    ],
+    [
+      "\\bavenged\\-sevenfold\\b",
+      "Fictional-Kw-0cfb2c8c"
+    ],
+    [
+      "\\bbruce\\-springsteen\\b",
+      "Fictional-Kw-29c00ee5"
+    ],
+    [
+      "\\bsummer\\-eletrohits\\b",
+      "Fictional-Kw-efa19b51"
+    ],
+    [
+      "\\bBernard\\ Herrmann\\b",
+      "Fictional-Kw-28576b97"
+    ],
+    [
+      "\\bCharlie\\ Brown\\ Jr\\b",
+      "Fictional-Kw-df999724"
+    ],
+    [
+      "\\bFundo\\ de\\ Quintal\\b",
+      "Fictional-Kw-f8cd2804"
+    ],
+    [
+      "\\bLudovico\\ Einaudi\\b",
+      "Fictional-Kw-778e91e9"
+    ],
+    [
+      "\\bMartin\\ O'Donnell\\b",
+      "Fictional-Kw-130d6cbc"
+    ],
+    [
+      "\\bSystem\\ of\\ a\\ Down\\b",
+      "Fictional-Kw-31592ffa"
+    ],
+    [
+      "\\bHotel\\ California\\b",
+      "Fictional-Kw-80cdc815"
+    ],
+    [
+      "\\bSound\\ of\\ Silence\\b",
+      "Fictional-Kw-55864dd4"
+    ],
+    [
+      "\\bunder\\ the\\ bridge\\b",
+      "Fictional-Kw-76992efa"
+    ],
+    [
+      "\\bavengedsevenfold\\b",
+      "Fictional-Kw-1f76c6b7"
+    ],
+    [
+      "\\bbrucespringsteen\\b",
+      "Fictional-Kw-eeec1c29"
+    ],
+    [
+      "\\bcharlie\\-brown\\-jr\\b",
+      "Fictional-Kw-6f0c3415"
+    ],
+    [
+      "\\bfundo\\-de\\-quintal\\b",
+      "Fictional-Kw-09e53ad6"
+    ],
+    [
+      "\\bsummereletrohits\\b",
+      "Fictional-Kw-47f3a013"
+    ],
+    [
+      "\\bsystem\\-of\\-a\\-down\\b",
+      "Fictional-Kw-061d5554"
+    ],
+    [
+      "\\bCapital\\ Inicial\\b",
+      "Fictional-Kw-dee9765b"
+    ],
+    [
+      "\\bHolland\\ K\\ Smith\\b",
+      "Fictional-Kw-365d43a0"
+    ],
+    [
+      "\\bLouis\\ Armstrong\\b",
+      "Fictional-Kw-52e38d9e"
+    ],
+    [
+      "\\bMichael\\ Jackson\\b",
+      "Fictional-Kw-d6499b91"
+    ],
+    [
+      "\\bNine\\ Inch\\ Nails\\b",
+      "Fictional-Kw-166a8328"
+    ],
+    [
+      "\\bRichard\\ Strauss\\b",
+      "Fictional-Kw-1326737f"
+    ],
+    [
+      "\\bSinéad\\ O'Connor\\b",
+      "Fictional-Kw-1fbaee35"
+    ],
+    [
+      "\\bTears\\ for\\ Fears\\b",
+      "Fictional-Kw-6559de06"
+    ],
+    [
+      "\\bWhitney\\ Houston\\b",
+      "Fictional-Kw-f4946232"
+    ],
+    [
+      "\\bcalifornication\\b",
+      "Fictional-Kw-511ff788"
+    ],
+    [
+      "\\bcapital\\-inicial\\b",
+      "Fictional-Kw-4a5ba73d"
+    ],
+    [
+      "\\bmichael\\-jackson\\b",
+      "Fictional-Kw-e854bd47"
+    ],
+    [
+      "\\bnine\\-inch\\-nails\\b",
+      "Fictional-Kw-ab36447e"
+    ],
+    [
+      "\\bwhitney\\-houston\\b",
+      "Fictional-Kw-9ef424d0"
+    ],
+    [
+      "\\bClaude\\ Debussy\\b",
+      "Fictional-Kw-1e2e9f67"
+    ],
+    [
+      "\\bMassive\\ Attack\\b",
+      "Fictional-Kw-15a3f278"
+    ],
+    [
+      "\\bRolling\\ Stones\\b",
+      "Fictional-Kw-9eba40af"
+    ],
+    [
+      "\\bcapitalinicial\\b",
+      "Fictional-Kw-3d0f4cba"
+    ],
+    [
+      "\\bcharliebrownjr\\b",
+      "Fictional-Kw-80d3a366"
+    ],
+    [
+      "\\bfundodequintal\\b",
+      "Fictional-Kw-45e9fb21"
+    ],
+    [
+      "\\bmassive\\-attack\\b",
+      "Fictional-Kw-0e983c07"
+    ],
+    [
+      "\\bmichaeljackson\\b",
+      "Fictional-Kw-8d38376b"
+    ],
+    [
+      "\\brolling\\-stones\\b",
+      "Fictional-Kw-bbbb4465"
+    ],
+    [
+      "\\bwhitneyhouston\\b",
+      "Fictional-Kw-7e3b50ed"
+    ],
+    [
+      "\\bAriana\\ Grande\\b",
+      "Fictional-Kw-59ebdb4a"
+    ],
+    [
+      "\\bDream\\ Theater\\b",
+      "Fictional-Kw-2aea5b22"
+    ],
+    [
+      "\\bEric\\ Whitacre\\b",
+      "Fictional-Kw-124dcb2e"
+    ],
+    [
+      "\\bFleetwood\\ Mac\\b",
+      "Fictional-Kw-f7bff349"
+    ],
+    [
+      "\\bFrank\\ Sinatra\\b",
+      "Fictional-Kw-a24ffcf2"
+    ],
+    [
+      "\\bFrankie\\ Valli\\b",
+      "Fictional-Kw-d1502f1b"
+    ],
+    [
+      "\\bJohn\\ Williams\\b",
+      "Fictional-Kw-0b32e2f9"
+    ],
+    [
+      "\\bJoni\\ Mitchell\\b",
+      "Fictional-Kw-8932b88a"
+    ],
+    [
+      "\\bLalo\\ Schifrin\\b",
+      "Fictional-Kw-e7438aeb"
+    ],
+    [
+      "\\bLeonard\\ Cohen\\b",
+      "Fictional-Kw-cb5b7dc1"
+    ],
+    [
+      "\\bMarconi\\ Union\\b",
+      "Fictional-Kw-68299162"
+    ],
+    [
+      "\\bMike\\ Oldfield\\b",
+      "Fictional-Kw-f20cb762"
+    ],
+    [
+      "\\bNat\\ King\\ Cole\\b",
+      "Fictional-Kw-f49c7f79"
+    ],
+    [
+      "\\bPeter\\ Gabriel\\b",
+      "Fictional-Kw-4af5059f"
+    ],
+    [
+      "\\bSamuel\\ Barber\\b",
+      "Fictional-Kw-452b082f"
+    ],
+    [
+      "\\bStevie\\ Wonder\\b",
+      "Fictional-Kw-8994337c"
+    ],
+    [
+      "\\bAmy\\ Winehouse\\b",
+      "Fictional-Kw-7966ef68"
+    ],
+    [
+      "\\bfrank\\-sinatra\\b",
+      "Fictional-Kw-fb9e593d"
+    ],
+    [
+      "\\bmassiveattack\\b",
+      "Fictional-Kw-bebab907"
+    ],
+    [
+      "\\brollingstones\\b",
+      "Fictional-Kw-71b6a10f"
+    ],
+    [
+      "\\bstevie\\-wonder\\b",
+      "Fictional-Kw-cff1216a"
+    ],
+    [
+      "\\bsystemofadown\\b",
+      "Fictional-Kw-09c66d54"
+    ],
+    [
+      "\\bBill\\ Bruford\\b",
+      "Fictional-Kw-a723d0fa"
+    ],
+    [
+      "\\bBill\\ Withers\\b",
+      "Fictional-Kw-69c6ab6e"
+    ],
+    [
+      "\\bDolly\\ Parton\\b",
+      "Fictional-Kw-4fa84a4c"
+    ],
+    [
+      "\\bFoo\\ Fighters\\b",
+      "Fictional-Kw-b10d662a"
+    ],
+    [
+      "\\bJack\\ Johnson\\b",
+      "Fictional-Kw-018ff799"
+    ],
+    [
+      "\\bJoe\\ Satriani\\b",
+      "Fictional-Kw-235c5991"
+    ],
+    [
+      "\\bJudas\\ Priest\\b",
+      "Fictional-Kw-313498fa"
+    ],
+    [
+      "\\bKing\\ Crimson\\b",
+      "Fictional-Kw-95d10db0"
+    ],
+    [
+      "\\bKlaus\\ Badelt\\b",
+      "Fictional-Kw-c72d3588"
+    ],
+    [
+      "\\bLed\\ Zeppelin\\b",
+      "Fictional-Kw-a8c86eae"
+    ],
+    [
+      "\\bLeon\\ Bridges\\b",
+      "Fictional-Kw-0b2960aa"
+    ],
+    [
+      "\\bPhil\\ Collins\\b",
+      "Fictional-Kw-0f3147d9"
+    ],
+    [
+      "\\bPhilip\\ Glass\\b",
+      "Fictional-Kw-0c6a0d83"
+    ],
+    [
+      "\\bRage\\ Against\\b",
+      "Fictional-Kw-896901cc"
+    ],
+    [
+      "\\bTaylor\\ Swift\\b",
+      "Fictional-Kw-28239d61"
+    ],
+    [
+      "\\bYann\\ Tiersen\\b",
+      "Fictional-Kw-3e19d728"
+    ],
+    [
+      "\\bStratovarius\\b",
+      "Fictional-Kw-6fd8d0bf"
+    ],
+    [
+      "\\bOrinoco\\ Flow\\b",
+      "Fictional-Kw-884c49ea"
+    ],
+    [
+      "\\bfoo\\-fighters\\b",
+      "Fictional-Kw-985fd394"
+    ],
+    [
+      "\\bfranksinatra\\b",
+      "Fictional-Kw-3b69e333"
+    ],
+    [
+      "\\bjack\\-johnson\\b",
+      "Fictional-Kw-04ef566f"
+    ],
+    [
+      "\\bjudas\\-priest\\b",
+      "Fictional-Kw-8501775f"
+    ],
+    [
+      "\\bled\\-zeppelin\\b",
+      "Fictional-Kw-a9076991"
+    ],
+    [
+      "\\bphil\\-collins\\b",
+      "Fictional-Kw-738a7348"
+    ],
+    [
+      "\\brage\\-against\\b",
+      "Fictional-Kw-e3a5a8bb"
+    ],
+    [
+      "\\bsteviewonder\\b",
+      "Fictional-Kw-78ae774f"
+    ],
+    [
+      "\\bBright\\ Eyes\\b",
+      "Fictional-Kw-a1e498f4"
+    ],
+    [
+      "\\bBryan\\ Adams\\b",
+      "Fictional-Kw-fa747d78"
+    ],
+    [
+      "\\bCat\\ Stevens\\b",
+      "Fictional-Kw-47068261"
+    ],
+    [
+      "\\bChris\\ Isaak\\b",
+      "Fictional-Kw-507d5f37"
+    ],
+    [
+      "\\bChuck\\ Berry\\b",
+      "Fictional-Kw-c560dc00"
+    ],
+    [
+      "\\bDeep\\ Purple\\b",
+      "Fictional-Kw-2b6ee83d"
+    ],
+    [
+      "\\bIron\\ Maiden\\b",
+      "Fictional-Kw-cf6f0b2d"
+    ],
+    [
+      "\\bJethro\\ Tull\\b",
+      "Fictional-Kw-08251857"
+    ],
+    [
+      "\\bLinkin\\ Park\\b",
+      "Fictional-Kw-e3be19c7"
+    ],
+    [
+      "\\bMark\\ Ronson\\b",
+      "Fictional-Kw-12aed0a6"
+    ],
+    [
+      "\\bMarvin\\ Gaye\\b",
+      "Fictional-Kw-e770281e"
+    ],
+    [
+      "\\bMax\\ Richter\\b",
+      "Fictional-Kw-49f093a0"
+    ],
+    [
+      "\\bMiles\\ Davis\\b",
+      "Fictional-Kw-7df6e4b0"
+    ],
+    [
+      "\\bSaint\\-Saëns\\b",
+      "Fictional-Kw-f20f7e15"
+    ],
+    [
+      "\\bSuzi\\ Quatro\\b",
+      "Fictional-Kw-0d4fc848"
+    ],
+    [
+      "\\bThe\\ Killers\\b",
+      "Fictional-Kw-f8ea1c11"
+    ],
+    [
+      "\\bThe\\ Prodigy\\b",
+      "Fictional-Kw-a83086bf"
+    ],
+    [
+      "\\bEvanescence\\b",
+      "Fictional-Kw-35626b58"
+    ],
+    [
+      "\\bScar\\ Tissue\\b",
+      "Fictional-Kw-4f8f69e3"
+    ],
+    [
+      "\\bPurple\\ Rain\\b",
+      "Fictional-Kw-f969736c"
+    ],
+    [
+      "\\bchuck\\-berry\\b",
+      "Fictional-Kw-2cb77866"
+    ],
+    [
+      "\\bdeep\\-purple\\b",
+      "Fictional-Kw-62674322"
+    ],
+    [
+      "\\bfoofighters\\b",
+      "Fictional-Kw-e8b5d682"
+    ],
+    [
+      "\\biron\\-maiden\\b",
+      "Fictional-Kw-4c8c10d5"
+    ],
+    [
+      "\\bjackjohnson\\b",
+      "Fictional-Kw-f0839924"
+    ],
+    [
+      "\\bjethro\\-tull\\b",
+      "Fictional-Kw-a0dbad64"
+    ],
+    [
+      "\\bjudaspriest\\b",
+      "Fictional-Kw-86b619b1"
+    ],
+    [
+      "\\bledzeppelin\\b",
+      "Fictional-Kw-665b3d52"
+    ],
+    [
+      "\\blinkin\\-park\\b",
+      "Fictional-Kw-85af6281"
+    ],
+    [
+      "\\bmarvin\\-gaye\\b",
+      "Fictional-Kw-4d1a75b9"
+    ],
+    [
+      "\\bphilcollins\\b",
+      "Fictional-Kw-e5ed2409"
+    ],
+    [
+      "\\brageagainst\\b",
+      "Fictional-Kw-06c67750"
+    ],
+    [
+      "\\bBruno\\ Mars\\b",
+      "Fictional-Kw-ce178f34"
+    ],
+    [
+      "\\bBilly\\ Joel\\b",
+      "Fictional-Kw-79a3d73b"
+    ],
+    [
+      "\\bDon\\ Gibson\\b",
+      "Fictional-Kw-5f78792c"
+    ],
+    [
+      "\\bDon\\ Henley\\b",
+      "Fictional-Kw-953f75a5"
+    ],
+    [
+      "\\bDon\\ McLean\\b",
+      "Fictional-Kw-d5a028e8"
+    ],
+    [
+      "\\bÉdith\\ Piaf\\b",
+      "Fictional-Kw-a594bb83"
+    ],
+    [
+      "\\bEd\\ Sheeran\\b",
+      "Fictional-Kw-02766b32"
+    ],
+    [
+      "\\bErik\\ Satie\\b",
+      "Fictional-Kw-283b072d"
+    ],
+    [
+      "\\bEtta\\ James\\b",
+      "Fictional-Kw-3ed72695"
+    ],
+    [
+      "\\bGary\\ Jules\\b",
+      "Fictional-Kw-c426a9fa"
+    ],
+    [
+      "\\bJohn\\ Mayer\\b",
+      "Fictional-Kw-10af4335"
+    ],
+    [
+      "\\bPapa\\ Roach\\b",
+      "Fictional-Kw-a3a4cc81"
+    ],
+    [
+      "\\bPink\\ Floyd\\b",
+      "Fictional-Kw-73f7b9fa"
+    ],
+    [
+      "\\bThe\\ O'Jays\\b",
+      "Fictional-Kw-24facf4a"
+    ],
+    [
+      "\\bThe\\ Smiths\\b",
+      "Fictional-Kw-5c9c48a4"
+    ],
+    [
+      "\\bThe\\ Weeknd\\b",
+      "Fictional-Kw-a9285dfc"
+    ],
+    [
+      "\\bAphex\\ Twin\\b",
+      "Fictional-Kw-5e7c6782"
+    ],
+    [
+      "\\bBob\\ Marley\\b",
+      "Fictional-Kw-59a3c84d"
+    ],
+    [
+      "\\bSupertramp\\b",
+      "Fictional-Kw-e3a245cf"
+    ],
+    [
+      "\\bbob\\-marley\\b",
+      "Fictional-Kw-590e3106"
+    ],
+    [
+      "\\bbruno\\-mars\\b",
+      "Fictional-Kw-9aed72a7"
+    ],
+    [
+      "\\bchuckberry\\b",
+      "Fictional-Kw-60bfd5f3"
+    ],
+    [
+      "\\bdeeppurple\\b",
+      "Fictional-Kw-21fe37a9"
+    ],
+    [
+      "\\bironmaiden\\b",
+      "Fictional-Kw-6cd7718b"
+    ],
+    [
+      "\\bjethrotull\\b",
+      "Fictional-Kw-bc021093"
+    ],
+    [
+      "\\blinkinpark\\b",
+      "Fictional-Kw-a5b6e34b"
+    ],
+    [
+      "\\bmarvingaye\\b",
+      "Fictional-Kw-5d324fb1"
+    ],
+    [
+      "\\bpink\\-floyd\\b",
+      "Fictional-Kw-96344f5c"
+    ],
+    [
+      "\\bthe\\-smiths\\b",
+      "Fictional-Kw-96952291"
+    ],
+    [
+      "\\bBob\\ Seger\\b",
+      "Fictional-Kw-3a4290c7"
+    ],
+    [
+      "\\bBrian\\ Eno\\b",
+      "Fictional-Kw-47c1657d"
+    ],
+    [
+      "\\bCarl\\ Orff\\b",
+      "Fictional-Kw-17918664"
+    ],
+    [
+      "\\bDaft\\ Punk\\b",
+      "Fictional-Kw-39bfe262"
+    ],
+    [
+      "\\bGreen\\ Day\\b",
+      "Fictional-Kw-9f963d60"
+    ],
+    [
+      "\\bKate\\ Bush\\b",
+      "Fictional-Kw-c39ac31a"
+    ],
+    [
+      "\\bLady\\ Gaga\\b",
+      "Fictional-Kw-f4a1462d"
+    ],
+    [
+      "\\bPearl\\ Jam\\b",
+      "Fictional-Kw-d7aa695a"
+    ],
+    [
+      "\\bSam\\ Smith\\b",
+      "Fictional-Kw-375591ec"
+    ],
+    [
+      "\\bVan\\ Halen\\b",
+      "Fictional-Kw-7819cfd1"
+    ],
+    [
+      "\\bArvo\\ Pärt\\b",
+      "Fictional-Kw-1239665b"
+    ],
+    [
+      "\\bBlink\\ 182\\b",
+      "Fictional-Kw-b5e694a4"
+    ],
+    [
+      "\\bBlink\\-182\\b",
+      "Fictional-Kw-f75d4a65"
+    ],
+    [
+      "\\bBeethoven\\b",
+      "Fictional-Kw-b4086300"
+    ],
+    [
+      "\\bNightwish\\b",
+      "Fictional-Kw-6d270c0b"
+    ],
+    [
+      "\\bPassenger\\b",
+      "Fictional-Kw-4e85eddf"
+    ],
+    [
+      "\\bRammstein\\b",
+      "Fictional-Kw-a2fa5422"
+    ],
+    [
+      "\\bScorpions\\b",
+      "Fictional-Kw-0f63b2c0"
+    ],
+    [
+      "\\bSpongeBob\\b",
+      "Fictional-Kw-e1964798"
+    ],
+    [
+      "\\bbobmarley\\b",
+      "Fictional-Kw-1c724cf4"
+    ],
+    [
+      "\\bbrunomars\\b",
+      "Fictional-Kw-9b55eef3"
+    ],
+    [
+      "\\bdaft\\-punk\\b",
+      "Fictional-Kw-bc426de4"
+    ],
+    [
+      "\\bgreen\\-day\\b",
+      "Fictional-Kw-a3a2b4d5"
+    ],
+    [
+      "\\bpearl\\-jam\\b",
+      "Fictional-Kw-990c5767"
+    ],
+    [
+      "\\bpinkfloyd\\b",
+      "Fictional-Kw-eda6ecaf"
+    ],
+    [
+      "\\bsam\\-smith\\b",
+      "Fictional-Kw-ac99b7e5"
+    ],
+    [
+      "\\bthesmiths\\b",
+      "Fictional-Kw-e9aafad0"
+    ],
+    [
+      "\\bvan\\-halen\\b",
+      "Fictional-Kw-4eddf995"
+    ],
+    [
+      "\\bBon\\ Iver\\b",
+      "Fictional-Kw-ea4530d4"
+    ],
+    [
+      "\\bBon\\ Jovi\\b",
+      "Fictional-Kw-333c75b2"
+    ],
+    [
+      "\\bMaroon\\ 5\\b",
+      "Fictional-Kw-24c0ec96"
+    ],
+    [
+      "\\bR\\.\\ Kelly\\b",
+      "Fictional-Kw-8c9617c2"
+    ],
+    [
+      "\\bThe\\ Cure\\b",
+      "Fictional-Kw-20c5c7ec"
+    ],
+    [
+      "\\bTim\\ Maia\\b",
+      "Fictional-Kw-a07b808c"
+    ],
+    [
+      "\\bBlink182\\b",
+      "Fictional-Kw-6104df36"
+    ],
+    [
+      "\\bCaramell\\b",
+      "Fictional-Kw-920e8c9f"
+    ],
+    [
+      "\\bGorillaz\\b",
+      "Fictional-Kw-ae85c391"
+    ],
+    [
+      "\\bHawkwind\\b",
+      "Fictional-Kw-358c2424"
+    ],
+    [
+      "\\bMegadeth\\b",
+      "Fictional-Kw-eb95fc1a"
+    ],
+    [
+      "\\bSchubert\\b",
+      "Fictional-Kw-a10a7b46"
+    ],
+    [
+      "\\bbon\\-jovi\\b",
+      "Fictional-Kw-27376c55"
+    ],
+    [
+      "\\bdaftpunk\\b",
+      "Fictional-Kw-a2806381"
+    ],
+    [
+      "\\bgreenday\\b",
+      "Fictional-Kw-80735228"
+    ],
+    [
+      "\\bpearljam\\b",
+      "Fictional-Kw-41489345"
+    ],
+    [
+      "\\bsamsmith\\b",
+      "Fictional-Kw-e407c5d8"
+    ],
+    [
+      "\\bthe\\-cure\\b",
+      "Fictional-Kw-c8c116e7"
+    ],
+    [
+      "\\btim\\-maia\\b",
+      "Fictional-Kw-dba23070"
+    ],
+    [
+      "\\bvanhalen\\b",
+      "Fictional-Kw-65c2e1fb"
+    ],
+    [
+      "\\bDebussy\\b",
+      "Fictional-Kw-22b35da2"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bExtreme\\b",
+      "Fictional-Kw-287e9593"
+    ],
+    [
+      "\\bJourney\\b",
+      "Fictional-Kw-98dc0157"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bMineral\\b",
+      "Fictional-Kw-08b4b82c"
+    ],
+    [
+      "\\bNormani\\b",
+      "Fictional-Kw-490038ae"
+    ],
+    [
+      "\\bOutkast\\b",
+      "Fictional-Kw-0b7e5b0b"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bPerfume\\b",
+      "Fictional-Kw-96ddd400"
+    ],
+    [
+      "\\bRainbow\\b",
+      "Fictional-Kw-cd13b6a6"
+    ],
+    [
+      "\\bRihanna\\b",
+      "Fictional-Kw-0588499a"
+    ],
+    [
+      "\\bSabaton\\b",
+      "Fictional-Kw-94592003"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bSurface\\b",
+      "Fictional-Kw-d302e976"
+    ],
+    [
+      "\\bTrivium\\b",
+      "Fictional-Kw-22a31311"
+    ],
+    [
+      "\\bVivaldi\\b",
+      "Fictional-Kw-15607a23"
+    ],
+    [
+      "\\bbonjovi\\b",
+      "Fictional-Kw-2bf67671"
+    ],
+    [
+      "\\bls\\-jack\\b",
+      "Fictional-Kw-d66b4bd5"
+    ],
+    [
+      "\\bthecure\\b",
+      "Fictional-Kw-fdae900a"
+    ],
+    [
+      "\\btimmaia\\b",
+      "Fictional-Kw-fa146f50"
+    ],
+    [
+      "\\bT\\.\\ Rex\\b",
+      "Fictional-Kw-f27bebf2"
+    ],
+    [
+      "\\bZZ\\ Top\\b",
+      "Fictional-Kw-46145e60"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bDisney\\b",
+      "Fictional-Kw-f240a4a0"
+    ],
+    [
+      "\\bEagles\\b",
+      "Fictional-Kw-58e50f90"
+    ],
+    [
+      "\\bEminem\\b",
+      "Fictional-Kw-26b637ed"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bEurope\\b",
+      "Fictional-Kw-7612e840"
+    ],
+    [
+      "\\bKansas\\b",
+      "Fictional-Kw-e944d129"
+    ],
+    [
+      "\\bMozart\\b",
+      "Fictional-Kw-e842795b"
+    ],
+    [
+      "\\bPrince\\b",
+      "Fictional-Kw-2077e4a6"
+    ],
+    [
+      "\\bSlayer\\b",
+      "Fictional-Kw-0925467e"
+    ],
+    [
+      "\\blsjack\\b",
+      "Fictional-Kw-2e1bb15f"
+    ],
+    [
+      "\\bDuffy\\b",
+      "Fictional-Kw-904bc6e2"
+    ],
+    [
+      "\\bGrieg\\b",
+      "Fictional-Kw-cb192c50"
+    ],
+    [
+      "\\bJay\\-Z\\b",
+      "Fictional-Kw-0e375754"
+    ],
+    [
+      "\\bOasis\\b",
+      "Fictional-Kw-335ffbcf"
+    ],
+    [
+      "\\bSting\\b",
+      "Fictional-Kw-4669569c"
+    ],
+    [
+      "\\bTycho\\b",
+      "Fictional-Kw-fcc1400e"
+    ],
+    [
+      "\\bne\\-yo\\b",
+      "Fictional-Kw-74757e7a"
+    ],
+    [
+      "\\bABBA\\b",
+      "Fictional-Kw-54a87234"
+    ],
+    [
+      "\\bAkon\\b",
+      "Fictional-Kw-ac6b00de"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bChic\\b",
+      "Fictional-Kw-0f2816a7"
+    ],
+    [
+      "\\bEnya\\b",
+      "Fictional-Kw-77e24e13"
+    ],
+    [
+      "\\bKorn\\b",
+      "Fictional-Kw-d57c6828"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bLive\\b",
+      "Fictional-Kw-d0dbe915"
+    ],
+    [
+      "\\bMoby\\b",
+      "Fictional-Kw-469eef78"
+    ],
+    [
+      "\\bMuse\\b",
+      "Fictional-Kw-98a99cb9"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bRatt\\b",
+      "Fictional-Kw-95a2cad0"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bTool\\b",
+      "Fictional-Kw-39ab32c5"
+    ],
+    [
+      "\\bneyo\\b",
+      "Fictional-Kw-29262247"
+    ],
+    [
+      "(?:(?<=– )|(?<=\")|(?<=: \"))\\bELO\\b",
+      "Fictional-Kw-a1d7dfb5"
+    ],
+    [
+      "\\bU2\\b",
+      "Fictional-Kw-270c1b08"
+    ]
+  ]
+}
