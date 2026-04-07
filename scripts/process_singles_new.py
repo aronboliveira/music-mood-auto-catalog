@@ -4,20 +4,22 @@ Process all files in classified/singles/new/ into the correct
 Artist/Genre/Mood subfolders under classified/singles/.
 
 Each file is COPIED (not moved) so that every subfolder has
-an equal number of representations for every unique track.
+an equal Fictional-Kw-b4aecf76er of representations for every unique track.
 After successful copies, originals in new/ are removed.
 """
+from classify_and_clean import classify_file, clean_filename
 import os
 import sys
 import shutil
 import time
 from pathlib import Path
+import io
 
 # Unbuffered stdout for log reliability
+assert isinstance(sys.stdout, io.TextIOWrapper)
 sys.stdout.reconfigure(line_buffering=True)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from classify_and_clean import classify_file, clean_filename
 
 ROOT = Path("classified/singles")
 NEW_DIR = ROOT / "new"
@@ -29,7 +31,7 @@ def process():
         return
 
     files = [f for f in os.listdir(NEW_DIR)
-    if f.endswith(".mp3") and os.path.isfile(NEW_DIR / f)]
+             if f.endswith(".mp3") and os.path.isfile(NEW_DIR / f)]
     print(f"Found {len(files)} root-level mp3 files in {NEW_DIR}")
 
     processed = []

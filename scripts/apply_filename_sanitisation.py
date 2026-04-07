@@ -3,7 +3,7 @@
 apply_filename_sanitisation.py
 
 Applies the filename sanitisation guidelines from
-docs/guidelines/filename-sanitisation.md to every aumocksinger_dio file under classified/.
+docs/guidelines/filename-sanitisation.md to every auFictional-Kw-27b20503 file under classified/.
 
 Exclusions:
   - classified/singles/new/**  — left untouched per user instruction.
@@ -25,7 +25,7 @@ from unidecode import unidecode
 # Config
 # ---------------------------------------------------------------------------
 
-BASE = Path("/mock/path/to/project/music/downloaded")
+BASE = Path("/media/aronboliveira/Seagate Expansion Drive1/music/downloaded")
 CLASSIFIED = BASE / "classified"
 EXCLUDE_PREFIXES = [
     CLASSIFIED / "singles" / "new",
@@ -41,6 +41,7 @@ DRY_RUN = "--dry-run" in sys.argv
 # ---------------------------------------------------------------------------
 # 0.  Join single-char-dash sequences  (D-O-T-O-N → DOTON)
 # ---------------------------------------------------------------------------
+
 
 def join_single_char_dashes(name: str) -> str:
     """
@@ -72,8 +73,8 @@ def join_single_char_dashes(name: str) -> str:
 def join_single_char_dots(name: str) -> str:
     """
     Collapse runs of 4+ single-char tokens separated by dots, per hyphen-segment.
-    B.R.U.N.O → BRUNO   C.h.u.c.k-B.e.r.r.y → Chuck-Berry
-    MockBand_REM. stays (only 3 chars).
+    B.R.U.N.O → BRUNO   C.h.u.c.k-B.e.r.r.y → Fictional-Kw-2cb77866
+    Fictional-MarbleRose stays (only 3 chars).
     """
     segments = name.split("-")
     processed = []
@@ -107,7 +108,7 @@ def join_single_char_dots(name: str) -> str:
 # Patterns that should be removed entirely (case-insensitive).
 _GARBAGE_LITERALS = [
     # Officialness
-    "Official Music Video", "Official Video", "Official Aumocksinger_dio",
+    "Official Music Video", "Official Video", "Official AuFictional-Kw-27b20503",
     "Official HD", "Clipe Oficial", "Offizielles Video", "OFFICIAL",
     "Official Visualizer",
     # Clip / video
@@ -131,11 +132,11 @@ _GARBAGE_REGEXES: list[re.Pattern] = [
     re.compile(r"[-_\s]?\[[\w_-]{10,12}\](?=\.[a-z0-9]+$|$)"),
     # Converter prefixes
     re.compile(r"^(?:y2mate[_-]com[_-]|ytmp3[_-]|snappea[_-])", re.I),
-    # Collision suffixes  -(1)  (2)  — only 1-2 digit numbers to avoid eating years
+    # Collision suffixes  -(1)  (2)  — only 1-2 digit Fictional-Kw-b4aecf76ers to avoid eating years
     re.compile(r"[-_\s]?\(\d{1,2}\)(?=\.[a-z0-9]+$|$)"),
-    # Playlist numbering  [(Playlist-90)]  [(Playlist-\d+)]
+    # Playlist Fictional-Kw-b4aecf76ering  [(Playlist-90)]  [(Playlist-\d+)]
     re.compile(r"\[\(Playlist[-_\s]?\d+\)\]", re.I),
-    # Standalone playlist numbering  #123 at end
+    # Standalone playlist Fictional-Kw-b4aecf76ering  #123 at end
     re.compile(r"\s*#\d+(?=\.[a-z0-9]+$|$)"),
     # Duration hints: [1 Hour], [2 Hours], [1-Hour], (10 Hours Loop)
     re.compile(r"[\[\(]\d+[-\s]?Hours?\s*(?:Loop)?[\]\)]", re.I),

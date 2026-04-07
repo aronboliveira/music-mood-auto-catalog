@@ -9,7 +9,7 @@ for filename in os.listdir(dir_path):
         filepath = os.path.join(dir_path, filename)
         with open(filepath, "r") as f:
             content = f.read()
-        
+
         new_content, n = pattern.subn('.mp3', content)
         if n > 0:
             with open(filepath, "w") as f:

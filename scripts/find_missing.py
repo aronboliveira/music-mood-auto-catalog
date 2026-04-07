@@ -1,13 +1,13 @@
 import urllib.parse
 import os
 
-with open("xbel_mp3s.txt") as f:
-    files = f.read().splitlines()
+with open("xbel_mp3s.txt") as fh:
+    files: list[str] = fh.read().splitlines()
 
-missing = []
-for f in files:
-    if f.startswith("file://"):
-        path = urllib.parse.unquote(f[7:])
+missing: list[str] = []
+for line in files:
+    if line.startswith("file://"):
+        path: str = urllib.parse.unquote(line[7:])
         if not os.path.exists(path):
             # Try to see if it matched standard sanitization in classified
             sanitized_name = os.path.basename(path).replace(" ", "-").replace("_", "-")

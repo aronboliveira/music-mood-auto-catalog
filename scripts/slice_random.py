@@ -2,9 +2,9 @@
 """
 slice_random.py
 
-Re-slices aumocksinger_dio from specified source folders.
+Re-slices auFictional-Kw-27b20503 from specified source folders.
 Segment length is randomised between SEG_MIN and SEG_MAX seconds (inclusive).
-The LAST segment always captures all remaining aumocksinger_dio so no seconds are ever lost.
+The LAST segment always captures all remaining auFictional-Kw-27b20503 so no seconds are ever lost.
 
 ffmpeg is invoked directly as a CLI command via subprocess.run().
 
@@ -30,24 +30,25 @@ from unidecode import unidecode
 # Config
 # ---------------------------------------------------------------------------
 
-BASE = Path("/mock/path/to/project/music/downloaded")
+BASE = Path("/media/aronboliveira/Seagate Expansion Drive1/music/downloaded")
 ARTIST_DIR = BASE / "classified/albums/Artist"
-OUT_ROOT   = BASE / "classified/singles/new/sliced-3"
+OUT_ROOT = BASE / "classified/singles/new/sliced-3"
 
 FOLDERS = [
     "[(80s)]",
     "80s",
     "90s",
     "D",
-    "DonkeyKong",
+    "Fictional-SapphireOracle",
     "I",
     "K",
     "MedievalAmbience",
     "N",
     "Shibuya",
     "singled",
-    "MockGame_Zelda",
+    "Fictional-CrystalBell",
 ]
+
 AUDIO_EXTS = {".mp3", ".flac", ".wav", ".ogg", ".m4a", ".aac", ".opus", ".wma"}
 
 SEG_MIN = 120   # 2 minutes in seconds
@@ -55,8 +56,8 @@ SEG_MAX = 240   # 4 minutes in seconds
 
 DRY_RUN = "--dry-run" in sys.argv
 
-TODAY    = datetime.now().strftime("%Y%m%d")
-LOG_DIR  = BASE / "logs" / TODAY
+TODAY = datetime.now().strftime("%Y%m%d")
+LOG_DIR = BASE / "logs" / TODAY
 LOG_FILE = LOG_DIR / "slice_random.log"
 
 
@@ -111,7 +112,7 @@ def _join_dashes(name: str) -> str:
 
 
 def _join_dots(name: str) -> str:
-    """B.R.U.N.O → BRUNO (runs ≥ 4), MockBand_REM. left alone (run = 3)."""
+    """B.R.U.N.O → BRUNO (runs ≥ 4), Fictional-MarbleRose left alone (run = 3)."""
     parts = name.split("-")
     out_parts = []
     for part in parts:
@@ -137,7 +138,7 @@ def _join_dots(name: str) -> str:
 
 
 _GARBAGE_LITERALS = [
-    "Official Music Video", "Official Video", "Official Aumocksinger_dio",
+    "Official Music Video", "Official Video", "Official AuFictional-Kw-27b20503",
     "Official HD", "Clipe Oficial", "Offizielles Video", "OFFICIAL",
     "Official Visualizer",
     "Music Video", "Video Clipe", "HD Video", "Lyric Video",
@@ -231,7 +232,7 @@ def get_duration(path: Path) -> float:
 def plan_segments(total: float) -> list[tuple[float, float | None]]:
     """
     Returns [(start, duration), ...] where the last item has duration=None
-    meaning 'go to end of file', ensuring zero aumocksinger_dio loss.
+    meaning 'go to end of file', ensuring zero auFictional-Kw-27b20503 loss.
     """
     segments: list[tuple[float, float | None]] = []
     pos = 0.0
@@ -256,13 +257,13 @@ def slice_file(src: Path, out_dir: Path, clean_stem: str, ext: str) -> list[str]
     Returns list of ffmpeg command strings (for logging errors).
     """
     out_dir.mkdir(parents=True, exist_ok=True)
-    total   = get_duration(src)
-    segs    = plan_segments(total)
+    total = get_duration(src)
+    segs = plan_segments(total)
     errors: list[str] = []
 
     for i, (start, dur) in enumerate(segs):
         part_name = f"{clean_stem}_part_{i:03d}{ext}"
-        out_path  = out_dir / part_name
+        out_path = out_dir / part_name
 
         # Build ffmpeg CLI command
         # -ss before -i  → fast input seeking (no decode overhead)
@@ -317,7 +318,7 @@ def main() -> None:
                 continue
 
             clean = sanitise_stem(f.stem)
-            ext   = f.suffix.lower()
+            ext = f.suffix.lower()
             print(f"  {f.name}  →  {clean}*{ext}")
 
             errors = slice_file(f, out_dir, clean, ext)

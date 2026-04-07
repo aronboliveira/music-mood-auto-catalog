@@ -2,30 +2,30 @@
 set -e
 
 # Singles
-mv "classified/singles/Artist/MichaelJackson/FictionalBand - rock-song-aad349.mp3" "classified/singles/Artist/PearlJam/" 2>/dev/null || true
-mv classified/singles/Artist/MichaelJackson/FictionalBand - rock-song-875c60.mp3 "classified/singles/Artist/PearlJam/" 2>/dev/null || true
-mv "classified/singles/Artist/YUI/FictionalBand - rock-song-2d3490.mp3" "classified/singles/Artist/JethroTull/" 2>/dev/null || true
-mv "classified/singles/Artist/YUI/FictionalBand - rock-song-d36e5c.mp3" "classified/singles/Artist/DireStraits/" 2>/dev/null || true
+mv "classified/singles/Artist/Fictional-LunarSpire/Fictional-Track-4a46d43c.mp3" "classified/singles/Artist/Fictional-AzurePhoenix/" 2>/dev/null || true
+mv classified/singles/Artist/Fictional-LunarSpire/Fictional-Kw-990c5767-*.mp3 "classified/singles/Artist/Fictional-AzurePhoenix/" 2>/dev/null || true
+mv "classified/singles/Artist/Fictional-CrystalCipher/Fictional-Track-1b51c91Fictional-Track-eccbc87e.mp3" "classified/singles/Artist/Fictional-EmeraldRaven/" 2>/dev/null || true
+mv "classified/singles/Artist/Fictional-CrystalCipher/Fictional-Track-adf1edbe.mp3" "classified/singles/Artist/Fictional-TimberNeedle/" 2>/dev/null || true
 
 # Albums - move back from Various to proper Artist folders
 declare -A ALBUM_MOVES=(
-    ["*Summer-Eletrohits*"]="SummerEletrohits"
-    ["*Ne-Yo*"]="NeYo"
-    ["Fragile-Yes*"]="Yes"
-    ["Genesis*"]="Genesis"
-    ["Journey*"]="Journey"
-    ["Ls-Jack*"]="LsJack"
-    ["Nujabes*"]="Nujabes"
-    ["Phil-Collins*"]="PhilCollins"
-    ["Pink-Floyd*"]="PinkFloyd"
-    ["Shine-On-You-Crazy-Diamond*Pink-Floyd*"]="PinkFloyd"
-    ["PRINCE*"]="Prince"
-    ["Queen*"]="Queen"
-    ["R.E.M.*"]="REM"
-    ["R-E-M-*"]="REM"
-    ["Sam-Smith*"]="SamSmith"
-    ["Scorpions*"]="Scorpions"
-    ["System-of-a-Down*"]="SystemOfADown"
+    ["*Fictional-Kw-efa19b51*"]="Fictional-Kw-47f3a013"
+    ["*Fictional-Kw-74757e7a*"]="Fictional-Kw-29262247"
+    ["Fragile-Fictional-IronHarbor*"]="Fictional-IronHarbor"
+    ["Fictional-Kw-289ffeb2*"]="Fictional-Kw-289ffeb2"
+    ["Fictional-Kw-98dc0157*"]="Fictional-Kw-98dc0157"
+    ["Fictional-Kw-d66b4bd5*"]="Fictional-Kw-2e1bb15f"
+    ["Fictional-PhantomHorizon*"]="Fictional-PhantomHorizon"
+    ["Fictional-Kw-0f3147d9*"]="Fictional-Kw-e5ed2409"
+    ["Fictional-Kw-96344f5c*"]="Fictional-EbonyBloom"
+    ["Fictional-Kw-635fd34e*Fictional-Kw-96344f5c*"]="Fictional-EbonyBloom"
+    ["Fictional-Kw-2077e4a6*"]="Fictional-ZincNeedle"
+    ["Fictional-IvoryLighthouse*"]="Fictional-IvoryLighthouse"
+    ["Fictional-MarbleRose*"]="Fictional-MarbleRose"
+    ["R-E-M-*"]="Fictional-MarbleRose"
+    ["Fictional-Kw-ac99b7e5*"]="Fictional-Kw-e407c5d8"
+    ["Fictional-Kw-0f63b2c0*"]="Fictional-Kw-0f63b2c0"
+    ["Fictional-Kw-061d5554*"]="Fictional-SterlingBeacon"
     ["*CYBERPUNK*"]="CyberpunkBeats"
     ["*EGYPTIAN*"]="EgyptianMetal"
     ["*PIRATE*"]="PirateMetal"

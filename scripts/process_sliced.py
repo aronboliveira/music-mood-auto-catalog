@@ -7,17 +7,19 @@ Walks all subdirectories of sliced-3, classifies each mp3 by filename,
 copies to every matching Artist/Genre/Mood subfolder.
 Rejects "Various" and "Unclassified" (banned per SOP).
 """
+from classify_and_clean import classify_file, clean_filename
 import os
 import sys
 import shutil
 import time
 from pathlib import Path
+import io
 
 # Unbuffered stdout for log reliability
+assert isinstance(sys.stdout, io.TextIOWrapper)
 sys.stdout.reconfigure(line_buffering=True)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from classify_and_clean import classify_file, clean_filename
 
 SRC_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("classified/singles/new/sliced-3")
 DST_ROOT = Path("classified/singles/sliced")
@@ -29,7 +31,7 @@ def process():
         return
 
     # Collect all mp3s recursively
-    files = [f for f in SRC_DIR.rglob("*.mp3")]
+    files = sorted(SRC_DIR.rglob("*.mp3"))
     print(f"Found {len(files)} mp3 files in {SRC_DIR}")
 
     processed = 0
@@ -98,7 +100,7 @@ def process():
     for cat in ["Artist", "Genre", "Mood"]:
         cat_dir = DST_ROOT / cat
         if cat_dir.exists():
-            all_files = [f for f in cat_dir.rglob("*.mp3")]
+            all_files = list(cat_dir.rglob("*.mp3"))
             basenames = {f.name for f in all_files}
             print(f"{cat}: {len(all_files)} total files, {len(basenames)} unique basenames")
 

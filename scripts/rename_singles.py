@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-.mp3 files under classified/singles/ according to strict naming rules:
+Rename all .mp3 files under classified/singles/ according to strict naming rules:
 
 1. Strip marketing/video tags: "Official Music Video", "Official Video",
-   "Official Aumocksinger_dio", "Official HD Video", "HD Video", "Lyric Video",
+   "Official AuFictional-Kw-27b20503", "Official HD Video", "HD Video", "Lyric Video",
    "Music Video", "Official Lyric Video", "Clipe Oficial", "Offizielles Video",
    "HD UPGRADE", "HD Remaster", "UHD 60FPS", "1080p", "720p", "4K",
    "Full Version", "with lyrics", "lyrics on screen", "Lyrics", "w lyrics",
@@ -20,7 +20,7 @@
 11. Preserve: artist name, track name, quality tags (320kbps etc.),
     remaster/recreation dates (2012 Remaster, 2022 Remaster),
     mood/customization notes in brackets [calm version], [cover], etc.
-12. Preserve: OST/game context (FictionalGame, etc.)
+12. Preserve: OST/game context (Fictional-ZincGate, Fictional-CrystalBell, etc.)
 13. Strip trailing collision suffixes like -(1), -(2) from previous operations
 
 Operates on ALL three subdirs (Artist/, Genre/, Mood/) so the same base file
@@ -44,12 +44,12 @@ except ImportError:
 
 SINGLES_ROOT = Path("classified/singles")
 
-# ─── Marketing / video / aumocksinger_dio tags to strip ─────────────────────────────────
+# ─── Marketing / video / auFictional-Kw-27b20503 tags to strip ─────────────────────────────────
 # Order matters: longer patterns first to avoid partial matches
 STRIP_PATTERNS = [
-    # Bracketed marketing tags: [Official Music Video], [Official-Aumocksinger_dio], etc.
+    # Bracketed marketing tags: [Official Music Video], [Official-AuFictional-Kw-27b20503], etc.
     r'\[Official[\s-]+Music[\s-]+Video\]',
-    r'\[Official[\s-]+Aumocksinger_dio\]',
+    r'\[Official[\s-]+AuFictional-Kw-27b20503\]',
     r'\[Official[\s-]+Video\]',
     r'\[Official[\s-]+Lyric[\s-]+Video\]',
     r'\[HD[\s-]*UPGRADE\]',
@@ -63,7 +63,7 @@ STRIP_PATTERNS = [
     # Parenthesized marketing tags
     r'\(Official[\s-]+Music[\s-]+Video\)',
     r'\(Official[\s-]+Video\)',
-    r'\(Official[\s-]+Aumocksinger_dio\)',
+    r'\(Official[\s-]+AuFictional-Kw-27b20503\)',
     r'\(Official[\s-]+HD[\s-]+Video\)',
     r'\(Official[\s-]+Lyric[\s-]+Video\)',
     r'\(Offizielles[\s-]+Video\)',
@@ -73,7 +73,7 @@ STRIP_PATTERNS = [
     r'[\s-]+Official[\s-]+HD[\s-]+Video',
     r'[\s-]+Official[\s-]+Lyric[\s-]+Video',
     r'[\s-]+Official[\s-]+Video',
-    r'[\s-]+Official[\s-]+Aumocksinger_dio',
+    r'[\s-]+Official[\s-]+AuFictional-Kw-27b20503',
     r'[\s-]+Lyric[\s-]+Video',
     r'[\s-]+Music[\s-]+Video',
     r'[\s-]+HD[\s-]+Video',
@@ -94,7 +94,7 @@ STRIP_PATTERNS = [
     r'[\s-]+Lyrics(?=[\s\-.\)\]])',
     # "Full Version" (but not game-meaningful ones like "Full" in track names)
     r'[\s-]+Full[\s-]+Version',
-    # Ultra Beatdown Official Video (MockBand_Dragon specific)
+    # Ultra Beatdown Official Video (Fictional-SolarWarden specific)
     r'\(Ultra[\s-]+Beatdown[\s-]+Official[\s-]+Video\)',
 ]
 
@@ -129,7 +129,7 @@ STRIP_RE = re.compile(
 
 
 def strip_marketing_tags(name: str) -> str:
-    """Remove all marketing/video/aumocksinger_dio tags from the filename stem."""
+    """Remove all marketing/video/auFictional-Kw-27b20503 tags from the filename stem."""
     # Remove YouTube video IDs
     name = YOUTUBE_ID_RE.sub('', name)
 
@@ -213,13 +213,13 @@ def smart_rename(filename: str) -> str:
     return stem + ext
 
 
-def build_rename_plan(root: Path) -> dict:
+def build_rename_plan(root: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
     """
     Walk all three subdirs and build a consistent rename plan.
     Returns {old_basename: new_basename} for unique filenames.
     """
     # First, collect ALL unique basenames across the tree
-    all_files = {}  # basename -> list of full paths
+    all_files: dict[str, list[str]] = {}  # basename -> list of full paths
     for dirpath, _, filenames in os.walk(root):
         for fn in filenames:
             if not fn.lower().endswith('.mp3'):

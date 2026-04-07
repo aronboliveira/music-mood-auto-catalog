@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Slice aumocksinger_dio files into max-5-minute (300 s) segments using ffmpeg.
+Slice auFictional-Kw-27b20503 files into max-5-minute (300 s) segments using ffmpeg.
 
 Source: classified/albums/Artist/<folder>/
 Output: classified/albums/Artist/sliced/<album_name>/
@@ -19,7 +19,7 @@ from pathlib import Path
 # Configuration
 # ---------------------------------------------------------------------------
 
-BASE_DIR = Path("/mock/path/to/project/music/downloaded")
+BASE_DIR = Path("/media/aronboliveira/Seagate Expansion Drive1/music/downloaded")
 ARTIST_DIR = BASE_DIR / "classified/albums/Artist"
 SLICED_DIR = ARTIST_DIR / "sliced"
 
@@ -28,16 +28,17 @@ FOLDERS = [
     "80s",
     "90s",
     "D",
-    "DonkeyKong",
+    "Fictional-SapphireOracle",
     "I",
     "K",
     "MedievalAmbience",
     "N",
     "Shibuya",
     "singled",
-    "MockGame_Zelda",
+    "Fictional-CrystalBell",
 ]
-AUDIO_EXTS = {".mp3", ".flac", ".wav", ".ogg", ".m4a", ".aac", ".opus", ".wma"}
+
+AUDIO_EXTENSIONS = {".mp3", ".flac", ".wav", ".ogg", ".m4a", ".aac", ".opus", ".wma"}
 SEGMENT_SECONDS = 300  # 5 minutes
 
 # ---------------------------------------------------------------------------
@@ -74,7 +75,7 @@ def get_album_name(folder_name: str, folder_path: Path) -> str:
     return folder_name
 
 
-def aumocksinger_dio_files_in(folder: Path) -> list[Path]:
+def audio_files_in(folder: Path) -> list[Path]:
     return sorted(
         f for f in folder.iterdir()
         if f.is_file() and f.suffix.lower() in AUDIO_EXTENSIONS
@@ -88,7 +89,7 @@ def aumocksinger_dio_files_in(folder: Path) -> list[Path]:
 
 def slice_file(src: Path, out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
-    # Output pattern:.mp3, _001, …
+    # Output pattern:  <stem>_part_000.mp3, _001, …
     pattern = str(out_dir / f"{src.stem}_part_%03d{src.suffix.lower()}")
     cmd = [
         "ffmpeg",
@@ -124,9 +125,9 @@ def main() -> None:
         out_folder = SLICED_DIR / album_name
         print(f"\n[{folder_name}]  ->  sliced/{album_name}/")
 
-        files = aumocksinger_dio_files_in(src_folder)
+        files = audio_files_in(src_folder)
         if not files:
-            print("  (no aumocksinger_dio files)")
+            print("  (no auFictional-Kw-27b20503 files)")
             continue
 
         for f in files:

@@ -19,382 +19,379 @@ import sys
 import shutil
 from pathlib import Path
 from collections import defaultdict
+from typing import Any
 from unidecode import unidecode
+import io
 
 # Force unbuffered output for logging
+assert isinstance(sys.stdout, io.TextIOWrapper)
 sys.stdout.reconfigure(line_buffering=True)
 
-BASE = Path("/mock/path/to/project/music/downloaded")
+BASE = Path("/media/aronboliveira/Seagate Expansion Drive1/music/downloaded")
 CLASSIFIED = BASE / "classified"
 SINGLES = CLASSIFIED / "singles"
 ALBUMS = CLASSIFIED / "albums"
 NEW_DIR = SINGLES / "new"
 
 # ============================================================================
-# SECTION 1: KNOWLEDGE BASE (Naive Bayes prior probabilities)
+# SECTION 1: KNOWLEDGE BASE (Naive BaFictional-IronHarborprior probabilities)
 # Each artist/genre/mood maps keywords → categories with confidence weights
 # ============================================================================
 
 ARTIST_KEYWORDS = {
-    "MockBand_ABBA": ["mockband_abba"],
-    "MockBand_Alice": ["MockBand_Alice", "mockband_alice", "mock_singer_layne",
-                       "mock_singer_jerry", "man in the box", "rooster", "nutshell",
-                       "would?", "down in a hole", "dam that river", "grind",
-                       "heaven beside you", "got me wrong", "bleed the freak",
-                       "junkhead", "rotten apple", "shame in you", "it ain't like that",
-                       "over now", "right turn", "whale & wasp", "we die young",
-                       "what the hell have i", "don't follow", "no excuses",
-                       "alone", "spit you out"],
-    "MockBand_America": ["MockBand_America - a horse"],
-    "MockSinger_Anri": ["MockSinger_Anri"],
-    "ArianaGrande": ["MockSinger_Ariana"],
-    "AsianKungFuGeneration": ["MockBand_Asian", "asian kung fu",
-                               "haruka kanata"],
-    "AvengedSevenfold": ["MockBand_Avenged", "a7x", "hail to the king",
-                          "shepherd of fire", "crimson day", "flash of the blade",
-                          "the fight", "until the end", "4:00 am", "4_00 am",
-                          "almost easy", "dancing dead"],
-    "MockGame_Banjo": ["mockgame_banjo", "mockgame_banjo", "banjo-tooie",
-                      "gruntilda", "gobi's valley", "spiral mountain",
-                      "mad monster mansion", "mr. patch", "grant kirkhope",
-                      "jolly roger's lagoon"],
-    "MockGame_Bayo": ["MockGame_Bayo", "fly me to the moon (climax)",
-                   "mysterious destiny"],
-    "MockBand_Blink": ["MockBand_Blink", "MockBand_Blink", "dumpweed", "what's my age again"],
-    "MockBand_Boney": ["boney m", "rasputin (official aumocksinger_dio)"],
-    "MockBand_Breaking": ["breaking benjamin", "diary of jane", "i will not bow",
-                          "torn in two", "had enough", "brk bj", "bk bj", "brk-bj", "bk-bj"],
-    "BruceDickinson": ["MockSinger_BruceD", "tears of the dragon"],
-    "BrunoMars": ["MockSinger_Bruno", "24k magic", "just the way you are",
-                   "grenade", "treasure", "uptown funk", "locked out of heaven",
-                   "doo wops", "the lazy song"],
-    "BruceSpringsteen": ["MockSinger_BruceS", "born to run", "born in the u.s.a.",
-                          "dancing in the dark", "the river", "thunder road"],
-    "BulletForMyValentine": ["MockBand_BFMV", "bfmv",
-                              "tears don't fall", "hearts burst into fire",
-                              "scream aim fire", "all these things i hate",
-                              "your betrayal", "the poison", "cries in vain",
-                              "the last fight", "hit the floor", "say goodnight",
-                              "room 409", "pretty on the outside",
-                              "4 words (to choke upon)", "bittersweet memories",
-                              "dignity", "flat on the floor"],
-    "MockBand_Capital": ["capital inicial", "primeiros erros"],
-    "ChuckBerry": ["MockSinger_Chuck", "johnny b. goode", "roll over beethoven",
-                     "maybellene", "sweet little sixteen"],
-    "MockGame_Castlevania": ["MockGame_Castlevania", "vampire killer", "bloody tears",
-                     "divine bloodlines", "dance of gold", "dracula's castle",
-                     "hail from the past", "lost painting", "iron-blue intention",
-                     "out of time", "the tragic MockSinger_Prince", "beginning MockGame_Castlevania",
-                     "twilight stigmata", "aquarius"],
-    "MockBand_Commodores": ["MockBand_Commodores", "easy (cooler"],
-    "CrowdedHouse": ["MockBand_Crowded", "don't dream it's over"],
-    "DavidBowie": ["MockSinger_David", "starman"],
-    "DeadFish": ["MockBand_DeadFish"],
-    "DeadKennedys": ["MockBand_DeadKennedys", "holiday in cambodia", "police truck"],
-    "MockBand_Dire": ["dire straits", "sultans of swing", "setting me up",
-                     "down to the waterline", "southbound again"],
-    "MockBand_Disturbed": ["MockBand_Disturbed", "down with the sickness", "stricken",
-                   "the game", "violence fetish", "shout 2000", "want",
-                   "meaning of life", "fear"],
-    "MockDJ_Dave": ["dj_dave", "mockdj_dave", "dj dave", "react - dj", "array - dj",
-               "world's hardest game", "castles (live coded", "airglow", "still miss u"],
-    "DonkeyKong": ["MockGame_DK", "dkc", "gangplank galleon",
-                    "stickerbush symphony", "stickerbrush symphony",
-                    "david wise", "bramble blast", "bayou boogie",
-                    "mining melancholy", "hot head bop", "in a snow-bound land",
-                    "aquatic ambiance", "jungle level", "krook's march",
-                    "donkeywave"],
-    "MockGame_Doom": ["mockgame_doom", "bfg division", "bfg 10k",
-             "the only thing they fear is you"],
-    "FictionalAnime": ["fictional anime"],
-    "MockBand_Dragon": ["MockBand_Dragon", "through the fire and flames",
-                     "heroes of our time"],
-    "MockBand_MockBand_Evanescence": ["mockband_mockband_mockband_mockband_evanescence", "-ev"],
-    "MockBand_Faun": ["MockBand_Faun"],
-    "FireEmblem": ["MockGame_Fire"],
-    "MockBand_Flow": ["flow - sign"],
-    "MockBand_Foo": ["foo fighters", "everlong", "my hero", "learn to fly",
-                     "times like these", "the pretender", "big me", "monkey wrench",
-                     "breakout", "hey, johnny park!", "i'll stick around",
-                     "walking after you", "february stars", "headwires",
-                     "next year", "rope", "good grief", "all my life"],
-    "FZero": ["MockGame_FZero", "mute city", "big blue", "fire field",
-              "sand ocean", "white land"],
-    "MockDJ_Gigi": ["gigi d'agostino", "gigi dagostino", "l'amour toujours",
-                       "another way"],
-    "MockBand_Gorillaz": ["MockBand_Gorillaz", "clint eastwood"],
-    "GreenDay": ["MockBand_GreenDay", "american imocksinger_diot", "holiday", "homecoming",
-                  "jesus of suburbia", "letterbomb", "whatsername"],
-    "MockGame_Guilty": ["guilty gear", "hellfire", "the town inside me",
-                    "find your one way"],
-    "GunsNRoses": ["MockBand_Guns", "MockBand_Guns", "welcome to the jungle",
-                    "paradise city", "sweet child o' mine", "you could be mine"],
-    "HimikoKikuchi": ["MockSinger_Himiko", "flying beagles"],
-    "IronMaiden": ["MockBand_Iron", "wasted years"],
-    "MockBand_Jethro": ["jethro tull", "aqualung", "locomotive breath",
-                    "bouree", "bourée", "thick as a brick", "wond'ring aloud",
-                    "wond'ring again", "MockGame_Mother goose", "cheap day return",
-                    "hymn 43", "lick your fingers clean", "raising steam",
-                    "steel monkey", "the curse", "part of the machine",
-                    "in the gallery"],
-    "JoJo": ["jojo", "ジョジョ", "bloody stream", "crazy noisy bizarre town",
-             "fighting gold", "great days", "il vento d'oro", "chase",
-             "stone ocean", "stone_free", "soft_and_wet",
-             "torture dance", "gang dance"],
-    "KenshiYonezu": ["MockSinger_Kenshi", "kick back"],
-    "MockBand_Kiss": ["i was made for lovin' you", "i_was_made_for_lovin"],
-    "LinkinPark": ["MockBand_Linkin", "in the end", "numb", "crawling", "faint",
-                    "papercut", "one step closer", "a place for my head",
-                    "by myself", "pushing me away", "runaway", "with you",
-                    "easier to run", "points of authority", "forgotten",
-                    "a place where you mocksinger_belong"],
-    "MockMovie_LOTR": ["lord of the rings", "concerning hobbits"],
-    "LosHermanos": ["MockBand_LosHermanos", "los_hermanos", "anna julia", "anna_julia"],
-    "LynyrdSkynyrd": ["MockBand_Lynyrd", "free bird"],
-    "MockSinger_Madonna": ["MockSinger_Madonna", "like a prayer"],
-    "MockGame_Maple": ["MockGame_Maple"],
-    "MockGame_Mario": ["mockgame_mario", "slide - super mockgame_mario", "file select (super mockgame_mario",
-              "ground theme", "dire dire docks", "king bowser"],
-    "MockBand_Massacration": ["MockBand_Massacration", "evil papagali"],
-    "MockBand_Matanza": ["MockBand_Matanza"],
-    "MockBand_Megadeth": ["MockBand_Megadeth", "holy wars"],
-    "MockBand_Metallica": ["MockBand_Metallica", "enter sandman", "welcome home (sanitarium)"],
-    "MockGame_Metroid": ["MockGame_Metroid", "ridley", "brinstar", "meta ridley"],
-    "MockSinger_Michael": ["michael jackson", "thriller", "beat it", "billie jean",
-                        "bad.", "p.y.t.", "rock with you", "off the wall",
-                        "they don't care about us", "smooth criminal", "jam.",
-                        "human nature", "the way you make me feel",
-                        "the lady in my life", "man in the mirror",
-                        "you are not alone"],
-    "MichelleHeafy": ["MockSinger_Michelle", "michelleheafy"],
-    "MockGame_Mother": ["MockGame_Mother", "magicant", "eight melodies", "bein' friends"],
-    "MyChemicalRomance": ["MockBand_MCR", "helena"],
-    "MockAnime_Naruto": ["MockAnime_Naruto", "sadness and sorrow"],
-    "MockBand_Nickel": ["mockband_nickel", "rockstar", "savin' me", "feelin' way too damn",
-                    "follow you home", "figured you out", "fight for all the wrong",
-                    "do this anymore", "flat on the floor", "photograph",
-                    "mockband_nickel far away", "far away (mockband_nickel)",
-                    "mockband_nickel - far away", "mockband_nickel hollywood"],
-    "OmegaTribe": ["MockBand_Omega", "1986 MockBand_Omega", "older girl"],
-    "MockBand_Nirvana": ["mockband_nirvana", "come as you are", "smells like teen spirit",
-                 "heart-shaped box", "in bloom"],
-    "MockBand_Oasis": ["MockBand_Oasis", "don't look back in anger"],
-    "OnePunchMan": ["MockAnime_OPM", "one_punch_man"],
-    "MockBand_Paramore": ["MockBand_Paramore", "misery business"],
-    "MockBand_Pearl": ["pearl jam", "alive (pearl jam)", "even flow", "black official",
-                  "corduroy", "once (2009", "once official", "deep official"],
-    "MockSinger_Pitty": ["MockSinger_Pitty"],
-    "FictionalGame": ["fictional game", "fictional game", "battle! trainer"],
-    "MockMovie_Mononoke": ["princess mononoke", "mononoke", "ashitaka and san",
-                          "legend of ashitaka", "departure to the west",
-                          "the MockBand_Underworld; adagio"],
-    "FictionalGame": ["fictional game", "absolitude-ro", "payon"],
-    "MockBand_Rammstein": ["MockBand_Rammstein", "sonne", "mein land", "amerika", "alter mann"],
-    "RedHotChiliPeppers": ["MockBand_RHCP", "rhcp", "rchp", "californication",
-                            "by the way", "otherside", "under the bridge",
-                            "slow cheetah", "strip my mind", "purple stain",
-                            "universally speaking", "snow hey oh",
-                            "blood sugar sex magik", "aeroplane",
-                            "give it away", "soul to squeeze", "scar tissue",
-                            "dani california", "can't stop", "dark necessities",
-                            "fortune faded", "higher ground", "hump de bump",
-                            "suck my kiss", "tippa my tongue", "black summer",
-                            "breaking the girl", "go robot", "look around",
-                            "the zephyr song", "road trippin", "desecration smile",
-                            "knock me down", "my friends"],
-    "MockBand_REM": ["MockBand_REM.", "MockBand_REM ", "losing my religion", "man on the moon",
-            "imitation of life", "it's the end of the world",
-            "the one i love"],
-    "MockBand_Sabaton": ["MockBand_Sabaton", "twilight of the thunder god"],
-    "MockBand_SHINee": ["shinee", "in my room"],
-    "MockBand_Slipknot": ["MockBand_Slipknot", "before i forget", "duality", "psychosocial",
-                  "the devil in i"],
-    "MockGame_Sonic": ["MockGame_Sonic", "live & learn", "escape from the city",
-              "open your heart", "super MockGame_Sonic racing", "fist bump",
-              "his world", "sunset heights", "MockGame_Sonic boom", "MockGame_Sonic heroes",
-              "windy hill", "rooftop run", "rodtop run", "angel island zone",
-              "ángel island zone"],
-    "MockBand_Stratovarius": ["MockBand_Stratovarius", "eagleheart", "destiny", "hunting high"],
-    "MockBand_Sublime": ["MockBand_Sublime", "doing time"],
-    "FictionalGame": ["fictional game", "FictionalGame", "ssbb", "ssbm",
-                        "ssbu", "melee"],
-    "MockBand_SOAD": ["system of a down", "soad", "toxicity", "chop suey",
-                       "b.y.o.b.", "aerials", "hypnotize", "innervision",
-                       "violent pornography", "question!", "streamline",
-                       "ramocksinger_diovideo", "boom!", "cigaro", "holy mountains",
-                       "lost in hollywood", "i-e-a-i-a-i-o", "sad statue",
-                       "vicinity of obscenity"],
-    "TameImpala": ["MockBand_Tame", "the less i know the better"],
-    "TheCranberries": ["MockBand_Cranberries", "linger"],
-    "TheOffspring": ["MockBand_Offspring", "gone away", "million miles away"],
-    "TheSims": ["mockgame_sims", "building mode"],
-    "MockBand_Turisas": ["MockBand_Turisas"],
-    "VanHalen": ["MockBand_VanHalen", "ain't talkin' 'bout love",
-                  "runnin' with the devil"],
-    "MockBand_Whitesnake": ["MockBand_Whitesnake", "here i go again", "is this love",
-                    "still of the night", "fool for your loving",
-                    "love ain't no stranger", "don't break my heart"],
-    "WindRose": ["MockBand_WindRose", "diggy diggy hole"],
-    "WorldOfWarcraft": ["MockGame_WoW", "warcraft", "invincible (lyrics)",
-                         "lament of the highborne", "song of elune",
-                         "legends of azeroth", "stormwind theme",
-                         "ahn'qiraj", "fire festival", "tavern (alliance)",
-                         "shaping of the world", "crystalsong",
-                         "forged in blood", "garden of life",
-                         "totems of the grizzlemaw", "darkmoon faire",
-                         "enchanted forest", "magic zone", "angelic",
-                         "gloomy", "tavern (dwarf)", "forest [day]",
-                         "wrath of the lich king", "arthas",
-                         "dalaran", "dragons' rest", "path of tears"],
-    "MockSinger_Yasuha": ["MockSinger_Yasuha", "flyday chinatown"],
-    "MockSinger_YUI": ["yui", "again."],
-    "MockGame_Zelda": ["mockgame_zelda", "legend of mockgame_zelda", "ocarina of time", "faron woods",
-              "twilight princess", "gerudo valley", "lon lon ranch",
-              "lost woods", "saria's song", "wind waker", "great fairy fountain",
-              "ballad of the goddess", "fairy fountain", "kakariko village",
-              "sacred grove", "breath of the wild", "tears of the kingdom",
-              "korok forest", "revali's theme", "kass theme", "song of healing",
-              "majora's mask", "outset island", "stone tower temple",
-              "midna's lament", "demon dragon", "epona's song",
-              "molgera battle", "great temple", "master kohga",
-              "title theme - the legend"],
-    # Stumocksinger_dio Ghibli (for new files)
-    
-    "MockBand_Faith": ["faith no more"],
-    "MockBand_Bring": ["bring me the horizon", "bmth"],
-    "MockBand_NSYNC": ["mockband_nsync", "n'sync"],
-    "MockBand_Infected": ["infected mushroom", "becoming insane"],
-    "MockDJ_Darude": ["mockdj_darude", "sandstorm"],
-    "MockBand_ORappa": ["o rappa", "meu mundo e o barro", "cristo e oxala", "monstro invisivel", "fogo cruzado", "hostia", "reza vela", "farpa cortante", "suplica cearense", "vinheta da silva"],
-    "MockSinger_Alcione": ["mocksinger_alcione", "gostoso veneno"],
-    "MockSinger_Miki": ["miki matsubara", "mayonaka no door", "stay with me"],
-    "MockBand_Angra": ["mockband_angra", "deus le volt"],
-    "MockSinger_Jorge": ["jorge vercillo", "homem aranha", "voce e tudo"],
-    "MockSinger_Junko": ["junko ohashi", "sweet love"],
-    "MockSinger_Belo": ["mocksinger_belo", "mocksinger_belo -", "tarde demais"],
-    "MockStumocksinger_dio_Ghibli": ["ghibli", "spirited away", "totoro", "kiki's delivery",
-                      "castle in the sky", "laputa", "howl's moving castle",
-                      "mononoke", "ashitaka", "ponyo", "earthsea",
-                      "when marnie was", "sayonara no natsu",
-                      "itsumo nando demo", "always with me",
-                      "kimi wo nosete", "carrying you", "rouge no dengon",
-                      "fine on the outside", "tatara", "kaguya",
-                      "tenjin no ongaku", "inochi no kioku"],
+    "Fictional-DuskPeak": ["Fictional-DuskPeak"],
+    "Fictional-ZincWing": ["Fictional-ZincWing", "Fictional-ZincWing", "Fictional-Kw-ce32713e",
+                           "Fictional-Kw-3c457de2", "Fictional-Kw-ec602af0", "Fictional-Kw-9cf0e877", "Fictional-Kw-625cf4d4",  # noqa: E501
+                           "would?", "Fictional-Kw-e9783d09", "Fictional-Kw-2dbb93e2", "grind",
+                           "Fictional-Kw-5c60ae4f", "got me wrong", "Fictional-Kw-3ff0f449",
+                           "junkhead", "rotten apple", "shame in you", "Fictional-Kw-b03e2ee8",
+                           "over now", "right turn", "whale & wasp", "we die young",
+                           "what the hell have i", "Fictional-Kw-282d1a71", "no excuses",
+                           "alone", "spit you out"],
+    "Fictional-IronCanyon": ["Fictional-IronCanyon"],
+    "Fictional-FadingHelix": ["Fictional-FadingHelix"],
+    "Fictional-MistySpark": ["Fictional-MistySpark"],
+    "Fictional-EmeraldTrail": ["Fictional-EmeraldTrail", "Fictional-EmeraldTrail",
+                               "Fictional-Kw-2e8538c6"],
+    "Fictional-ObsidianCastle": ["Fictional-ObsidianCastle", "Fictional-ObsidianCastle", "Fictional-Kw-51da3037",
+                                 "Fictional-Kw-0f060986", "crimson day", "Fictional-Kw-d9d9ddd8",
+                                 "the fight", "Fictional-Kw-15c97885", "Fictional-Kw-fa0ce346", "Fictional-Kw-a7962638",
+                                 "Fictional-Kw-25f41d53", "Fictional-Kw-c497416d"],
+    "Fictional-IronSail": ["Fictional-IronSail", "Fictional-IronSail", "Fictional-IronSail",
+                           "gruntilda", "Fictional-Kw-324fdb0e", "Fictional-Kw-b4590790",
+                           "Fictional-Kw-c2c545e9", "mr. patch", "Fictional-Kw-6118cf0a",
+                           "Fictional-Kw-880e3b7a"],
+    "Fictional-EmeraldFlame": ["Fictional-EmeraldFlame", "fly me to the moon (climax)",
+                               "Fictional-Kw-fd154e5b"],
+    "Fictional-JasperWarden": ["Fictional-JasperWarden", "Fictional-JasperWarden", "dumpweed", "Fictional-Kw-e0a144de"],
+    "Fictional-SmokyPrism": ["Fictional-SmokyPrism", "Fictional-Kw-1359e39d (official auFictional-Kw-27b20503)"],
+    "Fictional-QuartzRidge": ["Fictional-QuartzRidge", "Fictional-Kw-260231c6", "Fictional-Kw-4c7e4c3b",
+                              "torn in two", "had enough", "Fictional-QuartzRidge", "Fictional-QuartzRidge", "Fictional-QuartzRidge", "Fictional-QuartzRidge"],  # noqa: E501
+    "Fictional-PhantomRaven": ["Fictional-PhantomRaven", "Fictional-Kw-67a914c6"],
+    "Fictional-TwilightDrifter": ["Fictional-TwilightDrifter", "Fictional-Kw-b100987d", "Fictional-Kw-97490351",
+                                  "grenade", "treasure", "uptown funk", "Fictional-Kw-461bd9d0",
+                                  "doo wops", "Fictional-Kw-8804e787"],
+    "Fictional-OpalRidge": ["Fictional-OpalRidge", "born to run", "Fictional-Kw-3ced3fe2",
+                            "Fictional-Kw-641692fa", "the river", "thunder road"],
+    "Fictional-ScarletCanyon": ["Fictional-ScarletCanyon", "Fictional-ScarletCanyon",
+                                "Fictional-Kw-c97894a5", "Fictional-Kw-bbab26d2",
+                                "sFictional-StormMoonaim fire", "Fictional-Kw-c023958c",
+                                "Fictional-Kw-4e4c8353", "the poison", "Fictional-Kw-b41f9486",
+                                "Fictional-Kw-50fc258d", "Fictional-Kw-645352e7", "Fictional-Kw-6f0a2ca6",
+                                "room 409", "Fictional-Kw-505148bf",
+                                "Fictional-Kw-ffa80d23", "Fictional-Kw-0d61dded",
+                                "dignity", "flat on the floor"],
+    "Fictional-EmeraldBloom": ["Fictional-EmeraldBloom", "Fictional-Kw-bec63f81"],
+    "Fictional-ThunderSpire": ["Fictional-ThunderSpire", "Fictional-Kw-c58f91e7", "Fictional-Kw-b7ace6d9",
+                               "maybellene", "Fictional-Kw-a4b890d8"],
+    "Fictional-EmeraldWarden": ["Fictional-EmeraldWarden", "Fictional-Kw-23f3b407", "Fictional-Kw-57d292fc",
+                                "Fictional-Kw-03eb266a", "Fictional-Kw-4efe3c91", "Fictional-Kw-a2ce73b7",
+                                "Fictional-Kw-e3022248", "Fictional-Kw-a557d8c5", "Fictional-Kw-8827ad66",
+                                "out of time", "Fictional-Kw-6a04f295", "Fictional-Kw-de8816af",
+                                "twilight stigmata", "aquarius"],
+    "Fictional-IronLantern": ["Fictional-IronLantern", "easy (cooler"],
+    "Fictional-TimberStone": ["Fictional-TimberStone", "Fictional-Kw-b0c56b8e"],
+    "Fictional-IvorySignal": ["Fictional-IvorySignal", "starman"],
+    "Fictional-NeonDawn": ["Fictional-NeonDawn"],
+    "Fictional-JasperBloom": ["Fictional-JasperBloom", "Fictional-Kw-c027cb5c", "police truck"],
+    "Fictional-TimberNeedle": ["Fictional-TimberNeedle", "Fictional-Kw-18472f37", "Fictional-Kw-fd804ba9",
+                               "Fictional-Kw-333155ef", "Fictional-Kw-67897a08"],
+    "Fictional-TwilightPhoenix": ["Fictional-TwilightPhoenix", "Fictional-Kw-858a4f75", "stricken",
+                                  "the game", "Fictional-Kw-f3145842", "shout 2000", "want",
+                                  "Fictional-Kw-020ae398", "fear"],
+    "Fictional-GlassStone": ["Fictional-GlassStone", "Fictional-GlassStone", "Fictional-GlassStone", "react - dj", "array - dj",  # noqa: E501
+                             "Fictional-Kw-7e8e8eb5", "castles (live coded", "airglow", "still miss u"],
+    "Fictional-SapphireOracle": ["Fictional-SapphireOracle", "Fictional-SapphireOracle", "Fictional-Kw-9a6359cf",
+                                 "Fictional-Kw-1005185b", "Fictional-Kw-0a20a574",
+                                 "Fictional-Kw-dfc3012e", "Fictional-Kw-c3db30e2", "bayou boogie",
+                                 "Fictional-Kw-488d4831", "hot head bop", "Fictional-Kw-4ee5643e",
+                                 "Fictional-Kw-84d4d9af", "jungle level", "Fictional-Kw-1d2800fe",
+                                 "donkeywave"],
+    "Fictional-MidnightFrost": ["Fictional-MidnightFrost", "Fictional-Kw-015220a7", "bfg 10k",
+                                "Fictional-Kw-961bcf19"],
+    "Fictional-LunarChain": ["Fictional-LunarChain"],
+    "Fictional-SolarWarden": ["Fictional-SolarWarden", "Fictional-Kw-6704c32f",
+                              "Fictional-Kw-e06ca236"],
+    "Fictional-IronMesa": ["Fictional-IronMesa", "Fictional-Kw-64400d1b", "going under", "Fictional-Track-76a5577Fictional-Track-c9f0f895.mp3", "-ev",  # noqa: E501
+                           "sonne", "mein land", "amerika", "alter mann"],
+    "Fictional-LunarCanyon": ["Fictional-LunarCanyon"],
+    "Fictional-SolarIsle": ["Fictional-SolarIsle"],
+    "Fictional-MidnightBell": ["Fictional-MidnightBell"],
+    "Fictional-ScarletPrism": ["Fictional-ScarletPrism", "everlong", "my hero", "learn to fly",
+                               "Fictional-Kw-52f26298", "Fictional-Kw-8f379ecb", "big me", "Fictional-Kw-f8f26e59",
+                               "breakout", "Fictional-Kw-d08937f9", "Fictional-Kw-7364473c",
+                               "Fictional-Kw-b5e12390", "Fictional-Kw-a6673edb", "headwires",
+                               "next year", "rope", "good grief", "Fictional-Kw-ef7e483f",
+                               "oceano", "sina", "lilás", "pétala", "fátima",
+                               "açaí", "monalisa"],
+    "Fictional-ThistleOrchid": ["Fictional-ThistleOrchid", "mute city", "big blue", "fire field",
+                                "sand ocean", "white land"],
+    "Fictional-RustyRiver": ["Fictional-RustyRiver", "Fictional-RustyRiver", "Fictional-Kw-0a77c212",
+                             "another way"],
+    "Fictional-ShadowHorizon": ["Fictional-ShadowHorizon", "Fictional-Kw-844d3b48", "Fictional-Kw-33693255"],
+    "Fictional-ShadowPeak": ["Fictional-ShadowPeak", "Fictional-Kw-e4dcc4b1", "holiday", "homecoming",
+                             "Fictional-Kw-f03269ad", "letterbomb", "whatsername"],
+    "Fictional-BrassWhisper": ["Fictional-BrassWhisper", "hellfire", "the town inside me",
+                               "find your one way"],
+    "Fictional-GraniteCastle": ["Fictional-GraniteCastle", "Fictional-GraniteCastle", "Fictional-Kw-3450057f",
+                                "Fictional-Kw-71cb705f", "Fictional-Kw-9fe71f2c", "Fictional-Kw-c561631d"],
+    "Fictional-CobaltRiver": ["Fictional-CobaltRiver", "flying beagles"],
+    "Fictional-RustyMask": ["Fictional-RustyMask", "wasted years"],
+    "Fictional-EmeraldRaven": ["Fictional-EmeraldRaven", "aqualung", "Fictional-Kw-a5f7b034",
+                               "bouree", "bourée", "Fictional-Kw-6d712aa9", "wond'ring aloud",
+                               "wond'ring again", "mother goose", "Fictional-Kw-bd4c560b",
+                               "hymn 43", "Fictional-Kw-33d6f195", "raising steam",
+                               "steel monkey", "the curse", "part of the machine",
+                               "in the gallery"],
+    "Fictional-Jozep": ["Fictional-Jozep", "ジョジョ", "Fictional-Kw-74658c48", "Fictional-Kw-bc554011",
+                        "Fictional-Kw-e135c32b", "great days", "Fictional-Kw-e8231466", "chase",
+                        "stone ocean", "stone_free", "soft_and_wet",
+                        "Fictional-Kw-59cdce6d", "gang dance"],
+    "Fictional-EbonyBeacon": ["Fictional-EbonyBeacon", "kick back"],
+    "Fictional-JadeLotus": ["Fictional-JadeLotus", "Fictional-JadeLotus"],
+    "Fictional-ThistleGate": ["Fictional-ThistleGate", "Fictional-Kw-a6a3b111", "Fictional-Kw-b4aecf76", "Fictional-Kw-b2631a42", "Fictional-Kw-a2f30af1",  # noqa: E501
+                              "papercut", "Fictional-Kw-92f62e24", "Fictional-Kw-79eebaf4",
+                              "by myself", "Fictional-Kw-8f53590a", "runaway", "with you",
+                              "Fictional-Kw-8fd19cd0", "Fictional-Kw-93e85cc8", "forgotten",
+                              "a place where you Fictional-IronSignalng"],
+    "Fictional-VioletStone": ["Fictional-VioletStone", "Fictional-Kw-51146ba1"],
+    "Fictional-VioletHelix": ["Fictional-VioletHelix", "Fictional-VioletHelix", "Fictional-Kw-1bfcc7e7", "anna_julia"],
+    "Fictional-LunarHorizon": ["Fictional-LunarHorizon", "Fictional-Kw-9a2a444f"],
+    "Fictional-EmeraldDawn": ["Fictional-EmeraldDawn", "Fictional-Kw-89638e4c"],
+    "Fictional-MarbleCrown": ["Fictional-MarbleCrown"],
+    "Fictional-JadePrism": ["Fictional-JadePrism", "slide - super Fictional-JadePrism", "file select (super Fictional-JadePrism",  # noqa: E501
+                            "ground theme", "Fictional-Kw-a70a6a9b", "king bowser"],
+    "Fictional-EmeraldMesa": ["Fictional-EmeraldMesa", "Fictional-Kw-8095f875"],
+    "Fictional-GraniteCrown": ["Fictional-GraniteCrown"],
+    "Fictional-LunarKnight": ["Fictional-LunarKnight", "Fictional-Kw-56dc5fa7"],
+    "Fictional-BrassCompass": ["Fictional-BrassCompass", "Fictional-Kw-5e5601d7", "Fictional-Kw-abc40a2d (sanitarium)"],
+    "Fictional-MidnightSpire": ["Fictional-MidnightSpire", "ridley", "brinstar", "meta ridley"],
+    "Fictional-LunarSpire": ["Fictional-LunarSpire", "thriller", "Fictional-Kw-97d2827f", "Fictional-Kw-aa7f0be7",
+                             "bad.", "p.y.t.", "Fictional-Kw-271b8ef8", "off the wall",
+                             "Fictional-Kw-e5574d1a", "Fictional-Kw-e5572ce8", "jam.",
+                             "human nature", "Fictional-Kw-693c8131",
+                             "the lady Fictional-Kw-68925358", "Fictional-Kw-2d455771",
+                             "you are not alone"],
+    "Fictional-SmokyPeak": ["Fictional-SmokyPeak", "Fictional-SmokyPeak"],
+    "Fictional-RustyMirror": ["mother", "magicant", "Fictional-Kw-73dd1b5b", "bein' friends"],
+    "Fictional-EbonyFlame": ["Fictional-EbonyFlame", "helena"],
+    "Fictional-SterlingGate": ["Fictional-SterlingGate", "Fictional-Kw-ef700439"],
+    "Fictional-CoralVoyage": ["Fictional-CoralVoyage", "Fictional-Kw-d2feb9b6", "Fictional-Kw-accd3657", "Fictional-Kw-f7e357db",  # noqa: E501
+                              "Fictional-Kw-bc9516a7", "Fictional-Kw-4351d7aa", "Fictional-Kw-dbfceb26",
+                              "do this anymore", "flat on the floor", "Fictional-Kw-0611f760",
+                              "Fictional-CoralVoyage far away", "far away (Fictional-CoralVoyage)",
+                              "Fictional-CoralVoyage - far away", "Fictional-CoralVoyage hollywood"],
+    "Fictional-SapphireSpire": ["Fictional-SapphireSpire", "Fictional-SapphireSpire", "older girl"],
+    "Fictional-ShadowPhoenix": ["Fictional-ShadowPhoenix", "Fictional-Kw-cf79f599", "Fictional-Kw-3fd20e5d",
+                                "Fictional-Kw-c3fad343", "in bloom"],
+    "Fictional-JasperIsle": ["Fictional-JasperIsle", "Fictional-Kw-d999d4f6"],
+    "Fictional-ObsidianFalcon": ["Fictional-ObsidianFalcon", "Fictional-ObsidianFalcon"],
+    "Fictional-AzurePhoenix": ["Fictional-AzurePhoenix", "alive (Fictional-AzurePhoenix)", "even flow", "black official",  # noqa: E501
+                               "corduroy", "once (2009", "once official", "deep official"],
+    "Fictional-ZincCipher": ["Fictional-ZincCipher"],
+    "Fictional-BrassHorizon": ["Fictional-BrassHorizon", "Fictional-BrassHorizon", "battle! trainer"],
+    "Fictional-AmberSpark": ["Fictional-AmberSpark", "Fictional-AmberSpark", "Fictional-Kw-bb938c81",
+                             "Fictional-Kw-d7fa95a4", "Fictional-Kw-c801d64c",
+                             "the underworld; adagio"],
+    "Fictional-PhantomWhisper": ["Fictional-PhantomWhisper", "absolitude-ro", "payon"],
+    "Fictional-SilverLighthouse": ["Fictional-SilverLighthouse", "Fictional-SilverLighthouse", "Fictional-SilverLighthouse", "Fictional-Kw-511ff788",  # noqa: E501
+                                   "by the way", "otherside", "Fictional-Kw-76992efa",
+                                   "slow cheetah", "Fictional-Kw-039fb478", "purple stain",
+                                   "Fictional-Kw-21530934", "Fictional-Kw-2545e76a",
+                                   "Fictional-Kw-aa67893c", "aeroplane",
+                                   "Fictional-Kw-cba5833f", "Fictional-Kw-a243c852", "Fictional-Kw-4f8f69e3",
+                                   "Fictional-Kw-71d10b6a", "can't stop", "Fictional-Kw-0f3fc2a0",
+                                   "Fictional-Kw-4e3c8fa3", "Fictional-Kw-d8ceb2b3", "hump de bump",
+                                   "suck my kiss", "Fictional-Kw-e0381949", "Fictional-Kw-7e5ad9c0",
+                                   "Fictional-Kw-81105820", "go robot", "look around",
+                                   "Fictional-Kw-a164228e", "road trippin", "Fictional-Kw-67252bd4",
+                                   "Fictional-Kw-80e4c550", "my friends"],
+    "Fictional-MarbleRose": ["Fictional-MarbleRose", "Fictional-MarbleRose", "Fictional-Kw-b0c2ac5b", "Fictional-Kw-5b586930",  # noqa: E501
+                             "Fictional-Kw-954a3abb", "Fictional-Kw-07c3ec82",
+                             "Fictional-Kw-a38377fe"],
+    "Fictional-JadeFrost": ["Fictional-JadeFrost", "Fictional-Kw-46f76d4a"],
+    "Fictional-NeonShore": ["Fictional-NeonShore", "in my room"],
+    "Fictional-VioletFalcon": ["Fictional-VioletFalcon", "Fictional-Kw-891b1132", "Fictional-Kw-4bc4a6e3", "Fictional-Kw-74303c51",  # noqa: E501
+                               "Fictional-Kw-31861ba7"],
+    "Fictional-AzureShore": ["Fictional-AzureShore", "Fictional-Kw-d0dbe915 & learn", "Fictional-Kw-a1dc2820",
+                             "Fictional-Kw-f4056ced", "super Fictional-AzureShore racing", "fist bump",
+                             "his world", "Fictional-Kw-6df1bdb1", "Fictional-AzureShore boom", "Fictional-AzureShore heroes",  # noqa: E501
+                             "windy hill", "rooftop run", "rodtop run", "Fictional-Kw-91834a74",
+                             "ángel island zone"],
+    "Fictional-ScarletHorizon": ["Fictional-ScarletHorizon", "eagleheart", "destiny", "hunting high"],
+    "Fictional-QuartzPhoenix": ["Fictional-QuartzPhoenix", "doing time"],
+    "Fictional-ZincGate": ["Fictional-ZincGate", "Fictional-ZincGate", "Fictional-ZincGate", "Fictional-ZincGate",
+                           "Fictional-ZincGate", "Fictional-ZincGate"],
+    "Fictional-SterlingBeacon": ["Fictional-SterlingBeacon", "Fictional-SterlingBeacon", "Fictional-Kw-5f219c36", "Fictional-Kw-c64f8a77",  # noqa: E501
+                                 "b.y.o.b.", "Fictional-Kw-9c2bf26a", "hypnotize", "innervision",
+                                 "Fictional-Kw-c1266a5e", "question!", "streamline",
+                                 "raFictional-Kw-27b20503video", "boom!", "cigaro", "Fictional-Kw-89363e93",
+                                 "Fictional-Kw-8182463d", "i-e-a-i-a-i-o", "sad statue",
+                                 "Fictional-Kw-a134d547"],
+    "Fictional-ThunderGhost": ["Fictional-ThunderGhost", "Fictional-Kw-48906ac1"],
+    "Fictional-FrozenWing": ["Fictional-FrozenWing", "linger"],
+    "Fictional-TimberFlame": ["Fictional-TimberFlame", "gone away", "million miles away"],
+    "Fictional-VidaSimu": ["Fictional-VidaSimu", "building mode"],
+    "Fictional-VolcanicSignal": ["Fictional-VolcanicSignal"],
+    "Fictional-GlassCastle": ["Fictional-GlassCastle", "Fictional-Kw-5100a06d",
+                              "Fictional-Kw-b2cee5f3"],
+    "Fictional-CrimsonFrost": ["Fictional-CrimsonFrost", "Fictional-Kw-c419453c", "is this love",
+                               "Fictional-Kw-2891e041", "Fictional-Kw-e17078d0",
+                               "Fictional-Kw-67db7d32", "don't break my heart"],
+    "Fictional-ScarletSwan": ["Fictional-ScarletSwan", "diggy diggy hole"],
+    "Fictional-CoralForge": ["Fictional-CoralForge", "Fictional-CoralForge", "invincible (lyrics)",
+                             "Fictional-Kw-6feedb3c", "song of elune",
+                             "Fictional-Kw-789b1983", "Fictional-Kw-fe508a90",
+                             "Fictional-Kw-f1a2ebd0", "fire festival", "tavern (alliance)",
+                             "Fictional-Kw-f3db034e", "crystalsong",
+                             "Fictional-Kw-8105f757", "garden of life",
+                             "Fictional-Kw-5ec52201", "Fictional-Kw-fee2713c",
+                             "enchanted forest", "magic zone", "angelic",
+                             "gloomy", "tavern (dwarf)", "forest [day]",
+                             "Fictional-Kw-b3486b9e", "arthas",
+                             "dalaran", "dragons' rest", "Fictional-Kw-ee445b6b"],
+    "Fictional-ThunderTide": ["Fictional-ThunderTide", "Fictional-Kw-040513ec"],
+    "Fictional-CrystalCipher": ["Fictional-CrystalCipher", "again."],
+    "Fictional-CrystalBell": ["Fictional-CrystalBell", "Fictional-CrystalBell", "Fictional-Kw-e958d854", "Fictional-Kw-a9098f87",  # noqa: E501
+                              "Fictional-Kw-22e05532", "Fictional-Kw-f9e1d8f3", "Fictional-Kw-6b55169c",
+                              "lost woods", "saria's song", "wind waker", "Fictional-Kw-b071f324",
+                              "Fictional-Kw-b09ec18c", "Fictional-Kw-17e536b9", "Fictional-Kw-d9ebd882",
+                              "sacred grove", "Fictional-Kw-e0126244", "Fictional-Kw-ead71f8d",
+                              "korok forest", "Fictional-Kw-095b53f4", "kass theme", "Fictional-Kw-5fae0ce6",
+                              "Fictional-Kw-15396039", "Fictional-Kw-49b5a9f7", "Fictional-Kw-71bb3f77",
+                              "Fictional-Kw-5ee0843a", "demon dragon", "epona's song",
+                              "Fictional-Kw-90d58d3c", "great temple", "master kohga",
+                              "title theme - Fictional-Kw-91e6233c"],
+    # Fictional-CrimsonFountain (for new files)
+
+    "Fictional-QuartzPeak": ["Fictional-QuartzPeak"],
+    "Fictional-SterlingLotus": ["Fictional-SterlingLotus", "Fictional-SterlingLotus"],
+    "Fictional-IronSerpent": ["Fictional-IronSerpent", "Fictional-IronSerpent"],
+    "Fictional-JadeOracle": ["Fictional-JadeOracle", "becoming insane"],
+    "Fictional-IndigoHarbor": ["Fictional-IndigoHarbor", "sandstorm"],
+    "Fictional-TimberCastle": ["Fictional-TimberCastle", "Fictional-Kw-ea111a4c", "Fictional-Kw-d6c65228", "Fictional-Kw-cbeb54a6", "fogo cruzado", "hostia", "reza vela", "Fictional-Kw-347ce46f", "Fictional-Kw-0e2dd165", "Fictional-Kw-2d0980f9"],  # noqa: E501
+    "Fictional-VelvetSpire": ["Fictional-VelvetSpire", "Fictional-Kw-1a1b5634"],
+    "Fictional-AzurePrism": ["Fictional-AzurePrism", "Fictional-Kw-8d1e06bf", "Fictional-Kw-d22d0122"],
+    "Fictional-FrozenMask": ["Fictional-FrozenMask", "deus le volt"],
+    "Fictional-PhantomMirror": ["Fictional-PhantomMirror", "homem aranha", "voce e tudo"],
+    "Fictional-GraniteCompass": ["Fictional-GraniteCompass", "sweet love"],
+    "Fictional-IronSignal": ["Fictional-IronSignal", "Fictional-IronSignal -", "tarde demais"],
+    "Fictional-CrimsonFountain": ["Fictional-CrimsonFountain", "Fictional-Kw-b2412f79", "Fictional-Kw-f5405813", "Fictional-Kw-966c97e8",  # noqa: E501
+                                  "Fictional-Kw-e4178445", "laputa", "Fictional-Kw-6e45fc1c",
+                                  "Fictional-AmberSpark", "ashitaka", "ponyo", "earthsea",
+                                  "Fictional-Kw-fc3cef77", "Fictional-Kw-15a7729e",
+                                  "Fictional-Kw-390fd18a", "always with me",
+                                  "Fictional-Kw-b1be5870", "Fictional-Kw-64f42d05", "Fictional-Kw-32a3712d",
+                                  "Fictional-Kw-9c820265", "tatara", "kaguya",
+                                  "Fictional-Kw-14bc0100", "Fictional-Kw-cebf6d77"],
     # Brazilian artists in Various
-    "OsMutantes": ["MockBand_Mutantes", "bat macumba"],
-    "Legiao": ["MockBand_Legiao", "legiao"],
-    "SkankBR": ["MockBand_Skank"],
-    "Vanessa": ["MockSinger_Vanessa", "ainda bem", "boa sorte"],
-    "MockSinger_Djavan": ["mocksinger_djavan", "oceano", "sina", "lilás", "pétala", "fátima",
-               "açaí", "monalisa"],
-    "ZecaPagodinho": ["MockSinger_Zeca"],
-    "TimMaia": ["MockSinger_Tim"],
-    "FundoDeQuintal": ["MockBand_Fundo"],
-    "MarisaMonte": ["MockSinger_Marisa"],
-    "CaetanoVeloso": ["MockSinger_Caetano"],
-    "MockBand_Tribalistas": ["MockBand_Tribalistas"],
-    "OsParalamas": ["MockBand_Paralamas", "lanterna dos afogados", "minha alma"],
-    "EngenheirosDoHawaii": ["MockBand_Engenheiros", "refrão de bolero"],
-    "MockBand_CPM22": ["cpm 22", "mockband_cpm22"],
-    "CharlieBrownJr": ["MockBand_CBJR", "charlie_brown"],
+    "Fictional-BlazingLighthouse": ["Fictional-BlazingLighthouse", "bat macumba"],
+    "Fictional-BlazingEcho": ["Fictional-BlazingEcho", "Fictional-BlazingEcho"],
+    "Fictional-RustyDawn": ["Fictional-RustyDawn"],
+    "Fictional-VolcanicHorn": ["Fictional-VolcanicHorn", "Fictional-Kw-73a1cff4", "boa sorte"],
+    "Fictional-MarbleDrifter": ["Fictional-MarbleDrifter"],
+    "Fictional-OpalWing": ["Fictional-OpalWing"],
+    "Fictional-FrozenBell": ["Fictional-FrozenBell"],
+    "Fictional-ScarletVoyage": ["Fictional-ScarletVoyage"],
+    "Fictional-ScarletLeaf": ["Fictional-ScarletLeaf"],
+    "Fictional-ThunderThorn": ["Fictional-ThunderThorn"],
+    "Fictional-SapphireHaven": ["Fictional-SapphireHaven", "Fictional-Kw-0d6300fe", "minha alma"],
+    "Fictional-ZincBeacon": ["Fictional-ZincBeacon", "refrão de bolero"],
+    "Fictional-FrozenNeedle": ["Fictional-FrozenNeedle", "Fictional-FrozenNeedle"],
+    "Fictional-CobaltOracle": ["Fictional-CobaltOracle", "Fictional-CobaltOracle"],
     # Compilation/ambient artist buckets (for sliced compilations without single artists)
-    "CityPop": ["city pop", "citypop", "city-pop", "shiteipotsupu"],
+    "CityPop": ["city pop", "citypop", "city-pop", "Fictional-Kw-169b09aa"],
     "JungleDnB": ["jungle mix", "ambient jungle", "low poly dnb", "jungle-mix"],
     "MedievalAmbience": ["medieval music", "relaxing medieval", "medieval ambience",
-                          "medieval fantasy"],
+                         "medieval fantasy"],
     # Korean instrumental
     "Gayageum": ["gayageum", "가야금"],
     # Traditional instruments
     "Guzheng": ["guzheng"],
     "Guqin": ["guqin", "古琴"],
     "Koto": ["koto", "箏"],
-    # === JoJo Reference artists batch (2025-03-23) ===
+    # === Fictional-Jozep Reference artists batch (2025-03-23) ===
     "DarkAngelMetal": ["dark angel metal"],
     "CyberpunkBeats": ["cyberpunk beat", "cyberpunk metal"],
     "EgyptianMetal": ["egyptian metal", "egyptian rock"],
     "PirateMetal": ["pirate rock", "pirate metal"],
-    "MockDJ_Nujabes": ["MockDJ_Nujabes"],
-    "MockBand_ACDC": ["ac dc", "mockband_acdc", "ac/dc"],
-    "AirSupply": ["MockBand_AirSupply"],
-    "AlessiBrothers": ["MockBand_Alessi", "alessi "],
-    "MockBand_Bad": ["bad company"],
-    "BetteMidler": ["MockSinger_Bette"],
-    "MockSinger_Bob": ["bob dylan"],
-    "BoyzIIMen": ["MockBand_Boyz", "boys ii men", "boyz 2 men"],
-    "MockBand_Cameo": ["MockBand_Cameo "],
-    "CaptainAndTennille": ["captain & tennille", "captain tennille"],
-    "MockBand_Cheap": ["cheap trick"],
-    "MockBand_Cream": ["MockBand_Cream "],
-    "CurtisMayfield": ["MockSinger_Curtis", "superfly"],
-    "DaleHawkins": ["MockSinger_Dale", "susie q"],
-    "MockBand_Deep": ["deep purple"],
-    "MockBand_Devo": ["MockBand_Devo "],
-    "MockSinger_Dio": ["holy diver"],
-    "MockSinger_Donovan": ["MockSinger_Donovan "],
-    "DoobieBrothers": ["MockBand_Doobie"],
-    "EarthWindAndFire": ["earth, wind", "earth wind", "ewf "],
-    "MockBand_Enigma": ["MockBand_Enigma "],
-    "HallAndOates": ["MockBand_HallOates", "MockBand_HallOates"],
-    "IggyPop": ["MockSinger_Iggy"],
-    "JeffBeck": ["MockSinger_Jeff"],
-    "JGeilsBand": ["j. geil", "MockBand_JGeils", "j geil"],
-    "KennyG": ["MockSinger_Kenny"],
-    "LisaLisa": ["MockSinger_Lisa"],
-    "MariahCarey": ["MockSinger_Mariah"],
-    "NeilYoung": ["MockSinger_Neil"],
-    "MockBand_Nena": ["MockBand_Nena "],
-    "OingoBoingo": ["MockBand_Oingo", "oingo & boingo"],
-    "PaulaAbdul": ["MockSinger_Paula"],
-    "PetShopBoys": ["MockBand_PetShop"],
-    "PinkFloyd": ["MockBand_PinkFloyd"],
-    "MockBand_Poco": ["MockBand_Poco "],
-    "MockSinger_Prince": ["MockSinger_Prince "],
-    "MockBand_Queen": ["MockBand_Queen "],
-    "REOSpeedwagon": ["reo speedwagon"],
-    "RollingStones": ["MockBand_Stones"],
-    "MockBand_Sade": ["MockBand_Sade "],
-    "MockBand_Santana": ["MockBand_Santana "],
-    "SmokeyRobinson": ["MockSinger_Smokey"],
-    "SteelyDan": ["MockBand_Steely"],
-    "StrayCats": ["MockBand_StrayCats", "stray cat "],
-    "MockBand_Styx": ["MockBand_Styx "],
-    "TerenceTrentDArby": ["terence trent", "d'arby"],
-    "TheBand": ["MockBand_TheBand "],
-    "TheCars": ["MockBand_TheCars"],
-    "TomPetty": ["MockSinger_Tom"],
-    "MockBand_U2": ["MockBand_U2 "],
-    "VanillaIce": ["MockSinger_Vanilla"],
-    "WangChung": ["MockBand_Wang"],
-    "MockBand_Wham": ["MockBand_Wham!", "MockBand_Wham "],
-    "MockBand_Yes": ["MockBand_Yes "],
+    "Fictional-PhantomHorizon": ["Fictional-PhantomHorizon"],
+    "Fictional-BrassTide": ["Fictional-BrassTide", "Fictional-BrassTide", "Fictional-BrassTide"],
+    "Fictional-LunarDrifter": ["Fictional-LunarDrifter", "Fictional-LunarDrifter"],
+    "Fictional-MistyStrand": ["Fictional-MistyStrand"],
+    "Fictional-CobaltSignal": ["Fictional-CobaltSignal"],
+    "Fictional-GildedFalcon": ["Fictional-GildedFalcon", "Fictional-GildedFalcon", "Fictional-GildedFalcon"],
+    "Fictional-GraniteMirror": ["Fictional-GraniteMirror"],
+    "Fictional-ThunderPrism": ["Fictional-ThunderPrism", "Fictional-ThunderPrism"],
+    "Fictional-GraniteRiver": ["Fictional-GraniteRiver"],
+    "Fictional-StormMoon": ["Fictional-StormMoon"],
+    "Fictional-CrimsonWhisper": ["Fictional-CrimsonWhisper", "superfly"],
+    "Fictional-StormQuarry": ["Fictional-StormQuarry", "susie q"],
+    "Fictional-JasperHorizon": ["Fictional-JasperHorizon"],
+    "Fictional-TimberDawn": ["Fictional-TimberDawn"],
+    "Fictional-FadingGarden": ["holy diver"],
+    "Fictional-VioletGarden": ["Fictional-VioletGarden"],
+    "Fictional-NeonPillar": ["Fictional-NeonPillar"],
+    "Fictional-AmberVeil": ["Fictional-AmberVeil", "Fictional-AmberVeil", "Fictional-AmberVeil"],
+    "Fictional-TimberRidge": ["Fictional-TimberRidge"],
+    "Fictional-FadingIsle": ["Fictional-FadingIsle", "Fictional-FadingIsle"],
+    "Fictional-CoralLighthouse": ["Fictional-CoralLighthouse"],
+    "Fictional-IndigoSummit": ["Fictional-IndigoSummit", "Fictional-IndigoSummit", "Fictional-IndigoSummit"],
+    "Fictional-PhantomLighthouse": ["Fictional-PhantomLighthouse"],
+    "Fictional-DuskLantern": ["Fictional-DuskLantern"],
+    "Fictional-AzureRaven": ["Fictional-AzureRaven"],
+    "Fictional-MarbleBloom": ["Fictional-MarbleBloom"],
+    "Fictional-GoldenLantern": ["Fictional-GoldenLantern"],
+    "Fictional-AmberBell": ["Fictional-AmberBell", "Fictional-AmberBell"],
+    "Fictional-BrassSpire": ["Fictional-BrassSpire"],
+    "Fictional-VolcanicLotus": ["Fictional-VolcanicLotus"],
+    "Fictional-EbonyBloom": ["Fictional-EbonyBloom"],
+    "Fictional-CrimsonCrown": ["Fictional-CrimsonCrown"],
+    "Fictional-ZincNeedle": ["Fictional-ZincNeedle"],
+    "Fictional-IvoryLighthouse": ["Fictional-IvoryLighthouse"],
+    "Fictional-ObsidianPrism": ["Fictional-ObsidianPrism"],
+    "Fictional-ThunderIsle": ["Fictional-ThunderIsle"],
+    "Fictional-FrozenCrown": ["Fictional-FrozenCrown"],
+    "Fictional-CrimsonScholar": ["Fictional-CrimsonScholar"],
+    "Fictional-TwilightSpark": ["Fictional-TwilightSpark"],
+    "Fictional-EbonyBell": ["Fictional-EbonyBell"],
+    "Fictional-EbonyVoyage": ["Fictional-EbonyVoyage", "Fictional-EbonyVoyage"],
+    "Fictional-QuartzChain": ["Fictional-QuartzChain"],
+    "Fictional-IronPrism": ["Fictional-IronPrism", "Fictional-IronPrism"],
+    "Fictional-SterlingJewel": ["Fictional-SterlingJewel"],
+    "Fictional-SmokySpark": ["Fictional-SmokySpark"],
+    "Fictional-OpalDrifter": ["Fictional-OpalDrifter"],
+    "Fictional-Kw-270c1b08": ["Fictional-Kw-270c1b08 "],
+    "Fictional-IronIsle": ["Fictional-IronIsle"],
+    "Fictional-CoralCanyon": ["Fictional-CoralCanyon"],
+    "Fictional-ThistleLeaf": ["Fictional-ThistleLeaf", "Fictional-ThistleLeaf"],
+    "Fictional-IronHarbor": ["Fictional-IronHarbor"],
     # === New batch 2025-03-24 ===
-    "MockBand_Aero": ["mockband_aero", "dude looks like a lady"],
-    "MockSinger_Babyface": ["MockSinger_Babyface", "every time i close my eyes"],
-    "MockBand_Beatles": ["MockBand_Beatles", "helter skelter", "white album"],
-    "BeachBoys": ["MockBand_BeachBoys", "surfin"],
-    "BlackSmockband_abbath": ["black smockband_abbath", "paranoid"],
-    "ElvisPresley": ["MockSinger_Elvis", "jailhouse rock", "wonder of you"],
-    "GooGooDolls": ["MockBand_GooGoo", "iris"],
-    "GratefulDead": ["MockBand_Grateful", "truckin"],
-    "MockBand_Jigsaw": ["MockBand_Jigsaw - sky", "MockBand_Jigsaw sky high"],
-    "JimiHendrix": ["MockSinger_Jimi", "purple haze", "stone free"],
-    "KingCrimson": ["MockBand_KingCrimson", "21st century schizoid"],
-    "MockBand_Kraftwerk": ["MockBand_Kraftwerk", "the model"],
-    "LimpBizkit": ["MockBand_LimpBizkit", "break stuff"],
-    "LittleFeat": ["MockBand_LittleFeat", "little feet", "dixie chicken"],
-    "ManhattanTransfer": ["MockBand_Manhattan", "chanson d'amour"],
-    "MarilynManson": ["MockSinger_Marilyn", "the beautiful people"],
-    "MoodyBlues": ["MockBand_MoodyBlues", "nights in white satin"],
-    "NotoriousBIG": ["MockSinger_Notorious", "notorius big", "juicy"],
-    "PaulMcCartney": ["MockSinger_Paul", "c moon", "c-moon"],
-    "SexPistols": ["MockBand_SexPistols", "anarchy in the u"],
-    "SoftMachine": ["MockBand_SoftMachine", "moon in june"],
-    "SpiceGirls": ["MockBand_SpiceGirls", "wannabe"],
-    "MockBand_Survivor": ["MockBand_Survivor ", "eye of the tiger"],
-    "TalkingHeads": ["MockBand_TalkingHeads", "burning down the house"],
-    "MockBand_Underworld": ["MockBand_Underworld ", "born slippy"],
-    "WeatherReport": ["MockBand_WeatherReport", "birdland"],
-    "YoYoMa": ["MockSinger_YoYoMa", "yo yo ma", "bach cello suite"],
+    "Fictional-AzureSpire": ["Fictional-AzureSpire", "Fictional-Kw-d21dfdb4"],
+    "Fictional-EbonySpark": ["Fictional-EbonySpark", "Fictional-Kw-c10e81c0"],
+    "Fictional-VelvetLantern": ["Fictional-VelvetLantern", "Fictional-Kw-6532605b", "white album"],
+    "Fictional-SpectralTower": ["Fictional-SpectralTower", "surfin", "the model"],
+    "Fictional-FrozenSignal": ["Fictional-FrozenSignal", "Fictional-Kw-9e7aa5c5"],
+    "Fictional-ShadowThorn": ["Fictional-ShadowThorn", "Fictional-Kw-a7dd04eb", "Fictional-Kw-5f78c2fa"],
+    "Fictional-SterlingThorn": ["Fictional-SterlingThorn", "iris"],
+    "Fictional-ScarletGlacier": ["Fictional-ScarletGlacier", "truckin"],
+    "Fictional-GildedFrost": ["Fictional-GildedFrost", "Fictional-GildedFrost"],
+    "Fictional-ThunderChain": ["Fictional-ThunderChain", "purple haze", "stone free"],
+    "Fictional-BlazingCastle": ["Fictional-BlazingCastle", "21st century schizoid"],
+    "Fictional-SmokySummit": ["Fictional-SmokySummit", "Fictional-Kw-783aeb10", "Fictional-Kw-6f0d8978"],
+    "Fictional-ThistleShield": ["Fictional-ThistleShield", "Fictional-ThistleShield", "dixie chicken"],
+    "Fictional-FrozenStrand": ["Fictional-FrozenStrand", "Fictional-Kw-1ddfa785"],
+    "Fictional-SterlingQuarry": ["Fictional-SterlingQuarry", "Fictional-Kw-2f6fea6b"],
+    "Fictional-DuskPhoenix": ["Fictional-DuskPhoenix", "Fictional-DuskPhoenix", "juicy"],
+    "Fictional-SapphireNeedle": ["Fictional-SapphireNeedle", "c moon", "c-moon"],
+    "Fictional-AzureMirror": ["Fictional-AzureMirror", "anarchy in the u"],
+    "Fictional-QuartzStrand": ["Fictional-QuartzStrand", "moon in june"],
+    "Fictional-ScarletBell": ["Fictional-ScarletBell", "wannabe"],
+    "Fictional-ScarletWhisper": ["Fictional-ScarletWhisper", "Fictional-Kw-d7110683"],
+    "Fictional-GraniteShore": ["Fictional-GraniteShore", "Fictional-Kw-ed4913b6"],
+    "Fictional-ObsidianRiver": ["Fictional-ObsidianRiver", "born slippy"],
+    "Fictional-ThunderNest": ["Fictional-ThunderNest", "birdland"],
+    "Fictional-TimberThorn": ["Fictional-TimberThorn", "Fictional-TimberThorn", "Fictional-Kw-6b51f3a6"],
     # Sliced-new compilation buckets
     "DarkGoddess": ["dark goddess"],
     "EgyptianBattle": ["egyptian battle"],
@@ -402,48 +399,48 @@ ARTIST_KEYWORDS = {
 }
 
 # Genre classification - keywords → genre with feature weights
-GENRE_KEYWORDS = {
+GENRE_KEYWORDS: dict[str, dict[str, Any]] = {
     "AlternativeRock": {
-        "keywords": ["alternative", "alt rock", "foo fighters", "MockBand_REM.",
-                      "MockBand_REM ", "MockBand_Tame", "MockBand_Cranberries", "MockBand_Crowded",
-                      "MockBand_Gorillaz", "MockBand_Paramore", "mockband_nirvana"],
+        "keywords": ["alternative", "alt rock", "Fictional-ScarletPrism", "Fictional-MarbleRose",
+                     "Fictional-MarbleRose", "Fictional-ThunderGhost", "Fictional-FrozenWing", "Fictional-TimberStone",
+                     "Fictional-ShadowHorizon", "Fictional-ShadowHorizon", "Fictional-ShadowPhoenix"],
         "weight": 1.0
     },
     "AnimeOST": {
-        "keywords": ["MockAnime_Naruto", "fictional anime", "MockAnime_OPM", "one_punch_man",
-                      "jojo", "bloody stream", "fighting gold", "great days",
-                      "haruka kanata", "flow - sign", "kick back",
-                      "asian kung-fu", "again.", "chase.", "crazy noisy",
-                      "il vento d'oro", "stone ocean", "creditless"],
+        "keywords": ["Fictional-SterlingGate", "Fictional-LunarChain", "Fictional-ObsidianFalcon", "Fictional-ObsidianFalcon",  # noqa: E501
+                     "Fictional-Jozep", "Fictional-Kw-74658c48", "Fictional-Kw-e135c32b", "great days",
+                     "Fictional-Kw-2e8538c6", "Fictional-MidnightBell", "kick back",
+                     "asian kung-fu", "again.", "chase.", "crazy noisy",
+                     "Fictional-Kw-e8231466", "stone ocean", "creditless"],
         "weight": 1.0
     },
     "BrazilianRock": {
-        "keywords": ["capital inicial", "MockBand_DeadFish", "MockSinger_Pitty", "MockBand_CBJR",
-                      "mockband_cpm22", "cpm 22", "MockBand_Matanza", "MockBand_Massacration",
-                      "MockBand_LosHermanos", "los_hermanos"],
+        "keywords": ["Fictional-EmeraldBloom", "Fictional-NeonDawn", "Fictional-ZincCipher", "Fictional-CobaltOracle",
+                     "Fictional-FrozenNeedle", "Fictional-FrozenNeedle", "Fictional-GraniteCrown", "Fictional-EmeraldMesa",  # noqa: E501
+                     "Fictional-VioletHelix", "Fictional-VioletHelix"],
         "weight": 1.0
     },
     "Britpop": {
-        "keywords": ["MockBand_Oasis", "don't look back in anger"],
+        "keywords": ["Fictional-JasperIsle", "Fictional-Kw-d999d4f6"],
         "weight": 1.0
     },
     "CityPop": {
-        "keywords": ["city pop", "citypop", "MockSinger_Anri", "MockSinger_Yasuha", "MockSinger_Himiko",
-                      "flying beagles", "flyday chinatown", "shyness boy",
-                      "stay with me", "真夜中のドア"],
+        "keywords": ["city pop", "citypop", "Fictional-FadingHelix", "Fictional-ThunderTide", "Fictional-CobaltRiver",
+                     "flying beagles", "Fictional-Kw-040513ec", "shyness boy",
+                     "Fictional-Kw-d22d0122", "真夜中のドア"],
         "weight": 1.0
     },
     "ClassicRock": {
-        "keywords": ["MockSinger_Chuck", "MockBand_Lynyrd", "free bird",
-                      "dire straits", "sultans of swing", "MockBand_VanHalen",
-                      "MockSinger_BruceS", "journey", "MockSinger_David",
-                      "MockBand_Queen", "phil collins", "genesis", "jethro tull",
-                      "MockBand_Yes ", "MockBand_America - a horse"],
+        "keywords": ["Fictional-ThunderSpire", "Fictional-LunarHorizon", "Fictional-Kw-9a2a444f",
+                     "Fictional-TimberNeedle", "Fictional-Kw-18472f37", "Fictional-GlassCastle",
+                     "Fictional-OpalRidge", "Fictional-Kw-98dc0157", "Fictional-IvorySignal",
+                     "Fictional-Kw-72545f3f", "Fictional-Kw-0f3147d9", "Fictional-Kw-289ffeb2", "Fictional-EmeraldRaven",  # noqa: E501
+                     "Fictional-IronHarbor", "Fictional-IronCanyon"],
         "weight": 1.0
     },
     "Disco": {
-        "keywords": ["disco", "mockband_abba", "dancing MockBand_Queen", "boney m",
-                      "gigi d'agostino", "l'amour toujours"],
+        "keywords": ["disco", "Fictional-DuskPeak", "Fictional-Kw-885b67ec", "Fictional-SmokyPrism",
+                     "Fictional-RustyRiver", "Fictional-Kw-0a77c212"],
         "weight": 1.0
     },
     "EDM": {
@@ -451,209 +448,209 @@ GENRE_KEYWORDS = {
         "weight": 1.0
     },
     "Emo": {
-        "keywords": ["MockBand_MCR", "helena", "emo"],
+        "keywords": ["Fictional-EbonyFlame", "helena", "emo"],
         "weight": 1.0
     },
     "Eurodance": {
-        "keywords": ["eurodance", "gigi d'agostino", "another way"],
+        "keywords": ["eurodance", "Fictional-RustyRiver", "another way"],
         "weight": 0.8
     },
     "FilmOST": {
-        "keywords": ["princess mononoke", "lord of the rings",
-                      "concerning hobbits", "ghibli", "spirited away",
-                      "totoro", "kiki's delivery", "castle in the sky",
-                      "earthsea", "when marnie", "ponyo", "kaguya",
-                      "tenjin no ongaku", "inochi no kioku"],
+        "keywords": ["Fictional-AmberSpark", "Fictional-VioletStone",
+                     "Fictional-Kw-51146ba1", "Fictional-CrimsonFountain", "Fictional-Kw-b2412f79",
+                     "Fictional-Kw-f5405813", "Fictional-Kw-966c97e8", "Fictional-Kw-e4178445",
+                     "earthsea", "when marnie", "ponyo", "kaguya",
+                     "Fictional-Kw-14bc0100", "Fictional-Kw-cebf6d77"],
         "weight": 1.0
     },
     "FolkMetal": {
-        "keywords": ["folk metal", "MockBand_Turisas", "MockBand_Sabaton", "MockBand_Faun",
-                      "MockBand_WindRose", "diggy diggy hole", "medieval metal",
-                      "pirate metal", "pirate rock"],
+        "keywords": ["folk metal", "Fictional-VolcanicSignal", "Fictional-JadeFrost", "Fictional-LunarCanyon",
+                     "Fictional-ScarletSwan", "diggy diggy hole", "medieval metal",
+                     "pirate metal", "pirate rock"],
         "weight": 1.0
     },
     "FolkRock": {
-        "keywords": ["folk rock", "MockBand_Faun", "federkleid", "ynis avalach",
-                      "the butterfly", "adam lay ybounden"],
+        "keywords": ["folk rock", "Fictional-LunarCanyon", "federkleid", "Fictional-Kw-05e5146f",
+                     "Fictional-Kw-19d6f300", "Fictional-Kw-68c49bf8"],
         "weight": 1.0
     },
     "Forró": {
         "keywords": ["forró", "forro", "súplica cearense",
-                      "MockGame_DK country (1994) — forró"],
+                     "Fictional-SapphireOracle country (1994) — forró"],
         "weight": 1.0
     },
     "Funk": {
-        "keywords": ["funk", "MockBand_Commodores", "MockSinger_Prince", "off the wall",
-                      "rock with you"],
+        "keywords": ["funk", "Fictional-IronLantern", "Fictional-Kw-2077e4a6", "off the wall",
+                     "Fictional-Kw-271b8ef8"],
         "weight": 0.7
     },
     "FunkRock": {
-        "keywords": ["funk rock", "MockBand_RHCP", "rhcp",
-                      "californication", "by the way", "under the bridge"],
+        "keywords": ["funk rock", "Fictional-SilverLighthouse", "Fictional-SilverLighthouse",
+                     "Fictional-Kw-511ff788", "by the way", "Fictional-Kw-76992efa"],
         "weight": 1.0
     },
     "GameOST": {
-        "keywords": ["fictional game", "FictionalGame", "mockgame_zelda", "MockGame_Sonic",
-                      "mockgame_mario", "MockGame_DK", "mockgame_banjo", "mockgame_banjo",
-                      "MockGame_Castlevania", "MockGame_Metroid", "MockGame_FZero", "fictional game",
-                      "MockGame_Fire", "MockGame_Bayo", "guilty gear", "mockgame_doom",
-                      "MockGame_Maple", "fictional game", "mockgame_sims",
-                      "MockGame_Mother", "magicant", "MockGame_WoW",
-                      "mockcompany_nintendo", "mega man", "ssbb", "ssbu"],
+        "keywords": ["Fictional-ZincGate", "Fictional-ZincGate", "Fictional-CrystalBell", "Fictional-AzureShore",
+                     "Fictional-JadePrism", "Fictional-SapphireOracle", "Fictional-IronSail", "Fictional-IronSail",
+                     "Fictional-EmeraldWarden", "Fictional-MidnightSpire", "Fictional-ThistleOrchid", "Fictional-BrassHorizon",  # noqa: E501
+                     "Fictional-SolarIsle", "Fictional-EmeraldFlame", "Fictional-BrassWhisper", "Fictional-MidnightFrost",  # noqa: E501
+                     "Fictional-MarbleCrown", "Fictional-PhantomWhisper", "Fictional-VidaSimu",
+                     "mother", "magicant", "Fictional-CoralForge",
+                     "nintendo", "Fictional-Kw-b82f6714", "Fictional-ZincGate", "Fictional-ZincGate"],
         "weight": 1.0
     },
     "GlamRock": {
-        "keywords": ["glam rock", "MockSinger_David", "starman",
-                      "kiss", "i was made for lovin"],
+        "keywords": ["glam rock", "Fictional-IvorySignal", "starman",
+                     "kiss", "i was made for lovin"],
         "weight": 0.8
     },
     "GothicMetal": {
-        "keywords": ["gothic metal", "mockband_mockband_mockband_evanescence", "bring me to life",
-                      "going under"],
+        "keywords": ["gothic metal", "Fictional-IronMesa", "Fictional-Kw-64400d1b",
+                     "going under"],
         "weight": 1.0
     },
     "Grunge": {
-        "keywords": ["grunge", "MockBand_Alice", "pearl jam", "mockband_nirvana",
-                      "mockband_sound", "man in the box", "rooster", "nutshell",
-                      "would?", "even flow", "alive (pearl jam)",
-                      "smells like teen spirit", "come as you are",
-                      "heart-shaped box", "in bloom", "black official",
-                      "down in a hole", "junkhead", "rotten apple"],
+        "keywords": ["grunge", "Fictional-ZincWing", "Fictional-AzurePhoenix", "Fictional-ShadowPhoenix",
+                     "Fictional-Kw-c6b9e9be", "Fictional-Kw-ec602af0", "Fictional-Kw-9cf0e877", "Fictional-Kw-625cf4d4",
+                     "would?", "even flow", "alive (Fictional-AzurePhoenix)",
+                     "Fictional-Kw-3fd20e5d", "Fictional-Kw-cf79f599",
+                     "Fictional-Kw-c3fad343", "in bloom", "black official",
+                     "Fictional-Kw-e9783d09", "junkhead", "rotten apple"],
         "weight": 1.0
     },
     "HardcorePunk": {
-        "keywords": ["hardcore punk", "MockBand_DeadFish", "MockBand_DeadKennedys",
-                      "holiday in cambodia", "police truck"],
+        "keywords": ["hardcore punk", "Fictional-NeonDawn", "Fictional-JasperBloom",
+                     "Fictional-Kw-c027cb5c", "police truck"],
         "weight": 1.0
     },
     "HardRock": {
-        "keywords": ["hard rock", "MockBand_Guns", "MockBand_VanHalen",
-                      "MockBand_Whitesnake", "scorpions", "MockBand_Avenged",
-                      "ac/dc", "deep purple", "led zeppelin"],
+        "keywords": ["hard rock", "Fictional-GraniteCastle", "Fictional-GlassCastle",
+                     "Fictional-CrimsonFrost", "Fictional-Kw-0f63b2c0", "Fictional-ObsidianCastle",
+                     "Fictional-BrassTide", "Fictional-JasperHorizon", "Fictional-Kw-a8c86eae"],
         "weight": 1.0
     },
     "HeavyMetal": {
-        "keywords": ["heavy metal", "MockBand_Iron", "MockBand_Metallica",
-                      "MockBand_Megadeth", "judas priest", "black smockband_abbath",
-                      "wasted years", "enter sandman", "holy wars"],
+        "keywords": ["heavy metal", "Fictional-RustyMask", "Fictional-BrassCompass",
+                     "Fictional-LunarKnight", "Fictional-Kw-313498fa", "Fictional-FrozenSignal",
+                     "wasted years", "Fictional-Kw-5e5601d7", "Fictional-Kw-56dc5fa7"],
         "weight": 1.0
     },
     "HipHop": {
-        "keywords": ["hip hop", "hiphop", "rap ", "MockDJ_Nujabes"],
+        "keywords": ["hip hop", "hiphop", "rap ", "Fictional-PhantomHorizon"],
         "weight": 1.0
     },
     "IndustrialMetal": {
-        "keywords": ["industrial metal", "MockBand_Rammstein", "sonne", "amerika",
-                      "mein land", "alter mann"],
+        "keywords": ["industrial metal", "Fictional-IronMesa", "sonne", "amerika",
+                     "mein land", "alter mann"],
         "weight": 1.0
     },
     "JazzFusion": {
-        "keywords": ["jazz fusion", "jazz", "MockSinger_Himiko",
-                      "flying beagles", "MockDJ_Nujabes"],
+        "keywords": ["jazz fusion", "jazz", "Fictional-CobaltRiver",
+                     "flying beagles", "Fictional-PhantomHorizon"],
         "weight": 1.0
     },
     "JPop": {
-        "keywords": ["jpop", "j-pop", "shinee", "MockSinger_Anri", "MockSinger_Yasuha",
-                      "MockSinger_Kenshi", "yui", "asian kung-fu"],
+        "keywords": ["jpop", "j-pop", "Fictional-NeonShore", "Fictional-FadingHelix", "Fictional-ThunderTide",
+                     "Fictional-EbonyBeacon", "Fictional-CrystalCipher", "asian kung-fu"],
         "weight": 1.0
     },
     "JRock": {
-        "keywords": ["jrock", "j-rock", "MockBand_Asian",
-                      "flow - sign"],
+        "keywords": ["jrock", "j-rock", "Fictional-EmeraldTrail",
+                     "Fictional-MidnightBell"],
         "weight": 1.0
     },
     "KPop": {
-        "keywords": ["kpop", "k-pop", "shinee", "하나", "fire (music video)",
-                      "in my room"],
+        "keywords": ["kpop", "k-pop", "Fictional-NeonShore", "하나", "fire (music video)",
+                     "in my room"],
         "weight": 0.8
     },
     "MedievalFolk": {
-        "keywords": ["medieval", "MockBand_Faun", "ynis avalach", "federkleid",
-                      "the butterfly", "relaxing medieval"],
+        "keywords": ["medieval", "Fictional-LunarCanyon", "Fictional-Kw-05e5146f", "federkleid",
+                     "Fictional-Kw-19d6f300", "relaxing medieval"],
         "weight": 1.0
     },
     "Metalcore": {
-        "keywords": ["metalcore", "MockBand_BFMV", "bfmv",
-                      "killswitch engage", "trivium", "tears don't fall",
-                      "scream aim fire", "your betrayal", "the poison"],
+        "keywords": ["metalcore", "Fictional-ScarletCanyon", "Fictional-ScarletCanyon",
+                     "Fictional-Kw-0b1e745c", "Fictional-Kw-22a31311", "Fictional-Kw-c97894a5",
+                     "sFictional-StormMoonaim fire", "Fictional-Kw-4e4c8353", "the poison"],
         "weight": 1.0
     },
     "MPB": {
-        "keywords": ["mpb", "mocksinger_djavan", "MockSinger_Tim", "caetano", "gilberto gil",
-                      "MockSinger_Marisa", "MockBand_Tribalistas", "MockSinger_Vanessa",
-                      "oceano", "sina", "amado", "açaí", "pétala",
-                      "monalisa", "lilás", "fátima", "cigano",
-                      "meu bem querer", "ainda bem", "boa sorte",
-                      "gostoso veneno", "reza vela", "nossa canção",
-                      "noite e dia", "você é tudo", "todas as noites",
-                      "tarde de outubro", "cristo e oxalá", "meu mundo",
-                      "words ao vento", "palavras ao vento",
-                      "eu vou estar", "dias atrás", "depois da meia noite",
-                      "tarde demais", "sunshine", "sweet love",
-                      "à sua maneira", "farpa cortante", "fogo cruzado",
-                      "homem-aranha", "irreversível", "monstro invisível",
-                      "vinheta da silva", "hóstia", "favela"],
+        "keywords": ["mpb", "Fictional-ScarletPrism", "Fictional-OpalWing", "caetano", "gilberto gil",
+                     "Fictional-ScarletVoyage", "Fictional-ThunderThorn", "Fictional-VolcanicHorn",
+                     "oceano", "sina", "amado", "açaí", "pétala",
+                     "monalisa", "lilás", "fátima", "cigano",
+                     "Fictional-Kw-c612457b", "Fictional-Kw-73a1cff4", "boa sorte",
+                     "Fictional-Kw-1a1b5634", "reza vela", "nossa canção",
+                     "noite e dia", "você é tudo", "Fictional-Kw-75c11c8b",
+                     "Fictional-Kw-31e2e4d0", "cristo e oxalá", "meu mundo",
+                     "Fictional-Kw-a1d44db2", "Fictional-Kw-aff601f7",
+                     "eu vou estar", "dias atrás", "Fictional-Kw-5bf11d51",
+                     "tarde demais", "sunshine", "sweet love",
+                     "à sua maneira", "Fictional-Kw-347ce46f", "fogo cruzado",
+                     "homem-aranha", "irreversível", "monstro invisível",
+                     "Fictional-Kw-2d0980f9", "hóstia", "favela"],
         "weight": 1.0
     },
     "NuMetal": {
-        "keywords": ["nu metal", "nu-metal", "numetal", "MockBand_Linkin",
-                      "system of a down", "soad", "MockBand_Slipknot", "MockBand_Disturbed",
-                      "korn", "MockBand_LimpBizkit", "in the end", "crawling",
-                      "faint", "numb", "toxicity", "chop suey",
-                      "before i forget", "duality", "psychosocial",
-                      "down with the sickness"],
+        "keywords": ["nu metal", "nu-metal", "numetal", "Fictional-ThistleGate",
+                     "Fictional-SterlingBeacon", "Fictional-SterlingBeacon", "Fictional-VioletFalcon", "Fictional-TwilightPhoenix",  # noqa: E501
+                     "Fictional-Kw-d57c6828", "Fictional-SmokySummit", "Fictional-Kw-a6a3b111", "Fictional-Kw-b2631a42",
+                     "Fictional-Kw-a2f30af1", "Fictional-Kw-b4aecf76", "Fictional-Kw-5f219c36", "Fictional-Kw-c64f8a77",
+                     "Fictional-Kw-891b1132", "Fictional-Kw-4bc4a6e3", "Fictional-Kw-74303c51",
+                     "Fictional-Kw-858a4f75"],
         "weight": 1.0
     },
     "Pagode": {
-        "keywords": ["pagode", "MockBand_Fundo", "mocksinger_belo -", "MockSinger_Zeca",
-                      "péricles"],
+        "keywords": ["pagode", "Fictional-FrozenBell", "Fictional-IronSignal -", "Fictional-MarbleDrifter",
+                     "péricles"],
         "weight": 1.0
     },
     "Pop": {
-        "keywords": ["pop", "michael jackson", "MockSinger_Madonna", "MockSinger_Ariana",
-                      "MockSinger_Prince", "sam smith", "MockSinger_Bruno",
-                      "mockband_abba", "phil collins"],
+        "keywords": ["pop", "Fictional-LunarSpire", "Fictional-EmeraldDawn", "Fictional-MistySpark",
+                     "Fictional-Kw-2077e4a6", "Fictional-Kw-375591ec", "Fictional-TwilightDrifter",
+                     "Fictional-DuskPeak", "Fictional-Kw-0f3147d9"],
         "weight": 0.7
     },
     "PopPunk": {
-        "keywords": ["pop punk", "pop-punk", "MockBand_Blink", "MockBand_Blink",
-                      "MockBand_GreenDay", "american imocksinger_diot", "MockBand_Paramore"],
+        "keywords": ["pop punk", "pop-punk", "Fictional-JasperWarden", "Fictional-JasperWarden",
+                     "Fictional-ShadowPeak", "Fictional-Kw-e4dcc4b1", "Fictional-ShadowHorizon"],
         "weight": 1.0
     },
     "PostGrunge": {
-        "keywords": ["post-grunge", "post grunge", "mockband_nickel",
-                      "breaking benjamin", "three days grace",
-                      "mockband_mockband_mockband_evanescence", "foo fighters"],
+        "keywords": ["post-grunge", "post grunge", "Fictional-CoralVoyage",
+                     "Fictional-QuartzRidge", "Fictional-Kw-b69ed13c",
+                     "Fictional-IronMesa", "Fictional-ScarletPrism"],
         "weight": 0.8
     },
     "PowerMetal": {
-        "keywords": ["power metal", "MockBand_Stratovarius", "MockBand_Dragon",
-                      "mockband_angra", "helloween", "blind guardian",
-                      "through the fire and flames", "heroes of our time",
-                      "eagleheart", "hunting high"],
+        "keywords": ["power metal", "Fictional-ScarletHorizon", "Fictional-SolarWarden",
+                     "Fictional-FrozenMask", "helloween", "Fictional-Kw-54f511dd",
+                     "Fictional-Kw-6704c32f", "Fictional-Kw-e06ca236",
+                     "eagleheart", "hunting high"],
         "weight": 1.0
     },
     "ProgressiveRock": {
-        "keywords": ["progressive rock", "prog rock", "jethro tull",
-                      "MockBand_Yes ", "genesis", "MockBand_PinkFloyd", "rush",
-                      "aqualung", "thick as a brick"],
+        "keywords": ["progressive rock", "prog rock", "Fictional-EmeraldRaven",
+                     "Fictional-IronHarbor", "Fictional-Kw-289ffeb2", "Fictional-EbonyBloom", "Fictional-Kw-47982c18",
+                     "aqualung", "Fictional-Kw-6d712aa9"],
         "weight": 1.0
     },
     "PsychedelicRock": {
-        "keywords": ["psychedelic", "MockBand_PinkFloyd", "dark side of the moon",
-                      "shine on you crazy diamond", "meddle"],
+        "keywords": ["psychedelic", "Fictional-EbonyBloom", "Fictional-Kw-9ead98be",
+                     "Fictional-Kw-635fd34e", "meddle"],
         "weight": 1.0
     },
     "PunkRock": {
-        "keywords": ["punk rock", "punk", "MockBand_GreenDay", "MockBand_DeadKennedys",
-                      "the MockBand_Offspring", "ramones", "MockBand_SexPistols",
-                      "gone away", "million miles away"],
+        "keywords": ["punk rock", "punk", "Fictional-ShadowPeak", "Fictional-JasperBloom",
+                     "the Fictional-TimberFlame", "ramones", "Fictional-AzureMirror",
+                     "gone away", "million miles away"],
         "weight": 1.0
     },
     "RnB": {
-        "keywords": ["r&b", "rnb", "r'n'b", "ne-yo", "sam smith",
-                      "mocksinger_belo", "MockBand_Commodores", "MockSinger_Ariana",
-                      "usher", "the weeknd"],
+        "keywords": ["r&b", "rnb", "r'n'b", "Fictional-Kw-74757e7a", "Fictional-Kw-375591ec",
+                     "Fictional-IronSignal", "Fictional-IronLantern", "Fictional-MistySpark",
+                     "usher", "Fictional-Kw-a9285dfc"],
         "weight": 1.0
     },
     "Rock": {
@@ -661,33 +658,33 @@ GENRE_KEYWORDS = {
         "weight": 0.3
     },
     "Samba": {
-        "keywords": ["samba", "MockBand_Fundo", "pagode"],
+        "keywords": ["samba", "Fictional-FrozenBell", "pagode"],
         "weight": 0.8
     },
     "Soul": {
-        "keywords": ["soul", "michael jackson", "MockSinger_Prince", "MockSinger_Tim",
-                      "stevie wonder", "MockBand_Commodores", "james brown",
-                      "off the wall", "rock with you", "billie jean"],
+        "keywords": ["soul", "Fictional-LunarSpire", "Fictional-Kw-2077e4a6", "Fictional-OpalWing",
+                     "Fictional-Kw-8994337c", "Fictional-IronLantern", "Fictional-Kw-959660ed",
+                     "off the wall", "Fictional-Kw-271b8ef8", "Fictional-Kw-aa7f0be7"],
         "weight": 0.8
     },
     "SouthernRock": {
-        "keywords": ["southern rock", "MockBand_Lynyrd", "free bird"],
+        "keywords": ["southern rock", "Fictional-LunarHorizon", "Fictional-Kw-9a2a444f"],
         "weight": 1.0
     },
     "ThrashMetal": {
-        "keywords": ["thrash metal", "MockBand_Megadeth", "MockBand_Metallica",
-                      "slayer", "anthrax", "holy wars", "master of puppets",
-                      "enter sandman", "...and justice"],
+        "keywords": ["thrash metal", "Fictional-LunarKnight", "Fictional-BrassCompass",
+                     "Fictional-Kw-0925467e", "Fictional-Kw-b7f0e901", "Fictional-Kw-56dc5fa7", "Fictional-Kw-7749bdd4",
+                     "Fictional-Kw-5e5601d7", "Fictional-Kw-f0246a90"],
         "weight": 1.0
     },
     "Trance": {
-        "keywords": ["trance", "gigi d'agostino", "sandstorm"],
+        "keywords": ["trance", "Fictional-RustyRiver", "sandstorm"],
         "weight": 0.7
     },
     # New genres to add
     "TraditionalJapanese": {
         "keywords": ["koto", "shamisen", "shakuhachi", "箏", "25弦",
-                      "japanese instrument"],
+                     "japanese instrument"],
         "weight": 1.0
     },
     "TraditionalKorean": {
@@ -700,34 +697,34 @@ GENRE_KEYWORDS = {
     },
     "Orchestral": {
         "keywords": ["orchestral", "orchestra", "symphony", "philharmonic",
-                      "classical guitar cover"],
+                     "classical guitar cover"],
         "weight": 1.0
     },
     "DnB": {
         "keywords": ["drum and bass", "drum n bass", "dnb", "d&b",
-                      "jungle mix", "jungle-mix", "ambient jungle",
-                      "low poly dnb"],
+                     "jungle mix", "jungle-mix", "ambient jungle",
+                     "low poly dnb"],
         "weight": 1.0
     },
     # === New genres 2025-03-24 ===
     "RockAndRoll": {
         "keywords": ["rock and roll", "rock n roll", "rock 'n' roll",
-                      "jailhouse rock", "johnny b. goode", "roll over beethoven"],
+                     "Fictional-Kw-a7dd04eb", "Fictional-Kw-c58f91e7", "Fictional-Kw-b7ace6d9"],
         "weight": 1.0
     },
     "Electronic": {
-        "keywords": ["electronic", "MockBand_Kraftwerk", "synth pop", "synthpop",
-                      "born slippy", "the model"],
+        "keywords": ["electronic", "Fictional-SpectralTower", "synth pop", "synthpop",
+                     "born slippy", "the model"],
         "weight": 1.0
     },
     "Classical": {
         "keywords": ["classical", "bach", "cello suite", "concerto",
-                      "prelude", "sonata", "MockSinger_YoYoMa"],
+                     "prelude", "sonata", "Fictional-TimberThorn"],
         "weight": 1.0
     },
     "DarkAmbient": {
         "keywords": ["dark goddess", "dark ritual", "dark ambient",
-                      "dark beat"],
+                     "dark beat"],
         "weight": 1.0
     },
     "WorldMusic": {
@@ -736,211 +733,167 @@ GENRE_KEYWORDS = {
     },
 }
 
-MOOD_KEYWORDS = {
+MOOD_KEYWORDS: dict[str, dict[str, Any]] = {
     "Adventurous": {
-        "keywords": ["adventure", "quest", "journey", "hero", "dragon",
-                      "open your heart", "escape from the city",
-                      "gerudo valley", "dragon force", "fist bump",
-                      "gangplank galleon", "pirate", "MockGame_Sonic heroes"],
+        "keywords": ["adventure", "quest", "Fictional-Kw-98dc0157", "hero", "dragon",
+                     "Fictional-Kw-f4056ced", "Fictional-Kw-a1dc2820",
+                     "Fictional-Kw-f9e1d8f3", "dragon force", "fist bump",
+                     "Fictional-Kw-9a6359cf", "pirate", "Fictional-AzureShore heroes"],
         "weight": 1.0
     },
     "Aggressive": {
         "keywords": ["aggressive", "rage", "angry", "violent", "heavy",
-                      "MockBand_Slipknot", "system of a down", "MockBand_Disturbed",
-                      "MockBand_Rammstein", "MockBand_Megadeth", "toxicity", "chop suey",
-                      "before i forget", "down with the sickness",
-                      "bfg division", "holy wars", "sonne",
-                      "MockBand_DeadFish", "MockBand_DeadKennedys",
-                      "psychosocial", "duality",
-                      "the only thing they fear"],
+                     "Fictional-VioletFalcon", "Fictional-SterlingBeacon", "Fictional-TwilightPhoenix",
+                     "Fictional-IronMesa", "Fictional-LunarKnight", "Fictional-Kw-5f219c36", "Fictional-Kw-c64f8a77",
+                     "Fictional-Kw-891b1132", "Fictional-Kw-858a4f75",
+                     "Fictional-Kw-015220a7", "Fictional-Kw-56dc5fa7", "sonne",
+                     "Fictional-NeonDawn", "Fictional-JasperBloom",
+                     "Fictional-Kw-74303c51", "Fictional-Kw-4bc4a6e3",
+                     "Fictional-Kw-ed5d1ab5"],
         "weight": 1.0
     },
     "Ambient": {
         "keywords": ["ambient", "atmospheric", "calm", "peaceful",
-                      "relaxing", "rain sounds", "gentle",
-                      "korok forest", "great fairy fountain",
-                      "song of healing", "faron woods"],
+                     "relaxing", "rain sounds", "gentle",
+                     "korok forest", "Fictional-Kw-b071f324",
+                     "Fictional-Kw-5fae0ce6", "Fictional-Kw-a9098f87"],
         "weight": 1.0
     },
     "Chill": {
         "keywords": ["chill", "lo-fi", "lofi", "relaxing", "easy",
-                      "smooth", "mellow", "calm", "MockDJ_Nujabes",
-                      "city pop", "study", "cozy", "rest",
-                      "dire dire docks", "file select"],
+                     "smooth", "mellow", "calm", "Fictional-PhantomHorizon",
+                     "city pop", "study", "cozy", "rest",
+                     "Fictional-Kw-a70a6a9b", "file select"],
         "weight": 1.0
     },
     "Dark": {
-        "keywords": ["dark", "sinister", "evil", "shadow", "mockgame_doom",
-                      "death", "vampire", "dracula", "bfg division",
-                      "the devil in i", "MockBand_Rammstein", "MockBand_Slipknot",
-                      "mockband_mockband_mockband_evanescence", "gothic", "MockGame_Castlevania", "bloody tears",
-                      "cyberpunk", "dark angel"],
+        "keywords": ["dark", "sinister", "evil", "shadow", "Fictional-MidnightFrost",
+                     "death", "vampire", "dracula", "Fictional-Kw-015220a7",
+                     "Fictional-Kw-31861ba7", "Fictional-IronMesa", "Fictional-VioletFalcon",
+                     "Fictional-IronMesa", "gothic", "Fictional-EmeraldWarden", "Fictional-Kw-57d292fc",
+                     "cyberpunk", "dark angel"],
         "weight": 1.0
     },
     "Emotional": {
         "keywords": ["emotional", "tears", "cry", "feel", "heart",
-                      "love", "loss", "pearl jam", "MockBand_Alice",
-                      "nutshell", "rooster", "down in a hole",
-                      "black official", "linger", "don't dream it's over",
-                      "billie jean", "you are not alone",
-                      "midna's lament", "song of healing",
-                      "tears of the dragon"],
+                     "love", "loss", "Fictional-AzurePhoenix", "Fictional-ZincWing",
+                     "Fictional-Kw-625cf4d4", "Fictional-Kw-9cf0e877", "Fictional-Kw-e9783d09",
+                     "black official", "linger", "Fictional-Kw-b0c56b8e",
+                     "Fictional-Kw-aa7f0be7", "you are not alone",
+                     "Fictional-Kw-5ee0843a", "Fictional-Kw-5fae0ce6",
+                     "Fictional-Kw-67a914c6"],
         "weight": 1.0
     },
     "Energetic": {
         "keywords": ["energetic", "fast", "power", "high energy",
-                      "upbeat", "MockGame_Sonic", "MockBand_Dragon", "MockBand_Stratovarius",
-                      "through the fire and flames", "live & learn",
-                      "fist bump", "american imocksinger_diot", "duality",
-                      "my hero", "the pretender", "MockBand_Sabaton",
-                      "enter sandman", "MockBand_GreenDay"],
+                     "upbeat", "Fictional-AzureShore", "Fictional-SolarWarden", "Fictional-ScarletHorizon",
+                     "Fictional-Kw-6704c32f", "Fictional-Kw-d0dbe915 & learn",
+                     "fist bump", "Fictional-Kw-e4dcc4b1", "Fictional-Kw-4bc4a6e3",
+                     "my hero", "Fictional-Kw-8f379ecb", "Fictional-JadeFrost",
+                     "Fictional-Kw-5e5601d7", "Fictional-ShadowPeak"],
         "weight": 1.0
     },
     "Epic": {
         "keywords": ["epic", "orchestral", "grand", "legendary",
-                      "ballad of the goddess", "great fairy fountain",
-                      "gerudo valley", "hail to the king",
-                      "shepherd of fire", "through the fire and flames",
-                      "invincible", "holy wars", "master of puppets",
-                      "twilight of the thunder god", "free bird",
-                      "legend of ashitaka", "concerning hobbits",
-                      "stormwind", "mononoke"],
+                     "Fictional-Kw-b09ec18c", "Fictional-Kw-b071f324",
+                     "Fictional-Kw-f9e1d8f3", "Fictional-Kw-51da3037",
+                     "Fictional-Kw-0f060986", "Fictional-Kw-6704c32f",
+                     "invincible", "Fictional-Kw-56dc5fa7", "Fictional-Kw-7749bdd4",
+                     "Fictional-Kw-46f76d4a", "Fictional-Kw-9a2a444f",
+                     "Fictional-Kw-d7fa95a4", "Fictional-Kw-51146ba1",
+                     "stormwind", "Fictional-AmberSpark"],
         "weight": 1.0
     },
     "Ethereal": {
         "keywords": ["ethereal", "dreamy", "floating", "heavenly",
-                      "fairy fountain", "song of healing", "korok forest",
-                      "midna's lament", "song of elune",
-                      "stickerbush symphony", "aquatic ambiance",
-                      "in a snow-bound land", "spirited away",
-                      "totoro", "ghibli", "castle in the sky",
-                      "always with me"],
-        "weight": 1.0
-    },
-    "Gaming": {
-        "keywords": ["game", "gaming", "fictional game", "mockgame_zelda",
-                      "mockgame_mario", "MockGame_Sonic", "MockGame_DK", "MockGame_Castlevania",
-                      "MockGame_Metroid", "MockGame_Bayo", "guilty gear", "mockgame_doom",
-                      "fictional game", "MockGame_Fire", "mockgame_banjo",
-                      "MockGame_FZero", "MockGame_Maple", "fictional game",
-                      "mockgame_sims", "MockGame_WoW", "minecraft",
-                      "cyberpunk", "mockcompany_nintendo"],
+                     "Fictional-Kw-17e536b9", "Fictional-Kw-5fae0ce6", "korok forest",
+                     "Fictional-Kw-5ee0843a", "song of elune",
+                     "Fictional-Kw-1005185b", "Fictional-Kw-84d4d9af",
+                     "Fictional-Kw-4ee5643e", "Fictional-Kw-b2412f79",
+                     "Fictional-Kw-f5405813", "Fictional-CrimsonFountain", "Fictional-Kw-e4178445",
+                     "always with me"],
         "weight": 1.0
     },
     "Introspective": {
         "keywords": ["introspect", "think", "reflect", "quiet",
-                      "alone", "self", "in the end", "crawling",
-                      "nutshell", "down in a hole", "black official",
-                      "losing my religion", "papercut", "easier to run",
-                      "man in the mirror", "jethro tull",
-                      "wond'ring aloud", "thick as a brick"],
+                     "alone", "self", "Fictional-Kw-a6a3b111", "Fictional-Kw-b2631a42",
+                     "Fictional-Kw-625cf4d4", "Fictional-Kw-e9783d09", "black official",
+                     "Fictional-Kw-b0c2ac5b", "papercut", "Fictional-Kw-8fd19cd0",
+                     "Fictional-Kw-2d455771", "Fictional-EmeraldRaven",
+                     "wond'ring aloud", "Fictional-Kw-6d712aa9"],
         "weight": 1.0
     },
     "Melancholic": {
         "keywords": ["melanchol", "sad", "sorrow", "grief", "loss",
-                      "lonely", "blue", "tears", "pain",
-                      "nutshell", "down in a hole", "rooster",
-                      "rotten apple", "linger", "midna's lament",
-                      "song of healing", "would?", "black official",
-                      "mining melancholy", "stickerbush symphony"],
+                     "lonely", "blue", "tears", "pain",
+                     "Fictional-Kw-625cf4d4", "Fictional-Kw-e9783d09", "Fictional-Kw-9cf0e877",
+                     "rotten apple", "linger", "Fictional-Kw-5ee0843a",
+                     "Fictional-Kw-5fae0ce6", "would?", "black official",
+                     "Fictional-Kw-488d4831", "Fictional-Kw-1005185b"],
         "weight": 1.0
     },
     "Mysterious": {
-        "keywords": ["mysterious", "mystery", "MockBand_Enigma", "secret",
-                      "shadow", "hidden", "MockGame_Castlevania", "lost painting",
-                      "stone tower temple", "majora's mask",
-                      "dracula's castle", "twilight stigmata",
-                      "sacred grove", "forest"],
+        "keywords": ["mysterious", "mystery", "enigma", "secret",
+                     "shadow", "hidden", "Fictional-EmeraldWarden", "Fictional-Kw-a557d8c5",
+                     "Fictional-Kw-71bb3f77", "Fictional-Kw-15396039",
+                     "Fictional-Kw-a2ce73b7", "twilight stigmata",
+                     "sacred grove", "forest"],
         "weight": 1.0
     },
     "Nostalgic": {
         "keywords": ["nostalg", "retro", "classic", "remember", "childhood",
-                      "old school", "mockgame_zelda", "mockgame_mario", "MockGame_DK",
-                      "mockgame_banjo", "fictional game", "mockcompany_nintendo",
-                      "MockGame_Maple", "fictional game", "snes",
-                      "n64", "lon lon ranch", "title theme",
-                      "ocarina of time", "dire dire docks"],
-        "weight": 1.0
-    },
-    "Party": {
-        "keywords": ["party", "dance", "club", "disco", "dj",
-                      "summer", "dancing MockBand_Queen", "rasputin",
-                      "l'amour toujours", "mamma mia", "gimme gimme",
-                      "eletrohits", "another way", "summer eletrohits"],
+                     "old school", "Fictional-CrystalBell", "Fictional-JadePrism", "Fictional-SapphireOracle",
+                     "Fictional-IronSail", "Fictional-ZincGate", "nintendo",
+                     "Fictional-MarbleCrown", "Fictional-PhantomWhisper", "snes",
+                     "n64", "Fictional-Kw-6b55169c", "title theme",
+                     "Fictional-Kw-e958d854", "Fictional-Kw-a70a6a9b"],
         "weight": 1.0
     },
     "Rebellious": {
         "keywords": ["rebel", "anarchy", "protest", "fight", "resist",
-                      "system of a down", "MockBand_DeadKennedys", "MockBand_GreenDay",
-                      "punk", "rage against", "american imocksinger_diot",
-                      "holiday in cambodia", "police truck",
-                      "the pretender", "MockBand_DeadFish", "MockBand_Matanza"],
+                     "Fictional-SterlingBeacon", "Fictional-JasperBloom", "Fictional-ShadowPeak",
+                     "punk", "Fictional-Kw-896901cc", "Fictional-Kw-e4dcc4b1",
+                     "Fictional-Kw-c027cb5c", "police truck",
+                     "Fictional-Kw-8f379ecb", "Fictional-NeonDawn", "Fictional-GraniteCrown"],
         "weight": 1.0
     },
     "Romantic": {
         "keywords": ["romantic", "love", "heart", "kiss", "together",
-                      "sweetest", "you are not alone", "billie jean",
-                      "the way you make me feel", "human nature",
-                      "still of the night", "is this love",
-                      "here i go again", "sweet child",
-                      "boa sorte", "ancora te amo",
-                      "l'amour toujours", "like a prayer", "easy (cooler",
-                      "sweet love", "meu bem querer"],
+                     "sweetest", "you are not alone", "Fictional-Kw-aa7f0be7",
+                     "Fictional-Kw-693c8131", "human nature",
+                     "Fictional-Kw-2891e041", "is this love",
+                     "Fictional-Kw-c419453c", "Fictional-Kw-d7995712",
+                     "boa sorte", "Fictional-Kw-d74fd249",
+                     "Fictional-Kw-0a77c212", "Fictional-Kw-89638e4c", "easy (cooler",
+                     "sweet love", "Fictional-Kw-c612457b"],
         "weight": 1.0
-    },
-    "StudyFocus": {
-        "keywords": ["study", "focus", "concentrate", "relax",
-                      "calm", "lo-fi", "lofi", "ambient",
-                      "MockDJ_Nujabes", "chill", "piano cover",
-                      "great fairy fountain", "korok forest",
-                      "dire dire docks", "file select",
-                      "peaceful forest", "streamside",
-                      "city pop"],
-        "weight": 0.8
     },
     "Triumphant": {
         "keywords": ["triumph", "victory", "glory", "win", "champion",
-                      "heroes", "hail to the king", "live & learn",
-                      "through the fire and flames", "my hero",
-                      "learn to fly", "shepherd of fire",
-                      "invincible", "eagleheart"],
+                     "heroes", "Fictional-Kw-51da3037", "Fictional-Kw-d0dbe915 & learn",
+                     "Fictional-Kw-6704c32f", "my hero",
+                     "learn to fly", "Fictional-Kw-0f060986",
+                     "invincible", "eagleheart"],
         "weight": 1.0
     },
     "Upbeat": {
         "keywords": ["upbeat", "happy", "joy", "fun", "bright",
-                      "cheerful", "mockband_abba", "dancing MockBand_Queen",
-                      "mamma mia", "off the wall", "rock with you",
-                      "beat it", "american imocksinger_diot", "all my life",
-                      "the pretender", "my hero", "learn to fly",
-                      "times like these", "monkey wrench",
-                      "paradise city", "MockGame_Sonic heroes"],
-        "weight": 1.0
-    },
-    "Workout": {
-        "keywords": ["workout", "gym", "pump", "power", "energy",
-                      "run", "sprint", "MockBand_Dragon", "MockBand_Slipknot",
-                      "MockBand_Rammstein", "MockBand_Disturbed", "enter sandman",
-                      "bfg division", "through the fire",
-                      "toxicity", "before i forget",
-                      "duality", "down with the sickness",
-                      "cyberpunk metal", "workout", "gaming"],
+                     "cheerful", "Fictional-DuskPeak", "Fictional-Kw-885b67ec",
+                     "Fictional-Kw-fcf2483c", "off the wall", "Fictional-Kw-271b8ef8",
+                     "Fictional-Kw-97d2827f", "Fictional-Kw-e4dcc4b1", "Fictional-Kw-ef7e483f",
+                     "Fictional-Kw-8f379ecb", "my hero", "learn to fly",
+                     "Fictional-Kw-52f26298", "Fictional-Kw-f8f26e59",
+                     "Fictional-Kw-71cb705f", "Fictional-AzureShore heroes"],
         "weight": 1.0
     },
     # New moods
     "Serene": {
         "keywords": ["serene", "peaceful", "tranquil", "gentle",
-                      "lullaby", "mockgame_zelda's lullaby", "sakura",
-                      "always with me", "itsumo nando demo",
-                      "carrying you", "kimi wo nosete",
-                      "fine on the outside", "guzheng", "guqin",
-                      "koto", "gayageum", "zither"],
-        "weight": 1.0
-    },
-    "Cinematic": {
-        "keywords": ["cinematic", "film", "movie", "soundtrack",
-                      "princess mononoke", "lord of the rings",
-                      "ghibli", "spirited away", "earthsea",
-                      "ashitaka", "departure to the west"],
+                     "lullaby", "Fictional-CrystalBell's lullaby", "sakura",
+                     "always with me", "Fictional-Kw-390fd18a",
+                     "Fictional-Kw-64f42d05", "Fictional-Kw-b1be5870",
+                     "Fictional-Kw-9c820265", "guzheng", "guqin",
+                     "koto", "gayageum", "zither"],
         "weight": 1.0
     },
 }
@@ -948,6 +901,7 @@ MOOD_KEYWORDS = {
 # =============================================================================
 # SECTION 2: CLASSIFICATION ENGINE
 # =============================================================================
+
 
 def classify_file(filename: str) -> dict:
     """
@@ -970,11 +924,11 @@ def classify_file(filename: str) -> dict:
     # No-space version for YouTube-obfuscated names (B.R.U.N.O → BRUNO)
     name_nospace = name_clean.replace(' ', '')
 
-    result = {"artists": [], "genres": [], "moods": []}
+    result: dict[str, list[str]] = {"artists": [], "genres": [], "moods": []}
 
     # --- Artist Classification (Naive Bayes: P(artist|keywords)) ---
     for artist, keywords in ARTIST_KEYWORDS.items():
-        score = 0
+        score: int = 0
         for kw in keywords:
             kw_l = kw.lower()
             if kw_l in name_clean or kw_l.replace(' ', '') in name_nospace:
@@ -983,116 +937,116 @@ def classify_file(filename: str) -> dict:
             result["artists"].append(artist)
 
     # --- Genre Classification (Random Forest voting: keyword + artist features) ---
-    for genre, data in GENRE_KEYWORDS.items():
-        score = 0.0
-        for kw in data["keywords"]:
+    for genre, genre_data in GENRE_KEYWORDS.items():
+        genre_score: float = 0.0
+        for kw in genre_data["keywords"]:
             if kw.lower() in name_clean:
-                score += data["weight"]
+                genre_score += genre_data["weight"]
         # Boost from artist membership (k-NN: similar artists → similar genres)
         artist_genre_boost = {
-            "Grunge": ["MockBand_Alice", "MockBand_Pearl", "MockBand_Nirvana"],
-            "NuMetal": ["LinkinPark", "MockBand_SOAD", "MockBand_Slipknot", "MockBand_Disturbed",
-                        "LimpBizkit"],
-            "Metalcore": ["BulletForMyValentine", "MockBand_Bring"],
-            "AlternativeMetal": ["MockBand_Faith", "MockBand_Evanescence"],
-            "PostGrunge": ["MockBand_Nickel", "MockBand_Breaking", "MockBand_Foo", "MockBand_Alice"],
-            "HardRock": ["GunsNRoses", "VanHalen", "MockBand_Whitesnake", "AvengedSevenfold",
-                         "MockBand_ACDC", "MockBand_Deep", "MockBand_Bad", "MockSinger_Dio",
-                         "MockBand_Aero", "LittleFeat"],
-            "ProgressiveRock": ["MockBand_Jethro", "MockBand_Yes", "Genesis", "PinkFloyd",
-                                 "MockBand_Styx", "KingCrimson", "MoodyBlues", "SoftMachine"],
-            "PunkRock": ["DeadKennedys", "TheOffspring", "GreenDay", "SexPistols"],
-            "PopPunk": ["MockBand_Blink", "GreenDay", "MockBand_Paramore"],
-            "HeavyMetal": ["IronMaiden", "MockBand_Metallica", "MockBand_Megadeth", "MockSinger_Dio",
+            "Grunge": ["Fictional-ZincWing", "Fictional-AzurePhoenix", "Fictional-ShadowPhoenix"],
+            "NuMetal": ["Fictional-ThistleGate", "Fictional-SterlingBeacon", "Fictional-VioletFalcon", "Fictional-TwilightPhoenix",  # noqa: E501
+                        "Fictional-SmokySummit"],
+            "Metalcore": ["Fictional-ScarletCanyon", "Fictional-SterlingLotus"],
+            "AlternativeMetal": ["Fictional-QuartzPeak", "Fictional-IronMesa"],
+            "PostGrunge": ["Fictional-CoralVoyage", "Fictional-QuartzRidge", "Fictional-ScarletPrism", "Fictional-ZincWing"],  # noqa: E501
+            "HardRock": ["Fictional-GraniteCastle", "Fictional-GlassCastle", "Fictional-CrimsonFrost", "Fictional-ObsidianCastle",  # noqa: E501
+                         "Fictional-BrassTide", "Fictional-JasperHorizon", "Fictional-MistyStrand", "Fictional-FadingGarden",  # noqa: E501
+                         "Fictional-AzureSpire", "Fictional-ThistleShield"],
+            "ProgressiveRock": ["Fictional-EmeraldRaven", "Fictional-IronHarbor", "Fictional-Kw-289ffeb2", "Fictional-EbonyBloom",  # noqa: E501
+                                "Fictional-QuartzChain", "Fictional-BlazingCastle", "Fictional-SterlingQuarry", "Fictional-QuartzStrand"],  # noqa: E501
+            "PunkRock": ["Fictional-JasperBloom", "Fictional-TimberFlame", "Fictional-ShadowPeak", "Fictional-AzureMirror"],  # noqa: E501
+            "PopPunk": ["Fictional-JasperWarden", "Fictional-ShadowPeak", "Fictional-ShadowHorizon"],
+            "HeavyMetal": ["Fictional-RustyMask", "Fictional-BrassCompass", "Fictional-LunarKnight", "Fictional-FadingGarden",  # noqa: E501
                            "DarkAngelMetal", "CyberpunkBeats", "EgyptianMetal"],
-            "ThrashMetal": ["MockBand_Metallica", "MockBand_Megadeth"],
-            "PowerMetal": ["MockBand_Stratovarius", "MockBand_Dragon", "MockBand_Angra"],
-            "IndustrialMetal": ["MockBand_Rammstein", "MarilynManson"],
-            "BrazilianRock": ["MockBand_Capital", "DeadFish", "MockSinger_Pitty",
-                               "CharlieBrownJr", "MockBand_CPM22", "MockBand_Matanza", "MockBand_Massacration",
-                               "LosHermanos"],
-            "CityPop": ["MockSinger_Anri", "MockSinger_Yasuha", "HimikoKikuchi", "OmegaTribe",
-                        "MockSinger_Miki", "MockSinger_Junko"],
-            "MPB": ["MockSinger_Djavan", "Vanessa", "OsParalamas", "MockSinger_Jorge",
-                    "MockSinger_Vanessa"],
-            "Pagode": ["MockSinger_Belo", "FundoDeQuintal"],
-            "FolkMetal": ["MockBand_Turisas", "MockBand_Sabaton", "WindRose", "PirateMetal"],
-            "FolkRock": ["MockBand_Faun", "MockSinger_Bob", "MockSinger_Donovan", "NeilYoung", "TheBand"],
-            "MedievalFolk": ["MockBand_Faun"],
-            "ClassicRock": ["MockBand_Dire", "LynyrdSkynyrd", "DavidBowie",
-                             "MockBand_Jethro", "VanHalen", "ChuckBerry",
-                             "MockBand_ACDC", "MockBand_Bad", "MockSinger_Bob", "MockBand_Cheap",
-                             "MockBand_Cream", "DaleHawkins", "MockBand_Deep", "MockSinger_Donovan",
-                             "DoobieBrothers", "JGeilsBand", "NeilYoung",
-                             "MockBand_Poco", "REOSpeedwagon", "MockBand_Santana", "SteelyDan",
-                             "StrayCats", "MockBand_Styx", "TheBand", "TheCars",
-                             "TomPetty", "RollingStones", "MockBand_Beatles",
-                             "BeachBoys", "JimiHendrix", "MoodyBlues",
-                             "KingCrimson", "GratefulDead", "PaulMcCartney",
-                             "MockBand_Survivor", "LittleFeat"],
-            "AlternativeRock": ["MockBand_Foo", "MockBand_REM", "TameImpala",
-                                 "CrowdedHouse", "TheCranberries", "MockBand_Gorillaz",
-                                 "MockBand_Nirvana", "MockBand_Devo", "IggyPop", "OingoBoingo",
-                                 "MockBand_U2", "TheCars", "GooGooDolls", "TalkingHeads"],
-            "GothicMetal": ["MockBand_Evanescence"],
-            "AnimeOST": ["JoJo", "MockAnime_Naruto", "FictionalAnime", "OnePunchMan",
-                         "AsianKungFuGeneration", "MockBand_Flow", "KenshiYonezu"],
-            "GameOST": ["FictionalGame", "MockGame_Zelda", "MockGame_Sonic", "MockGame_Mario",
-                        "DonkeyKong", "MockGame_Castlevania", "MockGame_Metroid", "FZero",
-                        "FictionalGame", "FireEmblem", "MockGame_Banjo", "MockGame_Bayo",
-                        "MockGame_Guilty", "MockGame_Doom", "MockGame_Maple", "FictionalGame",
-                        "TheSims", "WorldOfWarcraft", "MockGame_Mother"],
-            "FilmOST": ["MockMovie_Mononoke", "MockMovie_LOTR", "MockStumocksinger_dio_Ghibli"],
-            "Soul": ["MockSinger_Michael", "MockBand_Commodores", "TimMaia",
-                     "CurtisMayfield", "SmokeyRobinson", "MockBand_Sade",
-                     "TerenceTrentDArby"],
-            "Pop": ["MockSinger_Michael", "MockBand_ABBA", "MockSinger_Madonna", "ArianaGrande",
-                    "BrunoMars", "SamSmith", "AirSupply", "AlessiBrothers",
-                    "BetteMidler", "CaptainAndTennille", "MockBand_Enigma",
-                    "HallAndOates", "LisaLisa", "MockBand_Nena", "OingoBoingo",
-                    "PaulaAbdul", "PetShopBoys", "WangChung", "MockBand_Wham",
-                    "MockBand_Devo", "SpiceGirls", "MockSinger_Babyface", "MockBand_Jigsaw"],
-            "HardcorePunk": ["DeadFish", "DeadKennedys"],
-            "Funk": ["MockBand_Cameo", "CurtisMayfield", "EarthWindAndFire"],
-            "Disco": ["MockBand_ABBA", "MockBand_Boney", "MockDJ_Gigi",
-                      "EarthWindAndFire", "MockBand_Wham"],
-            "JPop": ["MockBand_SHINee", "MockSinger_Anri", "MockSinger_Yasuha", "KenshiYonezu", "MockSinger_YUI",
-                     "OmegaTribe", "AsianKungFuGeneration"],
-            "KPop": ["MockBand_SHINee"],
+            "ThrashMetal": ["Fictional-BrassCompass", "Fictional-LunarKnight"],
+            "PowerMetal": ["Fictional-ScarletHorizon", "Fictional-SolarWarden", "Fictional-FrozenMask"],
+            "IndustrialMetal": ["Fictional-IronMesa", "Fictional-SmokySummit"],
+            "BrazilianRock": ["Fictional-EmeraldBloom", "Fictional-NeonDawn", "Fictional-ZincCipher",
+                              "Fictional-CobaltOracle", "Fictional-FrozenNeedle", "Fictional-GraniteCrown", "Fictional-EmeraldMesa",  # noqa: E501
+                              "Fictional-VioletHelix"],
+            "CityPop": ["Fictional-FadingHelix", "Fictional-ThunderTide", "Fictional-CobaltRiver", "Fictional-SapphireSpire",  # noqa: E501
+                        "Fictional-AzurePrism", "Fictional-GraniteCompass"],
+            "MPB": ["Fictional-ScarletPrism", "Fictional-VolcanicHorn", "Fictional-SapphireHaven", "Fictional-PhantomMirror",  # noqa: E501
+                    "Fictional-ScarletPrism"],
+            "Pagode": ["Fictional-IronSignal", "Fictional-FrozenBell"],
+            "FolkMetal": ["Fictional-VolcanicSignal", "Fictional-JadeFrost", "Fictional-ScarletSwan", "PirateMetal"],
+            "FolkRock": ["Fictional-LunarCanyon", "Fictional-CobaltSignal", "Fictional-VioletGarden", "Fictional-MarbleBloom", "Fictional-SterlingJewel"],  # noqa: E501
+            "MedievalFolk": ["Fictional-LunarCanyon"],
+            "ClassicRock": ["Fictional-TimberNeedle", "Fictional-LunarHorizon", "Fictional-IvorySignal",
+                            "Fictional-EmeraldRaven", "Fictional-GlassCastle", "Fictional-ThunderSpire",
+                            "Fictional-BrassTide", "Fictional-MistyStrand", "Fictional-CobaltSignal", "Fictional-GraniteRiver",  # noqa: E501
+                            "Fictional-StormMoon", "Fictional-StormQuarry", "Fictional-JasperHorizon", "Fictional-VioletGarden",  # noqa: E501
+                            "Fictional-NeonPillar", "Fictional-IndigoSummit", "Fictional-MarbleBloom",
+                            "Fictional-CrimsonCrown", "Fictional-ObsidianPrism", "Fictional-CrimsonScholar", "Fictional-EbonyBell",  # noqa: E501
+                            "Fictional-EbonyVoyage", "Fictional-QuartzChain", "Fictional-SterlingJewel", "Fictional-SmokySpark",  # noqa: E501
+                            "Fictional-OpalDrifter", "Fictional-ThunderIsle", "Fictional-VelvetLantern",
+                            "Fictional-SpectralTower", "Fictional-ThunderChain", "Fictional-SterlingQuarry",
+                            "Fictional-BlazingCastle", "Fictional-ScarletGlacier", "Fictional-SapphireNeedle",
+                            "Fictional-ScarletWhisper", "Fictional-ThistleShield"],
+            "AlternativeRock": ["Fictional-ScarletPrism", "Fictional-MarbleRose", "Fictional-ThunderGhost",
+                                "Fictional-TimberStone", "Fictional-FrozenWing", "Fictional-ShadowHorizon",
+                                "Fictional-ShadowPhoenix", "Fictional-TimberDawn", "Fictional-PhantomRaven", "Fictional-AmberBell",  # noqa: E501
+                                "Fictional-Kw-270c1b08", "Fictional-SmokySpark", "Fictional-SterlingThorn", "Fictional-GraniteShore"],  # noqa: E501
+            "GothicMetal": ["Fictional-IronMesa"],
+            "AnimeOST": ["Fictional-Jozep", "Fictional-SterlingGate", "Fictional-LunarChain", "Fictional-ObsidianFalcon",  # noqa: E501
+                         "Fictional-EmeraldTrail", "Fictional-MidnightBell", "Fictional-EbonyBeacon"],
+            "GameOST": ["Fictional-ZincGate", "Fictional-CrystalBell", "Fictional-AzureShore", "Fictional-JadePrism",
+                        "Fictional-SapphireOracle", "Fictional-EmeraldWarden", "Fictional-MidnightSpire", "Fictional-ThistleOrchid",  # noqa: E501
+                        "Fictional-BrassHorizon", "Fictional-SolarIsle", "Fictional-IronSail", "Fictional-EmeraldFlame",
+                        "Fictional-BrassWhisper", "Fictional-MidnightFrost", "Fictional-MarbleCrown", "Fictional-PhantomWhisper",  # noqa: E501
+                        "Fictional-VidaSimu", "Fictional-CoralForge", "Fictional-RustyMirror"],
+            "FilmOST": ["Fictional-AmberSpark", "Fictional-VioletStone", "Fictional-CrimsonFountain"],
+            "Soul": ["Fictional-LunarSpire", "Fictional-IronLantern", "Fictional-OpalWing",
+                     "Fictional-CrimsonWhisper", "Fictional-TwilightSpark", "Fictional-FrozenCrown",
+                     "Fictional-IronPrism"],
+            "Pop": ["Fictional-LunarSpire", "Fictional-DuskPeak", "Fictional-EmeraldDawn", "Fictional-MistySpark",
+                    "Fictional-TwilightDrifter", "Fictional-Kw-e407c5d8", "Fictional-BrassHorizon", "Fictional-LunarDrifter",  # noqa: E501
+                    "Fictional-SolarWarden", "Fictional-ThunderPrism", "Fictional-TimberRidge",
+                    "Fictional-FadingIsle", "Fictional-DuskLantern", "Fictional-GoldenLantern", "Fictional-AmberBell",
+                    "Fictional-BrassSpire", "Fictional-VolcanicLotus", "Fictional-CoralCanyon", "Fictional-ThistleLeaf",
+                    "Fictional-TimberDawn", "Fictional-ScarletBell", "Fictional-EbonySpark", "Fictional-GildedFrost"],
+            "HardcorePunk": ["Fictional-NeonDawn", "Fictional-JasperBloom"],
+            "Funk": ["Fictional-GraniteMirror", "Fictional-CrimsonWhisper", "Fictional-AmberVeil"],
+            "Disco": ["Fictional-DuskPeak", "Fictional-SmokyPrism", "Fictional-RustyRiver",
+                      "Fictional-AmberVeil", "Fictional-ThistleLeaf"],
+            "JPop": ["Fictional-NeonShore", "Fictional-FadingHelix", "Fictional-ThunderTide", "Fictional-EbonyBeacon", "Fictional-CrystalCipher",  # noqa: E501
+                     "Fictional-SapphireSpire", "Fictional-EmeraldTrail"],
+            "KPop": ["Fictional-NeonShore"],
             "TraditionalJapanese": ["Koto"],
             "TraditionalKorean": ["Gayageum"],
             "TraditionalChinese": ["Guzheng", "Guqin"],
-            "Orchestral": ["MockMovie_Mononoke", "MockMovie_LOTR", "MockStumocksinger_dio_Ghibli"],
-            "RnB": ["MockSinger_Belo", "SamSmith", "ArianaGrande", "MockBand_Commodores", "MockBand_SHINee",
-                    "BoyzIIMen", "MariahCarey", "SmokeyRobinson",
-                    "TerenceTrentDArby", "MockSinger_Babyface", "NotoriousBIG"],
-            "SouthernRock": ["LynyrdSkynyrd"],
-            "Emo": ["MyChemicalRomance"],
-            "FunkRock": ["RedHotChiliPeppers"],
-            "Britpop": ["MockBand_Oasis"],
-            "HipHop": ["VanillaIce", "MockDJ_Nujabes", "NotoriousBIG"],
-            "JazzFusion": ["KennyG", "JeffBeck", "MockBand_Sade", "SteelyDan",
-                           "WeatherReport", "NotTooJazzy", "ManhattanTransfer'"],
-            "RockAndRoll": ["ElvisPresley", "ChuckBerry"],
-            "Electronic": ["MockBand_Kraftwerk", "MockBand_Underworld"],
-            "Classical": ["YoYoMa"],
+            "Orchestral": ["Fictional-AmberSpark", "Fictional-VioletStone", "Fictional-CrimsonFountain"],
+            "RnB": ["Fictional-IronSignal", "Fictional-Kw-e407c5d8", "Fictional-MistySpark", "Fictional-IronLantern", "Fictional-NeonShore",  # noqa: E501
+                    "Fictional-GildedFalcon", "Fictional-AzureRaven", "Fictional-TwilightSpark",
+                    "Fictional-IronPrism", "Fictional-EbonySpark", "Fictional-DuskPhoenix"],
+            "SouthernRock": ["Fictional-LunarHorizon"],
+            "Emo": ["Fictional-EbonyFlame"],
+            "FunkRock": ["Fictional-SilverLighthouse"],
+            "Britpop": ["Fictional-JasperIsle"],
+            "HipHop": ["Fictional-IronIsle", "Fictional-PhantomHorizon", "Fictional-DuskPhoenix"],
+            "JazzFusion": ["Fictional-PhantomLighthouse", "Fictional-CoralLighthouse", "Fictional-FrozenCrown", "Fictional-EbonyBell",  # noqa: E501
+                           "Fictional-ThunderNest", "NotTooJazzy", "Fictional-FrozenStrand'"],
+            "RockAndRoll": ["Fictional-ShadowThorn", "Fictional-ThunderSpire"],
+            "Electronic": ["Fictional-SpectralTower", "Fictional-ObsidianRiver"],
+            "Classical": ["Fictional-TimberThorn"],
             "DarkAmbient": ["DarkGoddess"],
             "WorldMusic": ["EgyptianBattle"],
         }
         if genre in artist_genre_boost:
             for a in result["artists"]:
                 if a in artist_genre_boost[genre]:
-                    score += 0.8
-        if score >= 0.7:
+                    genre_score += 0.8
+        if genre_score >= 0.7:
             result["genres"].append(genre)
 
     # --- Mood Classification (ensemble voting) ---
-    for mood, data in MOOD_KEYWORDS.items():
-        score = 0.0
-        for kw in data["keywords"]:
+    for mood, mood_data in MOOD_KEYWORDS.items():
+        mood_score: float = 0.0
+        for kw in mood_data["keywords"]:
             if kw.lower() in name_clean:
-                score += data["weight"]
-        if score >= 0.8:
+                mood_score += mood_data["weight"]
+        if mood_score >= 0.8:
             result["moods"].append(mood)
 
     # Ensure at least one classification
@@ -1101,7 +1055,7 @@ def classify_file(filename: str) -> dict:
     if not result["genres"]:
         # Try to infer from artist
         for a in result["artists"]:
-            if a in ["MockSinger_Djavan", "Vanessa", "OsParalamas"]:
+            if a in ["Fictional-ScarletPrism", "Fictional-VolcanicHorn", "Fictional-SapphireHaven"]:
                 result["genres"].append("MPB")
             elif a == "Various":
                 result["genres"].append("Unclassified")
@@ -1120,6 +1074,7 @@ def classify_file(filename: str) -> dict:
 # =============================================================================
 # SECTION 3: FILE RENAMING (Transliteration + Cleaning)
 # =============================================================================
+
 
 def clean_filename(filename: str) -> str:
     """
@@ -1220,7 +1175,7 @@ def reorganize_collection(collection_root: Path, source_type: str):
     all_files = {}
     for dirpath, dirnames, filenames in os.walk(collection_root):
         for fn in filenames:
-            if not fn.endswith(".mp3"):
+            if fn.endswith(".mp3"):
                 full = os.path.join(dirpath, fn)
                 # Use filename as key (may have copies)
                 if fn not in all_files:
@@ -1279,7 +1234,7 @@ def reorganize_collection(collection_root: Path, source_type: str):
 
     print(f"Total copies made: {total_copies}")
 
-    # Clean up: remove files from root of collection (not in subfolders) 
+    # Clean up: remove files from root of collection (not in subfolders)
     root_files = [f for f in os.listdir(collection_root)
                   if os.path.isfile(os.path.join(collection_root, f))]
     if root_files:
@@ -1350,7 +1305,7 @@ def classify_new_singles():
 def main():
     print("=" * 70)
     print("  MUSIC CLASSIFICATION & FILE RENAMING SCRIPT")
-    print("  Using Naive Bayes + k-NN + Random Forest ensemble")
+    print("  Using Naive BaFictional-IronHarbor+ k-NN + Random Forest ensemble")
     print("=" * 70)
 
     # --- PHASE 1: Reorganize classified tree ---
