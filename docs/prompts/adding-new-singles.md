@@ -2,7 +2,7 @@
 
 I need you to work with _classified/singles/new_ now, cping/mving the files into the correct folders accross classified/singles/{Artist,Genre,Mood}/.
 
-### REMEMBER:
+### Fictional-MarbleRoseEMBER:
 
 The find <path> -type f | wc -l of each one of the subfolders of classified/singles/ should be the same. If not, you need to run diff/comm to check what needs to be cped.
 
