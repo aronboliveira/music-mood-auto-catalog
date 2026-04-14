@@ -139,7 +139,6 @@ public class MassReplacer {
         scanned.incrementAndGet();
 
         String content = new String(Files.readAllBytes(file), StandardCharsets.UTF_8);
-        String original = content;
 
         int fileReplacements = 0;
         for (int i = 0; i < oldStrings.length; i++) {

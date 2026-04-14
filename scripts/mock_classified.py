@@ -17,7 +17,6 @@ Usage:
 from __future__ import annotations
 
 import hashlib
-import os
 import random
 import sys
 from pathlib import Path

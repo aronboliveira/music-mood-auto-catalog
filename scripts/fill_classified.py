@@ -14,7 +14,6 @@ Usage:
 
 import argparse
 import hashlib
-import os
 import sys
 from pathlib import Path
 
@@ -187,7 +186,7 @@ def main() -> None:
                         SLICED_TARGET, dry_run, created)
     print()
 
-    print(f"--- Summary ---")
+    print("--- Summary ---")
     print(f"{'Created' if not dry_run else 'Would create'}: {created[0]} files")
     if dry_run:
         print("\nDRY RUN — use --apply to create.")
