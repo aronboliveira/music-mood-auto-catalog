@@ -1,10 +1,4 @@
-# 2026-03-25 — Batch 2 Ingestion & Persistence Fix
-
-## Summary
-
-Ingested second review batch from `docs/maps/20260325-1/` and rewrote the
-localStorage persistence layer in `moods-checks-app.js` to fix a reliability
-issue (state reset twice during the review session).
+# Batch 2 — Static Updates — 2026-03-25 (map `20260325-1`)
 
 ## Persistence Architecture (v2)
 
@@ -27,30 +21,30 @@ window, all unsaved state was lost.
 The `dataset.moodsBound = "1"` flag on each element ensures listeners are
 attached exactly once, even if `bindDomListeners()` runs multiple times.
 
-## Data Changes
+## Data File Updates
 
 - **TRACK_MOODS**: 980 → 970 entries (10 StudyFocus-only tracks dropped:
-  Fictional-VidaSimu Building Mode 1–6, Fictional-VidaSimu 2 Bare Bones, Fictional-VidaSimu 4 Build Mode 4/8,
+  Sims Building Mode 1–6, Sims 2 Bare Bones, Sims 4 Build Mode 4/8,
   Test Card 44)
 - **REVIEWED_TRACKS**: 55 → 69 entries (+14 newly reviewed)
 - **Storage key**: `moods-checks-state-v1` → `moods-checks-state-v2`
 
 ## New Reviewed Tracks (14)
 
-1. `Fictional-Track-f59432cd.mp3`
-2. `Fictional-Track-fe20dd9d.mp3`
-3. `Fictional-Track-6fd50460.mp3`
-4. `Fictional-Track-65a9ffeFictional-Track-8f14e45f.mp3`
-5. `Fictional-Track-88f1031Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
+1. `Fictional-Track-d09541f4.mp3`
+2. `Fictional-Track-bc5ac07f.mp3`
+3. `Fictional-Track-e03a4210.mp3`
+4. `Fictional-Track-2a262ecb.mp3`
+5. `Fictional-Track-8582c35a.mp3`
 6. `Fictional-Track-eb82050b.mp3`
-7. `Fictional-Track-060fb4ea.mp3`
-8. `Fictional-Track-f64658bFictional-Track-1679091c.mp3`
-9. `Fictional-Track-82a1fb9Fictional-Track-eccbc87e.mp3`
-10. `Fictional-Track-efb9d19Fictional-Track-8f14e45f.mp3`
-11. `Fictional-Track-734ac1aa.mp3`
-12. `Fictional-Track-b957c6fFictional-Track-c4ca423Fictional-Track-c9f0f895.mp3`
-13. `Fictional-Track-39e4739a.mp3`
-14. `Fictional-Track-f8f2883Fictional-Track-c81e728d.mp3`
+7. `Fictional-Kw-625cf4d4.mp3`
+8. `Fictional-Track-f64658b6.mp3`
+9. `Fictional-MarbleHarbor-No-Ordinary-Love.mp3`
+10. `Fictional-Track-7fb9ee3a.mp3`
+11. `Fictional-Track-edfc3e13.mp3`
+12. `Fictional-Track-f8068e79.mp3`
+13. `Fictional-Kw-961bcf19.mp3`
+14. `Fictional-Track-f8f28832.mp3`
 
 ## Mood Folder Sync
 

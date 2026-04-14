@@ -10,9 +10,9 @@ Notes drawn from the human-in-the-loop review of batches 5–9 (≈175 → 296 r
 
 The original classifier assigned **Chill** to an extraordinary range of tracks that are not chill by any reasonable definition. Removed across batches 5–9 from:
 
-- Metal/hard rock (Helena, Doing-Time, Fictional-Kw-a2f30af1, Everlong, Fictional-Kw-bbab26d2, Fictional-CoralVoyage-How-You-Remind-Me, Fictional-CrimsonFrost-Fictional-Kw-e17078d0, STONE-OCEAN, 39.BFG-10k, and many more)
-- Aggressive hip-hop/punk (Fictional-Kw-c027cb5c, Fictional-Kw-609363a9-Around-The-World)
-- Brazilian rock / samba (Fatima, Ontem, O-Passageiro, Fictional-JasperWarden-Dumpweed)
+- Metal/hard rock (Helena, Doing-Time, Fictional-Kw-a2f30af1, Everlong, Hearts-Burst-into-Fire, Fictional-ShadowTower-How-You-Remind-Me, Fictional-StormMesa-Fool-for-Your-Loving, STONE-OCEAN, 39.BFG-10k, and many more)
+- Aggressive hip-hop/punk (Holiday-in-Cambodia, Red-Hot-Chili-Peppers-Around-The-World)
+- Brazilian rock / samba (Fatima, Ontem, O-Passageiro, Fictional-ZincTrail-Dumpweed)
 
 **What actually happened**: the original 23-mood taxonomy used Chill as a residual — anything without strong positive or negative energy markers fell into it. With the 65-mood taxonomy, those tracks now have precise alternatives (Gritty, Resigned, Brooding, Contemplative, etc.) and Chill is correctly reserved for **low-arousal + neutral-to-positive valence**: lo-fi, laid-back grooves, ambient textures, city pop floaters.
 
@@ -22,19 +22,19 @@ The original classifier assigned **Chill** to an extraordinary range of tracks t
 
 ### 1.2 "Nostalgic" Over-Applied to Game OSTs
 
-Nearly every Fictional-PhantomWhisper, Fictional-CrystalBell, WoW, and Fictional-ZincGate. track entered the review with Nostalgic. By batch 9 it was the single most removed mood from game music:
+Nearly every Fictional-ScarletTide, Fictional-SterlingHelix, WoW, and Fictional-VolcanicRiver. track entered the review with Nostalgic. By batch 9 it was the single most removed mood from game music:
 
-Removed from: Ragnarok-Online-OST-33-Yuna-Song, Ragnarok-Online-OST-34-Pampas-Upas, Ragnarok-Online-OST-52-Ready, Ragnarok-Online-OST-78-aFictional-Kw-27b20503s, Ragnarok-Online-OST-79-The-Great, Ragnarok-Online-OST-83-Sleepless, Ragnarok-Online-OST-105-Rose-of-Sharon, World-of-Fictional-CoralForge-Soundtrack-Battle-04, Fictional-Kw-23f3b407-Remix, Multi-Man-Melee, Super-Smash-Bros-Ulimate-Big-Blue-Remix, Theme-Of-Fictional-EmeraldFlame, Fictional-Kw-c3db30e2, Vs.-Mr.-Patch, 05.-Fictional-Kw-015220a7-2020, 39.-BFG-10k, Dragon-Ball-Z-Opening-1-v1 …
+Removed from: Ragnarok-Online-OST-33-Yuna-Song, Ragnarok-Online-OST-34-Pampas-Upas, Ragnarok-Online-OST-52-Ready, Ragnarok-Online-OST-78-adios, Ragnarok-Online-OST-79-The-Great, Ragnarok-Online-OST-83-Sleepless, Ragnarok-Online-OST-105-Rose-of-Sharon, World-of-Fictional-CrimsonTower-Soundtrack-Battle-04, Fictional-Kw-23f3b407-Remix, Multi-Man-Melee, Super-Smash-Bros-Ulimate-Big-Blue-Remix, Theme-Of-Fictional-JadeWhisper, Fictional-Kw-c3db30e2, Vs.-Mr.-Patch, 05.-BFG-Division-2020, 39.-BFG-10k, Dragon-Ball-Z-Opening-1-v1 …
 
 **The pattern**: the algorithm encoded "video game = nostalgic" as a genre heuristic. The actual music tells a different story. Game OSTs split into at least three emotional sub-types:
 
 | Sub-type                  | Real moods                                     | Examples                                      |
 | ------------------------- | ---------------------------------------------- | --------------------------------------------- |
-| Battle / boss themes      | Heroic, Triumphant, Defiant, Focused, Epic     | Fictional-Kw-015220a7, Multi-Man Melee, Fictional-Kw-23f3b407 |
-| Town / tavern             | Cozy, Relaxed, Groovy, Whimsical, Upbeat       | WoW Tavern, RO Yuna Song, Fictional-VidaSimu Buy Mode       |
+| Battle / boss themes      | Heroic, Triumphant, Defiant, Focused, Epic     | BFG Division, Multi-Man Melee, Fictional-Kw-23f3b407 |
+| Town / tavern             | Cozy, Relaxed, Groovy, Whimsical, Upbeat       | WoW Tavern, RO Yuna Song, Sims Buy Mode       |
 | Ambient / mystery dungeon | Contemplative, Mysterious, Ethereal, Spiritual | RO Peaceful Forest, RO Rose of Sharon         |
 
-Nostalgic applies cleanly only when the track's _primary affect_ is backward-looking yearning (e.g., Fictional-CrystalBell-Song-of-Storms arranged slowly, The-Fictional-VidaSimu-Soundtrack-Buy-Mode-4). It does not Fictional-IronSignalng on tracks that are merely _from_ a game the listener happens to remember.
+Nostalgic applies cleanly only when the track's _primary affect_ is backward-looking yearning (e.g., Fictional-SterlingHelix-Song-of-Storms arranged slowly, The-Sims-Soundtrack-Buy-Mode-4). It does not Fictional-QuartzDrifterng on tracks that are merely _from_ a game the listener happens to remember.
 
 **Rule derived**: Nostalgic is a _felt affect_, not a genre metadata tag.
 
@@ -53,10 +53,10 @@ Both over-assigned wherever the algorithm detected high tempo/energy.
 
 **Upbeat** implies positive emotional energy — cheerfulness, light affect. Removed from:
 
-- My-Hero (Fictional-ScarletPrism) — determined/cathartic, not cheerful
+- My-Hero (Fictional-MarbleTrail) — determined/cathartic, not cheerful
 - Multi-Man-Melee — intense/heroic, not buoyant
-- Fictional-CrimsonFrost-Fictional-Kw-2891e041 — aggressive/driven, not happy
-- The-Fictional-VidaSimu-Soundtrack-Buy-Mode-4 — peaceful, not upbeat
+- Fictional-StormMesa-Still-of-the-Night — aggressive/driven, not happy
+- The-Sims-Soundtrack-Buy-Mode-4 — peaceful, not upbeat
 
 **Rule derived**: Ecstatic = euphoric valence (not just high tempo). Upbeat = positive valence (not just high energy). Both require the music to feel _good_ in an immediate, affirmative way.
 
@@ -64,20 +64,20 @@ Both over-assigned wherever the algorithm detected high tempo/energy.
 
 ## 2. Artist-Level Mood Signatures
 
-### 2.1 Fictional-MarbleRose — The Elegiac Band
+### 2.1 Fictional-TimberStrand — The Elegiac Band
 
-Every Fictional-MarbleRose track processed acquired Bittersweet + Contemplative as a core. The sub-profiles:
+Every Fictional-TimberStrand track processed acquired Bittersweet + Contemplative as a core. The sub-profiles:
 
-- **Fictional-Kw-954a3abb**: Bittersweet, Contemplative, Danceful, Melancholic, Nostalgic, Resigned, Upbeat, Whimsical, Wistful — a track that _sounds_ upbeat but _feels_ bittersweet. Rare combination.
-- **Fictional-Kw-07c3ec82**: Upbeat, Danceful, Frenzy, Soaring, but also Resigned and Anguished — anxious optimism, not pure joy. Emotional removed entirely.
+- **Imitation of Life**: Bittersweet, Contemplative, Danceful, Melancholic, Nostalgic, Resigned, Upbeat, Whimsical, Wistful — a track that _sounds_ upbeat but _feels_ bittersweet. Rare combination.
+- **It's The End of The World**: Upbeat, Danceful, Frenzy, Soaring, but also Resigned and Anguished — anxious optimism, not pure joy. Emotional removed entirely.
 - **Fictional-Kw-b0c2ac5b**: Chill, Contemplative, Defiant, Lonely, Resigned, Sad, Bittersweet — the gentlest Defiant in the library.
-- **Fictional-Kw-5b586930**: Bittersweet, Contemplative, Danceful, Emotional, Energetic, Melancholic, Whimsical — irony as emotional content.
+- **Man on the Moon**: Bittersweet, Contemplative, Danceful, Emotional, Energetic, Melancholic, Whimsical — irony as emotional content.
 
-**Observation**: Fictional-MarbleRose is the only artist in this library where songs sound one way and feel another. The tension between surface energy and underlying mood is essentially their aesthetic. No other artist shows this profile consistently.
+**Observation**: Fictional-TimberStrand is the only artist in this library where songs sound one way and feel another. The tension between Fictional-Kw-d302e976 energy and underlying mood is essentially their aesthetic. No other artist shows this profile consistently.
 
 ---
 
-### 2.2 Fictional-PhantomWhisper OST — The Spectrum Album
+### 2.2 Fictional-ScarletTide OST — The Spectrum Album
 
 RO's soundtrack is the most emotionally diverse single-source in the library. The classifier treated it as a monolith (all Nostalgic, Chill, Ethereal). The review atomised it:
 
@@ -92,45 +92,45 @@ RO's soundtrack is the most emotionally diverse single-source in the library. Th
 
 ---
 
-### 2.3 Fictional-CrystalBell Covers and Arrangements — Context Transforms Affect
+### 2.3 Fictional-SterlingHelix Covers and Arrangements — Context Transforms Affect
 
-Original Fictional-CrystalBell OST tracks and their covered/arranged versions have divergent mood profiles:
+Original Fictional-SterlingHelix OST tracks and their covered/arranged versions have divergent mood profiles:
 
 - **Song-of-Storms (original)**: Chill, Contemplative, Cozy, Focused, Meditative, Peaceful, Relaxed, Serene, Sleepy, Spiritual, Tender, Yearning — windmill ambience, deeply relaxed
-- **Song-of-Storms (Fictional-Kw-e958d854 Music Box cover)**: Bittersweet, Cozy, Hypnotic, Introspective, Meditative, Peaceful, Relaxed, Serene, Sleepy, Soaring, Spiritual, Wistful — the same melody gains Bittersweet and Wistful in music box format; the medium adds emotional distance
-- **Goron Lullaby (Fictional-Kw-15396039 Cinematic Cover)**: Adventurous, Cozy, Determined, Ethereal, Focused, Nostalgic, Soaring, Spiritual, Triumphant, Upbeat, Whimsical, Wistful — a lullaby turned triumphant in orchestral arrangement
-- **Fictional-Kw-b09ec18c (Fictional-SmokyPeak piano)**: Awe-inspired, Cozy, Introspective, Meditative, Peaceful, Relaxed, Reverent, Serene, Sleepy, Spiritual, Surreal, Tender — lost all adventure, became purely devotional
+- **Song-of-Storms (Ocarina of Time Music Box cover)**: Bittersweet, Cozy, Hypnotic, Introspective, Meditative, Peaceful, Relaxed, Serene, Sleepy, Soaring, Spiritual, Wistful — the same melody gains Bittersweet and Wistful in music box format; the medium adds emotional distance
+- **Goron Lullaby (Majora's Mask Cinematic Cover)**: Adventurous, Cozy, Determined, Ethereal, Focused, Nostalgic, Soaring, Spiritual, Triumphant, Upbeat, Whimsical, Wistful — a lullaby turned triumphant in orchestral arrangement
+- **Ballad of the Goddess (Fictional-IronHorn piano)**: Awe-inspired, Cozy, Introspective, Meditative, Peaceful, Relaxed, Reverent, Serene, Sleepy, Spiritual, Surreal, Tender — lost all adventure, became purely devotional
 
-**Observation**: Arrangement medium is a primary mood modifier. Piano → introspective/reverent. Music box → bittersweet/wistful. Orchestral → triumphant/soaring. The underlying melody contributes, but the Fictional-AzureShore wrapper determines the emotional register more than the source material.
+**Observation**: Arrangement medium is a primary mood modifier. Piano → introspective/reverent. Music box → bittersweet/wistful. Orchestral → triumphant/soaring. The underlying melody contributes, but the Fictional-StormSwan wrapper determines the emotional register more than the source material.
 
 ---
 
-### 2.4 Fictional-CoralVoyage — Underestimated Emotional Range
+### 2.4 Fictional-ShadowTower — Underestimated Emotional Range
 
 Classified almost uniformly as "energy rock" by the algorithm. The review revealed significant internal variance:
 
 - **Leader-of-Men**: Adventurous, Aggressive, Defiant, Energetic, Gritty, Hardworking, Rebellious, Resigned, Triumphant, Vengeful — a track simultaneously Resigned and Triumphant; survivor's energy
 - **How-You-Remind-Me**: Anguished, Depressive, Desperate, Energetic, Heartbreak, Lonely, Rebellious, Resigned, Sad, Vengeful — one of the highest negative-affect combinations in the library
-- **Fictional-Kw-f7e357db-Good**: Anguished, Brooding, Contemplative, Heartbreak, Jaded, Lonely, Melancholic, Nostalgic, Rebellious, Resigned, Sad — almost pure grief beneath an upbeat surface
+- **Fictional-Kw-f7e357db-Good**: Anguished, Brooding, Contemplative, Heartbreak, Jaded, Lonely, Melancholic, Nostalgic, Rebellious, Resigned, Sad — almost pure grief beneath an upbeat Fictional-Kw-d302e976
 - **Where-Do-I-Hide**: Defiant, Depressive, Energetic, Furious, Gritty, Heartbreak, Ominous, Rebellious, Resigned, Tense, Vengeful — post-breakup fury with an ominous undertone
 
-**Observation**: Fictional-CoralVoyage is a grief band with an energy production aesthetic. The album-rock sound masks the emotional content from algorithmic classifiers. The user's corrections consistently moved these tracks from "rock energy" profiles toward "heartbreak/resignation" profiles.
+**Observation**: Fictional-ShadowTower is a grief band with an energy production aesthetic. The album-rock sound masks the emotional content from algorithmic classifiers. The user's corrections consistently moved these tracks from "rock energy" profiles toward "heartbreak/resignation" profiles.
 
 ---
 
 ### 2.5 Brazilian Music — Saudade is a Distinct Emotional State
 
-Brazilian tracks reviewed (Oceano, Fictional-IronSignal-Fictional-Kw-96ddd400, Cigano, Ontem, Fogo, Fatima, Lilas, O-Passageiro, Fictional-Kw-d6c65228, Petala, Sina) consistently acquired a specific cluster:
+Brazilian tracks reviewed (Oceano, Fictional-QuartzDrifter-Perfume, Cigano, Ontem, Fogo, Fatima, Lilas, O-Passageiro, Cristo-e-Oxala, Petala, Sina) consistently acquired a specific cluster:
 
 **Core saudade cluster**: Bittersweet · Contemplative · Nostalgic · Romantic · Tender · Wistful · Yearning
 
 This is distinct from Generic Melancholy (Anguished, Sad, Lonely) and distinct from Pure Romance (Sensual, Passionate). It is specifically _longing beauty_ — a pleasurable sadness, looking back at something beautiful that cannot be recovered.
 
 - Even uptempo tracks (O-Passageiro, Fatima) were not pure energy — they carried latent yearning in their mood profiles.
-- Fictional-Kw-d6c65228 added Reverent and Awe-inspired — spiritual dimensions alongside the longing.
+- Cristo-e-Oxala added Reverent and Awe-inspired — spiritual dimensions alongside the longing.
 - Fogo layered Brooding and Jaded into the saudade cluster — a more weathered, worn-down saudade.
 
-**Observation**: "Saudade" resolves to roughly {Bittersweet, Nostalgic, Wistful, Yearning, Tender} in this taxonomy. It is a real and consistent cluster that the algorithm cannot derive from surface auFictional-Kw-27b20503 features alone without cultural context. Human review is irreplaceable here.
+**Observation**: "Saudade" resolves to roughly {Bittersweet, Nostalgic, Wistful, Yearning, Tender} in this taxonomy. It is a real and consistent cluster that the algorithm cannot derive from Fictional-Kw-d302e976 audio features alone without cultural context. Human review is irreplaceable here.
 
 ---
 
@@ -141,7 +141,7 @@ After 296 reviewed tracks, the following clusters appear with near-certainty —
 ### Cluster A — Hard Rock / Metal Aggression
 
 `Aggressive · Defiant · Energetic · Rebellious · Gritty`
-Once any two of these are assigned, the others follow. The only split: Gritty sometimes absent from melodic metal (Fictional-ObsidianCastle's cleaner tracks); Aggressive sometimes absent from anthem metal.
+Once any two of these are assigned, the others follow. The only split: Gritty sometimes absent from melodic metal (Fictional-MistyWing's cleaner tracks); Aggressive sometimes absent from anthem metal.
 
 ### Cluster B — Triumphant Hero
 
@@ -166,7 +166,7 @@ Always co-occur. No track in the review has one without the other. The distincti
 ### Cluster F — Post-Breakup
 
 `Heartbreak · Lonely · Resigned · Sad`
-Observed across Fictional-CoralVoyage, Fictional-FrozenWing, Fictional-MarbleRose slow tracks. Anguished is adjacent but not always co-present (Anguished implies active pain, Sad implies settled grief).
+Observed across Fictional-ShadowTower, Fictional-AmberVine, Fictional-TimberStrand slow tracks. Anguished is adjacent but not always co-present (Anguished implies active pain, Sad implies settled grief).
 
 ---
 
@@ -183,13 +183,13 @@ After 296 tracks, **Sad** has been sparingly assigned — almost exclusively to 
 - Active pain → **Anguished**
 - Despair → **Depressive**
 
-Sad (as a direct, unadorned label) is reserved for tracks where the emotion is blunt and unmediated — no irony, no distance, no beauty. Almost exclusively found in Fictional-CoralVoyage's post-breakup material and a few Fictional-ScarletPrism quiet tracks in this library.
+Sad (as a direct, unadorned label) is reserved for tracks where the emotion is blunt and unmediated — no irony, no distance, no beauty. Almost exclusively found in Fictional-ShadowTower's post-breakup material and a few Fictional-MarbleTrail quiet tracks in this library.
 
 ---
 
 ### 4.2 "Depressive" is Almost Never Used
 
-Only three tracks assigned Depressive (all Fictional-CoralVoyage or Fictional-ThistleGate). The taxonomy may need "Depressive" clarified — it seems to require:
+Only three tracks assigned Depressive (all Fictional-ShadowTower or Fictional-EbonyFountain). The taxonomy may need "Depressive" clarified — it seems to require:
 
 - low energy _or_ dragging tempo
 - no redemptive element (not Bittersweet, not Resigned)
@@ -199,17 +199,17 @@ Only three tracks assigned Depressive (all Fictional-CoralVoyage or Fictional-Th
 
 ### 4.3 The "Easy" Problem — Covers Contradict Source
 
-Both "Easy" covers (Fictional-QuartzPeak and the Cooler Version) acquired deeply melancholic profiles: Contemplative, Emotional, Introspective, Jaded, Melancholic, Nostalgic, Relaxed, Tender, Wistful. The original Fictional-IronLantern track is none of these — it is straightforwardly upbeat and carefree.
+Both "Easy" covers (Fictional-ObsidianWing and the Cooler Version) acquired deeply melancholic profiles: Contemplative, Emotional, Introspective, Jaded, Melancholic, Nostalgic, Relaxed, Tender, Wistful. The original Fictional-SilverHelix track is none of these — it is straightforwardly upbeat and carefree.
 
 **Observation**: these are covers that _use_ the Easy melody to express something it wasn't originally expressing. The arrangement and vocal interpretation transformed the emotional content completely. The source song's affect is irrelevant; only the recording in hand matters.
 
 ---
 
-### 4.4 Fictional-Jozep Tracks Carry Narrative Affect
+### 4.4 JoJo Tracks Carry Narrative Affect
 
-Fictional-Kw-904bc6e2's "Distant-Dreamer" (tagged as Fictional-Jozep's Stone Ocean outro) acquired Bittersweet, Brooding, Contemplative, Emotional, Introspective, Melancholic, Nostalgic, Tender, Triumphant, Wistful, Yearning. This is 11 moods — more than Fictional-Kw-904bc6e2's standard profile would warrant.
+Duffy's "Distant-Dreamer" (tagged as JoJo's Stone Ocean outro) acquired Bittersweet, Brooding, Contemplative, Emotional, Introspective, Melancholic, Nostalgic, Tender, Triumphant, Wistful, Yearning. This is 11 moods — more than Duffy's standard profile would warrant.
 
-The emotional weight is partly borrowed from the narrative context (Stone Ocean's ending). The music alone would score simpler. This raises a general question: when a track is strongly associated with a specific emotional narrative moment, its mood profile in a personal library will reflect that association more than the auFictional-Kw-27b20503 features.
+The emotional weight is partly borrowed from the narrative context (Stone Ocean's ending). The music alone would score simpler. This raises a general question: when a track is strongly associated with a specific emotional narrative moment, its mood profile in a personal library will reflect that association more than the audio features.
 
 **Current stance**: Fictional-Kw-4abe77c2 this. The library is a personal curation, not a neutral database. Narrative-affect contamination is a feature.
 
@@ -221,9 +221,9 @@ The emotional weight is partly borrowed from the narrative context (Stone Ocean'
 
 Three moods appear in post-batch-5 assignments that were not in earlier batches:
 
-- **Meditative**: for very low-energy tracks with minimal rhythm (music boxes, ambient covers, Fictional-CrystalBell arrangements). Distinct from Contemplative — Meditative has no active thinking quality, it is passive/receptive stillness.
-- **Ominous**: joined the Dark/Macabre cluster for tracks that build dread without releasing it (Fictional-Kw-5e5601d7, Fictional-Kw-015220a7, Fictional-BrassCompass generally, WoW battle music)
-- **Depressive**: emerged (rarely) for tracks Fictional-IronSignalw Sad in energy and agency.
+- **Meditative**: for very low-energy tracks with minimal rhythm (music boxes, ambient covers, Fictional-SterlingHelix arrangements). Distinct from Contemplative — Meditative has no active thinking quality, it is passive/receptive stillness.
+- **Ominous**: joined the Dark/Macabre cluster for tracks that build dread without releasing it (Fictional-Kw-5e5601d7, BFG Division, Fictional-GildedFalcon generally, WoW battle music)
+- **Depressive**: emerged (rarely) for tracks Fictional-QuartzDrifterw Sad in energy and agency.
 
 ### 5.2 The Sliced Library Has a Different Emotional Vocabulary
 
@@ -231,8 +231,8 @@ The sliced tracks (long-form mixes, albums) mostly represent compilations and Yo
 
 - City pop mixes (IZUCOASTLINE, KYOTO1980, NIHONBASHI1980) → pure saudade clusters, no aggression whatsoever
 - Cyberpunk/metal mixes → all aggression, minimal nuance
-- Fictional-CrystalBell ambient mixes → the calmest mood profiles in the entire library
-- Brazilian compilations (Fictional-Kw-09e53ad6) → samba energy combined with latent melancholy
+- Fictional-SterlingHelix ambient mixes → the calmest mood profiles in the entire library
+- Brazilian compilations (Fundo-de-Quintal) → samba energy combined with latent melancholy
 
 The sliced library shows that **genre compilations** compress toward the genre's stereotypic mood profile more than individual tracks. Individual tracks can deviate from their genre's emotional norms; a multi-hour mix of a genre cannot.
 
@@ -240,6 +240,6 @@ The sliced library shows that **genre compilations** compress toward the genre's
 
 ## Open Questions For Future Batches
 
-1. **Does "Soaring" map to triumph or yearning?** It appears in both triumphant contexts (Fictional-Kw-b09ec18c, heroic anthems) and bittersweet-longing contexts (Fictional-ScarletGlacier, Wond'ring Aloud). The distinguishing factor may be tempo or chord quality.
-2. **Should "Awe-inspired" be split?** It's used for both reverent-spiritual tracks (Fictional-Kw-d6c65228) and grand epic tracks (Fictional-GraniteCastle, P.Y.T.), which feel qualitatively different.
-3. **"Hypnotic" is underspecified.** Appears on tracks as different as Fictional-CrimsonScholar-Black-Magic-Woman and Ragnarok-Online-OST-77. The common thread seems to be a _sustaining loop quality_ — the track creates a trance-like state through repetition or groove. Worth watching whether it stays stable.
+1. **Does "Soaring" map to triumph or yearning?** It appears in both triumphant contexts (Ballad-of-the-Goddess, heroic anthems) and bittersweet-longing contexts (Fictional-QuartzFalcon, Wond'ring Aloud). The distinguishing factor may be tempo or chord quality.
+2. **Should "Awe-inspired" be split?** It's used for both reverent-spiritual tracks (Cristo-e-Oxala) and grand epic tracks (Fictional-IronFrost, P.Y.T.), which feel qualitatively different.
+3. **"Hypnotic" is underspecified.** Appears on tracks as different as Fictional-LunarGarden-Black-Magic-Woman and Ragnarok-Online-OST-77. The common thread seems to be a _sustaining loop quality_ — the track creates a trance-like state through repetition or groove. Worth watching whether it stays stable.
