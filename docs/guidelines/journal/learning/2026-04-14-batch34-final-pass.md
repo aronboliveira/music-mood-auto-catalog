@@ -31,6 +31,7 @@ Takeaway: Focus should likely stay an auxiliary axis in UX/filtering, while high
 ## 5) Marker Behavior (Playful / Macabre / Ethereal)
 
 Marker intersections were informative:
+
 - Playful + Ethereal appeared often enough to define a whimsical dream band.
 - Ethereal + Macabre occurred in gothic-fantasy tracks.
 - Playful + Macabre was rare and style-specific (carnival-gothic feel).
@@ -41,6 +42,7 @@ Takeaway: these markers are discriminative and safe for context-level routing ru
 ## 6) JoJo Constraint Handling Requires Two-Layer Policy
 
 The requested policy worked well when split into:
+
 - JoJo-reference matches: move copies under Genre/Mood into local .rejected subfolders.
 - Non-JoJo matches from the user list: delete from Genre/Mood only.
 - Preserve Artist copies in all cases.

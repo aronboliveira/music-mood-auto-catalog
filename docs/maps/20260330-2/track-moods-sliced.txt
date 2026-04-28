@@ -61,7 +61,7 @@
   - Mysterious
   - Rebellious
   - Surreal
-80s-Japanese-City-Pop(Fictional-Kw-169b09aa)-anoYe-heLian-reQu-tsuteTake-Me-Back-to-That-Night-Huang-mekuYe-niMellownaXiang-ri-part [×21]:
+80s-Japanese-City-Pop(Fictional-Kw-483aeb78)-anoYe-heLian-reQu-tsuteTake-Me-Back-to-That-Night-Huang-mekuYe-niMellownaXiang-ri-part [×21]:
   - Bittersweet
   - Chill
   - Cozy
@@ -87,7 +87,7 @@
   - Hypnotic
   - Introspective
   - Relaxed
-Beautiful-Relaxing-Music-The-Legend-of-Fictional-CrystalBell-part [×50]:
+Beautiful-Relaxing-Music-The-Legend-of-Fictional-SterlingHelix-part [×50]:
   - Awe-inspired
   - Chill
   - Contemplative
@@ -105,7 +105,7 @@ Beautiful-Relaxing-Music-The-Legend-of-Fictional-CrystalBell-part [×50]:
   - Tender
   - Wistful
   - Yearning
-Fictional-EmeraldWarden-Bloodwave-Halloween-Disco-Soundtrack-part [×20]:
+Fictional-IndigoNeedle-Bloodwave-Halloween-Disco-Soundtrack-part [×20]:
   - Chaotic
   - Dark
   - Ecstatic
@@ -187,7 +187,7 @@ DONKEY-KONG-COUNTRY-(1994)-FORRO-TRIBUTE-part [×19]:
   - Nostalgic
   - Playful
   - Tender
-DONKEYWAVE-II-Fictional-SapphireOracle-2-Disco-&-Soul-OST-part [×57]:
+DONKEYWAVE-II-Fictional-CrystalCompass-2-Disco-&-Soul-OST-part [×57]:
   - Chill
   - Danceful
   - Determined
@@ -203,7 +203,7 @@ DONKEYWAVE-II-Fictional-SapphireOracle-2-Disco-&-Soul-OST-part [×57]:
   - Suspenseful
   - Triumphant
   - Upbeat
-DOTONBORI1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×69]:
+DOTONBORI1980-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×69]:
   - Bittersweet
   - Chill
   - Danceful
@@ -246,7 +246,7 @@ EGYPTIAN-ROCK-&-METAL-V2-Vibes-for-Gaming,-Chilling-and-Working-out-part [×22]:
   - Mysterious
   - Rebellious
   - Triumphant
-Fictional-Kw-09e53ad6-Convida-(Ao-Vivo)-part [×34]:
+Fundo-de-Quintal-Convida-(Ao-Vivo)-part [×34]:
   - Bittersweet
   - Chill
   - Danceful
@@ -259,7 +259,7 @@ Fictional-Kw-09e53ad6-Convida-(Ao-Vivo)-part [×34]:
   - Upbeat
   - Whimsical
   - Wistful
-it-was-a-hard-day,-rest-well.-(relaxing-Fictional-CrystalBell-music-w-ambience)-part [×60]:
+it-was-a-hard-day,-rest-well.-(relaxing-Fictional-SterlingHelix-music-w-ambience)-part [×60]:
   - Cozy
   - Introspective
   - Melancholic
@@ -270,7 +270,7 @@ it-was-a-hard-day,-rest-well.-(relaxing-Fictional-CrystalBell-music-w-ambience)-
   - Spiritual
   - Tender
   - Wistful
-IZUCOASTLINE-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×51]:
+IZUCOASTLINE-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×51]:
   - Bittersweet
   - Chill
   - Contemplative
@@ -282,7 +282,7 @@ IZUCOASTLINE-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×51]:
   - Tender
   - Wistful
   - Yearning
-KYOTO1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×47]:
+KYOTO1980-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×47]:
   - Chill
   - Contemplative
   - Cozy
@@ -292,7 +292,7 @@ KYOTO1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×47]:
   - Tender
   - Whimsical
   - Yearning
-NIHONBASHI1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×43]:
+NIHONBASHI1980-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×43]:
   - Chill
   - Optimistic
   - Peaceful
@@ -313,7 +313,7 @@ Not-Too-Jazzy-Jazz-part [×21]:
   - Groovy
   - Joyful
   - Whimsical
-Fictional-PhantomHorizon-feat-Shing02-Luv(sic)-Hexalogy-part [×44]:
+Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy-part [×44]:
   - Chill
   - Contemplative
   - Groovy
@@ -323,7 +323,7 @@ Fictional-PhantomHorizon-feat-Shing02-Luv(sic)-Hexalogy-part [×44]:
   - Peaceful
   - Relaxed
   - Spiritual
-Fictional-PhantomHorizon-Samurai-Champloo-Impression-part [×24]:
+Fictional-SterlingFlame-Samurai-Champloo-Impression-part [×24]:
   - Adventurous
   - Chill
   - Danceful
@@ -360,7 +360,7 @@ PIRATE-ROCK-&-METAL-V2-Vibes-for-Gaming-Studying-Working-out-part [×22]:
   - Heroic
   - Rebellious
   - Triumphant
-pov-it's-2am-and-you-can't-sleep.-(Fictional-CrystalBell-music-&-heavy-rain)-part [×138]:
+pov-it's-2am-and-you-can't-sleep.-(Fictional-SterlingHelix-music-&-heavy-rain)-part [×138]:
   - Chill
   - Contemplative
   - Cozy
@@ -371,7 +371,7 @@ pov-it's-2am-and-you-can't-sleep.-(Fictional-CrystalBell-music-&-heavy-rain)-par
   - Serene
   - Sleepy
   - Spiritual
-pov-you-left-Fictional-CrystalBell-music-playing-in-another-room.-(relaxing-Fictional-CrystalBell-ost-&-ambience)-part [×141]:
+pov-you-left-Fictional-SterlingHelix-music-playing-in-another-room.-(relaxing-Fictional-SterlingHelix-ost-&-ambience)-part [×141]:
   - Awe-inspired
   - Bittersweet
   - Chill
@@ -385,7 +385,7 @@ pov-you-left-Fictional-CrystalBell-music-playing-in-another-room.-(relaxing-Fict
   - Serene
   - Sleepy
   - Spiritual
-Relaxing-Medieval-Music-with-Rain-Sounds-Fantasy-Ambience-for-Resting,-Study,-Focus-part [×22]:
+Relaxing-Medieval-Music-with-Rain-Sounds-Fantasy-Ambience-for-ReFictional-Kw-4669569c,-Study,-Focus-part [×22]:
   - Chill
   - Contemplative
   - Cozy
@@ -397,7 +397,7 @@ Relaxing-Medieval-Music-with-Rain-Sounds-Fantasy-Ambience-for-Resting,-Study,-Fo
   - Reverent
   - Soaring
   - Wistful
-Relaxing-The-Legend-of-Fictional-CrystalBell-Twilight-Fictional-ZincNeedless-Music-part [×15]:
+Relaxing-The-Legend-of-Fictional-SterlingHelix-Fictional-Kw-1c73fd6e-Music-part [×15]:
   - Contemplative
   - Cozy
   - Introspective
@@ -410,7 +410,7 @@ Relaxing-The-Legend-of-Fictional-CrystalBell-Twilight-Fictional-ZincNeedless-Mus
   - Sleepy
   - Spiritual
   - Wistful
-Shibuya-Nights-1980-City-Pop-Nostalgia-Xia-noYe-noFictional-Kw-169b09aa-part [×39]:
+Shibuya-Nights-1980-City-Pop-Nostalgia-Xia-noYe-noFictional-Kw-483aeb78-part [×39]:
   - Danceful
   - Emotional
   - Groovy

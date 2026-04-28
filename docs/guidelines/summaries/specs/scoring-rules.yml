@@ -1,0 +1,244 @@
+# scoring-rules.yml — Scoring thresholds, custom scorer logic, and anti-gates
+# Machine-readable companion to Chapters 2 and 6.
+# Use this to reimplement or validate cluster assignment logic programmatically.
+
+version: "2.0"
+date: "2026-04-15"
+source_script: scripts/build_rpg_contextual.py
+
+# ─── Standard Scoring Model ─────────────────────────────────────────
+# Each cluster defines core moods (high signal) and supplemental moods (context signal).
+# For a given track, count how many of its moods match core (c) and supplemental (s).
+# The threshold expression determines assignment.
+
+standard_model:
+  description: |
+    For each track, let `c` = count of track moods in cluster.core,
+    and `s` = count of track moods in cluster.supp.
+    Evaluate the cluster's threshold expression. If true, track qualifies.
+  notes:
+    - A single track can qualify for multiple clusters (symlinks used, not copies).
+    - Tracks are hard-linked from classified/singles/Mood/<Mood>/ into
+      classified/singles/Mood/_Contextual/RPG_<Name>/.
+    - Sliced tracks are evaluated identically but sourced from sliced/ pools.
+
+# ─── Threshold Expressions ──────────────────────────────────────────
+# Each threshold is a Python-evaluable lambda expression.
+# `c` and `s` are integers; the expression returns bool.
+
+thresholds:
+  RPG_Wandering: "c >= 2 or (c >= 1 and s >= 2)"
+  RPG_Danceful: "c >= 2 or (c >= 1 and s >= 1)"
+  RPG_Macabre: "c >= 2 or (c >= 1 and s >= 1)"
+  RPG_Epic: "c >= 2 or (c >= 1 and s >= 2)"
+  RPG_Battle: custom # See custom_scorers.battle Fictional-QuartzDrifterw
+  RPG_Silly: "c >= 2 or (c >= 1 and s >= 2)"
+  RPG_Mystical: "c >= 2 or (c >= 1 and s >= 2)"
+  RPG_Melancholic: "c >= 2 or (c >= 1 and s >= 1)"
+  RPG_Town: "c >= 2 or (c >= 1 and s >= 2)"
+  RPG_Ambient: "c >= 2 or (c >= 1 and s >= 3)"
+  RPG_Relaxation: custom # See custom_scorers.relaxation Fictional-QuartzDrifterw
+  RPG_Tension: "c >= 2 or (c >= 1 and s >= 1)"
+
+# ─── Threshold Design Notes ─────────────────────────────────────────
+threshold_tiers:
+  lenient:
+    expression: "c >= 2 or (c >= 1 and s >= 1)"
+    used_by: [RPG_Danceful, RPG_Macabre, RPG_Melancholic, RPG_Tension]
+    rationale: "Emotional focus is narrow; one core + one supplemental is enough."
+  standard:
+    expression: "c >= 2 or (c >= 1 and s >= 2)"
+    used_by: [RPG_Wandering, RPG_Epic, RPG_Silly, RPG_Mystical, RPG_Town]
+    rationale: "Broader mood palette; need more supporting evidence."
+  strict:
+    expression: "c >= 2 or (c >= 1 and s >= 3)"
+    used_by: [RPG_Ambient]
+    rationale: "Ambient is large and risks dilution; extra supplemental needed."
+
+# ─── Custom Scorers ─────────────────────────────────────────────────
+
+custom_scorers:
+  battle:
+    function_name: battle_qualifies
+    description: "Ensures high-energy combat feel. Rejects tracks that are merely dark or playful."
+    logic:
+      step_1_core_check:
+        description: "Track must have at least one core combat mood."
+        core_moods: [Aggressive, Furious, Explosive]
+        condition: "any(m in track_moods for m in core_moods)"
+      step_2_energy_gate:
+        description: "Core combat alone isn't enough — Energetic required."
+        condition: "Energetic in track_moods"
+      step_3_frenzy_alt:
+        description: "Alternative path: Frenzy + Energetic qualifies even without core."
+        condition: "Frenzy in track_moods and Energetic in track_moods"
+      step_4_frenzy_core_combo:
+        description: "Second alternative: Frenzy + any core combat mood."
+        condition: "Frenzy in track_moods and any(m in track_moods for m in core_moods)"
+      step_5_playful_gate:
+        description: "Playful/Whimsical blocks entry unless exception conditions met."
+        blocking_moods: [Playful, Whimsical]
+        exception_condition: "Energetic in track_moods and any(m in track_moods for m in [Explosive, Dark, Defiant])"
+        effect: "If blocking mood present and exception NOT met → REJECT"
+      step_6_dr_Fictional-SolarLantern_exclusion:
+        description: "Exclude Dr. Fictional-SolarLantern chill mixes that look combat-like in metadata."
+        filename_patterns:
+          - contains: "chill"
+            also_contains_any: ["dr.", "Fictional-SolarLantern", "ver.-2"]
+        effect: "If filename matches → REJECT"
+    evaluation_order: [step_5, step_6, step_1, step_2, step_3, step_4]
+    pseudocode: |
+      def battle_qualifies(track_moods, filename):
+          has_core = any(m in track_moods for m in {"Aggressive","Furious","Explosive"})
+          has_energetic = "Energetic" in track_moods
+          has_frenzy = "Frenzy" in track_moods
+          playful = any(m in track_moods for m in {"Playful","Whimsical"})
+
+          # Playful gate
+          if playful:
+              exception = has_energetic and any(m in track_moods for m in {"Explosive","Dark","Defiant"})
+              if not exception:
+                  return False
+
+          # Dr. Fictional-SolarLantern exclusion
+          fn = filename.lower()
+          if "chill" in fn and any(x in fn for x in ["dr.","Fictional-SolarLantern","ver.-2"]):
+              return False
+
+          # Primary: core + Energetic
+          if has_core and has_energetic:
+              return True
+          # Alt 1: Frenzy + Energetic
+          if has_frenzy and has_energetic:
+              return True
+          # Alt 2: Frenzy + core
+          if has_frenzy and has_core:
+              return True
+
+          return False
+
+  relaxation:
+    function_name: relaxation_qualifies
+    description: "Ensures genuine deep relaxation. Anti-gate rejects any activating mood before threshold check."
+    logic:
+      step_1_anti_gate:
+        description: "If track has ANY activating mood, reject immediately."
+        anti_moods:
+          - Energetic
+          - Upbeat
+          - Aggressive
+          - Explosive
+          - Frenzy
+          - Furious
+          - Danceful
+          - Groovy
+          - Ecstatic
+          - Chaotic
+          - Defiant
+          - Rebellious
+          - Triumphant
+          - Heroic
+          - Epic
+        condition: "any(m in track_moods for m in anti_moods)"
+        effect: "If condition is true → REJECT"
+      step_2_threshold:
+        description: "Standard core/supp check on surviving tracks."
+        core_moods: [Relaxed, Serene, Meditative, Sleepy, Peaceful]
+        supp_moods:
+          [
+            Chill,
+            Contemplative,
+            Ethereal,
+            Cozy,
+            Tender,
+            Introspective,
+            Spiritual,
+            Nostalgic,
+          ]
+        threshold: "c >= 2 or (c >= 1 and s >= 2)"
+    evaluation_order: [step_1, step_2]
+    pseudocode: |
+      def relaxation_qualifies(track_moods):
+          ANTI = {"Energetic","Upbeat","Aggressive","Explosive","Frenzy",
+                  "Furious","Danceful","Groovy","Ecstatic","Chaotic",
+                  "Defiant","Rebellious","Triumphant","Heroic","Epic"}
+          CORE = {"Relaxed","Serene","Meditative","Sleepy","Peaceful"}
+          SUPP = {"Chill","Contemplative","Ethereal","Cozy","Tender",
+                  "Introspective","Spiritual","Nostalgic"}
+
+          if track_moods & ANTI:
+              return False
+
+          c = len(track_moods & CORE)
+          s = len(track_moods & SUPP)
+          return c >= 2 or (c >= 1 and s >= 2)
+
+# ─── Post-Assignment Cleanup ────────────────────────────────────────
+
+wandering_cleanup:
+  description: |
+    After initial assignment, RPG_Wandering removes tracks that are
+    dominant in certain other clusters. This prevents "wandering" from
+    becoming a catch-all for tracks better served elsewhere.
+  rules:
+    epic_dominant:
+      moods: [Epic, Triumphant, Heroic, Awe-inspired]
+      min_count: 3
+      effect: "Remove from RPG_Wandering"
+    battle_dominant:
+      moods: [Aggressive, Explosive, Frenzy, Chaotic, Furious]
+      min_count: 2
+      effect: "Remove from RPG_Wandering"
+    danceful_dominant:
+      moods: [Danceful, Groovy, Ecstatic, Upbeat]
+      min_count: 3
+      effect: "Remove from RPG_Wandering"
+    melancholic_dominant:
+      moods: [Melancholic, Sad, Bittersweet, Anguished, Heartbreak, Depressive]
+      min_count: 3
+      effect: "Remove from RPG_Wandering"
+
+# ─── Slice Cap System ───────────────────────────────────────────────
+
+slice_caps:
+  description: |
+    Sliced tracks from special artist pools are capped per cluster to
+    prevent any single sliced artist from dominating a playlist.
+    The cap is computed relative to the non-slice count already in the cluster.
+  formula: "max(1, round(non_slice_count * cap_pct / (1 - cap_pct)))"
+  pools:
+    - artist: Fictional-SterlingHelix
+      cap_pct: 0.05
+      source: classified/singles/sliced/Artist/Fictional-SterlingHelix
+      example: "If cluster has 100 non-slice tracks → max(1, round(100 * 0.05 / 0.95)) = 5 sliced Fictional-SterlingHelix tracks"
+    - artist: MedievalAmbience
+      cap_pct: 0.02
+      source: classified/singles/sliced/Artist/MedievalAmbience
+      example: "If cluster has 100 non-slice tracks → max(1, round(100 * 0.02 / 0.98)) = 2 sliced MedievalAmbience tracks"
+
+# ─── Artist Fallback ────────────────────────────────────────────────
+
+artist_fallback:
+  description: |
+    If a track from a source artist matches NO cluster via scoring,
+    it is assigned to default clusters based on the artist's known
+    emotional character. This ensures complete artist coverage.
+  mappings:
+    Fictional-TimberWarden: [RPG_Town, RPG_Ambient]
+    Fictional-CoralFountain: [RPG_Battle, RPG_Tension]
+    Fictional-StormSwan: [RPG_Danceful, RPG_Battle]
+    Fictional-CrimsonOracle: [RPG_Battle, RPG_Danceful]
+    Fictional-SolarLantern: [RPG_Town, RPG_Wandering]
+  note: "Only applies to tracks that scored zero on all 12 clusters."
+
+# ─── Invariant Checks ───────────────────────────────────────────────
+
+invariants:
+  - name: no_copies
+    description: "RPG_ folders use hard links, not copies. File sizes must not double."
+    check: "du -sh classified/singles/Mood/_Contextual/ vs sum of link targets"
+  - name: source_coverage
+    description: "Every non-excluded source-artist track must appear in at least one RPG_ folder."
+    check: "diff <(find Mood/_Contextual -type f | sort -u) <(find Mood/<source_moods> -type f | sort -u)"
+  - name: consistent_moods
+    description: "A file's mood tags (from its Mood/ folder path) must not contradict its RPG_ placement."

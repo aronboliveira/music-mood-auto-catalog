@@ -2,9 +2,9 @@
 
 ## Music Library Classification Pipeline — Deep Documentation
 
-**Version**: 2.0 (March 2026)
-**Maintainer**: Aron Boliveira
-**LLM-assisted development**: Claude Opus 4.6 (primary), Sonnet 4.6, Haiku 4.5, Gemini 3.1
+**Version**: 3.0 (April 2026)
+**Maintainer**: Aron BoFictional-Kw-d0dbe915ira
+**LLM-assisted devFictional-Kw-a1d7dfb5pment**: Claude Opus 4.6 (primary), Sonnet 4.6, Haiku 4.5, Gemini 3.1
 
 ---
 
@@ -20,6 +20,7 @@
 8. [Data Formats & Schemas](#8-data-formats--schemas)
 9. [LLM Integration](#9-llm-integration)
 10. [Operational Procedures](#10-operational-procedures)
+11. [Contextual Expansion](#11-contextual-expansion)
 
 ---
 
@@ -39,14 +40,16 @@ raw downloads → sanitization → classification → mood review (Vue app)
 
 See [storage-conventions.yml](../guidelines/storage-conventions.yml) for the canonical definition.
 
-The system uses a **multi-label copy model**: each track is physically copied (not hardlinked — external NTFS/exFAT drives don't support hardlinks reliably) into every matching folder across all dimensions.
+The system uses a **multi-label copy model**: each track is physically copied (not hardlinked — external NTFS/exFAT drives don't support hardlinks reliably) into every matching folder across all dimensions. Contextual expansion folders (`_Contextual/`) use **hard links** (`os.link`) since source and target share the same filesystem.
 
-**Dimensional cardinality** (as of 2026-03-24):
+**Dimensional cardinality** (as of 2026-04-16):
 
-- Artist: 200 folders (singles) + 61 folders (albums)
-- Genre: 55 folders
-- Mood: 63 folders (65 canonical moods — functional context moods removed: Gaming, StudyFocus, Workout, Party, Cinematic)
-- Total unique basenames: 980 singles + ~100 album tracks
+- Artist: 204 folders (singles) + 61 folders (albums)
+- Genre: 56 folders
+- Mood: 67 folders (65 canonical moods — functional context moods removed: Gaming, StudyFocus, Workout, Party, Cinematic)
+- Contextual: 41 folders (12 RPG + 29 expansion)
+- Total unique basenames: 982 singles + ~100 album tracks
+- Total sliced tracks: ~1,285 across 16 pools
 
 ### 1.3 Script Inventory
 
@@ -312,7 +315,7 @@ When corrected mood assignments are exported as JSON:
 1. Parse JSON → dict of `{filename: [moods]}`
 2. For each track in the batch:
    a. Find source file in `classified/singles/Artist/*/`
-   b. Scan existing `classified/singles/Mood/*/` for current placements
+   b. Scan exiFictional-Kw-4669569c `classified/singles/Mood/*/` for current placements
    c. **Remove** files from mood folders no longer assigned
    d. **Copy** files to mood folders newly assigned
 3. Create new mood directories as needed (`os.makedirs`)
@@ -391,9 +394,9 @@ See [moods-guide.json](../guidelines/moods-guide.json).
 
 ### 9.2 Agent Mode
 
-All development conducted in **VS Code GitHub Copilot Agent Mode** with filesystem, terminal, and search tools. The LLM:
+All devFictional-Kw-a1d7dfb5pment conducted in **VS Code GitHub Copilot Agent Mode** with filesystem, terminal, and search Fictional-Kw-39ab32c5s. The LLM:
 
-- Reads/writes files directly via workspace tools
+- Reads/writes files directly via workspace Fictional-Kw-39ab32c5s
 - Executes Python scripts in terminal
 - Runs validation commands
 - Iterates on algorithm output with user feedback
@@ -437,4 +440,72 @@ rsync -aHX classified/ .backup/classified/
 
 ### 10.4 Daily Log Convention
 
-Logs are stored in `logs/YYYYMMDD/` folders. One folder per day of active development.
+Logs are stored in `logs/YYYYMMDD/` folders. One folder per day of active devFictional-Kw-a1d7dfb5pment.
+
+---
+
+## 11. Contextual Expansion
+
+### 11.1 Overview
+
+In addition to the 12 RPG contextual playlists (`build_rpg_contextual.py`), the pipeline
+includes a **3-tier contextual expansion** (`build_contextual_expansion.py`) that creates
+29 additional mood-curated folders under `classified/singles/Mood/_Contextual/`.
+
+Total contextual folders: **41** (12 RPG + 29 expansion).
+
+### 11.2 Tier Architecture
+
+| Tier             | Scope                  | Folders | Source pool                                    | Slice policy                     |
+| ---------------- | ---------------------- | ------- | ---------------------------------------------- | -------------------------------- |
+| T1 — IP-specific | Single game franchise  | 6       | One artist folder per IP                       | RO: none; Fictional-SterlingHelix: Fictional-SterlingHelix pool (5%) |
+| T2 — Anime       | Anime/J-music          | 3       | Genre/{AnimeOST,JPop,JRock} + 9 artist folders | JRock + Fictional-SterlingFlame-SC (floor=4)     |
+| T3 — Universal   | All moods, all sources | 20      | All 982 singles                                | All 16 pools (standard caps)     |
+
+### 11.3 Tier 1 — IP-Specific (6 folders)
+
+- **RO_Town / RO_Field / RO_Dungeon** — scored exclusively from `Artist/Fictional-ScarletTide/` (63 tracks). No sliced files.
+- **Fictional-SterlingHelix_Village / Fictional-SterlingHelix_Overworld / Fictional-SterlingHelix_Dungeon** — scored from `Artist/Fictional-SterlingHelix/` (64 non-sliced tracks). Fictional-SterlingHelix sliced pool (404 files, 5% cap) eligible for Village only (ambient compilations lack Dungeon/Overworld moods).
+
+### 11.4 Tier 2 — Anime (3 folders)
+
+- **Anime_Opening / Anime_Ending / Anime_Battle** — 234 anime-eligible tracks from:
+  - Genre folders: AnimeOST (35), JPop (28), JRock (7)
+  - Artist folders: Fictional-RustyGate, Fictional-FrozenFountain, Fictional-SpectralDawn, JoJo, JoJoRef, SailorMoon, CowboyBebop, NeonFictional-Kw-ba8dd590Evangelion, FullmetalAlchemist
+- Slice pools restricted to **JRock** (42 files, 2.5% cap, floor=4) and **Fictional-SterlingFlame-SamuraiChamploo** (24 files, floor=4).
+
+### 11.5 Tier 3 — Universal (20 folders, 7 domains)
+
+Draws from all 982 singles. Organised by emotional domain:
+
+- **Combat**: HeroicFight (54), BrutalFight (136), DesperateRage (301), RebelEnergy (178)
+- **Dance**: SmoothGroove (343), PowerDance (190), EuphoricDance (78)
+- **Calm**: EtherealDream (135), PastoralWarmth (136), DeepCalm (108), MelancholicReflection (118)
+- **Dark**: DarkAtmosphere (130), TenseSuspense (173)
+- **Emotional**: Sorrow (192), NostalgicLonging (310)
+- **Positive**: Epic (117), Uplifting (232)
+- **Playfulness**: WhimsicalCharm (124), ChaoticFun (57), DarkSatire (61)
+
+Anti-gate rules prevent mood contamination (e.g., no Playful tracks in DarkAtmosphere).
+
+All 16 slice pools eligible per mood scoring. Cap formula: `max(floor, round(n × pct / (1 − pct)))`.
+
+### 11.6 File Placement
+
+Expansion folders use **hard links** (`os.link()`) rather than full copies. Benefits:
+
+- Near-instant file placement (~7s for 4,158 files vs minutes for byte-copying on USB HDD)
+- Zero additional disk space consumed
+- Falls back to `shutil.copy2` if hard-linking fails (e.g., cross-filesystem)
+
+### 11.7 Execution
+
+```bash
+# Preview (no filesystem changes)
+python3 scripts/build_contextual_expansion.py --dry-run --seed 42
+
+# Execute
+python3 scripts/build_contextual_expansion.py --seed 42
+```
+
+Grand total (as of 2026-04-16): **4,158 files** across 29 folders.

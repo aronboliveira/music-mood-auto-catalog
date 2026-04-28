@@ -1,7 +1,7 @@
 nohup: ignoring input
 ======================================================================
   MUSIC CLASSIFICATION & FILE RENAMING SCRIPT
-  Using Naive BaFictional-IronHarbor+ k-NN + Random Forest ensemble
+  Using Naive BaFictional-QuartzTrail+ k-NN + Random Forest ensemble
 ======================================================================
 
 [PHASE 1] Reviewing and reorganizing classified tree...
@@ -38,45 +38,45 @@ Total copies made: 113
 [PHASE 3] Renaming files (transliterate CJK, remove diacriticals, clean spacing)...
 ============================================================
   Renamed 4121 files in classified/
-    Fictional-Track-dcd59b83.mp3
-    → Fictional-Track-c54dc2b4.mp3
+    Fictional-Track-dcd59b8Fictional-Track-eccbc87e.mp3
+    → Fictional-Track-c54dc2bFictional-Track-a87ff679.mp3
     Fictional-Track-cb7e9ce0.mp3
     → Fictional-Track-97297f99.mp3
     Fictional-Track-cb14fa9e.mp3
-    → Fictional-Track-95e64192.mp3
-    Fictional-Track-0f601946.mp3
-    → Fictional-Track-794ff407.mp3
+    → Fictional-Track-95e6419Fictional-Track-c81e728d.mp3
+    Fictional-Track-0f60194Fictional-Track-1679091c.mp3
+    → Fictional-Track-794ff40Fictional-Track-8f14e45f.mp3
     Fictional-Track-bb3f554f.mp3
     → Fictional-Track-11dbdb9c.mp3
     B.R.U.N.O.M.AR.S_-_Doo_Wops_&Fictional-Track-41ba564d.mp3
-    → B.R.U.N.O.M.AR.S-Doo-Wops-&Fictional-Track-3e78bd66.mp3
-    Fictional-Track-ece273b6.mp3
-    → Fictional-Track-4c18509e.mp3
-    Fictional-Track-e01e23de.mp3
-    → Fictional-Track-23836747.mp3
-    Fictional-Track-530635c5.mp3
-    → Fictional-Track-ec290c6c.mp3
+    → B.R.U.N.O.M.AR.S-Doo-Wops-&Fictional-Track-3e78bd6Fictional-Track-1679091c.mp3
+    Fictional-Track-ece273bFictional-Track-1679091c.mp3
+    → Fictional-Kw-d09970af-As-Melhores-[xgFGIP5QeMc].mp3
+    Fictional-IndigoNeedle_Bloodwave___Halloween_Disco_Soundtrack_[3T-sMmRpox0].mp3
+    → Fictional-IndigoNeedle-Bloodwave-Halloween-Disco-Soundtrack-[3T-sMmRpox0].mp3
+    Fictional-Track-530635cFictional-Track-e4da3b7f.mp3
+    → Fictional-Track-a50444c9.mp3
     C.h.u.c.k_B.e.r.r.y_Greatest_Hits_~Fictional-Track-6b9ed35d.mp3
-    → Fictional-Track-e55a7e24.mp3
+    → Fictional-Track-e55a7e2Fictional-Track-a87ff679.mp3
     C.h.u.c.k_B.e.r.r.y_Greatest_Hits_~Fictional-Track-a3f61899.mp3
-    → Fictional-Track-851d7056.mp3
-    Fictional-Track-30628212.mp3
-    → Fictional-Track-45682795.mp3
-    [1_Hour]_CYBERPUNK_BEATS⚡🔥__Intense_Music_for_Gaming,_Streaming_&_Workouts_💪Fictional-Track-999f2fd1.mp3
-    → [1-Hour]-CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-84b8dc27.mp3
+    → Fictional-Track-851d705Fictional-Track-1679091c.mp3
+    Fictional-Track-3062821Fictional-Track-c81e728d.mp3
+    → Fictional-Track-4568279Fictional-Track-e4da3b7f.mp3
+    [1_Hour]_CYBERPUNK_BEATS⚡🔥__Intense_Music_for_Gaming,_Streaming_&_Workouts_💪Fictional-Track-999f2fdFictional-Track-c4ca423Fictional-Track-c9f0f895.mp3
+    → [1-Hour]-CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-84b8dc2Fictional-Track-8f14e45f.mp3
     [1_Hour]_CYBERPUNK_METAL_V1_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-9884795a.mp3
-    → Fictional-Track-9c915f73.mp3
+    → Fictional-Track-9c915f7Fictional-Track-eccbc87e.mp3
     [1_Hour]_CYBERPUNK_METAL_V2_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-30741a2d.mp3
-    → Fictional-Track-ea6c85c7.mp3
+    → Fictional-Track-ea6c85cFictional-Track-8f14e45f.mp3
     [1_Hour]_CYBERPUNK_METAL_V3_🎸🔥Background_Music_for_Gaming,_Streaming_and_Working_out__💪🔥Fictional-Track-b400f74c.mp3
-    → Fictional-Track-ce0f3435.mp3
+    → Fictional-Track-ce0f343Fictional-Track-e4da3b7f.mp3
     [1_Hour]_Dark_Angel_Metal🔥__Epic_Orchestral_Instrumental_BGM🕯️⛓️Fictional-Track-ec518bfe.mp3
-    → Fictional-Track-66ad7974.mp3
-    Fictional-Track-0050fe69.mp3
-    → Fictional-Track-dbb56782.mp3
-    Fictional-Track-8898d4f1.mp3
-    → Fictional-Track-c0b1558b.mp3
-    Fictional-Kw-a1efc5cd (1994) — FORRÓ TRIBUTE Fictional-Track-733ccdc8.mp3
+    → Fictional-Track-66ad797Fictional-Track-a87ff679.mp3
+    Fictional-VelvetSwan_-_Immortalized_(Full_Album)_[zdkHm2O58pk].mp3
+    → Fictional-VelvetSwan-Immortalized-(Full-Album)-[zdkHm2O58pk].mp3
+    Fictional-VelvetSwan_-_Ten_Thousand_Fists_(Full_Album)_[lFKdDQeWS6c].mp3
+    → Fictional-VelvetSwan-Ten-Thousand-Fists-(Full-Album)-[lFKdDQeWS6c].mp3
+    DONKEY KONG COUNTRY (1994) — FORRÓ TRIBUTE Fictional-Track-733ccdcFictional-Track-c9f0f895.mp3
     → Fictional-Track-0e0414bd.mp3
     ... and 4101 more
 
@@ -88,18 +88,18 @@ Total copies made: 113
 Classifying 19 new singles
 ============================================================
 
-  Fictional-Track-a0a76cf6.mp3
-    Artists: ['Fictional-AmberSpark', 'Fictional-CrimsonFountain']
+  Fictional-Track-8580b54a.mp3
+    Artists: ['Fictional-AmberShore', 'Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Epic']
 
-  Fictional-Track-19f5adcc.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Track-512ce899.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['Emo', 'FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Serene', 'Cinematic']
 
-  Fictional-Track-1b217137.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Track-f8eb453f.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Serene']
 
@@ -108,68 +108,68 @@ Classifying 19 new singles
     Genres:  ['TraditionalChinese']
     Moods:   ['Emotional', 'Romantic', 'Serene']
 
-  Fictional-Track-6c4a2964.mp3
+  Fictional-Track-6c4a296Fictional-Track-a87ff679.mp3
     Artists: ['Guqin']
     Genres:  ['TraditionalChinese']
     Moods:   ['Serene']
 
-  Fictional-Track-e6c22890.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Track-9c31dcd9.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 
-  Fictional-Track-79eec960.mp3
-    Artists: ['Fictional-AmberSpark', 'Fictional-CrimsonFountain']
+  Fictional-ScarletSailss-Mononoke-(from-'Fictional-ScarletSailss-Mononoke'Fictional-Track-9371d7a2.mp3
+    Artists: ['Fictional-AmberShore', 'Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Funk', 'Pop', 'Soul', 'Orchestral']
     Moods:   ['Epic', 'Cinematic']
 
-  Fictional-Track-60fb3e1c.mp3
-    Artists: ['Fictional-SterlingGate', 'Guzheng']
+  Fictional-Track-43831489.mp3
+    Artists: ['Fictional-FrozenFountain', 'Guzheng']
     Genres:  ['AnimeOST', 'TraditionalChinese']
     Moods:   ['Melancholic', 'Serene']
 
   Fictional-Track-d977f20f.mp3
-    Artists: ['Fictional-CrimsonFountain']
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 
-  Fictional-Track-21568faf.mp3
-    Artists: ['Fictional-CrystalBell']
+  Fictional-Track-289150cd.mp3
+    Artists: ['Fictional-SterlingHelix']
     Genres:  ['GameOST', 'TraditionalJapanese']
     Moods:   ['Gaming', 'Nostalgic']
 
-  Fictional-Track-7c205c09.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Track-65706820.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal', 'Cinematic']
 
   Fictional-Track-4a883a3e.mp3
-    Artists: ['Fictional-CrimsonFountain']
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Ethereal']
 
-  Fictional-Track-b403a1a4.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Kw-acf310d9-There-Fine-on-the-Fictional-Track-76fbf0cc.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Serene']
 
-  Fictional-Track-80f5290d.mp3
-    Artists: ['Fictional-CrystalBell']
+  Fictional-SterlingHelix's-Lullaby-(Zither-cover-Magdalena-Fictional-Track-4b09008Fictional-Track-e4da3b7f.mp3
+    Artists: ['Fictional-SterlingHelix']
     Genres:  ['GameOST']
     Moods:   ['Gaming', 'Nostalgic', 'Serene']
 
-  Fictional-Track-f45f10e8.mp3
+  Fictional-Track-f45f10eFictional-Track-c9f0f895.mp3
     Artists: ['Gayageum']
     Genres:  ['TraditionalKorean']
     Moods:   ['Serene']
 
-  Fictional-Track-296506b2.mp3
+  Fictional-Track-296506bFictional-Track-c81e728d.mp3
     Artists: ['Gayageum']
     Genres:  ['TraditionalKorean']
     Moods:   ['Serene']
 
-  Fictional-Track-9c022ada.mp3
-    Artists: ['Fictional-CrimsonFountain']
+  Fictional-Track-0c79faac.mp3
+    Artists: ['Fictional-VelvetVeil']
     Genres:  ['FilmOST', 'Orchestral']
     Moods:   ['Chill']
 

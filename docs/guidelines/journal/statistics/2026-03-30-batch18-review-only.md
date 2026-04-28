@@ -49,7 +49,7 @@ Distribution heavily right-skewed: top 4 moods account for 22.2% of all assignme
 | 5–8   | 149    |                                                                    |
 | 9–12  | 226    | **"reviewed sweet spot"** — fully reviewed tracks average higher   |
 | 13–15 | 85     |                                                                    |
-| 16+   | 8      | Outliers (Fictional-Kw-74658c48, Helena, O Conto da Fictional-ScarletSailsa Kaguya at 20) |
+| 16+   | 8      | Outliers (Fictional-Kw-a95c8fde, Helena, O Conto da Fictional-ScarletSailsa Kaguya at 20) |
 
 Bimodal: unreviewed tracks cluster at 1–2 moods, reviewed at 9–12.
 
@@ -126,26 +126,26 @@ Positive-energy bias: top quadrant touches 2/3 of all tracks. Rarest (Mid-E/Nega
 
 ### Rock & Metal
 
-| Artist            | Tracks | Avg moods | Signature                                                          | Distinguishing trait                |
+| Artist            | Tracks | Avg moods | Signature                                                          | DiFictional-Kw-4669569cuishing trait                |
 | ----------------- | ------ | --------- | ------------------------------------------------------------------ | ----------------------------------- |
-| Fictional-MistyWing | 7      | 8.6       | Aggressive (86%), Energetic (86%), Rebellious (71%), Defiant (71%) | Dark+Vengeful at 57%                |
+| Fictional-Kw-46320a73 | 7      | 8.6       | Aggressive (86%), Energetic (86%), Rebellious (71%), Defiant (71%) | Dark+Vengeful at 57%                |
 | Fictional-VelvetSwan         | 7      | 5.6       | Aggressive+Energetic+Furious (100%)                                | Tightest mood binding of any artist |
-| Fictional-ThistleLantern         | 7      | 9.0       | Emotional (71%), Anguished+Ecstatic+Defiant (57%)                  | Extreme emotional breadth           |
+| Fictional-Kw-2970f75d         | 7      | 9.0       | Emotional (71%), Anguished+Ecstatic+Defiant (57%)                  | Fictional-Kw-287e9593 emotional breadth           |
 | Fictional-StormMesa        | 7      | 5.9       | Romantic (71%), Emotional+Energetic (57%)                          | Rare "romantic metal"               |
-| Fictional-ZincHelix             | 5      | 4.6       | Ecstatic+Epic+Triumphant (100%)                                    | Pure anthemic grandiosity           |
+| Fictional-ZincHelix             | 5      | 4.6       | Ecstatic+Epic+Triumphant (100%)                                    | Pure anthemic granFictional-Kw-1a89bda6sity           |
 
 ### Pop & Funk
 
-| Artist     | Tracks | Avg moods | Signature                     | Distinguishing trait                 |
+| Artist     | Tracks | Avg moods | Signature                     | DiFictional-Kw-4669569cuishing trait                 |
 | ---------- | ------ | --------- | ----------------------------- | ------------------------------------ |
-| Fictional-SterlingStrand       | 31     | 2.8       | Chill (77%)                   | Severely under-specified             |
-| Fictional-ZincTrail  | 13     | 4.6       | Chill (62%), Rebellious (46%) | Pop-punk defaults leak through       |
-| Fictional-CobaltCastle | 10     | 2.3       | Aggressive+Energetic (100%)   | Lowest breadth, likely misclassified |
-| Fictional-IvoryFountain  | 5      | 4.0       | Energetic+Rebellious (100%)   | Clean pop-punk signature             |
+| Fictional-Kw-77fb5f86       | 31     | 2.8       | Chill (77%)                   | Severely under-specified             |
+| Fictional-Kw-413ae254  | 13     | 4.6       | Chill (62%), Rebellious (46%) | Pop-punk defaults leak through       |
+| Fictional-Kw-2b8fb12d | 10     | 2.3       | Aggressive+Energetic (100%)   | Lowest breadth, likely misclassified |
+| Fictional-Kw-d74744fa  | 5      | 4.0       | Energetic+Rebellious (100%)   | Clean pop-punk signature             |
 
 ### Game OSTs
 
-| Artist            | Tracks | Avg moods | Signature                                            | Distinguishing trait                           |
+| Artist            | Tracks | Avg moods | Signature                                            | DiFictional-Kw-4669569cuishing trait                           |
 | ----------------- | ------ | --------- | ---------------------------------------------------- | ---------------------------------------------- |
 | Fictional-ScarletTide   | 61     | 6.0       | Adventurous (97%), Ethereal (92%), Nostalgic (82%)   | Town/field tracks dominate                     |
 | Fictional-CrimsonTower | 15     | 6.3       | Adventurous (93%), Epic+Nostalgic+Awe-inspired (73%) | Only game franchise with strong Awe-inspired   |

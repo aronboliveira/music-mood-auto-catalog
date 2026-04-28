@@ -1,5 +1,5 @@
 ./docs/guidelines/classifier-tuning.toml
-./docs/guidelines/data/Fictional-Jozep-refs.yml
+./docs/guidelines/data/Fictional-TimberTrail-refs.yml
 ./docs/guidelines/moods-checks-app.js
 ./docs/guidelines/moods-checks.css
 ./docs/guidelines/moods-checks-data.js
@@ -118,7 +118,7 @@
 ./scripts/ambient-slicers.sh
 ./scripts/analyze_various.py
 ./scripts/apply_filename_sanitisation.py
-./scripts/apply_Fictional-Jozep_refs.py
+./scripts/apply_Fictional-TimberTrail_refs.py
 ./scripts/classify_and_clean.py
 ./scripts/copy_vidasimu.py
 ./scripts/final_fix.py

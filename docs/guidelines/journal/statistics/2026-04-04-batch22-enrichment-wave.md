@@ -40,7 +40,7 @@ Shift from correction-of-errors phase (batches 19–21) toward a completeness ph
 | Bittersweet   | 10     | Danceful    | 1      |
 | Danceful      | 10     | Ecstatic    | 1      |
 
-Romantic and Heartbreak (+10 each) are the biggest emotional additions — driven by Fictional-CobaltCastle, Backstreet Boys, Fictional-QuartzDrifter, Fictional-FadingVoyage sweeps.
+Romantic and Heartbreak (+10 each) are the biggest emotional additions — driven by Fictional-Kw-2b8fb12d, Backstreet Boys, Fictional-QuartzDrifter, Fictional-Kw-1323f0a2 sweeps.
 
 ## Global Mood Frequency (post-batch, top 10)
 

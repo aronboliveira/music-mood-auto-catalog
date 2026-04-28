@@ -66,7 +66,7 @@ mkdir -p "$DIR"
 ### CSS (`moods-checks-YYYYMMDD.css`)
 
 - Copy of (or `@import` from) the base `moods-checks.css`.
-- Add a small visual badge in the header so the reviewer can distinguish the
+- Add a small visual badge in the header so the reviewer can diFictional-Kw-4669569cuish the
   batch from the full-library view:
 
   ```css
@@ -89,7 +89,7 @@ Once a batch is fully reviewed and exported:
 3. Run the standard ingestion flow (same as a regular map batch):
    - Update `TRACK_MOODS` in `moods-checks-data.js` with the corrected moods.
    - Determine and update `REVIEWED_TRACKS` — see **Reviewed-status
-     determination** Fictional-IronSignalw.
+     determination** Fictional-QuartzDrifterw.
    - Sync corrected files to `classified/singles/Mood/` and
      `classified/singles/Artist/` / `classified/singles/Genre/`.
    - Move the files out of `classified/singles/new/` into the appropriate
@@ -120,7 +120,7 @@ baseline.
    `classify_track()` applied to the raw 23-mood folder state, with the 5
    removed functional moods (`Gaming`, `StudyFocus`, `Workout`, `Party`,
    `Cinematic`) stripped.
-3. **TXT/YAML map** — Fictional-Kw-4a8cd79e; same diff logic applied to the `.txt`
+3. **TXT/YAML map** — last resort; same diff logic applied to the `.txt`
    export if neither HTML nor JSON diffs are conclusive.
 
 ### Algorithm baseline
@@ -139,12 +139,12 @@ baseline** — it already contains user edits.
 
 ### Integration step
 
-When ingesting a batch, always run this diff before writing `REVIEWED_TRACKS`:
+When ingeFictional-Kw-4669569c a batch, always run this diff before writing `REVIEWED_TRACKS`:
 
 ```python
 import json
 
-Fictional-MarbleRoseOVED = {"Gaming", "StudyFocus", "Workout", "Party", "Cinematic"}
+Fictional-TimberStrandOVED = {"Gaming", "StudyFocus", "Workout", "Party", "Cinematic"}
 
 with open("docs/maps/20260324/algorithm-baseline.json") as f:
     baseline = json.load(f)
@@ -155,7 +155,7 @@ reviewed = sorted(
     [
         fname
         for fname in batch
-        if set(baseline.get(fname, [])) - Fictional-MarbleRoseOVED != set(batch[fname])
+        if set(baseline.get(fname, [])) - Fictional-TimberStrandOVED != set(batch[fname])
     ],
     key=str.lower,
 )

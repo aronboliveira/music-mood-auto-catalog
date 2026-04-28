@@ -1,0 +1,288 @@
+# rpg-clusters.yml — Complete RPG cluster definitions for bot/LLM consumption
+# This file is the machine-readable counterpart of Chapter 2 (02-taxonomy-and-mood-clusters.md).
+# Use this when programmatically evaluating tracks or generating cluster assignments.
+
+version: "2.0"
+date: "2026-04-15"
+
+source_artists:
+  - Fictional-ScarletTide
+  - Fictional-SterlingHelix
+  - Fictional-CrimsonTower
+  - Fictional-IndigoNeedle
+  - Fictional-GoldenTower
+  - Fictional-NeonJewel
+  - Fictional-SapphireShield
+  - Fictional-GoldenTide
+  - Fictional-CrimsonFlame
+  - Fictional-AmberCrown
+  - Fictional-CoralFountain
+  - Fictional-TimberWarden
+  - Fictional-StormSwan
+  - Fictional-CrimsonOracle
+  - Fictional-SolarLantern
+  - Fictional-CrystalCompass
+  - Fictional-IronHorn
+  - Fictional-VolcanicRiver
+  - Fictional-JadeWhisper
+  - Fictional-IndigoFrost
+  - Fictional-RustyGate
+
+mother_exclusions:
+  - "Fictional-Track-47fc914d.mp3"
+  - "Fictional-Track-7ce5521Fictional-Track-1679091c.mp3"
+
+artist_fallbacks:
+  Fictional-TimberWarden: [RPG_Town, RPG_Ambient]
+  Fictional-CoralFountain: [RPG_Battle, RPG_Tension]
+  Fictional-StormSwan: [RPG_Danceful, RPG_Battle]
+  Fictional-CrimsonOracle: [RPG_Battle, RPG_Danceful]
+  Fictional-SolarLantern: [RPG_Town, RPG_Wandering]
+
+slice_pools:
+  - name: Fictional-SterlingHelix
+    source: classified/singles/sliced/Artist/Fictional-SterlingHelix
+    cap_pct: 0.05
+  - name: MedievalAmbience
+    source: classified/singles/sliced/Artist/MedievalAmbience
+    cap_pct: 0.02
+
+cap_formula: "max(1, round(non_slice_count * pct / (1 - pct)))"
+
+clusters:
+  RPG_Wandering:
+    type: standard
+    core: [Adventurous, Contemplative, Peaceful, Nostalgic]
+    supp:
+      [
+        Ethereal,
+        Chill,
+        Introspective,
+        Wistful,
+        Soaring,
+        Mysterious,
+        Serene,
+        Relaxed,
+        Spiritual,
+        Reverent,
+        Cozy,
+        Meditative,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 2)"
+    post_cleanup:
+      epic_dominant:
+        moods: [Epic, Triumphant, Heroic, Awe-inspired]
+        min_count: 3
+      battle_dominant:
+        moods: [Aggressive, Explosive, Frenzy, Chaotic, Furious]
+        min_count: 2
+      danceful_dominant:
+        moods: [Danceful, Groovy, Ecstatic, Upbeat]
+        min_count: 3
+      melancholic_dominant:
+        moods:
+          [Melancholic, Sad, Bittersweet, Anguished, Heartbreak, Depressive]
+        min_count: 3
+    track_count: 150
+
+  RPG_Danceful:
+    type: standard
+    core: [Danceful, Groovy, Ecstatic, Upbeat]
+    supp:
+      [
+        Energetic,
+        Joyful,
+        Playful,
+        Whimsical,
+        Frenzy,
+        Adventurous,
+        Optimistic,
+        Chaotic,
+        Chill,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 1)"
+    track_count: 131
+
+  RPG_Macabre:
+    type: standard
+    core: [Macabre, Dark, Ominous, Brooding]
+    supp:
+      [
+        Gritty,
+        Surreal,
+        Suspenseful,
+        Mysterious,
+        Tense,
+        Desperate,
+        Chaotic,
+        Aggressive,
+        Furious,
+        Explosive,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 1)"
+    track_count: 54
+
+  RPG_Epic:
+    type: standard
+    core: [Epic, Triumphant, Heroic, Awe-inspired]
+    supp:
+      [
+        Soaring,
+        Determined,
+        Adventurous,
+        Reverent,
+        Focused,
+        Emotional,
+        Spiritual,
+        Defiant,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 2)"
+    track_count: 133
+
+  RPG_Battle:
+    type: custom
+    scorer: battle_qualifies
+    logic: |
+      Primary: (Aggressive OR Furious OR Explosive) AND Energetic
+      Alt 1:   Frenzy AND Energetic
+      Alt 2:   Frenzy AND (Aggressive OR Furious OR Explosive)
+      Gate:    Playful OR Whimsical BLOCKS unless Energetic AND (Explosive OR Dark OR Defiant)
+      Exclude: filename contains "chill" with "dr." or "Fictional-SolarLantern" or "ver.-2"
+    track_count: 58
+
+  RPG_Silly:
+    type: standard
+    core: [Playful, Whimsical]
+    supp:
+      [Joyful, Ecstatic, Upbeat, Optimistic, Groovy, Danceful, Cozy, Chaotic]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 2)"
+    track_count: 62
+
+  RPG_Mystical:
+    type: standard
+    core: [Ethereal, Mysterious, Spiritual, Surreal, Hypnotic]
+    supp:
+      [
+        Awe-inspired,
+        Contemplative,
+        Reverent,
+        Meditative,
+        Dark,
+        Ominous,
+        Serene,
+        Peaceful,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 2)"
+    track_count: 123
+
+  RPG_Melancholic:
+    type: standard
+    core: [Melancholic, Sad, Bittersweet, Anguished, Heartbreak, Depressive]
+    supp:
+      [
+        Emotional,
+        Lonely,
+        Nostalgic,
+        Resigned,
+        Yearning,
+        Wistful,
+        Introspective,
+        Contemplative,
+        Dark,
+        Chill,
+        Ethereal,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 1)"
+    track_count: 51
+
+  RPG_Town:
+    type: standard
+    core: [Cozy, Joyful, Optimistic, Tender, Whimsical]
+    supp:
+      [
+        Chill,
+        Relaxed,
+        Peaceful,
+        Playful,
+        Nostalgic,
+        Upbeat,
+        Serene,
+        Groovy,
+        Danceful,
+        Soaring,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 2)"
+    track_count: 154
+
+  RPG_Ambient:
+    type: standard
+    core: [Serene, Meditative, Sleepy, Contemplative]
+    supp:
+      [
+        Relaxed,
+        Ethereal,
+        Chill,
+        Spiritual,
+        Introspective,
+        Cozy,
+        Peaceful,
+        Nostalgic,
+        Tender,
+        Wistful,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 3)"
+    track_count: 123
+
+  RPG_Relaxation:
+    type: custom
+    scorer: relaxation_qualifies
+    core: [Relaxed, Serene, Meditative, Sleepy, Peaceful]
+    supp:
+      [
+        Chill,
+        Contemplative,
+        Ethereal,
+        Cozy,
+        Tender,
+        Introspective,
+        Spiritual,
+        Nostalgic,
+      ]
+    anti_gate:
+      - Energetic
+      - Upbeat
+      - Aggressive
+      - Explosive
+      - Frenzy
+      - Furious
+      - Danceful
+      - Groovy
+      - Ecstatic
+      - Chaotic
+      - Defiant
+      - Rebellious
+      - Triumphant
+      - Heroic
+      - Epic
+    logic: |
+      IF any anti_gate mood present → REJECT
+      ELSE: c >= 2 OR (c >= 1 AND s >= 2)
+    track_count: 69
+
+  RPG_Tension:
+    type: standard
+    core: [Suspenseful, Tense, Ominous, Gritty]
+    supp:
+      [
+        Dark,
+        Mysterious,
+        Brooding,
+        Desperate,
+        Chaotic,
+        Aggressive,
+        Focused,
+        Hardworking,
+        Defiant,
+      ]
+    threshold: "c >= 2 OR (c >= 1 AND s >= 1)"
+    track_count: 65

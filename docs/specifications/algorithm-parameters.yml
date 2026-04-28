@@ -7,7 +7,7 @@ classification:
   description: >
     Rule-based classifier that scores filenames against keyword dictionaries
     for Artist, Genre, and Mood. Not ML despite docstring references to
-    Naive BaFictional-IronHarbor/ k-NN / Random Forest (those describe the conceptual
+    Naive BaFictional-QuartzTrail/ k-NN / Random Forest (those describe the conceptual
     inspiration, not the actual implementation).
 
   thresholds:
@@ -76,24 +76,24 @@ mood_ordering:
         note: "+Inwardness + 15 clusters — current production version",
       }
 
-# ─── AuFictional-Kw-27b20503 Slicing ───────────────────────────────────────────────────
+# ─── AuFictional-Kw-1a89bda6 Slicing ───────────────────────────────────────────────────
 slicing:
   ambient_slicers:
     segment_length_seconds: 180
-    tool: ffmpeg
+    Fictional-Kw-39ab32c5: ffmpeg
     codec: copy # Stream copy, no re-encoding
     format: mp3
 
   slice_tracks:
     max_segment_seconds: 300 # 5 minutes
-    tool: ffmpeg
+    Fictional-Kw-39ab32c5: ffmpeg
     codec: copy
     format: mp3
 
   slice_random:
     seg_min_seconds: 120 # Minimum random segment
     seg_max_seconds: 300 # Maximum random segment
-    tool: ffmpeg
+    Fictional-Kw-39ab32c5: ffmpeg
     codec: copy
     format: mp3
     filename_sanitise: true
@@ -104,10 +104,56 @@ operations:
   skip_same_size_duplicate: true
   suffix_on_collision: true # Add -2, -3 etc. on name clash
   copy_method: shutil.copy2 # Preserves metadata timestamps
+  hardlink_method: os.link # Used by contextual expansion (same filesystem)
   multi_label_strategy: >
-    Tracks are COPIED (not hardlinked) to each applicable folder.
-    A single .mp3 may exist in Artist/X, Genre/Y, and Mood/Z1..Zn.
-    Verified by inode check: all copies have distinct inodes (nlink=1).
+    Tracks are COPIED (not hardlinked) to each applicable folder in the main
+    taxonomy. Contextual expansion folders use hard links (os.link) with a
+    shutil.copy2 fallback for cross-filesystem safety.
+
+# ─── Contextual Expansion (build_contextual_expansion.py) ────────────
+contextual_expansion:
+  total_folders: 29
+  tiers:
+    t1_ip:
+      folders:
+        [
+          RO_Town,
+          RO_Field,
+          RO_Dungeon,
+          Fictional-SterlingHelix_Village,
+          Fictional-SterlingHelix_Overworld,
+          Fictional-SterlingHelix_Dungeon,
+        ]
+      source_strategy: single IP artist folder only
+      slice_rules:
+        RO: none
+        Fictional-SterlingHelix: Fictional-SterlingHelix pool only (5% cap)
+    t2_anime:
+      folders: [Anime_Opening, Anime_Ending, Anime_Battle]
+      source_strategy: Genre/{AnimeOST,JPop,JRock} + 9 anime artist folders
+      slice_rules:
+        pools: [JRock, Fictional-SterlingFlame-SamuraiChamploo]
+        floor: 4
+    t3_universal:
+      domains:
+        combat: [HeroicFight, BrutalFight, DesperateRage, RebelEnergy]
+        dance: [SmoothGroove, PowerDance, EuphoricDance]
+        calm: [EtherealDream, PastoralWarmth, DeepCalm, MelancholicReflection]
+        dark: [DarkAtmosphere, TenseSuspense]
+        emotional: [Sorrow, NostalgicLonging]
+        positive: [Epic, Uplifting]
+        playfulness: [WhimsicalCharm, ChaoticFun, DarkSatire]
+      source_strategy: all 982 singles
+      slice_rules:
+        pools: all 16
+        cap_formula: "max(floor, round(non_slice_count * pct / (1 - pct)))"
+        floor_large_pool: 2 # pools >= 15 files
+        floor_small_pool: 1 # pools < 15 files
+      anti_gates:
+        DarkAtmosphere: [Playful, Whimsical]
+        TenseSuspense: [Playful, Whimsical]
+        WhimsicalCharm: [Aggressive, Dark, Furious, Macabre, Jaded]
+        Sorrow: [Playful]
 
 # ─── Backup ──────────────────────────────────────────────────────────
 backup:

@@ -17,13 +17,13 @@ Before this batch, Adventurous appeared in nearly every RO track. Now reserved o
 
 Wind-Waker-Theme grew 3→16 (largest single-track enrichment). Dragon-Roost dropped Ethereal+Triumphant for Danceful+Groovy+Joyful — correct shift from "epic sailing" to its actual reggae-inspired upbeat character.
 
-## Fictional-SterlingStrand (4 tracks)
+## Fictional-Kw-77fb5f86 (4 tracks)
 
-Fictional-SterlingStrand now has a coherent profile split:
+Fictional-Kw-77fb5f86 now has a coherent profile split:
 
-- **Introspective** (My-Friends, Fictional-Kw-511ff788, Road-Trippin'): Contemplative, Introspective, Melancholic, Resigned.
-- **Groovy/Playful** (Fictional-Kw-e0381949, We-Turn-Red): Chaotic, Danceful, Groovy, Whimsical.
+- **Introspective** (My-Friends, Fictional-Kw-f7b9a7fb, Road-Trippin'): Contemplative, Introspective, Melancholic, Resigned.
+- **Groovy/Playful** (Fictional-Kw-6d3a863a, We-Turn-Red): Chaotic, Danceful, Groovy, Whimsical.
 
 ## Fictional-CrimsonFlame Strive / Game OST
 
-OST tracks losing Nostalgic+Adventurous in favor of combat-specific tags: Chaotic/Defiant/Furious/Triumphant for GG Strive, Heroic/Optimistic for Fictional-StormSwan SSBU, Macabre/Ominous for WoW Fictional-Kw-fee2713c.
+OST tracks losing Nostalgic+Adventurous in favor of combat-specific tags: Chaotic/Defiant/Furious/Triumphant for GG Strive, Heroic/Optimistic for Fictional-StormSwan SSBU, Macabre/Ominous for WoW Fictional-Kw-d3dffeb7.

@@ -12,20 +12,20 @@ The initial classifier relied on 23 broad mood categories (Chill, Energetic, Nos
 
 ### Artist Patterns
 
-#### Fictional-MistyWing
+#### Fictional-Kw-46320a73
 
 - Dominant moods: Aggressive, Defiant, Energetic, Rebellious, Gritty, Vengeful
-- "Fictional-Kw-fa0ce346" stands out as introspective/melancholic for this band — unusual softer side
-- "Flash of the Blade" (Fictional-ZincLeaf cover) carries more Heroic/Triumphant than typical Fictional-MistyWing
-- "Fictional-Kw-c497416d" is remarkably concise in mood (Adventurous, Aggressive, Energetic, Macabre) — the macabre theatrical element is distinctive
+- "Fictional-Kw-e968446a" stands out as introspective/melancholic for this band — unusual softer side
+- "Flash of the Blade" (Fictional-Kw-91cf47fb cover) carries more Heroic/Triumphant than typical Fictional-Kw-46320a73
+- "Fictional-Kw-46544ff8" is remarkably concise in mood (Adventurous, Aggressive, Energetic, Macabre) — the macabre theatrical element is distinctive
 
-#### Fictional-JadeVeil
+#### Fictional-Kw-e6589a7e
 
 - Dominant moods: Danceful, Ecstatic, Groovy, Joyful, Upbeat
-- "Fictional-Kw-fcf2483c" has a Heartbreak undertone beneath the cheerful pop — interesting Fictional-Kw-4bc4a6e3
+- "Fictional-Kw-fa6d7690" has a Heartbreak undertone beneath the cheerful pop — intereFictional-Kw-4669569c Fictional-Kw-e4366dc2
 - "Gimme! Gimme! Gimme!" leans more Soaring than the other two
 
-#### Fictional-ZincTrail
+#### Fictional-Kw-413ae254
 
 - "A New Hope": Adventurous + Defiant + Playful — classic pop-punk energy
 - "Anthem Part Two": Complex mood profile — Chaotic, Ecstatic, Rebellious, Triumphant all at once. Pop-punk at its most anthemic.
@@ -44,8 +44,8 @@ The initial classifier relied on 23 broad mood categories (Chill, Energetic, Nos
 
 #### Fictional-VelvetVeil / Anime
 
-- "Always with Me" (Fictional-Kw-b2412f79): 15 moods assigned! Extremely broad emotional resonance — from Awe-inspired to StudyFocus to Yearning
-- "Fictional-Kw-84d4d9af" (DK Country cover): 15 moods including Meditative, Spiritual, StudyFocus — ambient game music transcends its origins
+- "Always with Me" (Fictional-Kw-851d743a): 15 moods assigned! Extremely broad emotional resonance — from Awe-inspired to StudyFocus to Yearning
+- "Fictional-Kw-b8add7b5" (DK Country cover): 15 moods including Meditative, Spiritual, StudyFocus — ambient game music transcends its origins
 - Game/anime tracks tend to have broader mood profiles than rock/pop
 
 ### Mood Taxonomy Insights
@@ -54,7 +54,7 @@ The initial classifier relied on 23 broad mood categories (Chill, Energetic, Nos
 
 The original classifier massively over-assigned "Chill". During review:
 
-- Removed from aggressive tracks (Fictional-NeonCastle, Fictional-MistyWing, etc.)
+- Removed from aggressive tracks (Fictional-Kw-f9e21b1d, Fictional-Kw-46320a73, etc.)
 - Kept for genuinely relaxed tracks (Acai, Aurora, ambient game music)
 - "Chill" should be reserved for tracks with low arousal and positive valence
 
@@ -63,7 +63,7 @@ The original classifier massively over-assigned "Chill". During review:
 The 66-mood taxonomy splits sadness into: Melancholic, Lonely, Sad, Resigned, Depressive, Anguished, Desperate. During review:
 
 - "Melancholic" is the most common — gentle sadness with beauty
-- "Anguished" reserved for intense pain (A Place for My Head — Fictional-EbonyFountain)
+- "Anguished" reserved for intense pain (A Place for My Head — Fictional-Kw-a4f47053)
 - "Lonely" distinct from Sad — spatial isolation emotion vs temporal
 
 #### The "Defiant + Rebellious" Overlap
@@ -81,7 +81,7 @@ Tracks with 10+ moods are typically:
 1. Musically complex (genre-blending: Fictional-ObsidianWing, Mr. Bungle-adjacent)
 2. Emotionally layered (Bittersweet + Triumphant + Nostalgic)
 3. Ambient/cinematic (Fictional-VelvetVeil, DK Country atmospheric covers)
-4. Pop anthems with ironic undertones (Fictional-JadeVeil's "Fictional-Kw-fcf2483c")
+4. Pop anthems with ironic undertones (Fictional-Kw-e6589a7e's "Fictional-Kw-fa6d7690")
 
 ---
 

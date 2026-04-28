@@ -70,17 +70,15 @@ createApp({
         // open/close state always restores
         if (typeof entry.open === "boolean") ts.open = entry.open;
 
-        if (versionMatch) {
-          // Same version: trust localStorage fully
-          if (typeof entry.reviewed === "boolean") ts.reviewed = entry.reviewed;
-          if (Array.isArray(entry.moods)) ts.moods = new Set(entry.moods);
-        } else {
-          // Version mismatch: data.js moods are authoritative.
-          // For reviewed: union — keep true from either source.
-          if (typeof entry.reviewed === "boolean" && entry.reviewed) {
-            ts.reviewed = true;
+        // Moods always come from TRACK_MOODS (data.js is authoritative).
+        // localStorage only persists reviewed + open state, so that
+        // offline edits to data.js (enrichments, renames) always win.
+        if (typeof entry.reviewed === "boolean") {
+          if (versionMatch) {
+            ts.reviewed = entry.reviewed;
+          } else if (entry.reviewed) {
+            ts.reviewed = true; // union on version change
           }
-          // moods: keep data.js values (already set during initialisation)
         }
       }
 
@@ -233,19 +231,29 @@ createApp({
     function exportJson() {
       saveAll(); // flush before export
       const data = collectData();
-      const blob = new Blob([JSON.stringify(data, null, 2)], {
-        type: "application/json",
-      });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "track-moods.json";
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      statusMsg.value = "JSON exported ✓";
-      setTimeout(() => (statusMsg.value = ""), 3000);
+      const json = JSON.stringify(data, null, 2);
+      // Firefox snap blocks blob: and data: downloads from file:// origins,
+      // so open a new tab with the raw JSON and copy to clipboard as backup.
+      const w = window.open("", "_blank");
+      if (w) {
+        w.document.open("text/plain");
+        w.document.write(json);
+        w.document.close();
+        w.document.title = "track-moods.json";
+      }
+      navigator.clipboard.writeText(json).then(
+        () => {
+          statusMsg.value = w
+            ? "JSON opened in new tab (Ctrl+S to save) + copied to clipboard ✓"
+            : "JSON copied to clipboard ✓ (popup blocked — paste into a file)";
+        },
+        () => {
+          statusMsg.value = w
+            ? "JSON opened in new tab — Ctrl+S to save ✓"
+            : "Export failed — try serving the page from localhost";
+        },
+      );
+      setTimeout(() => (statusMsg.value = ""), 8000);
     }
 
     // ── Copy YAML to clipboard ──────────────────────────────────────────

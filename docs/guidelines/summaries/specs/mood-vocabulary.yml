@@ -1,0 +1,185 @@
+# mood-vocabulary.yml — Canonical mood list with cluster memberships and 6D vectors
+# Machine-readable companion to Chapter 2 (02-taxonomy-and-mood-clusters.md).
+# Source: docs/specifications/mood-vectors.json (v2.0) + mood-clusters.json (v2.0)
+
+version: "2.0"
+date: "2026-04-15"
+total_moods: 65
+
+dimensions:
+  V: { name: Valence, poles: [Negative, Positive], range: [-1, 1] }
+  A: { name: Arousal, poles: [Calm, Energetic], range: [-1, 1] }
+  D: { name: Dominance, poles: [Submissive, Powerful], range: [-1, 1] }
+  K: { name: Darkness, poles: [Light, Dark], range: [-1, 1] }
+  L: { name: Longing, poles: [Content, Yearning], range: [-1, 1] }
+  I: { name: Inwardness, poles: [External, Internal], range: [-1, 1] }
+
+emotional_arc: "Peaceful → Warm → Nostalgic → Reflective → Introspective → Tense → Sad → Depressive → Dark → Mysterious → Aggressive → Energetic → Epic → Determined → Joyful"
+
+clusters:
+  1:
+    {
+      label: "Calm / Peaceful",
+      theme: "Low arousal, positive valence, minimal darkness",
+    }
+  2:
+    {
+      label: "Warm / Tender",
+      theme: "Positive valence, low-to-moderate arousal, intimacy",
+    }
+  3:
+    {
+      label: "Nostalgic / Longing",
+      theme: "High longing dimension, mixed valence",
+    }
+  4:
+    {
+      label: "Reflective / Spiritual",
+      theme: "Moderate inwardness, low arousal, reverence",
+    }
+  5:
+    {
+      label: "Introspective",
+      theme: "Bridge into darker territory — high inwardness, muted arousal",
+    }
+  6:
+    { label: "Tense / Suspenseful", theme: "Rising arousal, moderate darkness" }
+  7:
+    {
+      label: "Sad / Lonely",
+      theme: "Negative valence, low dominance, moderate longing",
+    }
+  8: { label: "Depressive", theme: "Fictional-Kw-287e9593 negative valence, helplessness" }
+  9:
+    {
+      label: "Dark / Brooding",
+      theme: "High darkness, low valence, moderate inwardness",
+    }
+  10:
+    {
+      label: "Mysterious / Surreal",
+      theme: "Moderate darkness, low arousal, ethereal quality",
+    }
+  11:
+    {
+      label: "Aggressive / Rebellious",
+      theme: "Very high arousal, high dominance, negative-to-mixed valence",
+    }
+  12:
+    {
+      label: "Energetic / Groovy",
+      theme: "High arousal, positive valence, moderate dominance",
+    }
+  13:
+    {
+      label: "Heroic / Epic",
+      theme: "High dominance, high arousal, positive valence",
+    }
+  14:
+    {
+      label: "Determined / Focused",
+      theme: "High dominance, moderate arousal, functional orientation",
+    }
+  15:
+    {
+      label: "Joyful / Upbeat",
+      theme: "High valence, high arousal, minimal darkness",
+    }
+
+moods:
+  # --- Cluster 1: Calm / Peaceful ---
+  Peaceful: { cluster: 1, V: 0.6, A: -0.7, D: 0.0, K: -0.5, L: 0.0, I: 0.2 }
+  Serene: { cluster: 1, V: 0.6, A: -0.7, D: -0.1, K: -0.5, L: 0.0, I: 0.2 }
+  Relaxed: { cluster: 1, V: 0.5, A: -0.6, D: -0.1, K: -0.4, L: 0.0, I: 0.2 }
+  Chill: { cluster: 1, V: 0.4, A: -0.6, D: 0.0, K: -0.3, L: 0.0, I: 0.1 }
+  Sleepy: { cluster: 1, V: 0.2, A: -0.9, D: -0.3, K: -0.2, L: 0.0, I: 0.3 }
+
+  # --- Cluster 2: Warm / Tender ---
+  Cozy: { cluster: 2, V: 0.7, A: -0.5, D: -0.1, K: -0.5, L: 0.1, I: 0.3 }
+  Tender: { cluster: 2, V: 0.5, A: -0.2, D: -0.3, K: -0.2, L: 0.3, I: 0.3 }
+  Romantic: { cluster: 2, V: 0.5, A: 0.1, D: -0.1, K: -0.2, L: 0.4, I: 0.2 }
+  Sensual: { cluster: 2, V: 0.4, A: 0.2, D: -0.1, K: -0.1, L: 0.3, I: 0.2 }
+
+  # --- Cluster 3: Nostalgic / Longing ---
+  Nostalgic: { cluster: 3, V: -0.1, A: -0.3, D: -0.3, K: 0.2, L: 0.7, I: 0.5 }
+  Wistful: { cluster: 3, V: -0.2, A: -0.3, D: -0.3, K: 0.2, L: 0.6, I: 0.5 }
+  Yearning: { cluster: 3, V: -0.3, A: 0.1, D: -0.4, K: 0.3, L: 0.8, I: 0.3 }
+  Bittersweet: { cluster: 3, V: -0.2, A: -0.1, D: -0.2, K: 0.3, L: 0.6, I: 0.4 }
+  Emotional: { cluster: 3, V: -0.1, A: 0.2, D: -0.3, K: 0.2, L: 0.5, I: 0.5 }
+
+  # --- Cluster 4: Reflective / Spiritual ---
+  Awe-inspired: { cluster: 4, V: 0.5, A: 0.3, D: 0.0, K: -0.1, L: 0.0, I: 0.2 }
+  Reverent: { cluster: 4, V: 0.3, A: -0.2, D: 0.0, K: 0.2, L: 0.1, I: 0.4 }
+  Spiritual: { cluster: 4, V: 0.3, A: -0.3, D: 0.0, K: 0.2, L: 0.2, I: 0.6 }
+  Contemplative:
+    { cluster: 4, V: 0.0, A: -0.4, D: -0.1, K: 0.1, L: 0.2, I: 0.7 }
+  Meditative: { cluster: 4, V: 0.2, A: -0.7, D: -0.2, K: -0.1, L: 0.1, I: 0.7 }
+
+  # --- Cluster 5: Introspective ---
+  Introspective:
+    { cluster: 5, V: -0.1, A: -0.4, D: -0.2, K: 0.2, L: 0.3, I: 0.8 }
+  Jaded: { cluster: 5, V: -0.4, A: -0.3, D: 0.0, K: 0.4, L: 0.2, I: 0.5 }
+
+  # --- Cluster 6: Tense / Suspenseful ---
+  Tense: { cluster: 6, V: -0.4, A: 0.5, D: 0.2, K: 0.5, L: 0.0, I: -0.1 }
+  Suspenseful: { cluster: 6, V: -0.3, A: 0.4, D: 0.2, K: 0.6, L: 0.1, I: 0.0 }
+  Gritty: { cluster: 6, V: -0.3, A: 0.5, D: 0.5, K: 0.5, L: 0.0, I: -0.1 }
+
+  # --- Cluster 7: Sad / Lonely ---
+  Melancholic: { cluster: 7, V: -0.5, A: -0.3, D: -0.4, K: 0.4, L: 0.5, I: 0.5 }
+  Sad: { cluster: 7, V: -0.7, A: -0.3, D: -0.5, K: 0.4, L: 0.4, I: 0.5 }
+  Lonely: { cluster: 7, V: -0.7, A: -0.4, D: -0.6, K: 0.5, L: 0.6, I: 0.6 }
+  Resigned: { cluster: 7, V: -0.5, A: -0.5, D: -0.6, K: 0.3, L: 0.3, I: 0.5 }
+  Heartbreak: { cluster: 7, V: -0.8, A: 0.1, D: -0.6, K: 0.5, L: 0.8, I: 0.3 }
+
+  # --- Cluster 8: Depressive ---
+  Depressive: { cluster: 8, V: -0.9, A: -0.3, D: -0.7, K: 0.8, L: 0.4, I: 0.7 }
+  Anguished: { cluster: 8, V: -0.9, A: 0.5, D: -0.5, K: 0.8, L: 0.5, I: 0.3 }
+  Desperate: { cluster: 8, V: -0.8, A: 0.5, D: -0.5, K: 0.6, L: 0.7, I: 0.1 }
+
+  # --- Cluster 9: Dark / Brooding ---
+  Brooding: { cluster: 9, V: -0.5, A: -0.1, D: 0.1, K: 0.7, L: 0.3, I: 0.6 }
+  Dark: { cluster: 9, V: -0.6, A: 0.1, D: 0.2, K: 0.9, L: 0.1, I: 0.2 }
+  Macabre: { cluster: 9, V: -0.7, A: 0.2, D: 0.1, K: 0.95, L: 0.0, I: 0.1 }
+  Ominous: { cluster: 9, V: -0.5, A: 0.2, D: 0.3, K: 0.85, L: 0.0, I: 0.1 }
+
+  # --- Cluster 10: Mysterious / Surreal ---
+  Mysterious: { cluster: 10, V: -0.1, A: 0.0, D: 0.1, K: 0.6, L: 0.1, I: 0.3 }
+  Hypnotic: { cluster: 10, V: 0.0, A: 0.0, D: -0.1, K: 0.2, L: 0.1, I: 0.5 }
+  Surreal: { cluster: 10, V: 0.0, A: 0.0, D: -0.1, K: 0.3, L: 0.1, I: 0.4 }
+  Ethereal: { cluster: 10, V: 0.2, A: -0.3, D: -0.2, K: -0.1, L: 0.2, I: 0.4 }
+
+  # --- Cluster 11: Aggressive / Rebellious ---
+  Aggressive: { cluster: 11, V: -0.6, A: 0.9, D: 0.8, K: 0.6, L: 0.0, I: -0.5 }
+  Furious: { cluster: 11, V: -0.8, A: 0.9, D: 0.7, K: 0.7, L: 0.0, I: -0.4 }
+  Vengeful: { cluster: 11, V: -0.7, A: 0.7, D: 0.6, K: 0.8, L: 0.1, I: -0.2 }
+  Explosive: { cluster: 11, V: -0.3, A: 0.95, D: 0.7, K: 0.4, L: 0.0, I: -0.5 }
+  Chaotic: { cluster: 11, V: -0.3, A: 0.95, D: 0.3, K: 0.5, L: 0.0, I: -0.5 }
+  Frenzy: { cluster: 11, V: -0.2, A: 0.95, D: 0.4, K: 0.4, L: 0.0, I: -0.5 }
+  Rebellious: { cluster: 11, V: -0.3, A: 0.7, D: 0.7, K: 0.4, L: 0.0, I: -0.3 }
+  Defiant: { cluster: 11, V: -0.2, A: 0.7, D: 0.8, K: 0.3, L: 0.0, I: -0.3 }
+
+  # --- Cluster 12: Energetic / Groovy ---
+  Energetic: { cluster: 12, V: 0.5, A: 0.9, D: 0.5, K: -0.3, L: 0.0, I: -0.5 }
+  Danceful: { cluster: 12, V: 0.7, A: 0.8, D: 0.3, K: -0.5, L: 0.0, I: -0.6 }
+  Groovy: { cluster: 12, V: 0.6, A: 0.6, D: 0.3, K: -0.4, L: 0.0, I: -0.3 }
+
+  # --- Cluster 13: Heroic / Epic ---
+  Epic: { cluster: 13, V: 0.4, A: 0.8, D: 0.9, K: 0.1, L: 0.0, I: -0.3 }
+  Heroic: { cluster: 13, V: 0.5, A: 0.7, D: 0.9, K: 0.0, L: 0.0, I: -0.3 }
+  Triumphant: { cluster: 13, V: 0.7, A: 0.7, D: 0.9, K: -0.2, L: 0.0, I: -0.3 }
+  Adventurous: { cluster: 13, V: 0.6, A: 0.7, D: 0.7, K: -0.2, L: 0.1, I: -0.3 }
+  Soaring: { cluster: 13, V: 0.6, A: 0.5, D: 0.4, K: -0.3, L: 0.1, I: -0.2 }
+
+  # --- Cluster 14: Determined / Focused ---
+  Determined: { cluster: 14, V: 0.2, A: 0.6, D: 0.8, K: 0.0, L: 0.0, I: -0.1 }
+  Hardworking: { cluster: 14, V: 0.1, A: 0.5, D: 0.6, K: 0.0, L: 0.0, I: 0.0 }
+  Focused: { cluster: 14, V: 0.1, A: -0.1, D: 0.5, K: 0.0, L: 0.0, I: 0.3 }
+
+  # --- Cluster 15: Joyful / Upbeat ---
+  Ecstatic: { cluster: 15, V: 0.95, A: 0.9, D: 0.5, K: -0.7, L: 0.0, I: -0.5 }
+  Joyful: { cluster: 15, V: 0.9, A: 0.7, D: 0.3, K: -0.7, L: 0.0, I: -0.4 }
+  Playful: { cluster: 15, V: 0.8, A: 0.6, D: 0.2, K: -0.6, L: 0.0, I: -0.4 }
+  Whimsical: { cluster: 15, V: 0.6, A: 0.3, D: 0.0, K: -0.5, L: 0.0, I: -0.1 }
+  Upbeat: { cluster: 15, V: 0.7, A: 0.6, D: 0.2, K: -0.4, L: 0.0, I: -0.3 }
+  Optimistic: { cluster: 15, V: 0.7, A: 0.4, D: 0.3, K: -0.5, L: 0.0, I: -0.1 }

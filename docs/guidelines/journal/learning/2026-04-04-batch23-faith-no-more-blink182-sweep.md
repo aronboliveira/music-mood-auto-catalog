@@ -11,7 +11,7 @@ The defining cluster — the entire batch might be called "the FNM correction":
 
 All four share **{Aggressive, Chaotic, Energetic, Rebellious}** as a common core — Fictional-ObsidianWing's defining tags are now consistent.
 
-## Fictional-ZincTrail (3 tracks)
+## Fictional-Kw-413ae254 (3 tracks)
 
 Continuing from batch 22's 5-track sweep (Another-Girl, MORE-THAN-YOU-KNOW, No-Heart, Dumpweed, I-Miss-You):
 
@@ -19,7 +19,7 @@ Continuing from batch 22's 5-track sweep (Another-Girl, MORE-THAN-YOU-KNOW, No-H
 - **First-Date** (1→11): Chill stripped. The poppy, fast-paced track now properly Energetic/Optimistic/Romantic with youthful excitement.
 - **I-Miss-You** (2→10): Soaring removed. Full gothic blink profile: Anguished/Depressive/Heartbreak/Lonely/Melancholic/Nostalgic/Wistful.
 
-6 Fictional-ZincTrail tracks now have genre-consistent profiles across batches 22-23.
+6 Fictional-Kw-413ae254 tracks now have genre-consistent profiles across batches 22-23.
 
 ## SSBU / Game OST (3 tracks)
 
@@ -38,7 +38,7 @@ Continuing recalibration from batch 22's Bolero of Fire:
 
 ## Notable Standalones
 
-- **Fictional-MarbleTrail-Everlong** (2→12): Almost complete rebuild. Prior {Adventurous, Yearning} was a placeholder; now the loud-quiet-loud dynamic fully captured with Aggressive/Anguished/Brooding/Defiant/Gritty/Hardworking + Soaring/Upbeat.
+- **Fictional-Kw-73c8ebb0-Everlong** (2→12): Almost complete rebuild. Prior {Adventurous, Yearning} was a placeholder; now the loud-quiet-loud dynamic fully captured with Aggressive/Anguished/Brooding/Defiant/Gritty/Hardworking + Soaring/Upbeat.
 - **The-Sims-Buy-Mode-3** (1→13, pure enrichment +12): Quintessential "pleasant background loop" — from {Upbeat} only to full ambient-positive profile.
 - **Endless-Love-Guzheng** (3→12): Chinese guzheng instrumental incorrectly labelled pop/romantic → now ambient/contemplative cluster (Meditative/Peaceful/Serene/Wistful).
 - **Diggy-Diggy-Hole** (2→13): The Yogscast/Fictional-ScarletGarden mining anthem — gained Adventurous/Awe-inspired/Danceful/Heroic/Hardworking/Whimsical. One of the most genre-dense tracks.

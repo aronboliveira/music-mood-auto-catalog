@@ -1,17 +1,17 @@
 [START] 2026-03-19T20:04:09-03:00
 User-approved follow-up fixes applied:
-- Move from Fictional-CrystalBell to Fictional-JasperWarden: Fictional-Track-9a805fab.mp3
-- Move from Fictional-CrystalBell to Fictional-JasperWarden: Fictional-Track-b9a8843f.mp3
-- Move from Fictional-CrystalBell to Fictional-ThistleGate: Fictional-Track-9a60baf4.mp3
-- Move from Fictional-CrystalBell to Fictional-ThistleGate: Fictional-Track-69a0d2e5.mp3
+- Move from Fictional-SterlingHelix to Fictional-Kw-413ae254: Fictional-Kw-413ae254-Dumpweed-(Lyrics)-[3SLxkBUw-bI].mp3
+- Move from Fictional-SterlingHelix to Fictional-Kw-413ae254: Fictional-Kw-413ae254-Whats-My-Age-Again-[V1WhOWvlcjI].mp3
+- Move from Fictional-SterlingHelix to Fictional-Kw-a4f47053: Fictional-Kw-fe0941d0-Linkin-Park-Fictional-Track-6508e32Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3
+- Move from Fictional-SterlingHelix to Fictional-Kw-a4f47053: Fictional-Track-69a0d2eFictional-Track-e4da3b7f.mp3
 - Remove from Various: Fictional-Track-40da614e.mp3
 [VERIFY]
-Fictional-CrystalBell folder should have no Blink/Linkin leftovers:
-Fictional-JasperWarden destination:
-classified/singles/Artist/Fictional-JasperWarden/Fictional-Track-9a805fab.mp3
-classified/singles/Artist/Fictional-JasperWarden/Fictional-Track-b9a8843f.mp3
-Fictional-ThistleGate destination:
-classified/singles/Artist/Fictional-ThistleGate/Fictional-Track-9a60baf4.mp3
-classified/singles/Artist/Fictional-ThistleGate/Fictional-Track-69a0d2e5.mp3
+Fictional-SterlingHelix folder should have no Blink/Linkin leftovers:
+Fictional-Kw-413ae254 destination:
+classified/singles/Artist/Fictional-Kw-413ae254/Fictional-Kw-413ae254-Dumpweed-(Lyrics)-[3SLxkBUw-bI].mp3
+classified/singles/Artist/Fictional-Kw-413ae254/Fictional-Kw-413ae254-Whats-My-Age-Again-[V1WhOWvlcjI].mp3
+Fictional-Kw-a4f47053 destination:
+classified/singles/Artist/Fictional-Kw-a4f47053/Fictional-Kw-fe0941d0-Linkin-Park-Fictional-Track-6508e32Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3
+classified/singles/Artist/Fictional-Kw-a4f47053/Fictional-Track-69a0d2eFictional-Track-e4da3b7f.mp3
 Various should not contain Older-Girl:
 [END] 2026-03-19T20:04:09-03:00

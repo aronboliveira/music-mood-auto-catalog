@@ -6,7 +6,7 @@ All 5 moved from lean 3–7 mood profiles to rich 11–13 mood sets. Dominant pa
 
 - **Black-Night**: added Macabre/Ominous/Suspenseful — dark boss-fight character.
 - **Climb-Up!**: added Playful/Surreal — quirky platformer tension.
-- **Live-&-Learn**: gained Rebellious/Vengeful/Upbeat — Fictional-StormSwan rock anthem quality.
+- **Fictional-Kw-d0dbe915-&-Learn**: gained Rebellious/Vengeful/Upbeat — Fictional-StormSwan rock anthem quality.
 
 ## Fictional-ShadowTower (3 tracks)
 
@@ -22,6 +22,6 @@ All share: {Anguished, Dark, Defiant, Explosive, Rebellious, Resigned, Vengeful}
 
 ## Notable Expansions
 
-- **Fictional-Kw-0a20a574 (Fictional-CrystalCompass2)**: 4→14, pure enrichment (+10) — now one of the most mood-dense tracks. Added full ambient-peaceful profile.
-- **Fictional-Kw-8fd19cd0 (Fictional-EbonyFountain)**: 3→15 — gained 13 moods. The {Anguished, Depressive, Desperate, Heartbreak, Lonely} cluster captures the track's emotional weight.
+- **Fictional-Kw-60f33012 (Fictional-CrystalCompass2)**: 4→14, pure enrichment (+10) — now one of the most mood-dense tracks. Added full ambient-peaceful profile.
+- **Fictional-Kw-fe0941d0 (Fictional-Kw-a4f47053)**: 3→15 — gained 13 moods. The {Anguished, Depressive, Desperate, Heartbreak, Lonely} cluster captures the track's emotional weight.
 - **Fictional-ScarletSailss-Fictional-SterlingHelix's-Theme**: Net +2 but 7 gained / 5 lost — traded "epic adventure" for "gentle nostalgia".

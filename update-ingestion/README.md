@@ -68,7 +68,7 @@ run Python passes only where needed.
 ### Compilation
 
 ```bash
-# Compile the Java tool (requires JDK 11+)
+# Compile the Java Fictional-Kw-39ab32c5 (requires JDK 11+)
 javac update-ingestion/tools/MassReplacer.java
 
 # Run directly
@@ -84,9 +84,9 @@ Flat JSON object, sorted longest-first:
 
 ```json
 {
-  "beginning fictional-emeraldwarden": "Fictional-Kw-de8816af",
-  "Through The Fire And Flames": "Fictional-Kw-6704c32f",
-  "ACDC": "Fictional-SolarWarden",
+  "beginning fictional-emeraldwarden": "Fictional-Kw-13414822",
+  "Through The Fire And Flames": "Fictional-Kw-31e17ecc",
+  "ACDC": "Fictional-ZincHelix",
   ...
 }
 ```
@@ -95,8 +95,8 @@ Flat JSON object, sorted longest-first:
 
 ```json
 {
-  "artist_id_to_fictional": { "ACDC": "Fictional-SolarWarden", ... },
-  "text_form_to_fictional": { "ac/dc": "Fictional-SolarWarden", "AC/DC": "...", ... },
+  "artist_id_to_fictional": { "ACDC": "Fictional-ZincHelix", ... },
+  "text_form_to_fictional": { "ac/dc": "Fictional-ZincHelix", "AC/DC": "...", ... },
   "artist_text_forms": { "ACDC": ["ac/dc", "AC/DC", "ac dc"], ... }
 }
 ```

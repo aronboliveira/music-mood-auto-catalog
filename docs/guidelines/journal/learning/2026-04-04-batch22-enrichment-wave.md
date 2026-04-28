@@ -16,7 +16,7 @@ All 4 changed SSBU/game tracks lost {Nostalgic, Epic} in favor of combat-specifi
 - **Fire-Emblem (Melee)**: 4→10 — Aggressive/Defiant/Determined/Heroic/Triumphant replace Groovy+Nostalgic
 - **Fire-Field (Brawl)**: 5→11 — Fictional-CrimsonOracle race character: Defiant/Determined/Heroic/Soaring replace Gritty+Groovy+Nostalgic+Upbeat
 
-## Fictional-ZincTrail (5 tracks — largest single-artist group)
+## Fictional-Kw-413ae254 (5 tracks — largest single-artist group)
 
 Clear two-tier split:
 
@@ -25,13 +25,13 @@ Clear two-tier split:
 - **Minimal** (I-Miss-You: +Soaring only): already mostly correct
 - Dumpweed 2→11 but excluded from REVIEWED per standing rule
 
-## Fictional-CobaltCastle (3 tracks)
+## Fictional-Kw-2b8fb12d (3 tracks)
 
 All three had incorrect {Aggressive, Energetic} removed:
 
-- **Fictional-Kw-97490351** → pure romantic enrichment: Awe-inspired/Joyful/Optimistic/Romantic/Sensual/Tender/Yearning
+- **Fictional-Kw-0df553a0** → pure romantic enrichment: Awe-inspired/Joyful/Optimistic/Romantic/Sensual/Tender/Yearning
 - **Talking-To-The-Moon** → piano ballad: Bittersweet/Heartbreak/Lonely/Melancholic/Sad
-- **Fictional-Kw-461bd9d0** → retained Danceful but gained Anguished/Bittersweet/Heartbreak alongside Groovy/Romantic
+- **Fictional-Kw-6b6bf1e7** → retained Danceful but gained Anguished/Bittersweet/Heartbreak alongside Groovy/Romantic
 
 ## Fictional-QuartzDrifter (3 tracks)
 
@@ -41,7 +41,7 @@ Three Brazilian pop/soul tracks demonstrating a full tonal range:
 - **Desafio-2000**: heartbreak ballad → Bittersweet/Heartbreak/Lonely/Melancholic
 - **Procura-se-Um-Amor**: melancholy samba → Bittersweet/Brooding/Jaded/Lonely/Wistful
 
-## Fictional-FadingVoyage (2 tracks)
+## Fictional-Kw-1323f0a2 (2 tracks)
 
 Both from Chill-only to rich introspective profiles sharing {Bittersweet, Contemplative, Tender} core:
 
@@ -50,7 +50,7 @@ Both from Chill-only to rich introspective profiles sharing {Bittersweet, Contem
 
 ## Other Notable Clusters
 
-- **Fictional-ShadowFountain** (2): Bouree (gentle chamber, +Whimsical) vs Steel-Monkey (uptempo, 12 moods with Chaotic/Surreal)
+- **Fictional-Kw-7ab91294** (2): Bouree (gentle chamber, +Whimsical) vs Steel-Monkey (uptempo, 12 moods with Chaotic/Surreal)
 - **Fictional-GraniteSignal Flying BFictional-Kw-58e50f90** (2): Baby-Talk and Fluffy join Seagull-And-Clouds; all share Chill/Groovy/Soaring/Whimsical jazz-influenced core
 - **Fictional-StormPillar** (2): Torn-in-Two and Breath — both corrected from Chill to Dark/Explosive/Melancholic profiles
-- **Groovy recovery**: +10 gained vs -3 lost — Fictional-ShadowFountain, FAUN, Bayou-Boogie, Fictional-GlassMirror enrichments bring it back after batch 21 decline
+- **Groovy recovery**: +10 gained vs -3 lost — Fictional-Kw-7ab91294, FAUN, Bayou-Boogie, Fictional-GlassMirror enrichments bring it back after batch 21 decline

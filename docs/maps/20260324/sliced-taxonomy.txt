@@ -1,22 +1,22 @@
 === Sliced Taxonomy Map ===
 
 --- Artist ---
-  Fictional-EmeraldWarden: 20
+  Fictional-IndigoNeedle: 20
   CityPop: 309
   CyberpunkBeats: 84
   DarkAngelMetal: 21
   DarkGoddess: 21
-  Fictional-SapphireOracle: 76
+  Fictional-CrystalCompass: 76
   EgyptianBattle: 21
   EgyptianMetal: 64
-  Fictional-FrozenBell: 34
+  Fictional-Kw-8afa967f: 34
   JungleDnB: 35
   MedievalAmbience: 22
   NotTooJazzy: 21
-  Fictional-PhantomHorizon: 68
+  Fictional-SterlingFlame: 68
   PirateMetal: 43
-  Fictional-MarbleRose: 42
-  Fictional-CrystalBell: 404
+  Fictional-TimberStrand: 42
+  Fictional-SterlingHelix: 404
 
 --- Genre ---
   AlternativeRock: 42

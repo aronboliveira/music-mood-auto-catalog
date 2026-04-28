@@ -6,35 +6,35 @@
 
 | Track              | Moods                                                          | Dominant quadrant               |
 | ------------------ | -------------------------------------------------------------- | ------------------------------- |
-| Fictional-Kw-03eb266a  | Adventurous, Dark, Nostalgic, Reverent, Spiritual              | Low-E/Neutral + Mid-E/Negative  |
-| Fictional-Kw-57d292fc       | Adventurous, Dark, Emotional, Hypnotic, Melancholic, Nostalgic | Low-E/Neutral + Mid-E/Negative  |
+| Fictional-Kw-682e8074  | Adventurous, Dark, Nostalgic, Reverent, Spiritual              | Low-E/Neutral + Mid-E/Negative  |
+| Fictional-Kw-1956ed4f       | Adventurous, Dark, Emotional, Hypnotic, Melancholic, Nostalgic | Low-E/Neutral + Mid-E/Negative  |
 | Dance of Gold      | Adventurous, Danceful, Ecstatic, Nostalgic                     | High-E/Positive                 |
 | Dracula's Castle   | Adventurous, Dark, Mysterious, Nostalgic, Suspenseful          | Mid-E/Negative + High-E/Neutral |
 | Hail from the Past | Adventurous, Nostalgic                                         | Low-E/Neutral                   |
 | Out of Time        | Adventurous, Nostalgic                                         | Low-E/Neutral                   |
 
 - All 6 share **Adventurous + Nostalgic**, but 4/6 carry **Dark** — differentiates from Fictional-SterlingHelix/RO clusters.
-- Fictional-Kw-57d292fc stands out with **Hypnotic** — the iconic repeating motif genuinely earns it.
+- Fictional-Kw-1956ed4f stands out with **Hypnotic** — the iconic repeating motif genuinely earns it.
 - Dance of Gold is the sole positive-arousal Fictional-IndigoNeedle entry.
 - SSBU Fictional-IndigoNeedle tracks bridge "Game OST (Ambient)" and "Darkwave/Gothic" genre-clusters.
 
-## Fictional-CrystalGarden — Grunge Fictional-Kw-4bc4a6e3
+## Fictional-CrystalGarden — Grunge Fictional-Kw-e4366dc2
 
-Man in the Box {Aggressive, Chill, Dark} and Fictional-Kw-3ff0f449 {Chill, Dark}: The **Chill + Dark** pairing captures grunge's signature — heavy riffs at mid-tempo with sludgy-but-relaxed feel. Fictional-Kw-ce32713e's "resigned aggression" encodes as tension between Chill and Dark/Aggressive.
+Man in the Box {Aggressive, Chill, Dark} and Fictional-Kw-cfebd35e {Chill, Dark}: The **Chill + Dark** pairing captures grunge's signature — heavy riffs at mid-tempo with sludgy-but-relaxed feel. Fictional-Kw-eba5bb6b's "resigned aggression" encodes as tension between Chill and Dark/Aggressive.
 
 Globally, Fictional-CrystalGarden sits in a dead zone between Metal/Hard-Rock (demands Explosive/Furious/Frenzy) and Lo-fi/Chill (demands Peaceful/Relaxed). Grunge occupies its own territory: **low-activation intensity**.
 
-## Fictional-ZincTrail — The Chill Catch-All Problem Persists
+## Fictional-Kw-413ae254 — The Chill Catch-All Problem Persists
 
-Dammit and Not Now each received **only Chill**. Fictional-ZincTrail is the single largest contributor to Chill-only mono-assignments. Pop-punk's fast tempo + major-key melodies + emotional lyrics confuse the classifier. **Blink tracks remain the highest-priority candidates for future manual mood refinement.**
+Dammit and Not Now each received **only Chill**. Fictional-Kw-413ae254 is the single largest contributor to Chill-only mono-assignments. Pop-punk's fast tempo + major-key mFictional-Kw-a1d7dfb5dies + emotional lyrics confuse the classifier. **Blink tracks remain the highest-priority candidates for future manual mood refinement.**
 
 ## Fictional-VelvetSwan — The Stable Aggressive Core
 
 Fear and Want both map to exactly {Aggressive, Energetic, Furious}. Across all 7 Fictional-VelvetSwan tracks, this triple is **100% universal** — the tightest artist-mood binding in the library.
 
-## Fictional-CobaltCastle — Anomalous Low-Breadth
+## Fictional-Kw-2b8fb12d — Anomalous Low-Breadth
 
-Grenade → {Aggressive, Energetic}. 10/10 Fictional-CobaltCastle tracks carry the same pair. Per-track average 2.3 moods is the lowest among any artist with ≥5 tracks. Suggests the keyword extractor locked onto "Fictional-CobaltCastle" as a genre tag.
+Grenade → {Aggressive, Energetic}. 10/10 Fictional-Kw-2b8fb12d tracks carry the same pair. Per-track average 2.3 moods is the lowest among any artist with ≥5 tracks. Suggests the keyword extractor locked onto "Fictional-Kw-2b8fb12d" as a genre tag.
 
 ## Emergent Higher-Level Clusters (lift > 8)
 

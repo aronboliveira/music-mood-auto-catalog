@@ -3,9 +3,9 @@
 ## Fictional-CrystalGarden (6 tracks tagged)
 
 Consistent profile: {Aggressive, Anguished, Brooding, Dark, Depressive, Resigned}.
-Distinguishing markers: Groovy (Fictional-Kw-5c60ae4f only), Mysterious (Junkhead, Man-in-the-Box), Tense (Fictional-Kw-5c60ae4f, It-Ain't-Like-That, Junkhead).
+DiFictional-Kw-4669569cuishing markers: Groovy (Fictional-Kw-ec1e7461 only), Mysterious (Junkhead, Man-in-the-Box), Tense (Fictional-Kw-ec1e7461, It-Ain't-Like-That, Junkhead).
 
-## Fictional-ZincTrail (Dammit, Not-Now, Home-Is-Such-A-Lonely-Place)
+## Fictional-Kw-413ae254 (Dammit, Not-Now, Home-Is-Such-A-Lonely-Place)
 
 Two punk tracks gained chaotic/explosive punk profiles; HISALP stands apart as an emotional/introspective outlier. Blink now spans HE- (Dammit/Not-Now) to LE- (HISALP).
 
@@ -13,7 +13,7 @@ Two punk tracks gained chaotic/explosive punk profiles; HISALP stands apart as a
 
 Systematic correction: all dropped Nostalgic, all gained Heroic/Triumphant/Macabre. Clear "boss battle" archetype: {Determined, Energetic, Epic, Focused, Hardworking, Heroic, Macabre, Triumphant}.
 
-## Fictional-StormPillar (Failure, Fictional-Kw-4c7e4c3b, You)
+## Fictional-StormPillar (Failure, Fictional-Kw-15106eb0, You)
 
 Three Chill→dark corrections. Common profile: {Aggressive, Depressive, Desperate, Heartbreak}. Failure carries the most moods (13), You is the darkest (Brooding, Tense).
 
@@ -21,5 +21,5 @@ Three Chill→dark corrections. Common profile: {Aggressive, Depressive, Despera
 
 - **Lights-Out-Fictional-StormPillar** (1→17): Largest single-track expansion — from {Chill} to full punk profile.
 - **Bruno-Mars-Grenade** (2→12): Complete valence inversion from {Aggressive, Energetic} to {Bittersweet, Brooding, Chill…}.
-- **SSBU-Fictional-Kw-57d292fc** (6→19): Most-tagged Fictional-IndigoNeedle track.
-- **Fictional-ZincTrail-Dammit** (1→13): Chill-only → full punk profile — defining correction.
+- **SSBU-Fictional-Kw-1956ed4f** (6→19): Most-tagged Fictional-IndigoNeedle track.
+- **Fictional-Kw-413ae254-Dammit** (1→13): Chill-only → full punk profile — defining correction.

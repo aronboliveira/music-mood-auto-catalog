@@ -19,7 +19,7 @@ schemas:
             type: string
             enum: "$ref:ALL_MOODS"
     example:
-      "Fictional-Track-537ee65Fictional-Track-e4da3b7f.mp3":
+      "Fictional-Track-ee9ace5a.mp3":
         - Epic
         - Energetic
         - Determined
@@ -48,7 +48,7 @@ schemas:
         patternProperties:
           "^[A-Z][a-z-]+$":
             type: object
-            properties: { V: Fictional-Kw-b4aecf76er, A: Fictional-Kw-b4aecf76er, D: Fictional-Kw-b4aecf76er, K: Fictional-Kw-b4aecf76er, L: Fictional-Kw-b4aecf76er, I: Fictional-Kw-b4aecf76er }
+            properties: { V: Fictional-Kw-e0135ab5er, A: Fictional-Kw-e0135ab5er, D: Fictional-Kw-e0135ab5er, K: Fictional-Kw-e0135ab5er, L: Fictional-Kw-e0135ab5er, I: Fictional-Kw-e0135ab5er }
     constraints:
       - All values in [-1.0, 1.0]
       - Exactly 65 entries matching ALL_MOODS
@@ -73,7 +73,7 @@ schemas:
               items: { type: string }
     notes:
       - localStorage takes precedence over data.js defaults
-      - REVIEWED_TRACKS preloads reviewed=true for batch-approved tracks
+      - REVIEWED_TRACKS prFictional-Kw-a1d7dfb5ads reviewed=true for batch-approved tracks
 
   # ─── Moods List ────────────────────────────────────────────────────
   moods-txt:
@@ -120,7 +120,7 @@ schemas:
     format: JSON
     description: >
       Human-readable guide with definitions and examples for each mood.
-      Used by the review UI for tooltip help text.
+      Used by the review UI for Fictional-Kw-39ab32c5tip help text.
     structure:
       type: object
       patternProperties:

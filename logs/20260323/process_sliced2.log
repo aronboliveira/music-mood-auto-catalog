@@ -1,529 +1,529 @@
 nohup: ignoring input
 Found 334 mp3 files in classified/singles/new/sliced-2
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_001.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_002.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_003.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_004.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_005.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_006.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_007.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_008.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9Fictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_009.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_010.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_011.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_012.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_013.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_014.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_015.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_016.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_017.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_018.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_019.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_020.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_001.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_002.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_003.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_004.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_005.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_006.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_007.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_008.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0bFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0bFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-b8c6fd0b_part_009.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-b8c6fd0b_part_010.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_011.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_012.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_013.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_014.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_015.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_016.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_017.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-b8c6fd0b_part_018.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-b8c6fd0b_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-b8c6fd0b_part_019.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-b8c6fd0b_part_020.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_001.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_002.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_003.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_004.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_005.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_006.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_007.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_008.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723dFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723dFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-2f92723d_part_009.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-2f92723d_part_010.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_011.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_012.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_013.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_014.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_015.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_016.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_017.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-2f92723d_part_018.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-2f92723d_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-2f92723d_part_019.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-2f92723d_part_020.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_001.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_002.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_003.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_004.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_005.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_006.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_007.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_008.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3fFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-78ec1b3f_part_009.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-78ec1b3f_part_010.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_011.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_012.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_013.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_014.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_015.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_016.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_017.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  REJECT: Fictional-Track-78ec1b3f_part_018.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  REJECT: Fictional-Track-78ec1b3f_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-78ec1b3f_part_019.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   REJECT: Fictional-Track-78ec1b3f_part_020.mp3 -> {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   progress: 25/334 source files
-  REJECT: Fictional-Track-f50a369f_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_001.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_002.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_003.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_004.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_005.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_006.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_007.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_008.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369fFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-f50a369f_part_009.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-f50a369f_part_010.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_011.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_012.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_013.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_014.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_015.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_016.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_017.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-f50a369f_part_018.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-f50a369f_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-f50a369f_part_019.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-f50a369f_part_020.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_001.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_002.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_003.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_004.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_005.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_006.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_007.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_008.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2Fictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-1fd30cd2_part_009.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-1fd30cd2_part_010.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_011.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_012.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_013.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_014.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_015.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_016.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_017.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: Fictional-Track-1fd30cd2_part_018.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-Track-1fd30cd2_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-1fd30cd2_part_019.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: Fictional-Track-1fd30cd2_part_020.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_001.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_002.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_003.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_004.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_005.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_006.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_007.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_008.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8Fictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_009.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_010.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_011.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_012.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_013.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_014.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_015.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_016.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_017.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_018.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_019.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_020.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_021.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   progress: 50/334 source files
   progress: 75/334 source files
-  REJECT: Fictional-Track-d19173d7_part_000.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_001.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_002.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_003.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_004.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_005.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_006.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_007.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_008.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_009.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_010.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_011.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_012.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_013.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_014.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_015.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_016.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_017.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_018.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_019.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_020.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_021.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_022.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-d19173d7_part_023.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_000.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_001.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_002.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_003.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_004.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_005.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_006.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_007.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_008.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_009.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_010.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_011.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_012.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_013.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_014.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_015.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_016.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_017.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_018.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_019.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_020.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_021.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_022.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_023.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_024.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_025.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_026.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_027.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_028.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_029.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_030.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_031.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_032.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_033.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_034.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_035.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_036.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_037.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_038.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_039.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_040.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_041.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_042.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: Fictional-Track-2fef6b00_part_043.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_000.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_001.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_002.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_003.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_004.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_005.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_006.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_007.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_008.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-ImpressionFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-ImpressionFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_009.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_010.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_019.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_020.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-HexalogyFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-HexalogyFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_009.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_010.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_019.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_020.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_029.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_030.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_039.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_040.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_04Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_04Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_0Fictional-Track-17e6216Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50Fictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_009.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_010.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_011.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_012.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_013.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_014.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_015.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_016.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_017.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_018.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_019.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_020.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_000.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_001.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_002.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_003.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_004.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_005.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_006.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_007.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_008.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7fFictional-Track-d41d8cd9_part_000.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_partFictional-Track-bf5d768a.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_009.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_010.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_011.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_012.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_013.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_014.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_015.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_016.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_017.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_018.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c81e728d.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-eccbc87e.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-a87ff679.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-e4da3b7f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-1679091c.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-8f14e45f.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_019.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_020.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_021.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  REJECT: PIRATE-ROCK-&Fictional-Track-129b0a7f_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3 -> {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
 
 Processed: 75 | Skipped dups: 0 | Errors: 259
 Rejected/errored files:
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_001.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_002.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_003.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_004.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_005.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_006.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_007.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_008.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9Fictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_009.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_010.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_011.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_012.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_013.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_014.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_015.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_016.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_017.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_018.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_019.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   CYBERPUNK-BEATS-Intense-Music-for-Gaming,-Streaming-&Fictional-Track-5bf3f7d9_part_020.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_001.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_002.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_003.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_004.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_005.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_006.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_007.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_008.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0bFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0bFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-b8c6fd0b_part_009.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-b8c6fd0b_part_010.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_011.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_012.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_013.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_014.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_015.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_016.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_017.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-b8c6fd0b_part_018.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-b8c6fd0b_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-b8c6fd0b_part_019.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-b8c6fd0b_part_020.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_001.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_002.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_003.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_004.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_005.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_006.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_007.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_008.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723dFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723dFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-2f92723d_part_009.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-2f92723d_part_010.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_011.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_012.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_013.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_014.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_015.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_016.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_017.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-2f92723d_part_018.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-2f92723d_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-2f92723d_part_019.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-2f92723d_part_020.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_001.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_002.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_003.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_004.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_005.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_006.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_007.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_008.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3fFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-78ec1b3f_part_009.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-78ec1b3f_part_010.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_011.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_012.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_013.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_014.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_015.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_016.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_017.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-78ec1b3f_part_018.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
+  Fictional-Track-78ec1b3f_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-78ec1b3f_part_019.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
   Fictional-Track-78ec1b3f_part_020.mp3: {'artists': ['Various'], 'genres': ['PunkRock'], 'moods': ['Dark', 'Gaming', 'Rebellious', 'Workout']}
-  Fictional-Track-f50a369f_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_001.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_002.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_003.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_004.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_005.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_006.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_007.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_008.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369fFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-f50a369f_part_009.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-f50a369f_part_010.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_011.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_012.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_013.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_014.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_015.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_016.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_017.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-f50a369f_part_018.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-f50a369f_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-f50a369f_part_019.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-f50a369f_part_020.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_001.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_002.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_003.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_004.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_005.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_006.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_007.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_008.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2Fictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-1fd30cd2_part_009.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-1fd30cd2_part_010.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_011.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_012.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_013.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_014.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_015.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_016.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_017.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-1fd30cd2_part_018.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-Track-1fd30cd2_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-1fd30cd2_part_019.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   Fictional-Track-1fd30cd2_part_020.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Ambient', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_001.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_002.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_003.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_004.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_005.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_006.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_007.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_008.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8Fictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_009.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_010.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_011.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_012.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_013.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_014.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_015.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_016.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_017.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_018.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_019.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
   EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_020.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_021.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  Fictional-Track-d19173d7_part_000.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_001.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_002.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_003.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_004.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_005.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_006.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_007.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_008.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_009.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_010.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_011.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_012.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_013.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_014.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_015.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_016.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_017.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_018.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_019.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_020.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_021.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_022.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-d19173d7_part_023.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_000.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_001.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_002.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_003.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_004.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_005.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_006.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_007.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_008.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_009.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_010.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_011.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_012.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_013.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_014.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_015.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_016.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_017.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_018.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_019.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_020.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_021.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_022.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_023.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_024.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_025.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_026.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_027.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_028.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_029.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_030.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_031.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_032.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_033.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_034.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_035.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_036.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_037.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_038.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_039.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_040.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_041.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_042.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  Fictional-Track-2fef6b00_part_043.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_000.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_001.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_002.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_003.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_004.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_005.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_006.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_007.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_008.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  EGYPTIAN-ROCK-&Fictional-Track-3d4ff4d8_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['Unclassified'], 'moods': ['Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  Fictional-SterlingFlame-Samurai-Champloo-ImpressionFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-ImpressionFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_009.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_010.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_019.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_020.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-Samurai-Champloo-Impression_part_02Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-HexalogyFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-HexalogyFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_009.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_010.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_019.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_020.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_02Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_029.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_030.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_03Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_039.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_040.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_04Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_04Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  Fictional-SterlingFlame-feat-Shing02-Luv(sic)-Hexalogy_part_0Fictional-Track-17e6216Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['HipHop', 'JazzFusion'], 'moods': ['Chill', 'StudyFocus']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50Fictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50Fictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_009.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_010.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_011.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_012.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_013.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_014.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_015.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_016.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_017.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_018.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_019.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-f7c8fc50_part_020.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_000.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_001.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_002.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_003.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_004.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_005.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_006.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_007.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_008.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7fFictional-Track-d41d8cd9_part_000.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7fFictional-Track-d41d8cd9_partFictional-Track-cec1ed7a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_partFictional-Track-bf5d768a.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_00Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-129b0a7f_part_009.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-129b0a7f_part_010.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_011.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_012.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_013.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_014.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_015.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_016.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_017.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_018.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c81e728d.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-eccbc87e.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-a87ff679.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-e4da3b7f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-1679091c.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-8f14e45f.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_01Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-129b0a7f_part_019.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
   PIRATE-ROCK-&Fictional-Track-129b0a7f_part_020.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
-  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_021.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
+  PIRATE-ROCK-&Fictional-Track-129b0a7f_part_02Fictional-Track-c4ca423Fictional-Track-c9f0f895.mp3: {'artists': ['Various'], 'genres': ['FolkMetal'], 'moods': ['Adventurous', 'Chill', 'Gaming', 'StudyFocus', 'Workout']}
 
 --- Verification ---
 Artist: 921 total files, 921 unique basenames

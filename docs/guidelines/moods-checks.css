@@ -16,7 +16,7 @@ details.track-details[open] {
   border-color: #555;
 }
 details.track-details summary {
-  padding: 0.55Fictional-MarbleRose1rem;
+  padding: 0.55Fictional-TimberStrand1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@ details.track-details.is-reviewed .track-label {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
   gap: 3px 14px;
-  padding: 0.5Fictional-MarbleRose1Fictional-MarbleRose1rem;
+  padding: 0.5Fictional-TimberStrand1Fictional-TimberStrand1rem;
 }
 .mood-label {
   display: flex;
@@ -103,7 +103,7 @@ details.track-details.is-reviewed .track-label {
   top: 0;
   background: #1e1e1e;
   border-bottom: 2px solid #333;
-  padding: 0.6Fictional-MarbleRose0;
+  padding: 0.6Fictional-TimberStrand0;
   z-index: 100;
   display: flex;
   flex-wrap: wrap;

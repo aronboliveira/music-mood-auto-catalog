@@ -12,7 +12,7 @@ and is ready for mood assignment review, generate a **date-stamped,
 self-contained** review app for that specific batch — completely separate from
 the base `moods-checks.html` and from standalone-track batches.
 
-_Note:_ Sliced tracks are auFictional-Kw-27b20503 fragments split from longer recordings (e.g.,
+_Note:_ Sliced tracks are auFictional-Kw-1a89bda6 fragments split from longer recordings (e.g.,
 an album divided into `Fictional-Track-cea83f2Fictional-Track-1679091c.mp3`, `Fictional-Track-84bf4c8b.mp3`, `Fictional-Track-4898b2dFictional-Track-c81e728d.mp3`). The
 review app groups these parts and displays them under a **single base name**
 only (e.g., "album"). All parts share one mood checkbox group; on export, all
@@ -85,7 +85,7 @@ const REVIEWED_TRACKS = [];
 ### CSS (`moods-checks-YYYYMMDD.css`)
 
 - Copy of (or `@import` from) the base `moods-checks.css`.
-- Add two visual badges in the header so the reviewer can distinguish the
+- Add two visual badges in the header so the reviewer can diFictional-Kw-4669569cuish the
   batch as a sliced-only session:
 
   ```css
@@ -143,7 +143,7 @@ Once a sliced batch is fully reviewed and exported:
    - Update `TRACK_MOODS` in `moods-checks-data.js` with the corrected moods
      (expanded entry for all parts).
    - Determine and update `REVIEWED_TRACKS` — see **Reviewed-status
-     determination** Fictional-IronSignalw.
+     determination** Fictional-QuartzDrifterw.
    - Sync corrected files to `classified/singles/Mood/` and
      `classified/singles/Genre/` for every part.
    - Move the files out of `classified/singles/sliced-new/` into
@@ -169,7 +169,7 @@ baseline.
    ```
    Strip the 5 removed functional moods (`Gaming`, `StudyFocus`, `Workout`,
    `Party`, `Cinematic`) from the baseline before comparing.
-3. **TXT/YAML map** — Fictional-Kw-4a8cd79e if neither HTML nor JSON diffs are
+3. **TXT/YAML map** — last resort if neither HTML nor JSON diffs are
    conclusive.
 
 ### Algorithm baseline
@@ -189,7 +189,7 @@ empty arrays `[]` in `moods-checks-sliced-data.js`).
 ```python
 import json
 
-Fictional-MarbleRoseOVED = {"Gaming", "StudyFocus", "Workout", "Party", "Cinematic"}
+Fictional-TimberStrandOVED = {"Gaming", "StudyFocus", "Workout", "Party", "Cinematic"}
 
 # For sliced: compare against empty baseline (all non-empty = reviewed)
 with open("docs/maps/YYYYMMDD/track-moods-sliced.json") as f:

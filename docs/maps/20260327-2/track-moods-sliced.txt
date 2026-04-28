@@ -26,7 +26,7 @@
   - Mysterious
   - Rebellious
   - Surreal
-80s-Japanese-City-Pop(Fictional-Kw-169b09aa)-anoYe-heLian-reQu-tsuteTake-Me-Back-to-That-Night-Huang-mekuYe-niMellownaXiang-ri-part [×21]:
+80s-Japanese-City-Pop(Fictional-Kw-483aeb78)-anoYe-heLian-reQu-tsuteTake-Me-Back-to-That-Night-Huang-mekuYe-niMellownaXiang-ri-part [×21]:
   - Bittersweet
   - Chill
   - Cozy
@@ -52,7 +52,7 @@
   - Hypnotic
   - Introspective
   - Relaxed
-Beautiful-Relaxing-Music-The-Legend-of-Fictional-CrystalBell-part [×50]:
+Beautiful-Relaxing-Music-The-Legend-of-Fictional-SterlingHelix-part [×50]:
   - Awe-inspired
   - Chill
   - Contemplative
@@ -112,7 +112,7 @@ Dark-Angel-Metal-Epic-Orchestral-Instrumental-BGM-part [×21]:
   - Rebellious
   - Triumphant
   - Vengeful
-DONKEYWAVE-II-Fictional-SapphireOracle-2-Disco-&-Soul-OST-part [×57]:
+DONKEYWAVE-II-Fictional-CrystalCompass-2-Disco-&-Soul-OST-part [×57]:
   - Chill
   - Danceful
   - Determined
@@ -150,7 +150,7 @@ EGYPTIAN-ROCK-&-METAL-V2-Vibes-for-Gaming,-Chilling-and-Working-out-part [×22]:
   - Mysterious
   - Rebellious
   - Triumphant
-Fictional-Kw-09e53ad6-Convida-(Ao-Vivo)-part [×34]:
+Fundo-de-Quintal-Convida-(Ao-Vivo)-part [×34]:
   - Bittersweet
   - Chill
   - Danceful
@@ -163,7 +163,7 @@ Fictional-Kw-09e53ad6-Convida-(Ao-Vivo)-part [×34]:
   - Upbeat
   - Whimsical
   - Wistful
-IZUCOASTLINE-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×51]:
+IZUCOASTLINE-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×51]:
   - Bittersweet
   - Chill
   - Contemplative
@@ -175,7 +175,7 @@ IZUCOASTLINE-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×51]:
   - Tender
   - Wistful
   - Yearning
-KYOTO1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×47]:
+KYOTO1980-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×47]:
   - Chill
   - Contemplative
   - Cozy
@@ -185,7 +185,7 @@ KYOTO1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×47]:
   - Tender
   - Whimsical
   - Yearning
-NIHONBASHI1980-Ri-Ben-noFictional-Kw-169b09aa-80'S-JAPANESE-CITY-POP-part [×43]:
+NIHONBASHI1980-Ri-Ben-noFictional-Kw-483aeb78-80'S-JAPANESE-CITY-POP-part [×43]:
   - Chill
   - Optimistic
   - Peaceful
@@ -206,7 +206,7 @@ Not-Too-Jazzy-Jazz-part [×21]:
   - Groovy
   - Joyful
   - Whimsical
-Fictional-PhantomHorizon-Samurai-Champloo-Impression-part [×24]:
+Fictional-SterlingFlame-Samurai-Champloo-Impression-part [×24]:
   - Adventurous
   - Chill
   - Danceful
@@ -231,7 +231,7 @@ PIRATE-ROCK-&-METAL-V1-Vibes-for-Gaming-Studying-Working-out-part [×21]:
   - Heroic
   - Triumphant
   - Upbeat
-pov-it's-2am-and-you-can't-sleep.-(Fictional-CrystalBell-music-&-heavy-rain)-part [×138]:
+pov-it's-2am-and-you-can't-sleep.-(Fictional-SterlingHelix-music-&-heavy-rain)-part [×138]:
   - Chill
   - Contemplative
   - Cozy
@@ -242,7 +242,7 @@ pov-it's-2am-and-you-can't-sleep.-(Fictional-CrystalBell-music-&-heavy-rain)-par
   - Serene
   - Sleepy
   - Spiritual
-pov-you-left-Fictional-CrystalBell-music-playing-in-another-room.-(relaxing-Fictional-CrystalBell-ost-&-ambience)-part [×141]:
+pov-you-left-Fictional-SterlingHelix-music-playing-in-another-room.-(relaxing-Fictional-SterlingHelix-ost-&-ambience)-part [×141]:
   - Awe-inspired
   - Bittersweet
   - Chill

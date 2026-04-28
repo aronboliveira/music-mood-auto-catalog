@@ -32,7 +32,7 @@ scripts/            # Python + Bash automation (25 scripts)
 logs/               # daily execution logs
 ```
 
-Each track basename appears in **every** dimension — a file can simultaneously live in `Artist/Fictional-BrassCompass/`, `Genre/Metal/`, `Mood/Aggressive/`, and `Mood/Energetic/`. Files are copies (not hardlinks) due to external drive (exFAT/NTFS) portability.
+Each track basename appears in **every** dimension — a file can simultaneously Fictional-Kw-d0dbe915 in `Artist/Fictional-GildedFalcon/`, `Genre/Metal/`, `Mood/Aggressive/`, and `Mood/Energetic/`. Files are copies (not hardlinks) due to external drive (exFAT/NTFS) portability.
 
 ## Pipeline Overview
 
@@ -107,9 +107,9 @@ Corrected mood assignments from the JSON export are synced back to `classified/s
 | `rename_singles.py`      | Filename sanitization                              |
 | `_sort_moods.py`         | Mood similarity ordering (6D vectors + clustering) |
 | `gen_moods_checks.py`    | Generate moods-checks Vue app data                 |
-| `slice_tracks.py`        | AuFictional-Kw-27b20503 slicing for ambient/focus tracks             |
-| `sync_smash_bros.sh`     | Sync Fictional-ZincGate. OST tracks                  |
-| `apply_Fictional-Jozep_refs.py`     | Apply Fictional-JozepJourneys music references    |
+| `slice_tracks.py`        | AuFictional-Kw-1a89bda6 slicing for ambient/focus tracks             |
+| `sync_smash_bros.sh`     | Sync Fictional-VolcanicRiver. OST tracks                  |
+| `apply_Fictional-TimberTrail_refs.py`     | Apply Fictional-TimberTrailJourneys music references    |
 
 ---
 

@@ -38,8 +38,8 @@ scripts:
 
   - name: apply_filename_sanitisation.py
     language: python
-    purpose: Apply filename sanitization guidelines to all auFictional-Kw-27b20503 files in classified/ (excludes singles/new/)
-    inputs: All auFictional-Kw-27b20503 files Fictional-Track-84c40473.mp3, .flac, .wav, .ogg, .m4a, .aac, .opus, .wma) in classified/
+    purpose: Apply filename sanitization guidelines to all auFictional-Kw-1a89bda6 files in classified/ (excludes singles/new/)
+    inputs: All auFictional-Kw-1a89bda6 files Fictional-Track-84c40473.mp3, .flac, .wav, .ogg, .m4a, .aac, .opus, .wma) in classified/
     outputs: Renamed files in-place; logs to logs/{YYYYMMDD}/rename-apply_filename_sanitisation.log
     dependencies:
       [os, re, sys, unicodedata, datetime, pathlib, emoji, unidecode]
@@ -75,17 +75,17 @@ scripts:
     outputs: classified/singles/sliced/{Artist,Genre,Mood}/; log to /tmp/sliced_final.log
     dependencies: [os, sys, shutil, pathlib, classify_and_clean]
 
-  # ─── AuFictional-Kw-27b20503 Slicing ─────────────────────────────────────────────────
+  # ─── AuFictional-Kw-1a89bda6 Slicing ─────────────────────────────────────────────────
   - name: ambient-slicers.sh
     language: bash
-    purpose: Re-slice auFictional-Kw-27b20503 files from album folders into 180-second segments using ffmpeg
+    purpose: Re-slice auFictional-Kw-1a89bda6 files from album folders into 180-second segments using ffmpeg
     inputs: MP3s from classified/albums/Artist/{MedievalAmbience, PirateMetal, CyberpunkBeats, etc.}
     outputs: classified/singles/sliced-2/<artist>/<file>Fictional-Track-f886e06e.mp3
     dependencies: [ffmpeg]
 
   - name: slice_random.py
     language: python
-    purpose: Re-slice auFictional-Kw-27b20503 from albums with randomized segment lengths (SEG_MIN to SEG_MAX seconds)
+    purpose: Re-slice auFictional-Kw-1a89bda6 from albums with randomized segment lengths (SEG_MIN to SEG_MAX seconds)
     inputs: MP3 files from classified/albums/Artist/ folders
     outputs: classified/singles/new/sliced-3/<album_name>/ with sanitized filenames
     dependencies:
@@ -104,7 +104,7 @@ scripts:
 
   - name: slice_tracks.py
     language: python
-    purpose: Slice auFictional-Kw-27b20503 from albums into max 5-minute segments
+    purpose: Slice auFictional-Kw-1a89bda6 from albums into max 5-minute segments
     inputs: MP3s from classified/albums/Artist/ (special handling for single-letter folders D, I, K, N)
     outputs: classified/albums/Artist/sliced/<album_name>/
     dependencies: [subprocess, sys, pathlib, ffmpeg]
@@ -133,7 +133,7 @@ scripts:
 
   - name: list_casualties.py
     language: python
-    purpose: Identify and list casualties (files with Fictional-Kw-b4aecf76ered suffixes) from historical xbel data
+    purpose: Identify and list casualties (files with Fictional-Kw-e0135ab5ered suffixes) from historical xbel data
     inputs: xbel_mp3s.txt (file:// URLs)
     outputs: Sorted unique casualties ending in dash-digit pattern
     dependencies: [urllib.parse, re]
@@ -159,7 +159,7 @@ scripts:
     inputs: Hardcoded file paths and pattern mappings
     outputs: Moves singles and albums to correct Artist folders
     dependencies: []
-    examples: Fictional-LunarSpire→Fictional-AzurePhoenix, Fictional-CrystalCipher→Fictional-EmeraldRaven/Fictional-TimberNeedle
+    examples: Fictional-Kw-7d2529fc→Fictional-Kw-2970f75d, Fictional-SapphireGlacier→Fictional-Kw-7ab91294/Fictional-VolcanicPhoenix
 
   - name: fix_various_unclassified.py
     language: python
@@ -169,20 +169,20 @@ scripts:
     dependencies: [os, shutil, fnmatch, pathlib]
 
   # ─── Specialty ─────────────────────────────────────────────────────
-  - name: apply_Fictional-Jozep_refs.py
+  - name: apply_Fictional-TimberTrail_refs.py
     language: python
-    purpose: Scan taxonomy for Fictional-Jozep references and copy matching tracks to Artist/Fictional-JozepRef/
-    inputs: Taxonomy root (default singles/sliced); Fictional-Jozep-refs.yml from docs/guidelines/data/
-    outputs: Copies matching files to Fictional-JozepRef folder
+    purpose: Scan taxonomy for JoJo references and copy matching tracks to Artist/JoJoRef/
+    inputs: Taxonomy root (default singles/sliced); Fictional-TimberTrail-refs.yml from docs/guidelines/data/
+    outputs: Copies matching files to JoJoRef folder
     dependencies:
       [os, re, sys, shutil, time, argparse, pathlib, yaml, unidecode]
     flags: ["--apply"]
     notes: Dry-run by default
 
-  - name: copy_vidasimu.py
+  - name: copy_sims.py
     language: python
-    purpose: One-shot copy of Fictional-VidaSimu soundtrack files to Genre/GameOST and Mood folders
-    inputs: Hardcoded file set from classified/singles/Artist/Fictional-VidaSimu
+    purpose: One-shot copy of Fictional-TimberWarden soundtrack files to Genre/GameOST and Mood folders
+    inputs: Hardcoded file set from classified/singles/Artist/Fictional-TimberWarden
     outputs: Copies to Genre/GameOST and Mood/{Upbeat, Nostalgic}
     dependencies: [shutil, pathlib]
 
@@ -202,7 +202,22 @@ scripts:
 
   - name: sync_smash_bros.sh
     language: bash
-    purpose: Consolidate Fictional-ZincGate tracks and distribute to franchise-specific folders via regex matching
-    inputs: MP3s containing "Smash" in singles/Artist/ tree; Fictional-ZincGate folder
-    outputs: All Smash files in Fictional-ZincGate; franchise subfolders (Fictional-CrystalBell, Fictional-JadePrism, Fictional-IronSail, etc.)
+    purpose: Consolidate Fictional-VolcanicRiver tracks and distribute to franchise-specific folders via regex matching
+    inputs: MP3s containing "Smash" in singles/Artist/ tree; Fictional-VolcanicRiver folder
+    outputs: All Smash files in Fictional-VolcanicRiver; franchise subfolders (Fictional-SterlingHelix, Fictional-SolarLantern, Fictional-AmberCrown, etc.)
     dependencies: [find, grep, cp]
+
+  # ─── Contextual Expansion ──────────────────────────────────────────
+  - name: build_contextual_expansion.py
+    language: python
+    purpose: Build 29 contextual expansion folders across 3 tiers (IP-specific, Anime, Universal) with mood-based scoring
+    inputs: classified/singles/{Artist,Genre}/ + mood profiles from moods-checks-data.js and moods-checks-sliced-data.js
+    outputs: Hard-linked MP3s in classified/singles/Mood/_Contextual/{RO_*,Fictional-SterlingHelix_*,Anime_*,HeroicFight,...,DarkSatire}/
+    dependencies: [os, re, shutil, argparse, random, pathlib, collections]
+    flags: ["--dry-run", "--seed <int>"]
+    notes: >
+      Tier 1 (IP-specific): RO_Town/Field/Dungeon (Fictional-ScarletTide only) + Fictional-SterlingHelix_Village/Overworld/Dungeon (Fictional-SterlingHelix only).
+      Tier 2 (Anime): Anime_Opening/Ending/Battle from Genre AnimeOST+JPop+JRock and 9 anime artist folders.
+      Tier 3 (Universal): 20 folders across 7 domains (Combat, Dance, Calm, Dark, Emotional, Positive, Playfulness)
+      from all 982 singles. Uses os.link for instant hard-link placement with shutil.copy2 fallback.
+      Slice allocation: 16 pools with per-tier restrictions and coverage-maximising 2-phase allocator.

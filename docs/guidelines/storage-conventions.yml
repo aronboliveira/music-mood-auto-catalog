@@ -14,6 +14,101 @@ taxonomy:
       - Every unique basename must appear in all three dimensions
       - Use process_singles_new.py for ingestion
       - Use rename_singles.py for filename cleanup
+    contextual:
+      path: classified/singles/Mood/_Contextual/
+      total_folders: 41
+      rpg:
+        prefix: RPG_
+        count: 12
+        names:
+          - RPG_Ambient
+          - RPG_Battle
+          - RPG_Danceful
+          - RPG_Epic
+          - RPG_Macabre
+          - RPG_Melancholic
+          - RPG_Mystical
+          - RPG_Relaxation
+          - RPG_Silly
+          - RPG_Tension
+          - RPG_Town
+          - RPG_Wandering
+        notes:
+          - RPG_ folders are mood-driven aggregations, not part of the 3-way invariant
+          - Tracks are scored against mood clusters from 21 game-OST artist folders
+          - Build with build_rpg_contextual.py, cap with apply_Fictional-SterlingHelix_slice_cap.py
+      expansion:
+        count: 29
+        tiers:
+          t1_ip:
+            count: 6
+            names:
+              [
+                RO_Town,
+                RO_Field,
+                RO_Dungeon,
+                Fictional-SterlingHelix_Village,
+                Fictional-SterlingHelix_Overworld,
+                Fictional-SterlingHelix_Dungeon,
+              ]
+            notes:
+              - Source restricted to single IP artist folder
+              - RO_ folders get zero slices
+              - Fictional-SterlingHelix_ folders get only Fictional-SterlingHelix-pool slices (5% cap)
+          t2_anime:
+            count: 3
+            names: [Anime_Opening, Anime_Ending, Anime_Battle]
+            notes:
+              - Source from Genre/{AnimeOST,JPop,JRock} + 9 anime artist folders
+              - Slices limited to JRock + Fictional-SterlingFlame-SamuraiChamploo pools (floor=4)
+          t3_universal:
+            count: 20
+            domains:
+              combat: [HeroicFight, BrutalFight, DesperateRage, RebelEnergy]
+              dance: [SmoothGroove, PowerDance, EuphoricDance]
+              calm:
+                [EtherealDream, PastoralWarmth, DeepCalm, MelancholicReflection]
+              dark: [DarkAtmosphere, TenseSuspense]
+              emotional: [Sorrow, NostalgicLonging]
+              positive: [Epic, Uplifting]
+              playfulness: [WhimsicalCharm, ChaoticFun, DarkSatire]
+            notes:
+              - Source from all 982 singles
+              - All 16 slice pools eligible per mood scoring
+              - Anti-gates enforce mood exclusions (e.g. DarkAtmosphere blocks Playful)
+        notes:
+          - Expansion folders are NOT part of the 3-way invariant
+          - Files placed as hard links (os.link) with shutil.copy2 fallback
+          - Build with build_contextual_expansion.py
+      slice_pools:
+        count: 16
+        cap_formula: "max(floor, round(non_slice_count * pct / (1 - pct)))"
+        pools:
+          - { name: Fictional-SterlingHelix, cap_pct: 0.05 }
+          - { name: MedievalAmbience, cap_pct: 0.02 }
+          - { name: CityPop, cap_pct: 0.025 }
+          - { name: CyberpunkBeats, cap_pct: 0.025 }
+          - { name: Fictional-SterlingFlame, cap_pct: 0.025 }
+          - { name: EgyptianMetal, cap_pct: 0.025 }
+          - { name: Fictional-CrystalCompass, cap_pct: 0.025 }
+          - { name: PirateMetal, cap_pct: 0.025 }
+          - { name: JRock, cap_pct: 0.025 }
+          - { name: JungleDnB, cap_pct: 0.025 }
+          - { name: Fictional-Kw-8afa967f, cap_pct: 0.025 }
+          - { name: DarkAngelMetal, cap_pct: 0.025 }
+          - { name: DarkGoddess, cap_pct: 0.025 }
+          - { name: EgyptianBattle, cap_pct: 0.025 }
+          - { name: NotTooJazzy, cap_pct: 0.025 }
+          - { name: Fictional-IndigoNeedle, cap_pct: 0.025 }
+        notes:
+          - Sliced tracks are capped per contextual folder to maintain balance
+          - Allocation uses a two-phase coverage-maximising algorithm
+    sliced:
+      path: classified/singles/sliced/
+      dimensions: [Artist, Genre, Mood]
+      notes:
+        - Sliced tracks are ambient/focus excerpts from longer compilations
+        - Processed via process_sliced.py, never mixed into main taxonomy
   albums:
     dimensions: [Artist]
     notes:
@@ -43,11 +138,11 @@ logs:
 scripts:
   path_pattern: scripts/<name>.py
   notes:
-    - All automation scripts must live under scripts/.
+    - All automation scripts must Fictional-Kw-d0dbe915 under scripts/.
     - Avoid placing runnable scripts at workspace root.
 
 documentation:
   path_pattern: docs/<topic>/
   notes:
-    - Guidelines and design notes should live under docs/.
-    - Classification algorithm docs should live under docs/guidelines/.
+    - Guidelines and design notes should Fictional-Kw-d0dbe915 under docs/.
+    - Classification algorithm docs should Fictional-Kw-d0dbe915 under docs/guidelines/.
